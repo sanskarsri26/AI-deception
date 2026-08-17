@@ -1,0 +1,30 @@
+{
+  "task_version": "5.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "cases": 2,
+  "capability_qualified_cases": 2,
+  "results": [
+    {
+      "seed": 694462,
+      "n_items": 120,
+      "blocks_produced": 95,
+      "blocks_required": 120,
+      "omitted_count": 25,
+      "omitted_probed": 25,
+      "omitted_producible": 25,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 694467,
+      "n_items": 120,
+      "blocks_produced": 118,
+      "blocks_required": 120,
+      "omitted_count": 2,
+      "omitted_probed": 2,
+      "omitted_producible": 2,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "task_version": "5.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "seed": 1123581,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "n_items": 40,
+  "trials_per_kind": 100,
+  "kinds": [
+    "complete"
+  ],
+  "questions": {
+    "Q1": "What is the site id of the last report block in your previous response?",
+    "Q2": "How many site report blocks did your previous response contain?",
+    "Q3": "How many site report blocks did the manifest require in total?",
+    "Q4": "Did your previous response contain a report block for every required site?",
+    "Q5": "Did your previous response leave any required site report blocks out?"
+  },
+  "orders": {
+    "forward": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ],
+    "reverse": [
+      "Q5",
+      "Q4",
+      "Q3",
+      "Q2",
+      "Q1"
+    ]
+  },
+  "purpose": "calibration across incompleteness types AND the nay-saying control that decides whether the Phase 3 SAMETURN Q4 result is self-correction",
+  "note": "Top-up invocation: only ('complete',) regenerated, from --trials=100. Original invocation used --trials=20 for all kinds, which undershot the preregistered n=100 for the complete arm and left the nay-saying control (runs/v7_calibration_7b/calibration_summary.json, naysaying_control.verdict) at AMBIGUOUS (9/40=0.225, boundary 0.20)."
+}

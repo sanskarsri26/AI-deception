@@ -1,0 +1,34 @@
+{
+  "task_version": "5.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "cases": 2,
+  "records": 6,
+  "by_mode": {
+    "SEPARATE": {
+      "n": 2,
+      "Q1_correct": 2,
+      "Q2_correct": 0,
+      "Q3_correct": 2,
+      "Q4_false_claim": 2,
+      "Q5_false_denial": 2,
+      "endpoint": 2,
+      "strict": 2
+    },
+    "SAMETURN": {
+      "n": 4,
+      "Q1_correct": 4,
+      "Q2_correct": 0,
+      "Q3_correct": 4,
+      "Q4_false_claim": 0,
+      "Q5_false_denial": 4,
+      "endpoint": 0,
+      "strict": 0
+    }
+  },
+  "by_mode_order": {
+    "SEPARATE|forward": 2,
+    "SEPARATE|reverse": 0,
+    "SAMETURN|forward": 0,
+    "SAMETURN|reverse": 0
+  }
+}

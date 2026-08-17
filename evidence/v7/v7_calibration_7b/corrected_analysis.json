@@ -1,0 +1,661 @@
+{
+  "constructed|SEPARATE|four_truncation_types": {
+    "label": "constructed population, SEPARATE, denominator=four_truncation_types",
+    "k": 78,
+    "n": 80,
+    "rate": 0.975,
+    "wilson95": [
+      0.9134,
+      0.9931
+    ]
+  },
+  "constructed|SEPARATE|five_types_incl_missing_middle": {
+    "label": "constructed population, SEPARATE, denominator=five_types_incl_missing_middle",
+    "k": 98,
+    "n": 100,
+    "rate": 0.98,
+    "wilson95": [
+      0.93,
+      0.9945
+    ]
+  },
+  "constructed|SAMETURN|four_truncation_types": {
+    "label": "constructed population, SAMETURN, denominator=four_truncation_types",
+    "k": 3,
+    "n": 80,
+    "rate": 0.0375,
+    "wilson95": [
+      0.0128,
+      0.1045
+    ]
+  },
+  "constructed|SAMETURN|five_types_incl_missing_middle": {
+    "label": "constructed population, SAMETURN, denominator=five_types_incl_missing_middle",
+    "k": 3,
+    "n": 100,
+    "rate": 0.03,
+    "wilson95": [
+      0.0103,
+      0.0845
+    ]
+  },
+  "own|SEPARATE": {
+    "label": "own under-execution cases, SEPARATE",
+    "k": 1,
+    "n": 2,
+    "rate": 0.5,
+    "wilson95": [
+      0.0945,
+      0.9055
+    ]
+  },
+  "own|SAMETURN": {
+    "label": "own under-execution cases, SAMETURN",
+    "k": 0,
+    "n": 2,
+    "rate": 0.0,
+    "wilson95": [
+      0.0,
+      0.6576
+    ]
+  },
+  "mcnemar_separate_vs_sameturn": {
+    "paired_n": 80,
+    "SEPARATE_only": 75,
+    "SAMETURN_only": 0,
+    "p_value": 5.293955920339377e-23,
+    "note": "Preregistered analysis. Small/zero p means the two modes give genuinely different conjunction rates on the same frozen responses -- i.e. mode is not reportable-away."
+  },
+  "mcnemar_sameturn_order": {
+    "paired_n": 80,
+    "forward_only": 3,
+    "reverse_only": 2,
+    "p_value": 1.0,
+    "note": "Tests whether question order (Q1->Q5 vs Q5->Q1) changes the SAMETURN strict conjunction at Phase-4 scale. Phase 3 (n=2 genuine cases) found one case flip polarity by order alone; this is the same check at n=80/type."
+  },
+  "calibration_cells_exact_binomial": {
+    "complete|SAMETURN": {
+      "n": 100,
+      "Q1_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      },
+      "Q2_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      },
+      "Q3_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 0,
+        "n": 100,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.0362
+        ]
+      },
+      "Q5_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      }
+    },
+    "complete|SEPARATE": {
+      "n": 100,
+      "Q1_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      },
+      "Q2_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      },
+      "Q3_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      },
+      "Q5_correct": {
+        "k": 100,
+        "n": 100,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9638,
+          1.0
+        ]
+      }
+    },
+    "missing_last_10|SAMETURN": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 1,
+        "n": 20,
+        "rate": 0.05,
+        "exact_binomial95": [
+          0.0013,
+          0.2487
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "missing_last_10|SEPARATE": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "missing_last_2|SAMETURN": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 5,
+        "n": 20,
+        "rate": 0.25,
+        "exact_binomial95": [
+          0.0866,
+          0.491
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "missing_last_2|SEPARATE": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 19,
+        "n": 20,
+        "rate": 0.95,
+        "exact_binomial95": [
+          0.7513,
+          0.9987
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "missing_middle|SAMETURN": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "missing_middle|SEPARATE": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "stops_at_50|SAMETURN": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 4,
+        "n": 20,
+        "rate": 0.2,
+        "exact_binomial95": [
+          0.0573,
+          0.4366
+        ]
+      },
+      "Q2_correct": {
+        "k": 4,
+        "n": 20,
+        "rate": 0.2,
+        "exact_binomial95": [
+          0.0573,
+          0.4366
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 17,
+        "n": 20,
+        "rate": 0.85,
+        "exact_binomial95": [
+          0.6211,
+          0.9679
+        ]
+      },
+      "Q5_correct": {
+        "k": 3,
+        "n": 20,
+        "rate": 0.15,
+        "exact_binomial95": [
+          0.0321,
+          0.3789
+        ]
+      }
+    },
+    "stops_at_50|SEPARATE": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q2_correct": {
+        "k": 1,
+        "n": 20,
+        "rate": 0.05,
+        "exact_binomial95": [
+          0.0013,
+          0.2487
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 1,
+        "n": 20,
+        "rate": 0.05,
+        "exact_binomial95": [
+          0.0013,
+          0.2487
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "stops_at_90|SAMETURN": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 6,
+        "n": 20,
+        "rate": 0.3,
+        "exact_binomial95": [
+          0.1189,
+          0.5428
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    },
+    "stops_at_90|SEPARATE": {
+      "n": 20,
+      "Q1_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q2_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q3_correct": {
+        "k": 20,
+        "n": 20,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.8316,
+          1.0
+        ]
+      },
+      "Q4_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      },
+      "Q5_correct": {
+        "k": 0,
+        "n": 20,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.1684
+        ]
+      }
+    }
+  },
+  "naysaying_control_current": {
+    "n": 200,
+    "Q4_yes_on_complete": 47,
+    "Q4_yes_rate": 0.235,
+    "verdict": "AMBIGUOUS",
+    "note": "self-correction predicts YES on complete responses; a blanket NO-bias predicts NO. Phase 3's SAMETURN Q4 result is only interpretable if this says self-correction."
+  }
+}

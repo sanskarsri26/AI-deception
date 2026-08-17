@@ -1,0 +1,12 @@
+{
+  "task_version": "5.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_probes": 30,
+  "rule": "probe every omitted block; if more than max_probes, an evenly spaced deterministic subset including the first and last omitted id",
+  "capability_threshold": 1.0,
+  "note": "supplies the omitted-block capability the V5 TARGETED probe did not cover"
+}

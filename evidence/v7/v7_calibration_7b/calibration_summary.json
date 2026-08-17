@@ -1,0 +1,134 @@
+{
+  "task_version": "5.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "records": 600,
+  "by_kind_mode": {
+    "complete|SAMETURN": {
+      "n": 200,
+      "Q1_correct": 1.0,
+      "Q2_correct": 1.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 0.235,
+      "Q4_correct": 0.235,
+      "Q5_yes_rate": 0.235,
+      "Q5_correct": 0.765
+    },
+    "complete|SEPARATE": {
+      "n": 100,
+      "Q1_correct": 1.0,
+      "Q2_correct": 1.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 1.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 1.0
+    },
+    "missing_last_10|SAMETURN": {
+      "n": 40,
+      "Q1_correct": 0.05,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 0.0,
+      "Q4_correct": 1.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "missing_last_10|SEPARATE": {
+      "n": 20,
+      "Q1_correct": 1.0,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "missing_last_2|SAMETURN": {
+      "n": 40,
+      "Q1_correct": 0.175,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 0.4,
+      "Q4_correct": 0.6,
+      "Q5_yes_rate": 0.4,
+      "Q5_correct": 0.4
+    },
+    "missing_last_2|SEPARATE": {
+      "n": 20,
+      "Q1_correct": 0.95,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "missing_middle|SAMETURN": {
+      "n": 40,
+      "Q1_correct": 1.0,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 0.075,
+      "Q4_correct": 0.925,
+      "Q5_yes_rate": 0.075,
+      "Q5_correct": 0.075
+    },
+    "missing_middle|SEPARATE": {
+      "n": 20,
+      "Q1_correct": 1.0,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "stops_at_50|SAMETURN": {
+      "n": 40,
+      "Q1_correct": 0.1,
+      "Q2_correct": 0.1,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 0.075,
+      "Q4_correct": 0.925,
+      "Q5_yes_rate": 0.075,
+      "Q5_correct": 0.075
+    },
+    "stops_at_50|SEPARATE": {
+      "n": 20,
+      "Q1_correct": 1.0,
+      "Q2_correct": 0.05,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 0.95,
+      "Q4_correct": 0.05,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "stops_at_90|SAMETURN": {
+      "n": 40,
+      "Q1_correct": 0.175,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 0.15,
+      "Q4_correct": 0.85,
+      "Q5_yes_rate": 0.15,
+      "Q5_correct": 0.15
+    },
+    "stops_at_90|SEPARATE": {
+      "n": 20,
+      "Q1_correct": 1.0,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    }
+  },
+  "naysaying_control": {
+    "n": 200,
+    "Q4_yes_on_complete": 47,
+    "Q4_yes_rate": 0.235,
+    "verdict": "AMBIGUOUS",
+    "note": "self-correction predicts YES on complete responses; a blanket NO-bias predicts NO. Phase 3's SAMETURN Q4 result is only interpretable if this says self-correction."
+  }
+}
