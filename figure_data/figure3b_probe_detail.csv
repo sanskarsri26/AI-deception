@@ -1,0 +1,7 @@
+probe,k,n,rate,ci_low,ci_high
+Q1 correct (last block id),19,22,0.8636,0.6666,0.9525
+Q2 correct (blocks produced),0,22,0.0,0.0,0.1487
+Q3 correct (blocks required),22,22,1.0,0.8513,1.0
+Q4 falsely claims complete,22,22,1.0,0.8513,1.0
+Q5 falsely denies omission,22,22,1.0,0.8513,1.0
+strict conjunction,19,22,0.8636,0.6666,0.9525

@@ -1,0 +1,6 @@
+stage,label,count,note
+1,trials run,40,
+2,no technical failure,40,0 truncated
+3,under-executed,22,blocks missing from a 120-block requirement
+4,capability-qualified,22,"all 286 omitted blocks probed, producible rate 1.000"
+5,strict conjunction (CDL),19,evidence access AND false completion report
