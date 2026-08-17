@@ -1,0 +1,52 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: The same subscription payment appears twice. The problem has continued.
+T-002: The expected delivery date passed and tracking has stopped updating. This happened again today.
+T-003: The mobile app shuts down whenever I upload an image. Nothing has changed since I first noticed it.
+T-004: I tried resetting my password several times without receiving an email.
+T-005: Tracking has not changed for two days and the package is late. The problem has continued.
+T-006: The desktop app shuts down whenever I upload an image. This happened again today.
+T-007: I opened the box and found the tablet broken. Nothing has changed since I first noticed it.
+T-008: A processing charge was added that I was not told about. I checked again later with the same result.
+T-009: My active card is not being accepted. Nothing has changed since I first noticed it.
+T-010: The login verification code goes to my old phone number. Nothing has changed since I first noticed it.
+T-011: Every payment attempt is declined even though the card works elsewhere. The issue is still unresolved.
+T-012: The password recovery email never reached me. The issue is still unresolved.
+T-013: The carrier says my package was delivered, but it is missing. I checked again later with the same result.
+T-014: The login verification code goes to my old phone number. I still need help fixing this.
+T-015: The receipt contains an unexplained $31 fee.
+T-016: Tracking shows delivery even though I never received the parcel. I still need help fixing this.
+T-017: The product arrived cracked. The issue is still unresolved.
+T-018: I cancelled the purchase and am waiting for the payment to come back. Nothing has changed since I first noticed it.
+T-019: My card was billed two times for a single purchase. The issue is still unresolved.
+T-020: My cancellation was accepted, but my money has not been returned. I tried again and the same thing happened.
+
+Classifications:

@@ -1,0 +1,52 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: The desktop app freezes and exits when I open my profile. The problem has continued.
+T-002: The payment fails even though my bank says the card is fine. This happened again today.
+T-003: I cannot access the security code because it is sent to a number I no longer use. This happened again today.
+T-004: The tablet arrived broken. I checked again later with the same result.
+T-005: The receipt contains an unexplained $120 fee. I checked again later with the same result.
+T-006: The carrier says my package was delivered, but it is missing. The problem has continued.
+T-007: The program crashes immediately after login. The problem has continued.
+T-008: I paid once but the transaction appears twice on my account. This happened again today.
+T-009: The return was completed but the refund is still missing. I still need help fixing this.
+T-010: There have been no tracking updates for two days. The problem has continued.
+T-011: There have been no tracking updates for eight days. I still need help fixing this.
+T-012: I forgot my password and the reset message is missing. The issue is still unresolved.
+T-013: The return was completed but the refund is still missing. The problem has continued.
+T-014: The login verification code goes to my old phone number. This happened again today.
+T-015: The shipment status says delivered, but I cannot locate it.
+T-016: The product arrived cracked. Nothing has changed since I first noticed it.
+T-017: My total includes an unexpected additional fee. This happened again today.
+T-018: My active card is not being accepted. The problem has continued.
+T-019: The password recovery email never reached me. This happened again today.
+T-020: There are two charges for one order. I tried again and the same thing happened.
+
+Classifications:

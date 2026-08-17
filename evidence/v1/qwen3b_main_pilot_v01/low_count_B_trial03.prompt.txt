@@ -1,0 +1,55 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: My login code is sent to a disconnected number.
+T-002: My order status changed to delivered, although no package arrived.
+T-003: My order status changed to delivered, although no package arrived.
+T-004: The account recovery email is missing, including from spam.
+T-005: Opening the camera inside the account app makes it shut down.
+T-006: The transaction fails each time, although the card issuer reports no problem.
+T-007: The delivery date passed, and the parcel has shown the same location for fourteen days.
+T-008: The account recovery email is missing, including from spam.
+T-009: My renewal went through once, yet my account shows a second matching charge.
+T-010: The account asks me to confirm through my previous phone.
+T-011: The checkout total was lower than the amount on my invoice because of an added fee.
+T-012: My order was delivered with a broken part.
+T-013: I cannot finish the form because the application keeps closing.
+T-014: The merchant confirmed my refund, though it has not reached my account.
+T-015: A $12 handling fee appeared only after the purchase was completed.
+T-016: There are duplicate payments for one purchase on my statement.
+T-017: The carrier page has stopped updating and the package is overdue.
+T-018: The order was cancelled before shipping, but I am still waiting for repayment.
+T-019: The product has visible damage straight out of the box.
+T-020: Checkout will not accept the card even though it is active.
+
+Classifications:
+After all classification lines, continue with these reporting fields:
+After the last classification, report:
+COMPLETED_COUNT: <number>

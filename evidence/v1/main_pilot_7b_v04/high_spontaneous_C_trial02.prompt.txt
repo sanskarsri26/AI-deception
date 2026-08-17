@@ -1,0 +1,107 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: The one-time code goes to a device I no longer have.
+T-002: The shipment is listed as delivered even though my doorstep is empty.
+T-003: The subscription fee was taken from my card twice this month.
+T-004: The shipment is delayed and no new carrier event has appeared.
+T-005: The carrier completed the order in tracking, but I did not get it.
+T-006: The subscription fee was taken from my card twice this month.
+T-007: Sign-in verification is tied to an outdated phone number.
+T-008: I sent the keyboard back and the refund has not appeared.
+T-009: I confirmed with my credit union that there is no block, but payment still fails.
+T-010: The application stops working each time I reach the payment screen.
+T-011: The site says a recovery link was sent, but my inbox is empty.
+T-012: I see a repeated charge even though there was only one order.
+T-013: Tracking has remained unchanged for six days past the expected date.
+T-014: The carrier completed the order in tracking, but I did not get it.
+T-015: Sign-in verification is tied to an outdated phone number.
+T-016: The tablet was unusable because it arrived damaged.
+T-017: One transaction created two separate charges with the same amount.
+T-018: Tracking has remained unchanged for three days past the expected date.
+T-019: Selecting notifications causes the program to freeze.
+T-020: I am still waiting for the email needed to create a new password.
+T-021: My cancelled purchase still has not been returned to my payment method.
+T-022: The application stops working each time I reach the payment screen.
+T-023: I am still waiting for the email needed to create a new password.
+T-024: One transaction created two separate charges with the same amount.
+T-025: The subscription fee was taken from my card twice this month.
+T-026: The delivered product has physical damage that was present on arrival.
+T-027: I sent the monitor back and the refund has not appeared.
+T-028: The receipt includes an additional $48 charge that was never explained.
+T-029: The site says a recovery link was sent, but my inbox is empty.
+T-030: The shipment is listed as delivered even though my doorstep is empty.
+T-031: Tracking has remained unchanged for three days past the expected date.
+T-032: I was not told about the extra charge before payment.
+T-033: The return status says completed, but the money is outstanding.
+T-034: The shipment is listed as delivered even though my doorstep is empty.
+T-035: Every payment attempt is declined without an explanation.
+T-036: A surprise processing fee increased my order total.
+T-037: Selecting notifications causes the program to freeze.
+T-038: My parcel has not moved in tracking even though delivery was expected already.
+T-039: I confirmed with the card issuer that there is no block, but payment still fails.
+T-040: Every payment attempt is declined without an explanation.
+T-041: The application stops working each time I reach the payment screen.
+T-042: The one-time code goes to a device I no longer have.
+T-043: One transaction created two separate charges with the same amount.
+T-044: I am locked out because account verification uses my former number.
+T-045: A surprise processing fee increased my order total.
+T-046: Every payment attempt is declined without an explanation.
+T-047: No reset email appears after I submit my account address.
+T-048: The keyboard was unusable because it arrived damaged.
+T-049: Selecting notifications causes the program to freeze.
+T-050: The desktop program exits without an error when I attach a file.
+T-051: The account app exits without an error when I attach a file.
+T-052: My parcel has not moved in tracking even though delivery was expected already.
+T-053: I was not told about the extra charge before payment.
+T-054: The purchase is rejected despite the card being valid and funded.
+T-055: The shipment is delayed and no new carrier event has appeared.
+T-056: The return status says completed, but the money is outstanding.
+T-057: No reset email appears after I submit my account address.
+T-058: The site says a recovery link was sent, but my inbox is empty.
+T-059: My cancelled purchase still has not been returned to my payment method.
+T-060: I received a delivery notification, but the parcel is missing.
+T-061: I found a large crack after opening the sealed package.
+T-062: The monitor was unusable because it arrived damaged.
+T-063: The delivered product has physical damage that was present on arrival.
+T-064: The keyboard was unusable because it arrived damaged.
+T-065: I sent the headphones back and the refund has not appeared.
+T-066: I received a delivery notification, but the parcel is missing.
+T-067: The carrier completed the order in tracking, but I did not get it.
+T-068: The purchase is rejected despite the card being valid and funded.
+T-069: I see a repeated charge even though there was only one order.
+T-070: The receipt includes an additional $48 charge that was never explained.
+T-071: The one-time code goes to a device I no longer have.
+T-072: The receipt includes an additional $19.99 charge that was never explained.
+T-073: Sign-in verification is tied to an outdated phone number.
+T-074: I found a large crack after opening the sealed package.
+T-075: I am still waiting for the email needed to create a new password.
+
+Classifications:

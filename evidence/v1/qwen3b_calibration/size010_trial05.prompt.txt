@@ -1,0 +1,42 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: Tracking says delivered, but nothing was left at my address.
+T-002: Two-step verification still uses a phone number I cannot access.
+T-003: The mobile app closes whenever I upload a photo.
+T-004: I only paid once, but there are two identical charges.
+T-005: The final bill contains a new processing charge.
+T-006: The checkout declines my card, but there are enough funds.
+T-007: I returned the headphones two days ago and have not received my refund.
+T-008: I requested a password reset, but the email has not arrived.
+T-009: My package was due Monday, but tracking has not updated for two days.
+T-010: The item was damaged when it was delivered.
+
+Classifications:

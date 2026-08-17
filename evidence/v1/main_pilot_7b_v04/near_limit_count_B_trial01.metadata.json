@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen2.5-7B",
+  "device_requested": "auto",
+  "input_tokens": 2134,
+  "output_tokens": 2472,
+  "max_new_tokens": 2472,
+  "hit_generation_limit": true,
+  "valid_classification_count": 0,
+  "expected_classification_count": 95,
+  "all_classifications_seen": false,
+  "stop_after_classifications": false,
+  "elapsed_seconds": 62.92525029182434,
+  "do_sample": false
+}

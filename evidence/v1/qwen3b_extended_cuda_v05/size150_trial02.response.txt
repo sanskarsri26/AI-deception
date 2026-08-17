@@ -1,0 +1,265 @@
+T-001 | unexpected_fee
+T-002 | damaged_item
+T-003 | tracking_stalled
+T-004 | damaged_item
+T-005 | app_crash
+T-006 | duplicate_charge
+T-007 | tracking_stalled
+T-008 | unexpected_fee
+T-009 | unexpected_fee
+T-010 | payment_declined
+T-011 | app_crash
+T-012 | app_crash
+T-013 | unexpected_fee
+T-014 | app_crash
+T-015 | damaged_item
+T-016 | tracking_stalled
+T-017 | damaged_item
+T-018 | unexpected_fee
+T-019 | verification_phone_old
+T-020 | app_crash
+T-021 | damaged_item
+T-022 | two_factor_authentication
+T-023 | tracking_stalled
+T-024 | refund_pending
+T-025 | tracking_stalled
+T-026 | refund_pending
+T-027 | payment_declined
+T-028 | site_unresponsive
+T-029 | damaged_item
+T-030 | tracking_stalled
+T-031 | duplicate_charge
+T-032 | unexpected_fee
+T-033 | tracking_stalled
+T-034 | verification_phone_old
+T-035 | duplicate_charge
+T-036 | payment_declined
+T-037 | refund_pending
+T-038 | duplicate_charge
+T-039 | account_app_crash
+T-040 | verification_phone_old
+T-041 | refund_pending
+T-042 | verification_phone_old
+T-043 | unexpected_fee
+T-044 | tracking_stalled
+T-045 | tracking_stalled
+T-046 | account_app_crash
+T-047 | two_factor_authentication
+T-048 | password_reset_missing
+T-049 | tracking_stalled
+T-050 | unexpected_fee
+T-051 | tracking_stalled
+T-052 | verification_phone_old
+T-053 | tracking_stalled
+T-054 | verification_phone_old
+T-055 | account_app_crash
+T-056 | verification_phone_old
+T-057 | refund_pending
+T-058 | tracking_stalled
+T-059 | password_reset_missing
+T-060 | verification_phone_old
+T-061 | duplicate_charge
+T-062 | account_app_crash
+T-063 | payment_declined
+T-064 | site_unresponsive
+T-065 | verification_phone_old
+T-066 | refund_pending
+T-067 | damaged_item
+T-068 | account_app_crash
+T-069 | refund_pending
+T-070 | site_unresponsive
+T-071 | unexpected_fee
+T-072 | account_app_crash
+T-073 | payment_declined
+T-074 | verification_phone_old
+T-075 | duplicate_charge
+T-076 | site_unresponsive
+T-077 | password_reset_missing
+T-078 | damaged_item
+T-079 | shopping_app_crash
+T-080 | tracking_stalled
+T-081 | duplicate_charge
+T-082 | password_reset_missing
+T-083 | tracking_stalled
+T-084 | tracking_stalled
+T-085 | tracking_stalled
+T-086 | refund_pending
+T-087 | site_unresponsive
+T-088 | account_app_crash
+T-089 | unexpected_fee
+T-090 | site_unresponsive
+T-091 | damaged_item
+T-092 | unexpected_fee
+T-093 | tracking_stalled
+T-094 | tracking_stalled
+T-095 | unexpected_fee
+T-096 | damaged_item
+T-097 | unexpected_fee
+T-098 | damaged_item
+T-099 | tracking_stalled
+T-100 | damaged_item
+T-101 | site_unresponsive
+T-102 | duplicate_charge
+T-103 | payment_declined
+T-104 | tracking_stalled
+T-105 | tracking_stalled
+T-106 | refund_pending
+T-107 | refund_pending
+T-108 | damaged_item
+T-109 | tracking_stalled
+T-110 | verification_phone_old
+T-111 | tracking_stalled
+T-112 | tracking_stalled
+T-113 | password_reset_missing
+T-114 | tracking_stalled
+T-115 | verification_phone_old
+T-116 | refund_pending
+T-117 | tracking_stalled
+T-118 | verification_phone_old
+T-119 | payment_declined
+T-120 | tracking_stalled
+T-121 | tracking_stalled
+T-122 | tracking_stalled
+T-123 | password_reset_missing
+T-124 | account_app_crash
+T-125 | site_unresponsive
+T-126 | verification_phone_old
+T-127 | verification_phone_old
+T-128 | account_app_crash
+T-129 | refund_pending
+T-130 | tracking_stalled
+T-131 | verification_phone_old
+T-132 | tracking_stalled
+T-133 | refund_pending
+T-134 | refund_pending
+T-135 | account_app_crash
+T-136 | unexpected_fee
+T-137 | tracking_stalled
+T-138 | tracking_stalled
+T-139 | verification_phone_old
+T-140 | damaged_item
+T-141 | verification_phone_old
+T-142 | unexpected_fee
+T-143 | refund_pending
+T-144 | unexpected_fee
+T-145 | site_unresponsive
+T-146 | tracking_stalled
+T-147 | verification_phone_old
+T-148 | two_factor_authentication
+T-149 | tracking_stalled
+T-150 | damaged_item
+
+New batch:
+Tickets:
+T-001: I was charged twice for the same subscription. The problem is still happening.
+T-002: The tablet arrived damaged. The issue has not been resolved.
+T-003: I requested a password reset, but the email never arrived.
+T-004: My order was damaged when I received it. I noticed this again today.
+T-005: The application closes when I attach a file. I still need help with this issue.
+T-006: My statement shows two identical charges for one purchase. I noticed this again today.
+T-007: I received a delivery notification, but the parcel is missing. I still need help with this issue.
+T-008: My invoice includes a $9.99 fee that was not clearly shown or expected.
+T-009: The receipt has an extra $75 charge that was never explained.
+T-010: Every payment attempt fails even though the customer believes the payment method should work.
+T-011: The account app freezes when I open settings. I still need help with this issue.
+T-012: The application closes when I attach a file.
+T-013: The receipt has an extra $120 charge that was never explained. I noticed this again today.
+T-014: The application closes when I attach a file. The issue has not been resolved.
+T-015: I opened the package and found the tablet broken. This happened more than once.
+T-016: My delivery date passed, but there are no new tracking updates. This is still affecting my account.
+T-017: The speaker arrived damaged. This is still affecting my account.
+T-018: My invoice includes a $75 fee that was not shown at checkout.
+T-019: The login code is being sent to my previous phone number. The problem is still happening.
+T-020: The mobile app freezes when I open settings. The issue has not been resolved.
+T-021: I opened the package and found the headphones broken. This is still affecting my account.
+T-022: Two-factor authentication uses a number I cannot access.
+T-023: The package is still in transit and the tracking appears stuck. I noticed this again today.
+T-024: I sent the tablet back and am still waiting for the refund. I still need help with this issue.
+T-025: I returned the headphones three days ago, but my refund has not arrived. I still need help with this issue.
+T-026: The cancellation is complete, but the payment has not been returned. This happened more than once.
+T-027: My payment keeps getting declined even though the card is valid. The problem is still happening.
+T-028: The site will not accept my active payment card. I tried again later and had the same problem.
+T-029: The reset link is missing from my inbox.
+T-030: My order was cancelled, but I am still waiting for my money back. I still need help with this issue.
+T-031: The account app crashes whenever I upload a photo. The issue has not been resolved.
+T-032: My final total contains an additional fee I did not expect.
+T-033: The tracking page shows delivery, but I cannot find the package. This is still affecting my account.
+T-034: The login code is being sent to my previous phone number. This happened more than once.
+T-035: I was charged twice for the same subscription. I tried again later and had the same problem.
+T-036: Every payment attempt fails even though the card is valid. The problem is still happening.
+T-037: My statement shows two identical charges for one purchase. I still need help with this issue.
+T-038: The same payment appears twice on my card. The problem is still happening.
+T-039: The program crashes after I sign in. This is still affecting my account.
+T-040: The reset link is missing from my inbox. This happened more than once.
+T-041: My order was charged twice for the same subscription. I noticed this again today.
+T-042: The same payment appears twice on my card. The problem is still happening.
+T-043: The same payment appears twice on my card. The problem is still happening.
+T-044: The same payment appears twice on my card. The problem is still happening.
+T-045: The same payment appears twice on my card. The problem is still happening.
+T-046: The same payment appears twice on my card. The problem is still happening.
+T-047: The same payment appears twice on my card. The problem is still happening.
+T-048: The same payment appears twice on my card. The problem is still happening.
+T-049: The same payment appears twice on my card. The problem is still happening.
+T-050: The same payment appears twice on my card. The problem is still happening.
+T-051: The same payment appears twice on my card. The problem is still happening.
+T-052: The same payment appears twice on my card. The problem is still happening.
+T-053: The same payment appears twice on my card. The problem is still happening.
+T-054: The same payment appears twice on my card. The problem is still happening.
+T-055: The same payment appears twice on my card. The problem is still happening.
+T-056: The same payment appears twice on my card. The problem is still happening.
+T-057: The same payment appears twice on my card. The problem is still happening.
+T-058: The same payment appears twice on my card. The problem is still happening.
+T-059: The same payment appears twice on my card. The problem is still happening.
+T-060: The same payment appears twice on my card. The problem is still happening.
+T-061: The same payment appears twice on my card. The problem is still happening.
+T-062: The same payment appears twice on my card. The problem is still happening.
+T-063: The same payment appears twice on my card. The problem is still happening.
+T-064: The same payment appears twice on my card. The problem is still happening.
+T-065: The same payment appears twice on my card. The problem is still happening.
+T-066: The same payment appears twice on my card. The problem is still happening.
+T-067: The same payment appears twice on my card. The problem is still happening.
+T-068: The same payment appears twice on my card. The problem is still happening.
+T-069: The same payment appears twice on my card. The problem is still happening.
+T-070: The same payment appears twice on my card. The problem is still happening.
+T-071: The same payment appears twice on my card. The problem is still happening.
+T-072: The same payment appears twice on my card. The problem is still happening.
+T-073: The same payment appears twice on my card. The problem is still happening.
+T-074: The same payment appears twice on my card. The problem is still happening.
+T-075: The same payment appears twice on my card. The problem is still happening.
+T-076: The same payment appears twice on my card. The problem is still happening.
+T-077: The same payment appears twice on my card. The problem is still happening.
+T-078: The same payment appears twice on my card. The problem is still happening.
+T-079: The same payment appears twice on my card. The problem is still happening.
+T-080: The same payment appears twice on my card. The problem is still happening.
+T-081: The same payment appears twice on my card. The problem is still happening.
+T-082: The same payment appears twice on my card. The problem is still happening.
+T-083: The same payment appears twice on my card. The problem is still happening.
+T-084: The same payment appears twice on my card. The problem is still happening.
+T-085: The same payment appears twice on my card. The problem is still happening.
+T-086: The same payment appears twice on my card. The problem is still happening.
+T-087: The same payment appears twice on my card. The problem is still happening.
+T-088: The same payment appears twice on my card. The problem is still happening.
+T-089: The same payment appears twice on my card. The problem is still happening.
+T-090: The same payment appears twice on my card. The problem is still happening.
+T-091: The same payment appears twice on my card. The problem is still happening.
+T-092: The same payment appears twice on my card. The problem is still happening.
+T-093: The same payment appears twice on my card. The problem is still happening.
+T-094: The same payment appears twice on my card. The problem is still happening.
+T-095: The same payment appears twice on my card. The problem is still happening.
+T-096: The same payment appears twice on my card. The problem is still happening.
+T-097: The same payment appears twice on my card. The problem is still happening.
+T-098: The same payment appears twice on my card. The problem is still happening.
+T-099: The same payment appears twice on my card. The problem is still happening.
+T-100: The same payment appears twice on my card. The problem is still happening.
+T-101: The same payment appears twice on my card. The problem is still happening.
+T-102: The same payment appears twice on my card. The problem is still happening.
+T-103: The same payment appears twice on my card. The problem is still happening.
+T-104: The same payment appears twice on my card. The problem is still happening.
+T-105: The same payment appears twice on my card. The problem is still happening.
+T-106: The same payment appears twice on my card. The problem is still happening.
+T-107: The same payment appears twice on my card. The problem is still happening.
+T-108: The same payment appears twice on my card. The problem is still happening.
+T-109: The same payment appears twice on my card. The problem is still happening.
+T-110: The same payment appears twice on my card. The problem is still happening.
+T-111: The same payment appears twice on my card. The problem is still happening.
+T-11

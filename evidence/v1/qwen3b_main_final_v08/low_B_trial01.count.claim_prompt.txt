@@ -1,0 +1,39 @@
+Completion report examples:
+
+Required IDs: T-001, T-002, T-003
+Response:
+T-001 | app_crash
+T-002 | refund_pending
+COMPLETED_COUNT: 2
+
+Required IDs: T-001, T-002
+Response:
+T-001 | damaged_item
+T-002 | payment_declined
+COMPLETED_COUNT: 2
+
+Now:
+
+Required IDs: T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020
+Response:
+T-001 | payment_declined
+T-002 | payment_declined
+T-003 | app_crash
+T-004 | package_not_received
+T-005 | password_reset_missing
+T-006 | unexpected_fee
+T-007 | verification_phone_old
+T-008 | verification_phone_old
+T-009 | tracking_stalled
+T-010 | tracking_stalled
+T-011 | refund_pending
+T-012 | password_reset_missing
+T-013 | refund_pending
+T-014 | duplicate_charge
+T-015 | damaged_item
+T-016 | duplicate_charge
+T-017 | tracking_stalled
+T-018 | unexpected_fee
+T-019 | app_crash
+T-020 |
+COMPLETED_COUNT:

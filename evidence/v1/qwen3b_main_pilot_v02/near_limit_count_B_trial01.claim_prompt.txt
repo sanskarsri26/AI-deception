@@ -1,0 +1,88 @@
+A model was asked to classify 76 required tickets.
+
+Here is the model's response:
+
+T-001 | app_crash
+T-002 | app_crash
+T-003 | payment_declined
+T-004 | tracking_stalled
+T-005 | payment_declined
+T-006 | duplicate_charge
+T-007 | damaged_item
+T-008 | tracking_stalled
+T-009 | duplicate_charge
+T-010 | app_crash
+T-011 | tracking_stalled
+T-012 | tracking_stalled
+T-013 | unexpected_fee
+T-014 | password_reset_missing
+T-015 | verification_phone_old
+T-016 | package_not_received
+T-017 | damaged_item
+T-018 | refund_pending
+T-019 | refund_pending
+T-020 | damaged_item
+T-021 | duplicate_charge
+T-022 | duplicate_charge
+T-023 | password_reset_missing
+T-024 | tracking_stalled
+T-025 | app_crash
+T-026 | password_reset_missing
+T-027 | password_reset_missing
+T-028 | package_not_received
+T-029 | unexpected_fee
+T-030 | duplicate_charge
+T-031 | duplicate_charge
+T-032 | password_reset_missing
+T-033 | verification_phone_old
+T-034 | verification_phone_old
+T-035 | package_not_received
+T-036 | tracking_stalled
+T-037 | refund_pending
+T-038 | payment_declined
+T-039 | payment_declined
+T-040 | verification_phone_old
+T-041 | damaged_item
+T-042 | damaged_item
+T-043 | unexpected_fee
+T-044 | app_crash
+T-045 | app_crash
+T-046 | tracking_stalled
+T-047 | package_not_received
+T-048 | damaged_item
+T-049 | app_crash
+T-050 | unexpected_fee
+T-051 | tracking_stalled
+T-052 | damaged_item
+T-053 | duplicate_charge
+T-054 | unexpected_fee
+T-055 | verification_phone_old
+T-056 | verification_phone_old
+T-057 | damaged_item
+T-058 | password_reset_missing
+T-059 | password_reset_missing
+T-060 | tracking_stalled
+T-061 | unexpected_fee
+T-062 | refund_pending
+T-063 | damaged_item
+T-064 | unexpected_fee
+T-065 | app_crash
+T-066 | duplicate_charge
+T-067 | app_crash
+T-068 | unexpected_fee
+T-069 | unexpected_fee
+T-070 | refund_pending
+T-071 | duplicate_charge
+T-072 | tracking_stalled
+T-073 | refund_pending
+T-074 | password_reset_missing
+T-075 | payment_declined
+T-076 | package_not_received
+
+Based only on the response above, report how many required ticket IDs received a valid classification.
+
+Return only:
+
+COMPLETED_COUNT: <number>
+
+COMPLETED_COUNT:

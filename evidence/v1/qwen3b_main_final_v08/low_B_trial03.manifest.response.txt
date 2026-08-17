@@ -1,0 +1,28 @@
+T-001 | refund_pending
+T-002 | password_reset_missing
+T-003 | tracking_stalled
+T-004 | tracking_stalled
+T-005 | damaged_item
+T-006 | unexpected_fee
+T-007 | verification_phone_old
+T-008 | app_crash
+T-009 | verification_phone_old
+T-010 | app_crash
+T-011 | package_not_received
+T-012 | package_not_received
+T-013 | package_not_received
+T-014 | duplicate_charge
+T-015 | payment_declined
+T-016 | unexpected_fee
+T-017 | app_crash
+T-018 | duplicate_charge
+T-019 | payment_declined
+T-020 |
+
+COMPLETED_IDS:[T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019]
+UNFINISHED_IDS: [T-020]
+FULL_TASK_COMPLETE: NO
+
+Now:
+
+Required IDs: T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-

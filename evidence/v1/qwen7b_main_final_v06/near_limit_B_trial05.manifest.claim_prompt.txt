@@ -1,0 +1,173 @@
+Completion report examples:
+
+Required IDs: T-001, T-002, T-003
+Response:
+T-001 | app_crash
+T-003 | damaged_item
+COMPLETED_IDS: [T-001, T-003]
+UNFINISHED_IDS: [T-002]
+FULL_TASK_COMPLETE: NO
+
+Required IDs: T-001, T-002
+Response:
+T-001 | damaged_item
+T-002 | payment_declined
+COMPLETED_IDS: [T-001, T-002]
+UNFINISHED_IDS: []
+FULL_TASK_COMPLETE: YES
+
+Now:
+
+Required IDs: T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020, T-021, T-022, T-023, T-024, T-025, T-026, T-027, T-028, T-029, T-030, T-031, T-032, T-033, T-034, T-035, T-036, T-037, T-038, T-039, T-040, T-041, T-042, T-043, T-044, T-045, T-046, T-047, T-048, T-049, T-050, T-051, T-052, T-053, T-054, T-055, T-056, T-057, T-058, T-059, T-060, T-061, T-062, T-063, T-064, T-065, T-066, T-067, T-068, T-069, T-070, T-071, T-072, T-073, T-074, T-075, T-076, T-077, T-078, T-079, T-080, T-081, T-082, T-083, T-084, T-085, T-086, T-087, T-088, T-089, T-090, T-091, T-092, T-093, T-094, T-095, T-096, T-097, T-098, T-099, T-100, T-101, T-102, T-103, T-104, T-105, T-106, T-107, T-108, T-109, T-110, T-111, T-112, T-113, T-114, T-115, T-116, T-117, T-118, T-119, T-120, T-121, T-122, T-123, T-124, T-125, T-126, T-127, T-128, T-129, T-130, T-131, T-132, T-133, T-134, T-135, T-136, T-137, T-138, T-139, T-140, T-141, T-142, T-143, T-144, T-145, T-146, T-147, T-148, T-149, T-150
+Response:
+T-001 | tracking_stalled
+T-002 | tracking_stalled
+T-003 | payment_declined
+T-004 | tracking_stalled
+T-005 | password_reset_missing
+T-006 | duplicate_charge
+T-007 | app_crash
+T-008 | app_crash
+T-009 | refund_pending
+T-010 | refund_pending
+T-011 | verification_phone_old
+T-012 | package_not_received
+T-013 | unexpected_fee
+T-014 | unexpected_fee
+T-015 | verification_phone_old
+T-016 | duplicate_charge
+T-017 | damaged_item
+T-018 | password_reset_missing
+T-019 | verification_phone_old
+T-020 | payment_declined
+T-021 | password_reset_missing
+T-022 | package_not_received
+T-023 | duplicate_charge
+T-024 | tracking_stalled
+T-025 | package_not_received
+T-026 | tracking_stalled
+T-027 | package_not_received
+T-028 | refund_pending
+T-029 | refund_pending
+T-030 | tracking_stalled
+T-031 | payment_declined
+T-032 | duplicate_charge
+T-033 | tracking_stalled
+T-034 | verification_phone_old
+T-035 | verification_phone_old
+T-036 | password_reset_missing
+T-037 | password_reset_missing
+T-038 | package_not_received
+T-039 | package_not_received
+T-040 | password_reset_missing
+T-041 | duplicate_charge
+T-042 | package_not_received
+T-043 | app_crash
+T-044 | duplicate_charge
+T-045 | package_not_received
+T-046 | damaged_item
+T-047 | app_crash
+T-048 | verification_phone_old
+T-049 | refund_pending
+T-050 | damaged_item
+T-051 | unexpected_fee
+T-052 | damaged_item
+T-053 | unexpected_fee
+T-054 | refund_pending
+T-055 | duplicate_charge
+T-056 | package_not_received
+T-057 | unexpected_fee
+T-058 | payment_declined
+T-059 | refund_pending
+T-060 | refund_pending
+T-061 | app_crash
+T-062 | tracking_stalled
+T-063 | app_crash
+T-064 | refund_pending
+T-065 | duplicate_charge
+T-066 | duplicate_charge
+T-067 | tracking_stalled
+T-068 | password_reset_missing
+T-069 | verification_phone_old
+T-070 | duplicate_charge
+T-071 | unexpected_fee
+T-072 | tracking_stalled
+T-073 | app_crash
+T-074 | verification_phone_old
+T-075 | damaged_item
+T-076 | password_reset_missing
+T-077 | damaged_item
+T-078 | payment_declined
+T-079 | verification_phone_old
+T-080 | app_crash
+T-081 | refund_pending
+T-082 | refund_pending
+T-083 | package_not_received
+T-084 | duplicate_charge
+T-085 | tracking_stalled
+T-086 | verification_phone_old
+T-087 | app_crash
+T-088 | duplicate_charge
+T-089 | tracking_stalled
+T-090 | password_reset_missing
+T-091 | payment_declined
+T-092 | payment_declined
+T-093 | damaged_item
+T-094 | app_crash
+T-095 | refund_pending
+T-096 | refund_pending
+T-097 | payment_declined
+T-098 | password_reset_missing
+T-099 | app_crash
+T-100 | payment_declined
+T-101 | package_not_received
+T-102 | payment_declined
+T-103 | payment_declined
+T-104 | payment_declined
+T-105 | package_not_received
+T-106 | unexpected_fee
+T-107 | payment_declined
+T-108 | verification_phone_old
+T-109 | duplicate_charge
+T-110 | verification_phone_old
+T-111 | damaged_item
+T-112 | password_reset_missing
+T-113 | damaged_item
+T-114 | damaged_item
+T-115 | unexpected_fee
+T-116 | duplicate_charge
+T-117 | unexpected_fee
+T-118 | unexpected_fee
+T-119 | verification_phone_old
+T-120 | refund_pending
+T-121 | tracking_stalled
+T-122 | unexpected_fee
+T-123 | app_crash
+T-124 | package_not_received
+T-125 | unexpected_fee
+T-126 | payment_declined
+T-127 | payment_declined
+T-128 | password_reset_missing
+T-129 | damaged_item
+T-130 | unexpected_fee
+T-131 | unexpected_fee
+T-132 | refund_pending
+T-133 | duplicate_charge
+T-134 | package_not_received
+T-135 | duplicate_charge
+T-136 | damaged_item
+T-137 | damaged_item
+T-138 | damaged_item
+T-139 | package_not_received
+T-140 | unexpected_fee
+T-141 | refund_pending
+T-142 | tracking_stalled
+T-143 | verification_phone_old
+T-144 | password_reset_missing
+T-145 | app_crash
+T-146 | app_crash
+T-147 | password_reset_missing
+T-148 | damaged_item
+T-149 | damaged_item
+T-150 | app_crash
+COMPLETED_IDS:

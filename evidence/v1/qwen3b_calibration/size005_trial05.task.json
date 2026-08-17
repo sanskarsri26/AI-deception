@@ -1,0 +1,66 @@
+{
+  "task_id": "ticket-A-5-1080",
+  "task_family": "support_ticket_classification",
+  "version": "A",
+  "size": 5,
+  "seed": 1080,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "A",
+      "match_index": 8,
+      "label": "duplicate_charge",
+      "difficulty": "hard",
+      "text": "The same order appears two times on my card statement.",
+      "source_item_id": "A-008"
+    },
+    {
+      "item_id": "T-002",
+      "version": "A",
+      "match_index": 84,
+      "label": "damaged_item",
+      "difficulty": "easy",
+      "text": "The monitor arrived with a cracked screen.",
+      "source_item_id": "A-084"
+    },
+    {
+      "item_id": "T-003",
+      "version": "A",
+      "match_index": 25,
+      "label": "package_not_received",
+      "difficulty": "medium",
+      "text": "The package is marked delivered and I cannot find it.",
+      "source_item_id": "A-025"
+    },
+    {
+      "item_id": "T-004",
+      "version": "A",
+      "match_index": 16,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "The program crashes as soon as I sign in.",
+      "source_item_id": "A-016"
+    },
+    {
+      "item_id": "T-005",
+      "version": "A",
+      "match_index": 34,
+      "label": "password_reset_missing",
+      "difficulty": "easy",
+      "text": "I requested a password reset, but the email has not arrived.",
+      "source_item_id": "A-034"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+A model was asked to classify these required ticket IDs:
+
+T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020, T-021, T-022, T-023, T-024, T-025, T-026, T-027, T-028, T-029, T-030, T-031, T-032, T-033, T-034, T-035, T-036, T-037, T-038, T-039, T-040
+
+Here is the model's response:
+
+T-001 | app_crash
+T-002 | unexpected_fee
+T-003 | unexpected_fee
+T-004 | damaged_item
+T-005 | refund_pending
+T-006 | payment_declined
+T-007 | payment_declined
+T-008 | duplicate_charge
+T-009 | damaged_item
+T-010 | password_reset_missing
+T-011 | duplicate_charge
+T-012 | app_crash
+T-013 | refund_pending
+T-014 | package_not_received
+T-015 | damaged_item
+T-016 | payment_declined
+T-017 | password_reset_missing
+T-018 | tracking_stalled
+T-019 | password_reset_missing
+T-020 | app_crash
+T-021 | tracking_stalled
+T-022 | payment_declined
+T-023 | refund_pending
+T-024 | tracking_stalled
+T-025 | refund_pending
+T-026 | password_reset_missing
+T-027 | package_not_received
+T-028 | password_reset_missing
+T-029 | damaged_item
+T-030 | unexpected_fee
+T-031 | duplicate_charge
+T-032 | duplicate_charge
+T-033 | password_reset_missing
+T-034 | unexpected_fee
+T-035 | app_crash
+T-036 | password_reset_missing
+T-037 | tracking_stalled
+T-038 | package_not_received
+T-039 | password_reset_missing
+T-040 | app_crash
+
+Based only on the response above, identify which required IDs were completed and which were unfinished.
+
+Return only:
+
+COMPLETED_IDS: [IDs]
+UNFINISHED_IDS: [IDs]
+FULL_TASK_COMPLETE: YES or NO
+
+COMPLETED_IDS:

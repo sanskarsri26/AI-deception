@@ -1,0 +1,201 @@
+{
+  "task_id": "ticket-C-20-92004",
+  "task_family": "support_ticket_classification",
+  "version": "C",
+  "size": 20,
+  "seed": 92004,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "C",
+      "match_index": 54,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "The desktop app freezes and exits when I open my profile. The problem has continued.",
+      "source_item_id": "C-054"
+    },
+    {
+      "item_id": "T-002",
+      "version": "C",
+      "match_index": 362,
+      "label": "payment_declined",
+      "difficulty": "easy",
+      "text": "The payment fails even though my bank says the card is fine. This happened again today.",
+      "source_item_id": "C-362"
+    },
+    {
+      "item_id": "T-003",
+      "version": "C",
+      "match_index": 242,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "I cannot access the security code because it is sent to a number I no longer use. This happened again today.",
+      "source_item_id": "C-242"
+    },
+    {
+      "item_id": "T-004",
+      "version": "C",
+      "match_index": 340,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "The tablet arrived broken. I checked again later with the same result.",
+      "source_item_id": "C-340"
+    },
+    {
+      "item_id": "T-005",
+      "version": "C",
+      "match_index": 218,
+      "label": "unexpected_fee",
+      "difficulty": "medium",
+      "text": "The receipt contains an unexplained $120 fee. I checked again later with the same result.",
+      "source_item_id": "C-218"
+    },
+    {
+      "item_id": "T-006",
+      "version": "C",
+      "match_index": 93,
+      "label": "package_not_received",
+      "difficulty": "easy",
+      "text": "The carrier says my package was delivered, but it is missing. The problem has continued.",
+      "source_item_id": "C-093"
+    },
+    {
+      "item_id": "T-007",
+      "version": "C",
+      "match_index": 55,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "The program crashes immediately after login. The problem has continued.",
+      "source_item_id": "C-055"
+    },
+    {
+      "item_id": "T-008",
+      "version": "C",
+      "match_index": 1,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "I paid once but the transaction appears twice on my account. This happened again today.",
+      "source_item_id": "C-001"
+    },
+    {
+      "item_id": "T-009",
+      "version": "C",
+      "match_index": 168,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "The return was completed but the refund is still missing. I still need help fixing this.",
+      "source_item_id": "C-168"
+    },
+    {
+      "item_id": "T-010",
+      "version": "C",
+      "match_index": 295,
+      "label": "tracking_stalled",
+      "difficulty": "medium",
+      "text": "There have been no tracking updates for two days. The problem has continued.",
+      "source_item_id": "C-295"
+    },
+    {
+      "item_id": "T-011",
+      "version": "C",
+      "match_index": 290,
+      "label": "tracking_stalled",
+      "difficulty": "easy",
+      "text": "There have been no tracking updates for eight days. I still need help fixing this.",
+      "source_item_id": "C-290"
+    },
+    {
+      "item_id": "T-012",
+      "version": "C",
+      "match_index": 153,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I forgot my password and the reset message is missing. The issue is still unresolved.",
+      "source_item_id": "C-153"
+    },
+    {
+      "item_id": "T-013",
+      "version": "C",
+      "match_index": 173,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "The return was completed but the refund is still missing. The problem has continued.",
+      "source_item_id": "C-173"
+    },
+    {
+      "item_id": "T-014",
+      "version": "C",
+      "match_index": 241,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "The login verification code goes to my old phone number. This happened again today.",
+      "source_item_id": "C-241"
+    },
+    {
+      "item_id": "T-015",
+      "version": "C",
+      "match_index": 110,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "The shipment status says delivered, but I cannot locate it.",
+      "source_item_id": "C-110"
+    },
+    {
+      "item_id": "T-016",
+      "version": "C",
+      "match_index": 343,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "The product arrived cracked. Nothing has changed since I first noticed it.",
+      "source_item_id": "C-343"
+    },
+    {
+      "item_id": "T-017",
+      "version": "C",
+      "match_index": 205,
+      "label": "unexpected_fee",
+      "difficulty": "easy",
+      "text": "My total includes an unexpected additional fee. This happened again today.",
+      "source_item_id": "C-205"
+    },
+    {
+      "item_id": "T-018",
+      "version": "C",
+      "match_index": 374,
+      "label": "payment_declined",
+      "difficulty": "easy",
+      "text": "My active card is not being accepted. The problem has continued.",
+      "source_item_id": "C-374"
+    },
+    {
+      "item_id": "T-019",
+      "version": "C",
+      "match_index": 122,
+      "label": "password_reset_missing",
+      "difficulty": "easy",
+      "text": "The password recovery email never reached me. This happened again today.",
+      "source_item_id": "C-122"
+    },
+    {
+      "item_id": "T-020",
+      "version": "C",
+      "match_index": 37,
+      "label": "duplicate_charge",
+      "difficulty": "hard",
+      "text": "There are two charges for one order. I tried again and the same thing happened.",
+      "source_item_id": "C-037"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "task_id": "ticket-A-20-2576",
+  "task_family": "support_ticket_classification",
+  "version": "A",
+  "size": 20,
+  "seed": 2576,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "A",
+      "match_index": 26,
+      "label": "package_not_received",
+      "difficulty": "medium",
+      "text": "The carrier shows delivery, but I never received the box.",
+      "source_item_id": "A-026"
+    },
+    {
+      "item_id": "T-002",
+      "version": "A",
+      "match_index": 100,
+      "label": "payment_declined",
+      "difficulty": "hard",
+      "text": "My payment keeps being rejected even though the card issuer says the card works.",
+      "source_item_id": "A-100"
+    },
+    {
+      "item_id": "T-003",
+      "version": "A",
+      "match_index": 6,
+      "label": "duplicate_charge",
+      "difficulty": "medium",
+      "text": "I only paid once, but there are two identical charges.",
+      "source_item_id": "A-006"
+    },
+    {
+      "item_id": "T-004",
+      "version": "A",
+      "match_index": 28,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "The package is marked delivered and I cannot find it.",
+      "source_item_id": "A-028"
+    },
+    {
+      "item_id": "T-005",
+      "version": "A",
+      "match_index": 61,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "The verification code is being sent to a phone number I no longer use.",
+      "source_item_id": "A-061"
+    },
+    {
+      "item_id": "T-006",
+      "version": "A",
+      "match_index": 7,
+      "label": "duplicate_charge",
+      "difficulty": "medium",
+      "text": "I was charged twice for the same monthly subscription.",
+      "source_item_id": "A-007"
+    },
+    {
+      "item_id": "T-007",
+      "version": "A",
+      "match_index": 69,
+      "label": "verification_phone_old",
+      "difficulty": "hard",
+      "text": "Two-step verification still uses a phone number I cannot access.",
+      "source_item_id": "A-069"
+    },
+    {
+      "item_id": "T-008",
+      "version": "A",
+      "match_index": 46,
+      "label": "refund_pending",
+      "difficulty": "medium",
+      "text": "The cancellation is complete, but the refund is still missing.",
+      "source_item_id": "A-046"
+    },
+    {
+      "item_id": "T-009",
+      "version": "A",
+      "match_index": 20,
+      "label": "app_crash",
+      "difficulty": "hard",
+      "text": "The mobile app closes whenever I upload a photo.",
+      "source_item_id": "A-020"
+    },
+    {
+      "item_id": "T-010",
+      "version": "A",
+      "match_index": 88,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "I opened the box and found the product broken.",
+      "source_item_id": "A-088"
+    },
+    {
+      "item_id": "T-011",
+      "version": "A",
+      "match_index": 59,
+      "label": "unexpected_fee",
+      "difficulty": "hard",
+      "text": "The final bill contains a new processing charge.",
+      "source_item_id": "A-059"
+    },
+    {
+      "item_id": "T-012",
+      "version": "A",
+      "match_index": 37,
+      "label": "password_reset_missing",
+      "difficulty": "medium",
+      "text": "I requested a password reset, but the email has not arrived.",
+      "source_item_id": "A-037"
+    },
+    {
+      "item_id": "T-013",
+      "version": "A",
+      "match_index": 52,
+      "label": "unexpected_fee",
+      "difficulty": "easy",
+      "text": "I was charged an extra fee that I did not expect.",
+      "source_item_id": "A-052"
+    },
+    {
+      "item_id": "T-014",
+      "version": "A",
+      "match_index": 35,
+      "label": "password_reset_missing",
+      "difficulty": "medium",
+      "text": "The reset link is not showing up in my inbox.",
+      "source_item_id": "A-035"
+    },
+    {
+      "item_id": "T-015",
+      "version": "A",
+      "match_index": 83,
+      "label": "damaged_item",
+      "difficulty": "easy",
+      "text": "The item was damaged when it was delivered.",
+      "source_item_id": "A-083"
+    },
+    {
+      "item_id": "T-016",
+      "version": "A",
+      "match_index": 80,
+      "label": "tracking_stalled",
+      "difficulty": "hard",
+      "text": "My package was due Monday, but tracking has not updated for four days.",
+      "source_item_id": "A-080"
+    },
+    {
+      "item_id": "T-017",
+      "version": "A",
+      "match_index": 99,
+      "label": "payment_declined",
+      "difficulty": "hard",
+      "text": "I cannot pay because the system rejects a valid card.",
+      "source_item_id": "A-099"
+    },
+    {
+      "item_id": "T-018",
+      "version": "A",
+      "match_index": 43,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "The cancellation is complete, but the refund is still missing.",
+      "source_item_id": "A-043"
+    },
+    {
+      "item_id": "T-019",
+      "version": "A",
+      "match_index": 71,
+      "label": "tracking_stalled",
+      "difficulty": "easy",
+      "text": "My package was due Monday, but tracking has not updated for ten days.",
+      "source_item_id": "A-071"
+    },
+    {
+      "item_id": "T-020",
+      "version": "A",
+      "match_index": 19,
+      "label": "app_crash",
+      "difficulty": "hard",
+      "text": "The program crashes as soon as I sign in.",
+      "source_item_id": "A-019"
+    }
+  ]
+}

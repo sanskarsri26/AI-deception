@@ -1,0 +1,1146 @@
+{
+  "task_id": "ticket-B-125-102505",
+  "task_family": "support_ticket_classification",
+  "version": "B",
+  "size": 125,
+  "seed": 102505,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "B",
+      "match_index": 164,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "I cancelled the purchase and am waiting for the payment to come back.",
+      "source_item_id": "B-164"
+    },
+    {
+      "item_id": "T-002",
+      "version": "B",
+      "match_index": 256,
+      "label": "verification_phone_old",
+      "difficulty": "medium",
+      "text": "The login verification code goes to my old phone number. This happened again today.",
+      "source_item_id": "B-256"
+    },
+    {
+      "item_id": "T-003",
+      "version": "B",
+      "match_index": 148,
+      "label": "password_reset_missing",
+      "difficulty": "medium",
+      "text": "I forgot my password and the reset message is missing. The problem has continued.",
+      "source_item_id": "B-148"
+    },
+    {
+      "item_id": "T-004",
+      "version": "B",
+      "match_index": 80,
+      "label": "app_crash",
+      "difficulty": "hard",
+      "text": "The program crashes immediately after login. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-080"
+    },
+    {
+      "item_id": "T-005",
+      "version": "B",
+      "match_index": 381,
+      "label": "payment_declined",
+      "difficulty": "medium",
+      "text": "My valid card keeps being declined at checkout. I still need help fixing this.",
+      "source_item_id": "B-381"
+    },
+    {
+      "item_id": "T-006",
+      "version": "B",
+      "match_index": 183,
+      "label": "refund_pending",
+      "difficulty": "medium",
+      "text": "The return was completed but the refund is still missing. I still need help fixing this.",
+      "source_item_id": "B-183"
+    },
+    {
+      "item_id": "T-007",
+      "version": "B",
+      "match_index": 204,
+      "label": "unexpected_fee",
+      "difficulty": "easy",
+      "text": "A processing charge was added that I was not told about.",
+      "source_item_id": "B-204"
+    },
+    {
+      "item_id": "T-008",
+      "version": "B",
+      "match_index": 10,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "Checkout happened once, but I have duplicate charges. The issue is still unresolved.",
+      "source_item_id": "B-010"
+    },
+    {
+      "item_id": "T-009",
+      "version": "B",
+      "match_index": 310,
+      "label": "tracking_stalled",
+      "difficulty": "hard",
+      "text": "There have been no tracking updates for ten days. The problem has continued.",
+      "source_item_id": "B-310"
+    },
+    {
+      "item_id": "T-010",
+      "version": "B",
+      "match_index": 194,
+      "label": "refund_pending",
+      "difficulty": "hard",
+      "text": "I cancelled the purchase and am waiting for the payment to come back. I checked again later with the same result.",
+      "source_item_id": "B-194"
+    },
+    {
+      "item_id": "T-011",
+      "version": "B",
+      "match_index": 358,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "The product arrived cracked. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-358"
+    },
+    {
+      "item_id": "T-012",
+      "version": "B",
+      "match_index": 113,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "The carrier says my package was delivered, but it is missing. I checked again later with the same result.",
+      "source_item_id": "B-113"
+    },
+    {
+      "item_id": "T-013",
+      "version": "B",
+      "match_index": 251,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "The login verification code goes to my old phone number. I tried again and the same thing happened.",
+      "source_item_id": "B-251"
+    },
+    {
+      "item_id": "T-014",
+      "version": "B",
+      "match_index": 88,
+      "label": "package_not_received",
+      "difficulty": "easy",
+      "text": "The carrier says my package was delivered, but it is missing. The issue is still unresolved.",
+      "source_item_id": "B-088"
+    },
+    {
+      "item_id": "T-015",
+      "version": "B",
+      "match_index": 166,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "I returned the headphones twelve days ago and still have no refund. The issue is still unresolved.",
+      "source_item_id": "B-166"
+    },
+    {
+      "item_id": "T-016",
+      "version": "B",
+      "match_index": 395,
+      "label": "payment_declined",
+      "difficulty": "hard",
+      "text": "Every payment attempt is declined even though the card works elsewhere. I checked again later with the same result.",
+      "source_item_id": "B-395"
+    },
+    {
+      "item_id": "T-017",
+      "version": "B",
+      "match_index": 87,
+      "label": "package_not_received",
+      "difficulty": "easy",
+      "text": "Tracking shows delivery even though I never received the parcel. The issue is still unresolved.",
+      "source_item_id": "B-087"
+    },
+    {
+      "item_id": "T-018",
+      "version": "B",
+      "match_index": 114,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "I got a delivery notification but there is no package. I checked again later with the same result.",
+      "source_item_id": "B-114"
+    },
+    {
+      "item_id": "T-019",
+      "version": "B",
+      "match_index": 165,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "The headphones was sent back, but I still have not received the refund.",
+      "source_item_id": "B-165"
+    },
+    {
+      "item_id": "T-020",
+      "version": "B",
+      "match_index": 324,
+      "label": "damaged_item",
+      "difficulty": "easy",
+      "text": "My order was damaged inside the package.",
+      "source_item_id": "B-324"
+    },
+    {
+      "item_id": "T-021",
+      "version": "B",
+      "match_index": 153,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I forgot my password and the reset message is missing. I checked again later with the same result.",
+      "source_item_id": "B-153"
+    },
+    {
+      "item_id": "T-022",
+      "version": "B",
+      "match_index": 241,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "The login verification code goes to my old phone number.",
+      "source_item_id": "B-241"
+    },
+    {
+      "item_id": "T-023",
+      "version": "B",
+      "match_index": 66,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "The shopping app shuts down whenever I upload an image. The problem has continued.",
+      "source_item_id": "B-066"
+    },
+    {
+      "item_id": "T-024",
+      "version": "B",
+      "match_index": 294,
+      "label": "tracking_stalled",
+      "difficulty": "easy",
+      "text": "My package is still in transit with no new carrier scans. I tried again and the same thing happened.",
+      "source_item_id": "B-294"
+    },
+    {
+      "item_id": "T-025",
+      "version": "B",
+      "match_index": 338,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "The product arrived cracked. This happened again today.",
+      "source_item_id": "B-338"
+    },
+    {
+      "item_id": "T-026",
+      "version": "B",
+      "match_index": 243,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "Two-factor authentication is connected to my previous phone.",
+      "source_item_id": "B-243"
+    },
+    {
+      "item_id": "T-027",
+      "version": "B",
+      "match_index": 42,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "Opening settings causes the shopping app to crash.",
+      "source_item_id": "B-042"
+    },
+    {
+      "item_id": "T-028",
+      "version": "B",
+      "match_index": 98,
+      "label": "package_not_received",
+      "difficulty": "medium",
+      "text": "The carrier says my package was delivered, but it is missing. This happened again today.",
+      "source_item_id": "B-098"
+    },
+    {
+      "item_id": "T-029",
+      "version": "B",
+      "match_index": 351,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "The headphones was damaged when it arrived. I checked again later with the same result.",
+      "source_item_id": "B-351"
+    },
+    {
+      "item_id": "T-030",
+      "version": "B",
+      "match_index": 208,
+      "label": "unexpected_fee",
+      "difficulty": "easy",
+      "text": "The receipt contains an unexplained $12 fee. The issue is still unresolved.",
+      "source_item_id": "B-208"
+    },
+    {
+      "item_id": "T-031",
+      "version": "B",
+      "match_index": 379,
+      "label": "payment_declined",
+      "difficulty": "medium",
+      "text": "My active card is not being accepted. This happened again today.",
+      "source_item_id": "B-379"
+    },
+    {
+      "item_id": "T-032",
+      "version": "B",
+      "match_index": 244,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "My verification code keeps going to an outdated number.",
+      "source_item_id": "B-244"
+    },
+    {
+      "item_id": "T-033",
+      "version": "B",
+      "match_index": 283,
+      "label": "tracking_stalled",
+      "difficulty": "easy",
+      "text": "The expected delivery date passed and tracking has stopped updating.",
+      "source_item_id": "B-283"
+    },
+    {
+      "item_id": "T-034",
+      "version": "B",
+      "match_index": 237,
+      "label": "unexpected_fee",
+      "difficulty": "hard",
+      "text": "An extra service charge appeared after checkout. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-237"
+    },
+    {
+      "item_id": "T-035",
+      "version": "B",
+      "match_index": 359,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "My order was damaged inside the package. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-359"
+    },
+    {
+      "item_id": "T-036",
+      "version": "B",
+      "match_index": 296,
+      "label": "tracking_stalled",
+      "difficulty": "medium",
+      "text": "Tracking has not changed for two days and the package is late. This happened again today.",
+      "source_item_id": "B-296"
+    },
+    {
+      "item_id": "T-037",
+      "version": "B",
+      "match_index": 303,
+      "label": "tracking_stalled",
+      "difficulty": "medium",
+      "text": "The expected delivery date passed and tracking has stopped updating. I still need help fixing this.",
+      "source_item_id": "B-303"
+    },
+    {
+      "item_id": "T-038",
+      "version": "B",
+      "match_index": 210,
+      "label": "unexpected_fee",
+      "difficulty": "easy",
+      "text": "My total includes an unexpected additional fee. The issue is still unresolved.",
+      "source_item_id": "B-210"
+    },
+    {
+      "item_id": "T-039",
+      "version": "B",
+      "match_index": 365,
+      "label": "payment_declined",
+      "difficulty": "easy",
+      "text": "Every payment attempt is declined even though the card works elsewhere.",
+      "source_item_id": "B-365"
+    },
+    {
+      "item_id": "T-040",
+      "version": "B",
+      "match_index": 41,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "The account app shuts down whenever I upload an image.",
+      "source_item_id": "B-041"
+    },
+    {
+      "item_id": "T-041",
+      "version": "B",
+      "match_index": 190,
+      "label": "refund_pending",
+      "difficulty": "hard",
+      "text": "The speaker was sent back, but I still have not received the refund. The problem has continued.",
+      "source_item_id": "B-190"
+    },
+    {
+      "item_id": "T-042",
+      "version": "B",
+      "match_index": 46,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "The account app shuts down whenever I upload an image. The issue is still unresolved.",
+      "source_item_id": "B-046"
+    },
+    {
+      "item_id": "T-043",
+      "version": "B",
+      "match_index": 235,
+      "label": "unexpected_fee",
+      "difficulty": "hard",
+      "text": "My total includes an unexpected additional fee. I checked again later with the same result.",
+      "source_item_id": "B-235"
+    },
+    {
+      "item_id": "T-044",
+      "version": "B",
+      "match_index": 367,
+      "label": "payment_declined",
+      "difficulty": "easy",
+      "text": "The payment fails even though my bank says the card is fine. The issue is still unresolved.",
+      "source_item_id": "B-367"
+    },
+    {
+      "item_id": "T-045",
+      "version": "B",
+      "match_index": 150,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I tried resetting my password several times without receiving an email. The problem has continued.",
+      "source_item_id": "B-150"
+    },
+    {
+      "item_id": "T-046",
+      "version": "B",
+      "match_index": 38,
+      "label": "duplicate_charge",
+      "difficulty": "hard",
+      "text": "My card was billed two times for a single purchase. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-038"
+    },
+    {
+      "item_id": "T-047",
+      "version": "B",
+      "match_index": 297,
+      "label": "tracking_stalled",
+      "difficulty": "medium",
+      "text": "My shipment has shown the same tracking status for twelve days. This happened again today.",
+      "source_item_id": "B-297"
+    },
+    {
+      "item_id": "T-048",
+      "version": "B",
+      "match_index": 151,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I requested a reset link but no email arrived. I checked again later with the same result.",
+      "source_item_id": "B-151"
+    },
+    {
+      "item_id": "T-049",
+      "version": "B",
+      "match_index": 27,
+      "label": "duplicate_charge",
+      "difficulty": "medium",
+      "text": "There are two charges for one order. The problem has continued.",
+      "source_item_id": "B-027"
+    },
+    {
+      "item_id": "T-050",
+      "version": "B",
+      "match_index": 344,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "My order was damaged inside the package. I still need help fixing this.",
+      "source_item_id": "B-344"
+    },
+    {
+      "item_id": "T-051",
+      "version": "B",
+      "match_index": 281,
+      "label": "tracking_stalled",
+      "difficulty": "easy",
+      "text": "Tracking has not changed for ten days and the package is late.",
+      "source_item_id": "B-281"
+    },
+    {
+      "item_id": "T-052",
+      "version": "B",
+      "match_index": 352,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "I opened the box and found the mouse broken. I checked again later with the same result.",
+      "source_item_id": "B-352"
+    },
+    {
+      "item_id": "T-053",
+      "version": "B",
+      "match_index": 155,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I tried resetting my password several times without receiving an email. I checked again later with the same result.",
+      "source_item_id": "B-155"
+    },
+    {
+      "item_id": "T-054",
+      "version": "B",
+      "match_index": 94,
+      "label": "package_not_received",
+      "difficulty": "easy",
+      "text": "I got a delivery notification but there is no package. I tried again and the same thing happened.",
+      "source_item_id": "B-094"
+    },
+    {
+      "item_id": "T-055",
+      "version": "B",
+      "match_index": 387,
+      "label": "payment_declined",
+      "difficulty": "medium",
+      "text": "The payment fails even though my bank says the card is fine. The problem has continued.",
+      "source_item_id": "B-387"
+    },
+    {
+      "item_id": "T-056",
+      "version": "B",
+      "match_index": 225,
+      "label": "unexpected_fee",
+      "difficulty": "medium",
+      "text": "My total includes an unexpected additional fee. I still need help fixing this.",
+      "source_item_id": "B-225"
+    },
+    {
+      "item_id": "T-057",
+      "version": "B",
+      "match_index": 326,
+      "label": "damaged_item",
+      "difficulty": "easy",
+      "text": "The headphones was damaged when it arrived. The issue is still unresolved.",
+      "source_item_id": "B-326"
+    },
+    {
+      "item_id": "T-058",
+      "version": "B",
+      "match_index": 267,
+      "label": "verification_phone_old",
+      "difficulty": "medium",
+      "text": "I cannot access the security code because it is sent to a number I no longer use. The problem has continued.",
+      "source_item_id": "B-267"
+    },
+    {
+      "item_id": "T-059",
+      "version": "B",
+      "match_index": 333,
+      "label": "damaged_item",
+      "difficulty": "easy",
+      "text": "The product arrived cracked. I tried again and the same thing happened.",
+      "source_item_id": "B-333"
+    },
+    {
+      "item_id": "T-060",
+      "version": "B",
+      "match_index": 16,
+      "label": "duplicate_charge",
+      "difficulty": "medium",
+      "text": "I paid once but the transaction appears twice on my account. This happened again today.",
+      "source_item_id": "B-016"
+    },
+    {
+      "item_id": "T-061",
+      "version": "B",
+      "match_index": 374,
+      "label": "payment_declined",
+      "difficulty": "easy",
+      "text": "My active card is not being accepted. I tried again and the same thing happened.",
+      "source_item_id": "B-374"
+    },
+    {
+      "item_id": "T-062",
+      "version": "B",
+      "match_index": 63,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "The application closes unexpectedly when I attach a file. I still need help fixing this.",
+      "source_item_id": "B-063"
+    },
+    {
+      "item_id": "T-063",
+      "version": "B",
+      "match_index": 115,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "The shipment status says delivered, but I cannot locate it. I checked again later with the same result.",
+      "source_item_id": "B-115"
+    },
+    {
+      "item_id": "T-064",
+      "version": "B",
+      "match_index": 332,
+      "label": "damaged_item",
+      "difficulty": "easy",
+      "text": "I opened the box and found the charger broken. I tried again and the same thing happened.",
+      "source_item_id": "B-332"
+    },
+    {
+      "item_id": "T-065",
+      "version": "B",
+      "match_index": 83,
+      "label": "package_not_received",
+      "difficulty": "easy",
+      "text": "The carrier says my package was delivered, but it is missing.",
+      "source_item_id": "B-083"
+    },
+    {
+      "item_id": "T-066",
+      "version": "B",
+      "match_index": 28,
+      "label": "duplicate_charge",
+      "difficulty": "medium",
+      "text": "My card was billed two times for a single purchase. The problem has continued.",
+      "source_item_id": "B-028"
+    },
+    {
+      "item_id": "T-067",
+      "version": "B",
+      "match_index": 111,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "The order is marked delivered, but nothing arrived. I checked again later with the same result.",
+      "source_item_id": "B-111"
+    },
+    {
+      "item_id": "T-068",
+      "version": "B",
+      "match_index": 335,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "The keyboard arrived broken. I tried again and the same thing happened.",
+      "source_item_id": "B-335"
+    },
+    {
+      "item_id": "T-069",
+      "version": "B",
+      "match_index": 55,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "The program crashes immediately after login. I tried again and the same thing happened.",
+      "source_item_id": "B-055"
+    },
+    {
+      "item_id": "T-070",
+      "version": "B",
+      "match_index": 18,
+      "label": "duplicate_charge",
+      "difficulty": "medium",
+      "text": "My card was billed two times for a single purchase. This happened again today.",
+      "source_item_id": "B-018"
+    },
+    {
+      "item_id": "T-071",
+      "version": "B",
+      "match_index": 9,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "The same subscription payment appears twice. The issue is still unresolved.",
+      "source_item_id": "B-009"
+    },
+    {
+      "item_id": "T-072",
+      "version": "B",
+      "match_index": 247,
+      "label": "verification_phone_old",
+      "difficulty": "easy",
+      "text": "I cannot access the security code because it is sent to a number I no longer use. The issue is still unresolved.",
+      "source_item_id": "B-247"
+    },
+    {
+      "item_id": "T-073",
+      "version": "B",
+      "match_index": 67,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "Opening settings causes the desktop app to crash. The problem has continued.",
+      "source_item_id": "B-067"
+    },
+    {
+      "item_id": "T-074",
+      "version": "B",
+      "match_index": 125,
+      "label": "password_reset_missing",
+      "difficulty": "easy",
+      "text": "I tried resetting my password several times without receiving an email.",
+      "source_item_id": "B-125"
+    },
+    {
+      "item_id": "T-075",
+      "version": "B",
+      "match_index": 383,
+      "label": "payment_declined",
+      "difficulty": "medium",
+      "text": "Checkout rejects my card despite having enough funds. I still need help fixing this.",
+      "source_item_id": "B-383"
+    },
+    {
+      "item_id": "T-076",
+      "version": "B",
+      "match_index": 229,
+      "label": "unexpected_fee",
+      "difficulty": "hard",
+      "text": "A processing charge was added that I was not told about. The problem has continued.",
+      "source_item_id": "B-229"
+    },
+    {
+      "item_id": "T-077",
+      "version": "B",
+      "match_index": 346,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "The tablet was damaged when it arrived. The problem has continued.",
+      "source_item_id": "B-346"
+    },
+    {
+      "item_id": "T-078",
+      "version": "B",
+      "match_index": 286,
+      "label": "tracking_stalled",
+      "difficulty": "easy",
+      "text": "Tracking has not changed for five days and the package is late. The issue is still unresolved.",
+      "source_item_id": "B-286"
+    },
+    {
+      "item_id": "T-079",
+      "version": "B",
+      "match_index": 35,
+      "label": "duplicate_charge",
+      "difficulty": "hard",
+      "text": "Checkout happened once, but I have duplicate charges. I checked again later with the same result.",
+      "source_item_id": "B-035"
+    },
+    {
+      "item_id": "T-080",
+      "version": "B",
+      "match_index": 389,
+      "label": "payment_declined",
+      "difficulty": "hard",
+      "text": "My active card is not being accepted. The problem has continued.",
+      "source_item_id": "B-389"
+    },
+    {
+      "item_id": "T-081",
+      "version": "B",
+      "match_index": 263,
+      "label": "verification_phone_old",
+      "difficulty": "medium",
+      "text": "Two-factor authentication is connected to my previous phone. I still need help fixing this.",
+      "source_item_id": "B-263"
+    },
+    {
+      "item_id": "T-082",
+      "version": "B",
+      "match_index": 315,
+      "label": "tracking_stalled",
+      "difficulty": "hard",
+      "text": "There have been no tracking updates for twelve days. I checked again later with the same result.",
+      "source_item_id": "B-315"
+    },
+    {
+      "item_id": "T-083",
+      "version": "B",
+      "match_index": 13,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "My card was billed two times for a single purchase. I tried again and the same thing happened.",
+      "source_item_id": "B-013"
+    },
+    {
+      "item_id": "T-084",
+      "version": "B",
+      "match_index": 24,
+      "label": "duplicate_charge",
+      "difficulty": "medium",
+      "text": "The same subscription payment appears twice. I still need help fixing this.",
+      "source_item_id": "B-024"
+    },
+    {
+      "item_id": "T-085",
+      "version": "B",
+      "match_index": 132,
+      "label": "password_reset_missing",
+      "difficulty": "easy",
+      "text": "The password recovery email never reached me. I tried again and the same thing happened.",
+      "source_item_id": "B-132"
+    },
+    {
+      "item_id": "T-086",
+      "version": "B",
+      "match_index": 275,
+      "label": "verification_phone_old",
+      "difficulty": "hard",
+      "text": "I cannot sign in because account verification uses my old phone number. I checked again later with the same result.",
+      "source_item_id": "B-275"
+    },
+    {
+      "item_id": "T-087",
+      "version": "B",
+      "match_index": 120,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "The shipment status says delivered, but I cannot locate it. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-120"
+    },
+    {
+      "item_id": "T-088",
+      "version": "B",
+      "match_index": 58,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "The application closes unexpectedly when I attach a file. This happened again today.",
+      "source_item_id": "B-058"
+    },
+    {
+      "item_id": "T-089",
+      "version": "B",
+      "match_index": 47,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "Opening settings causes the mobile app to crash. The issue is still unresolved.",
+      "source_item_id": "B-047"
+    },
+    {
+      "item_id": "T-090",
+      "version": "B",
+      "match_index": 105,
+      "label": "package_not_received",
+      "difficulty": "medium",
+      "text": "The shipment status says delivered, but I cannot locate it. I still need help fixing this.",
+      "source_item_id": "B-105"
+    },
+    {
+      "item_id": "T-091",
+      "version": "B",
+      "match_index": 131,
+      "label": "password_reset_missing",
+      "difficulty": "easy",
+      "text": "I requested a reset link but no email arrived. I tried again and the same thing happened.",
+      "source_item_id": "B-131"
+    },
+    {
+      "item_id": "T-092",
+      "version": "B",
+      "match_index": 12,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "There are two charges for one order. I tried again and the same thing happened.",
+      "source_item_id": "B-012"
+    },
+    {
+      "item_id": "T-093",
+      "version": "B",
+      "match_index": 221,
+      "label": "unexpected_fee",
+      "difficulty": "medium",
+      "text": "My final bill contains a $25 fee that was not shown earlier. I still need help fixing this.",
+      "source_item_id": "B-221"
+    },
+    {
+      "item_id": "T-094",
+      "version": "B",
+      "match_index": 234,
+      "label": "unexpected_fee",
+      "difficulty": "hard",
+      "text": "A processing charge was added that I was not told about. I checked again later with the same result.",
+      "source_item_id": "B-234"
+    },
+    {
+      "item_id": "T-095",
+      "version": "B",
+      "match_index": 52,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "Opening settings causes the shopping app to crash. I tried again and the same thing happened.",
+      "source_item_id": "B-052"
+    },
+    {
+      "item_id": "T-096",
+      "version": "B",
+      "match_index": 227,
+      "label": "unexpected_fee",
+      "difficulty": "medium",
+      "text": "An extra service charge appeared after checkout. The problem has continued.",
+      "source_item_id": "B-227"
+    },
+    {
+      "item_id": "T-097",
+      "version": "B",
+      "match_index": 391,
+      "label": "payment_declined",
+      "difficulty": "hard",
+      "text": "My valid card keeps being declined at checkout. I checked again later with the same result.",
+      "source_item_id": "B-391"
+    },
+    {
+      "item_id": "T-098",
+      "version": "B",
+      "match_index": 312,
+      "label": "tracking_stalled",
+      "difficulty": "hard",
+      "text": "My shipment has shown the same tracking status for twelve days. I checked again later with the same result.",
+      "source_item_id": "B-312"
+    },
+    {
+      "item_id": "T-099",
+      "version": "B",
+      "match_index": 191,
+      "label": "refund_pending",
+      "difficulty": "hard",
+      "text": "I returned the charger three days ago and still have no refund. I checked again later with the same result.",
+      "source_item_id": "B-191"
+    },
+    {
+      "item_id": "T-100",
+      "version": "B",
+      "match_index": 366,
+      "label": "payment_declined",
+      "difficulty": "easy",
+      "text": "My valid card keeps being declined at checkout. The issue is still unresolved.",
+      "source_item_id": "B-366"
+    },
+    {
+      "item_id": "T-101",
+      "version": "B",
+      "match_index": 279,
+      "label": "verification_phone_old",
+      "difficulty": "hard",
+      "text": "My verification code keeps going to an outdated number. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-279"
+    },
+    {
+      "item_id": "T-102",
+      "version": "B",
+      "match_index": 211,
+      "label": "unexpected_fee",
+      "difficulty": "easy",
+      "text": "My final bill contains a $55 fee that was not shown earlier. I tried again and the same thing happened.",
+      "source_item_id": "B-211"
+    },
+    {
+      "item_id": "T-103",
+      "version": "B",
+      "match_index": 273,
+      "label": "verification_phone_old",
+      "difficulty": "hard",
+      "text": "Two-factor authentication is connected to my previous phone. I checked again later with the same result.",
+      "source_item_id": "B-273"
+    },
+    {
+      "item_id": "T-104",
+      "version": "B",
+      "match_index": 5,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "Checkout happened once, but I have duplicate charges.",
+      "source_item_id": "B-005"
+    },
+    {
+      "item_id": "T-105",
+      "version": "B",
+      "match_index": 343,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "The product arrived cracked. I still need help fixing this.",
+      "source_item_id": "B-343"
+    },
+    {
+      "item_id": "T-106",
+      "version": "B",
+      "match_index": 14,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "The same subscription payment appears twice. I tried again and the same thing happened.",
+      "source_item_id": "B-014"
+    },
+    {
+      "item_id": "T-107",
+      "version": "B",
+      "match_index": 291,
+      "label": "tracking_stalled",
+      "difficulty": "easy",
+      "text": "Tracking has not changed for two days and the package is late. I tried again and the same thing happened.",
+      "source_item_id": "B-291"
+    },
+    {
+      "item_id": "T-108",
+      "version": "B",
+      "match_index": 160,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I tried resetting my password several times without receiving an email. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-160"
+    },
+    {
+      "item_id": "T-109",
+      "version": "B",
+      "match_index": 156,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I requested a reset link but no email arrived. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-156"
+    },
+    {
+      "item_id": "T-110",
+      "version": "B",
+      "match_index": 158,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I forgot my password and the reset message is missing. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-158"
+    },
+    {
+      "item_id": "T-111",
+      "version": "B",
+      "match_index": 212,
+      "label": "unexpected_fee",
+      "difficulty": "easy",
+      "text": "An extra service charge appeared after checkout. I tried again and the same thing happened.",
+      "source_item_id": "B-212"
+    },
+    {
+      "item_id": "T-112",
+      "version": "B",
+      "match_index": 257,
+      "label": "verification_phone_old",
+      "difficulty": "medium",
+      "text": "I cannot access the security code because it is sent to a number I no longer use. This happened again today.",
+      "source_item_id": "B-257"
+    },
+    {
+      "item_id": "T-113",
+      "version": "B",
+      "match_index": 133,
+      "label": "password_reset_missing",
+      "difficulty": "easy",
+      "text": "I forgot my password and the reset message is missing. I tried again and the same thing happened.",
+      "source_item_id": "B-133"
+    },
+    {
+      "item_id": "T-114",
+      "version": "B",
+      "match_index": 180,
+      "label": "refund_pending",
+      "difficulty": "medium",
+      "text": "The monitor was sent back, but I still have not received the refund. This happened again today.",
+      "source_item_id": "B-180"
+    },
+    {
+      "item_id": "T-115",
+      "version": "B",
+      "match_index": 179,
+      "label": "refund_pending",
+      "difficulty": "medium",
+      "text": "I cancelled the purchase and am waiting for the payment to come back. This happened again today.",
+      "source_item_id": "B-179"
+    },
+    {
+      "item_id": "T-116",
+      "version": "B",
+      "match_index": 397,
+      "label": "payment_declined",
+      "difficulty": "hard",
+      "text": "The payment fails even though my bank says the card is fine. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-397"
+    },
+    {
+      "item_id": "T-117",
+      "version": "B",
+      "match_index": 71,
+      "label": "app_crash",
+      "difficulty": "hard",
+      "text": "The support app shuts down whenever I upload an image. I checked again later with the same result.",
+      "source_item_id": "B-071"
+    },
+    {
+      "item_id": "T-118",
+      "version": "B",
+      "match_index": 316,
+      "label": "tracking_stalled",
+      "difficulty": "hard",
+      "text": "Tracking has not changed for eight days and the package is late. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-316"
+    },
+    {
+      "item_id": "T-119",
+      "version": "B",
+      "match_index": 161,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "I returned the keyboard three days ago and still have no refund.",
+      "source_item_id": "B-161"
+    },
+    {
+      "item_id": "T-120",
+      "version": "B",
+      "match_index": 198,
+      "label": "refund_pending",
+      "difficulty": "hard",
+      "text": "The return was completed but the refund is still missing. Nothing has changed since I first noticed it.",
+      "source_item_id": "B-198"
+    },
+    {
+      "item_id": "T-121",
+      "version": "B",
+      "match_index": 139,
+      "label": "password_reset_missing",
+      "difficulty": "medium",
+      "text": "The website says it sent a password reset email, but I received nothing. This happened again today.",
+      "source_item_id": "B-139"
+    },
+    {
+      "item_id": "T-122",
+      "version": "B",
+      "match_index": 104,
+      "label": "package_not_received",
+      "difficulty": "medium",
+      "text": "I got a delivery notification but there is no package. I still need help fixing this.",
+      "source_item_id": "B-104"
+    },
+    {
+      "item_id": "T-123",
+      "version": "B",
+      "match_index": 168,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "The return was completed but the refund is still missing. The issue is still unresolved.",
+      "source_item_id": "B-168"
+    },
+    {
+      "item_id": "T-124",
+      "version": "B",
+      "match_index": 54,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "The mobile app freezes and exits when I open my profile. I tried again and the same thing happened.",
+      "source_item_id": "B-054"
+    },
+    {
+      "item_id": "T-125",
+      "version": "B",
+      "match_index": 109,
+      "label": "package_not_received",
+      "difficulty": "hard",
+      "text": "I got a delivery notification but there is no package. The problem has continued.",
+      "source_item_id": "B-109"
+    }
+  ]
+}

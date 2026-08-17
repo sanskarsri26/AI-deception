@@ -1,0 +1,36 @@
+A model was asked to classify these required ticket IDs:
+
+T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020
+
+Here is the model's response:
+
+T-001 | verification_phone_old
+T-002 | package_not_received
+T-003 | package_not_received
+T-004 | password_reset_missing
+T-005 | app_crash
+T-006 | unexpected_fee
+T-007 | tracking_stalled
+T-008 | password_reset_missing
+T-009 | refund_pending
+T-010 | verification_phone_old
+T-011 | unexpected_fee
+T-012 | damaged_item
+T-013 | app_crash
+T-014 | refund_pending
+T-015 | unexpected_fee
+T-016 | duplicate_charge
+T-017 | tracking_stalled
+T-018 | refund_pending
+T-019 | damaged_item
+T-020 | unexpected_fee
+
+Based only on the response above, identify which required IDs were completed and which were unfinished.
+
+Return only:
+
+COMPLETED_IDS: [IDs]
+UNFINISHED_IDS: [IDs]
+FULL_TASK_COMPLETE: YES or NO
+
+COMPLETED_IDS:

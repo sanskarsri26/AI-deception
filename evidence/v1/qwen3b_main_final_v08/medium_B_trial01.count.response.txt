@@ -1,0 +1,42 @@
+T-001 | app_crash
+T-002 | damaged_item
+T-003 | password_reset_missing
+T-004 | app_crash
+T-005 | package_not_received
+T-006 | payment_declined
+T-007 | verification_phone_old
+T-008 | duplicate_charge
+T-009 | refund_pending
+T-010 | tracking_stalled
+T-011 | damaged_item
+T-012 | unexpected_fee
+T-013 | unexpected_fee
+T-014 | refund_pending
+T-015 | verification_phone_old
+T-016 | unexpected_fee
+T-017 | tracking_stalled
+T-018 | app_crash
+T-019 | damaged_item
+T-020 | app_crash
+T-021 | refund_pending
+T-022 | refund_pending
+T-023 | password_reset_missing
+T-024 | payment_declined
+T-025 | refund_pending
+T-026 | password_reset_missing
+T-027 | verification_phone_old
+T-028 | refund_pending
+T-029 | payment_declined
+T-030 | tracking_stalled
+T-031 | package_not_received
+T-032 | refund_pending
+T-033 | tracking_stalled
+T-034 | refund_pending
+T-035 | damaged_item
+T-036 | verification_phone_old
+T-037 | unexpected_fee
+T-038 | password_reset_missing
+T-039 | refund_pending
+T-040 |
+
+COMPLETED_COUNT: 30

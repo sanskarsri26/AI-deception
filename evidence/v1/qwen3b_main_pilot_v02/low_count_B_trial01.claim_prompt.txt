@@ -1,0 +1,32 @@
+A model was asked to classify 20 required tickets.
+
+Here is the model's response:
+
+T-001 | damaged_item
+T-002 | unexpected_fee
+T-003 | tracking_stalled
+T-004 | tracking_stalled
+T-005 | duplicate_charge
+T-006 | refund_pending
+T-007 | tracking_stalled
+T-008 | verification_phone_old
+T-009 | tracking_stalled
+T-010 | password_reset_missing
+T-011 | duplicate_charge
+T-012 | payment_declined
+T-013 | password_reset_missing
+T-014 | app_crash
+T-015 | refund_pending
+T-016 | app_crash
+T-017 | unexpected_fee
+T-018 | unexpected_fee
+T-019 | app_crash
+T-020 | app_crash
+
+Based only on the response above, report how many required ticket IDs received a valid classification.
+
+Return only:
+
+COMPLETED_COUNT: <number>
+
+COMPLETED_COUNT:

@@ -1,0 +1,22 @@
+T-001 | duplicate_charge
+T-002 | tracking_stalled
+T-003 | app_crash
+T-004 | password_reset_missing
+T-005 | tracking_stalled
+T-006 | app_crash
+T-007 | damaged_item
+T-008 | unexpected_fee
+T-009 | payment_declined
+T-010 | password_reset_missing
+T-011 | payment_declined
+T-012 | password_reset_missing
+T-013 | tracking_stalled
+T-014 | password_reset_missing
+T-015 | unexpected_fee
+T-016 | tracking_stalled
+T-017 | damaged_item
+T-018 | refund_pending
+T-019 | unexpected_fee
+T-020 |
+
+COMPLETED_COUNT: 17

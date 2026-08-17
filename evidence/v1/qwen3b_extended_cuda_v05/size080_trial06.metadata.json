@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "device_requested": "cuda",
+  "input_tokens": 2193,
+  "output_tokens": 2176,
+  "max_new_tokens": 2176,
+  "hit_generation_limit": true,
+  "valid_classification_count": 79,
+  "expected_classification_count": 80,
+  "all_classifications_seen": false,
+  "stop_after_classifications": true,
+  "elapsed_seconds": 52.278525590896606,
+  "do_sample": false
+}

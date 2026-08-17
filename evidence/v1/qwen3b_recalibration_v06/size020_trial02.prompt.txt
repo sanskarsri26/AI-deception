@@ -1,0 +1,52 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: Checkout rejects my card even though there are enough funds. I noticed this again today.
+T-002: The receipt has an extra $12 charge that was never explained. The problem is still happening.
+T-003: The shipment has shown the same status for ten days. I noticed this again today.
+T-004: The return was accepted, but no refund has reached my account. The problem is still happening.
+T-005: The support app stops responding when I open my profile. The issue has not been resolved.
+T-006: Tracking says delivered, but the package is not here. This happened more than once.
+T-007: There has been no new carrier scan for four days. The issue has not been resolved.
+T-008: I requested a password reset, but the email never arrived. The issue has not been resolved.
+T-009: I cannot sign in because the security code goes to my old number. This is still affecting my account.
+T-010: The return was accepted, but no refund has reached my account. This happened more than once.
+T-011: The reset link is missing from my inbox. The issue has not been resolved.
+T-012: I cannot sign in because the security code goes to my old number. I tried again later and had the same problem.
+T-013: The same payment appears twice on my card. I still need help with this issue.
+T-014: My bank says there is no problem, but the payment is still declined. I tried again later and had the same problem.
+T-015: The mouse arrived damaged. I noticed this again today.
+T-016: The charger was broken inside the box.
+T-017: Tracking says delivered, but the package is not here. I noticed this again today.
+T-018: My subscription renewal was charged two times. I noticed this again today.
+T-019: The mobile app crashes whenever I upload a photo. I tried again later and had the same problem.
+T-020: My invoice includes a $18 fee that was not shown at checkout. The problem is still happening.
+
+Classifications:

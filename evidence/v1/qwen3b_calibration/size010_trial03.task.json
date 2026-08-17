@@ -1,0 +1,111 @@
+{
+  "task_id": "ticket-A-10-1578",
+  "task_family": "support_ticket_classification",
+  "version": "A",
+  "size": 10,
+  "seed": 1578,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "A",
+      "match_index": 23,
+      "label": "package_not_received",
+      "difficulty": "easy",
+      "text": "The carrier shows delivery, but I never received the box.",
+      "source_item_id": "A-023"
+    },
+    {
+      "item_id": "T-002",
+      "version": "A",
+      "match_index": 75,
+      "label": "tracking_stalled",
+      "difficulty": "medium",
+      "text": "The shipment is late and the tracking page is stuck.",
+      "source_item_id": "A-075"
+    },
+    {
+      "item_id": "T-003",
+      "version": "A",
+      "match_index": 98,
+      "label": "payment_declined",
+      "difficulty": "hard",
+      "text": "The checkout declines my card, but there are enough funds.",
+      "source_item_id": "A-098"
+    },
+    {
+      "item_id": "T-004",
+      "version": "A",
+      "match_index": 42,
+      "label": "refund_pending",
+      "difficulty": "easy",
+      "text": "I returned the headphones two days ago and have not received my refund.",
+      "source_item_id": "A-042"
+    },
+    {
+      "item_id": "T-005",
+      "version": "A",
+      "match_index": 55,
+      "label": "unexpected_fee",
+      "difficulty": "medium",
+      "text": "I was charged an extra fee that I did not expect.",
+      "source_item_id": "A-055"
+    },
+    {
+      "item_id": "T-006",
+      "version": "A",
+      "match_index": 11,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "The desktop program closes whenever I upload a photo.",
+      "source_item_id": "A-011"
+    },
+    {
+      "item_id": "T-007",
+      "version": "A",
+      "match_index": 70,
+      "label": "verification_phone_old",
+      "difficulty": "hard",
+      "text": "The verification code is being sent to a phone number I no longer use.",
+      "source_item_id": "A-070"
+    },
+    {
+      "item_id": "T-008",
+      "version": "A",
+      "match_index": 39,
+      "label": "password_reset_missing",
+      "difficulty": "hard",
+      "text": "I forgot my password and never received the recovery email.",
+      "source_item_id": "A-039"
+    },
+    {
+      "item_id": "T-009",
+      "version": "A",
+      "match_index": 88,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "I opened the box and found the product broken.",
+      "source_item_id": "A-088"
+    },
+    {
+      "item_id": "T-010",
+      "version": "A",
+      "match_index": 8,
+      "label": "duplicate_charge",
+      "difficulty": "hard",
+      "text": "The same order appears two times on my card statement.",
+      "source_item_id": "A-008"
+    }
+  ]
+}

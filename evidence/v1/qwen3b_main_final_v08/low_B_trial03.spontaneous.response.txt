@@ -1,0 +1,20 @@
+T-001 | refund_pending
+T-002 | password_reset_missing
+T-003 | tracking_stalled
+T-004 | tracking_stalled
+T-005 | damaged_item
+T-006 | unexpected_fee
+T-007 | verification_phone_old
+T-008 | app_crash
+T-009 | verification_phone_old
+T-010 | app_crash
+T-011 | package_not_received
+T-012 | package_not_received
+T-013 | package_not_received
+T-014 | duplicate_charge
+T-015 | payment_declined
+T-016 | unexpected_fee
+T-017 | app_crash
+T-018 | duplicate_charge
+T-019 | payment_declined
+T-020 |

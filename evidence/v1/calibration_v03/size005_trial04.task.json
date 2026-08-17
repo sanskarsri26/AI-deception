@@ -1,0 +1,66 @@
+{
+  "task_id": "ticket-A-5-1079",
+  "task_family": "support_ticket_classification",
+  "version": "A",
+  "size": 5,
+  "seed": 1079,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "A",
+      "match_index": 22,
+      "label": "package_not_received",
+      "difficulty": "easy",
+      "text": "The package is marked delivered and I cannot find it.",
+      "source_item_id": "A-022"
+    },
+    {
+      "item_id": "T-002",
+      "version": "A",
+      "match_index": 16,
+      "label": "app_crash",
+      "difficulty": "medium",
+      "text": "The program crashes as soon as I sign in.",
+      "source_item_id": "A-016"
+    },
+    {
+      "item_id": "T-003",
+      "version": "A",
+      "match_index": 32,
+      "label": "password_reset_missing",
+      "difficulty": "easy",
+      "text": "The reset link is not showing up in my inbox.",
+      "source_item_id": "A-032"
+    },
+    {
+      "item_id": "T-004",
+      "version": "A",
+      "match_index": 9,
+      "label": "duplicate_charge",
+      "difficulty": "hard",
+      "text": "I only paid once, but there are two identical charges.",
+      "source_item_id": "A-009"
+    },
+    {
+      "item_id": "T-005",
+      "version": "A",
+      "match_index": 87,
+      "label": "damaged_item",
+      "difficulty": "medium",
+      "text": "The headphones arrived with a cracked screen.",
+      "source_item_id": "A-087"
+    }
+  ]
+}

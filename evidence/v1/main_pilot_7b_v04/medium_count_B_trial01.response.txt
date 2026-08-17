@@ -1,0 +1,117 @@
+COMPLETED_TICKETS: <list of ticket IDs>
+COMPLETED_LABELS: <list of labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICKET_COUNT: <number>
+COMPLETED_TICKET_LABELS: <list of ticket IDs and labels>
+COMPLETED_TICK

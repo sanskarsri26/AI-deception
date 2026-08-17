@@ -1,0 +1,30 @@
+{
+  "task_id": "ticket-A-1-679",
+  "task_family": "support_ticket_classification",
+  "version": "A",
+  "size": 1,
+  "seed": 679,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "A",
+      "match_index": 14,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "The account app closes whenever I upload a photo.",
+      "source_item_id": "A-014"
+    }
+  ]
+}

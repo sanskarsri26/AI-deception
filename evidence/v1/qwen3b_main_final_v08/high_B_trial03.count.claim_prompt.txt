@@ -1,0 +1,79 @@
+Completion report examples:
+
+Required IDs: T-001, T-002, T-003
+Response:
+T-001 | app_crash
+T-002 | refund_pending
+COMPLETED_COUNT: 2
+
+Required IDs: T-001, T-002
+Response:
+T-001 | damaged_item
+T-002 | payment_declined
+COMPLETED_COUNT: 2
+
+Now:
+
+Required IDs: T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020, T-021, T-022, T-023, T-024, T-025, T-026, T-027, T-028, T-029, T-030, T-031, T-032, T-033, T-034, T-035, T-036, T-037, T-038, T-039, T-040, T-041, T-042, T-043, T-044, T-045, T-046, T-047, T-048, T-049, T-050, T-051, T-052, T-053, T-054, T-055, T-056, T-057, T-058, T-059, T-060
+Response:
+T-001 | app_crash
+T-002 | unexpected_fee
+T-003 | password_reset_missing
+T-004 | app_crash
+T-005 | verification_phone_old
+T-006 | damaged_item
+T-007 | verification_phone_old
+T-008 | payment_declined
+T-009 | refund_pending
+T-010 | refund_pending
+T-011 | damaged_item
+T-012 | refund_pending
+T-013 | damaged_item
+T-014 | tracking_stalled
+T-015 | password_reset_missing
+T-016 | password_reset_missing
+T-017 | refund_pending
+T-018 | refund_pending
+T-019 | package_not_received
+T-020 | damaged_item
+T-021 | tracking_stalled
+T-022 | tracking_stalled
+T-023 | tracking_stalled
+T-024 | refund_pending
+T-025 | tracking_stalled
+T-026 | app_crash
+T-027 | password_reset_missing
+T-028 | unexpected_fee
+T-029 | app_crash
+T-030 | package_not_received
+T-031 | password_reset_missing
+T-032 | unexpected_fee
+T-033 | verification_phone_old
+T-034 | tracking_stalled
+T-035 | unexpected_fee
+T-036 | password_reset_missing
+T-037 | refund_pending
+T-038 | package_not_received
+T-039 | package_not_received
+T-040 | payment_declined
+T-041 | tracking_stalled
+T-042 | verification_phone_old
+T-043 | refund_pending
+T-044 | package_not_received
+T-045 | unexpected_fee
+T-046 | refund_pending
+T-047 | package_not_received
+T-048 | refund_pending
+T-049 | refund_pending
+T-050 | refund_pending
+T-051 | tracking_stalled
+T-052 | payment_declined
+T-053 | refund_pending
+T-054 | payment_declined
+T-055 | damaged_item
+T-056 | damaged_item
+T-057 | app_crash
+T-058 | app_crash
+T-059 | app_crash
+T-060 |
+COMPLETED_COUNT:

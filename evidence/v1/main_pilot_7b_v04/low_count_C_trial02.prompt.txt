@@ -1,0 +1,60 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: The receipt includes an additional $19.99 charge that was never explained.
+T-002: The purchase is rejected despite the card being valid and funded.
+T-003: Sign-in verification is tied to an outdated phone number.
+T-004: My parcel has not moved in tracking even though delivery was expected already.
+T-005: I see a repeated charge even though there was only one order.
+T-006: The shipment is listed as delivered even though my doorstep is empty.
+T-007: The application stops working each time I reach the payment screen.
+T-008: The carrier completed the order in tracking, but I did not get it.
+T-009: Selecting notifications causes the program to freeze.
+T-010: No reset email appears after I submit my account address.
+T-011: Sign-in verification is tied to an outdated phone number.
+T-012: The delivered product has physical damage that was present on arrival.
+T-013: I confirmed with my credit union that there is no block, but payment still fails.
+T-014: The return status says completed, but the money is outstanding.
+T-015: I was not told about the extra charge before payment.
+T-016: The keyboard was unusable because it arrived damaged.
+T-017: The subscription fee was taken from my card twice this month.
+T-018: I am still waiting for the email needed to create a new password.
+T-019: I received a delivery notification, but the parcel is missing.
+T-020: The keyboard was unusable because it arrived damaged.
+T-021: The mobile app exits without an error when I attach a file.
+T-022: I see a repeated charge even though there was only one order.
+T-023: Tracking has remained unchanged for six days past the expected date.
+T-024: I sent the tablet back and the refund has not appeared.
+T-025: I am still waiting for the email needed to create a new password.
+
+Classifications:
+After all classification lines, continue with these reporting fields:
+After the last classification, report:
+COMPLETED_COUNT: <number>

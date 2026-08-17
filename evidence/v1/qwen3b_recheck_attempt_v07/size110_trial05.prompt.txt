@@ -1,0 +1,142 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: I tried password recovery several times and no email arrived. I still need help with this issue.
+T-002: The phone was broken inside the box. The problem is still happening.
+T-003: My delivery date passed, but there are no new tracking updates. I noticed this again today.
+T-004: I forgot my password and cannot get the reset email. The problem is still happening.
+T-005: The account app crashes whenever I upload a photo.
+T-006: I cannot sign in because the security code goes to my old number. I noticed this again today.
+T-007: Every payment attempt fails even though the card is valid. The issue has not been resolved.
+T-008: The receipt has an extra $75 charge that was never explained. This happened more than once.
+T-009: The tablet arrived damaged. I still need help with this issue.
+T-010: The login code is being sent to my previous phone number. I still need help with this issue.
+T-011: The same payment appears twice on my card. I noticed this again today.
+T-012: My order was cancelled, but I am still waiting for my money back. The issue has not been resolved.
+T-013: The site will not accept my active payment card. I still need help with this issue.
+T-014: The receipt has an extra $75 charge that was never explained. I tried again later and had the same problem.
+T-015: My final total contains an additional fee I did not expect. The problem is still happening.
+T-016: I forgot my password and cannot get the reset email. This happened more than once.
+T-017: The monitor arrived damaged.
+T-018: The program crashes after I sign in. I still need help with this issue.
+T-019: The same payment appears twice on my card. This happened more than once.
+T-020: A processing fee was added after checkout. I noticed this again today.
+T-021: My order was cancelled, but I am still waiting for my money back. This happened more than once.
+T-022: My payment keeps getting declined even though my card works elsewhere. This happened more than once.
+T-023: My package is late and tracking has not updated for five days. I tried again later and had the same problem.
+T-024: A processing fee was added after checkout. This is still affecting my account.
+T-025: My payment keeps getting declined even though my card works elsewhere. I noticed this again today.
+T-026: My delivery date passed, but there are no new tracking updates. I tried again later and had the same problem.
+T-027: I received a delivery notification, but the parcel is missing. I tried again later and had the same problem.
+T-028: My statement shows two identical charges for one purchase.
+T-029: The mobile app freezes when I open settings. The issue has not been resolved.
+T-030: I received a delivery notification, but the parcel is missing. This happened more than once.
+T-031: The login code is being sent to my previous phone number. I noticed this again today.
+T-032: I opened the package and found the phone broken. I noticed this again today.
+T-033: The return was accepted, but no refund has reached my account. The issue has not been resolved.
+T-034: An unexpected service fee appeared on my final bill. The issue has not been resolved.
+T-035: The product arrived with a large crack. I still need help with this issue.
+T-036: Checkout rejects my card even though there are enough funds. I still need help with this issue.
+T-037: The shipment has shown the same status for eight days. The issue has not been resolved.
+T-038: The support app stops responding when I open my profile.
+T-039: The verification code is being sent to a phone number I no longer use.
+T-040: There has been no new carrier scan for four days. The issue has not been resolved.
+T-041: My package is late and tracking has not updated for five days. I noticed this again today.
+T-042: I sent the speaker back and am still waiting for the refund. This happened more than once.
+T-043: I forgot my password and cannot get the reset email.
+T-044: I sent the charger back and am still waiting for the refund. The problem is still happening.
+T-045: My invoice includes a $18 fee that was not shown at checkout. The problem is still happening.
+T-046: The site will not accept my active payment card. I tried again later and had the same problem.
+T-047: The verification code is being sent to a phone number I no longer use. The issue has not been resolved.
+T-048: My shipment says delivered even though nothing arrived. The problem is still happening.
+T-049: Two-factor authentication uses a number I cannot access. I still need help with this issue.
+T-050: The carrier marked my order delivered, but I never received it. The problem is still happening.
+T-051: I cannot sign in because the security code goes to my old number. This is still affecting my account.
+T-052: The support app crashes whenever I upload a photo. The issue has not been resolved.
+T-053: I tried password recovery several times and no email arrived. The issue has not been resolved.
+T-054: The carrier marked my order delivered, but I never received it. I noticed this again today.
+T-055: My subscription renewal was charged two times. I tried again later and had the same problem.
+T-056: I opened the package and found the tablet broken. This happened more than once.
+T-057: The support app stops responding when I open my profile. I still need help with this issue.
+T-058: My subscription renewal was charged two times. I still need help with this issue.
+T-059: I opened the package and found the phone broken. The issue has not been resolved.
+T-060: The application closes when I attach a file. I still need help with this issue.
+T-061: The product arrived with a large crack. The issue has not been resolved.
+T-062: The speaker arrived damaged. This happened more than once.
+T-063: The site says a password recovery email was sent, but I did not receive it.
+T-064: Every payment attempt fails even though the card is valid. I tried again later and had the same problem.
+T-065: The reset link is missing from my inbox. I noticed this again today.
+T-066: I requested a password reset, but the email never arrived. I still need help with this issue.
+T-067: The application closes when I attach a file. The problem is still happening.
+T-068: The carrier marked my order delivered, but I never received it. This is still affecting my account.
+T-069: My bank says there is no problem, but the payment is still declined. This is still affecting my account.
+T-070: My package is late and tracking has not updated for six days. This happened more than once.
+T-071: There has been no new carrier scan for four days. I still need help with this issue.
+T-072: The return was accepted, but no refund has reached my account. I still need help with this issue.
+T-073: The return was accepted, but no refund has reached my account. I noticed this again today.
+T-074: A processing fee was added after checkout. The issue has not been resolved.
+T-075: A processing fee was added after checkout. I still need help with this issue.
+T-076: The tracking page shows delivery, but I cannot find the package.
+T-077: The application closes when I attach a file. I tried again later and had the same problem.
+T-078: Tracking says delivered, but the package is not here. The issue has not been resolved.
+T-079: My invoice includes a $48 fee that was not shown at checkout. I still need help with this issue.
+T-080: The application closes when I attach a file. The issue has not been resolved.
+T-081: The reset link is missing from my inbox. I tried again later and had the same problem.
+T-082: Two-factor authentication uses a number I cannot access. The problem is still happening.
+T-083: The site will not accept my active payment card. The problem is still happening.
+T-084: I returned the mouse twelve days ago, but my refund has not arrived. This happened more than once.
+T-085: Tracking says delivered, but the package is not here. The problem is still happening.
+T-086: The login code is being sent to my previous phone number. The issue has not been resolved.
+T-087: I only checked out once, but I was billed twice.
+T-088: I forgot my password and cannot get the reset email. The issue has not been resolved.
+T-089: The site says a password recovery email was sent, but I did not receive it. I still need help with this issue.
+T-090: The charger was broken inside the box.
+T-091: I was charged twice for the same subscription. The problem is still happening.
+T-092: The shipment has shown the same status for three days. This is still affecting my account.
+T-093: Every payment attempt fails even though the card is valid. I still need help with this issue.
+T-094: The cancellation is complete, but the payment has not been returned. This happened more than once.
+T-095: My final total contains an additional fee I did not expect. I still need help with this issue.
+T-096: The same payment appears twice on my card. This is still affecting my account.
+T-097: The verification code is being sent to a phone number I no longer use. I tried again later and had the same problem.
+T-098: The mobile app crashes whenever I upload a photo. I tried again later and had the same problem.
+T-099: The carrier marked my order delivered, but I never received it. This happened more than once.
+T-100: My bank says there is no problem, but the payment is still declined. This happened more than once.
+T-101: The package is still in transit and the tracking appears stuck.
+T-102: The login code is being sent to my previous phone number. The problem is still happening.
+T-103: The same payment appears twice on my card. I tried again later and had the same problem.
+T-104: The same payment appears twice on my card. The problem is still happening.
+T-105: I returned the speaker ten days ago, but my refund has not arrived. I noticed this again today.
+T-106: I was charged twice for the same subscription.
+T-107: The carrier marked my order delivered, but I never received it. I still need help with this issue.
+T-108: My order was cancelled, but I am still waiting for my money back. I noticed this again today.
+T-109: My package is late and tracking has not updated for five days. The problem is still happening.
+T-110: The headphones arrived damaged. I tried again later and had the same problem.
+
+Classifications:

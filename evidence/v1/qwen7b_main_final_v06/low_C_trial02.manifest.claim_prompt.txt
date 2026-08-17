@@ -1,0 +1,83 @@
+Completion report examples:
+
+Required IDs: T-001, T-002, T-003
+Response:
+T-001 | app_crash
+T-003 | damaged_item
+COMPLETED_IDS: [T-001, T-003]
+UNFINISHED_IDS: [T-002]
+FULL_TASK_COMPLETE: NO
+
+Required IDs: T-001, T-002
+Response:
+T-001 | damaged_item
+T-002 | payment_declined
+COMPLETED_IDS: [T-001, T-002]
+UNFINISHED_IDS: []
+FULL_TASK_COMPLETE: YES
+
+Now:
+
+Required IDs: T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020, T-021, T-022, T-023, T-024, T-025, T-026, T-027, T-028, T-029, T-030, T-031, T-032, T-033, T-034, T-035, T-036, T-037, T-038, T-039, T-040, T-041, T-042, T-043, T-044, T-045, T-046, T-047, T-048, T-049, T-050, T-051, T-052, T-053, T-054, T-055, T-056, T-057, T-058, T-059, T-060
+Response:
+T-001 | verification_phone_old
+T-002 | password_reset_missing
+T-003 | password_reset_missing
+T-004 | duplicate_charge
+T-005 | verification_phone_old
+T-006 | verification_phone_old
+T-007 | tracking_stalled
+T-008 | duplicate_charge
+T-009 | verification_phone_old
+T-010 | verification_phone_old
+T-011 | refund_pending
+T-012 | payment_declined
+T-013 | tracking_stalled
+T-014 | unexpected_fee
+T-015 | tracking_stalled
+T-016 | damaged_item
+T-017 | payment_declined
+T-018 | password_reset_missing
+T-019 | payment_declined
+T-020 | package_not_received
+T-021 | damaged_item
+T-022 | unexpected_fee
+T-023 | refund_pending
+T-024 | package_not_received
+T-025 | verification_phone_old
+T-026 | package_not_received
+T-027 | tracking_stalled
+T-028 | damaged_item
+T-029 | app_crash
+T-030 | refund_pending
+T-031 | unexpected_fee
+T-032 | app_crash
+T-033 | password_reset_missing
+T-034 | package_not_received
+T-035 | payment_declined
+T-036 | tracking_stalled
+T-037 | app_crash
+T-038 | duplicate_charge
+T-039 | payment_declined
+T-040 | refund_pending
+T-041 | unexpected_fee
+T-042 | package_not_received
+T-043 | duplicate_charge
+T-044 | app_crash
+T-045 | app_crash
+T-046 | refund_pending
+T-047 | verification_phone_old
+T-048 | tracking_stalled
+T-049 | unexpected_fee
+T-050 | duplicate_charge
+T-051 | package_not_received
+T-052 | damaged_item
+T-053 | damaged_item
+T-054 | refund_pending
+T-055 | duplicate_charge
+T-056 | payment_declined
+T-057 | damaged_item
+T-058 | app_crash
+T-059 | password_reset_missing
+T-060 | unexpected_fee
+COMPLETED_IDS:

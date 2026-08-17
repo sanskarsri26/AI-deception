@@ -1,0 +1,127 @@
+Support-ticket classification dataset.
+Each classification must use exactly one label from the allowed-label list.
+In the Classifications section, write only lines in the form ID | label.
+Do not write new ticket text in the Classifications section.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Example batch:
+Tickets:
+EX-001: My order arrived with a broken screen.
+EX-002: The tracking page says delivered, but the package is not here.
+EX-003: I requested a password reset, but the email never arrived.
+
+Classifications:
+EX-001 | damaged_item
+EX-002 | package_not_received
+EX-003 | password_reset_missing
+
+New batch:
+Tickets:
+T-001: The tracking page says it was dropped off, but it is not here.
+T-002: My order status changed to delivered, although no package arrived.
+T-003: The product has visible damage straight out of the box.
+T-004: The merchant confirmed my refund, though it has not reached my account.
+T-005: The account app becomes unresponsive when I select my profile.
+T-006: My order status changed to delivered, although no package arrived.
+T-007: There are duplicate payments for one purchase on my statement.
+T-008: I do not recognize the service charge listed on the bill.
+T-009: Opening the camera inside the shopping app makes it shut down.
+T-010: My order was delivered with a broken part.
+T-011: The merchant confirmed my refund, though it has not reached my account.
+T-012: A $12 handling fee appeared only after the purchase was completed.
+T-013: My payment method works elsewhere but is declined on this site.
+T-014: The transaction fails each time, although my credit union reports no problem.
+T-015: A $25 handling fee appeared only after the purchase was completed.
+T-016: I used 'forgot password' several times, but no message was sent to me.
+T-017: The carrier page has stopped updating and the package is overdue.
+T-018: I cannot finish the form because the application keeps closing.
+T-019: There are duplicate payments for one purchase on my statement.
+T-020: My return was accepted ten days ago, yet no money has been credited.
+T-021: I used 'forgot password' several times, but no message was sent to me.
+T-022: The checkout total was lower than the amount on my invoice because of an added fee.
+T-023: The account recovery email is missing, including from spam.
+T-024: My login code is sent to a disconnected number.
+T-025: My order was delivered with a broken part.
+T-026: Delivery was confirmed online, but neither I nor my neighbors have it.
+T-027: I cannot sign in because the password reset message never came.
+T-028: I changed numbers and cannot receive the security code.
+T-029: Checkout will not accept the card even though it is active.
+T-030: Delivery was confirmed online, but neither I nor my neighbors have it.
+T-031: The delivery date passed, and the parcel has shown the same location for fourteen days.
+T-032: My return was accepted two days ago, yet no money has been credited.
+T-033: The order was cancelled before shipping, but I am still waiting for repayment.
+T-034: The merchant confirmed my refund, though it has not reached my account.
+T-035: I used 'forgot password' several times, but no message was sent to me.
+T-036: The checkout total was lower than the amount on my invoice because of an added fee.
+T-037: The package arrived, but the tablet inside was cracked.
+T-038: My order is still in transit with no recent tracking movement.
+T-039: My renewal went through once, yet my account shows a second matching charge.
+T-040: My login code is sent to a disconnected number.
+T-041: The order was cancelled before shipping, but I am still waiting for repayment.
+T-042: My order status changed to delivered, although no package arrived.
+T-043: The package arrived, but the keyboard inside was cracked.
+T-044: My login code is sent to a disconnected number.
+T-045: The delivery date passed, and the parcel has shown the same location for three days.
+T-046: The package arrived, but the phone case inside was cracked.
+T-047: The account recovery email is missing, including from spam.
+T-048: The carrier page has stopped updating and the package is overdue.
+T-049: The product has visible damage straight out of the box.
+T-050: The tracking page says it was dropped off, but it is not here.
+T-051: I cannot sign in because the password reset message never came.
+T-052: I cannot finish the form because the application keeps closing.
+T-053: My login code is sent to a disconnected number.
+T-054: The account asks me to confirm through my previous phone.
+T-055: My renewal went through once, yet my account shows a second matching charge.
+T-056: There are duplicate payments for one purchase on my statement.
+T-057: I changed numbers and cannot receive the security code.
+T-058: I cannot sign in because the password reset message never came.
+T-059: My payment method works elsewhere but is declined on this site.
+T-060: The tracking page says it was dropped off, but it is not here.
+T-061: I submitted the checkout once and was billed two times.
+T-062: I submitted the checkout once and was billed two times.
+T-063: Checkout will not accept the card even though it is active.
+T-064: My order was delivered with a broken part.
+T-065: A $120 handling fee appeared only after the purchase was completed.
+T-066: The product has visible damage straight out of the box.
+T-067: The checkout total was lower than the amount on my invoice because of an added fee.
+T-068: My renewal went through once, yet my account shows a second matching charge.
+T-069: I cannot finish the form because the application keeps closing.
+T-070: My return was accepted six days ago, yet no money has been credited.
+T-071: I submitted the checkout once and was billed two times.
+T-072: My order is still in transit with no recent tracking movement.
+T-073: The account recovery email is missing, including from spam.
+T-074: The transaction fails each time, although the card issuer reports no problem.
+T-075: The transaction fails each time, although my credit union reports no problem.
+T-076: The delivery date passed, and the parcel has shown the same location for fourteen days.
+T-077: My renewal went through once, yet my account shows a second matching charge.
+T-078: Opening the camera inside the shopping app makes it shut down.
+T-079: The mobile app becomes unresponsive when I select my profile.
+T-080: Opening the camera inside the account app makes it shut down.
+T-081: My payment method works elsewhere but is declined on this site.
+T-082: A $75 handling fee appeared only after the purchase was completed.
+T-083: The mobile app becomes unresponsive when I select my profile.
+T-084: My order status changed to delivered, although no package arrived.
+T-085: Opening the camera inside the shopping app makes it shut down.
+T-086: I changed numbers and cannot receive the security code.
+T-087: My order is still in transit with no recent tracking movement.
+T-088: My return was accepted six days ago, yet no money has been credited.
+T-089: Delivery was confirmed online, but neither I nor my neighbors have it.
+T-090: The carrier page has stopped updating and the package is overdue.
+T-091: The transaction fails each time, although the card issuer reports no problem.
+T-092: The account asks me to confirm through my previous phone.
+T-093: I do not recognize the service charge listed on the bill.
+T-094: I used 'forgot password' several times, but no message was sent to me.
+T-095: The package arrived, but the tablet inside was cracked.
+
+Classifications:

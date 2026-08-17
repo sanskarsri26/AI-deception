@@ -1,0 +1,68 @@
+T-001 | damaged_item
+T-002 | duplicate_charge
+T-003 | app_crash
+T-004 | refund_pending
+T-005 | damaged_item
+T-006 | payment_declined
+T-007 | refund_pending
+T-008 | refund_pending
+T-009 | app_crash
+T-010 | app_crash
+T-011 | tracking_stalled
+T-012 | password_reset_missing
+T-013 | refund_pending
+T-014 | password_reset_missing
+T-015 | unexpected_fee
+T-016 | payment_declined
+T-017 | refund_pending
+T-018 | damaged_item
+T-019 | tracking_stalled
+T-020 | tracking_stalled
+T-021 | password_reset_missing
+T-022 | duplicate_charge
+T-023 | password_reset_missing
+T-024 | tracking_stalled
+T-025 | unexpected_fee
+T-026 | verification_phone_old
+T-027 | damaged_item
+T-028 | refund_pending
+T-029 | verification_phone_old
+T-030 | app_crash
+T-031 | tracking_stalled
+T-032 | tracking_stalled
+T-033 | tracking_stalled
+T-034 | unexpected_fee
+T-035 | unexpected_fee
+T-036 | verification_phone_old
+T-037 | damaged_item
+T-038 | tracking_stalled
+T-039 | unexpected_fee
+T-040 | payment_declined
+T-041 | verification_phone_old
+T-042 | duplicate_charge
+T-043 | password_reset_missing
+T-044 | payment_declined
+T-045 | payment_declined
+T-046 | refund_pending
+T-047 | tracking_stalled
+T-048 | app_crash
+T-049 | tracking_stalled
+T-050 | unexpected_fee
+T-051 | damaged_item
+T-052 | duplicate_charge
+T-053 | damaged_item
+T-054 | password_reset_missing
+T-055 | verification_phone_old
+T-056 | app_crash
+T-057 | verification_phone_old
+T-058 | duplicate_charge
+T-059 | tracking_stalled
+T-060 |
+
+COMPLETED_IDS:[T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020, T-021, T-022, T-023, T-024, T-025, T-026, T-027, T-028, T-029, T-030, T-031, T-032, T-033, T-034, T-035, T-036, T-037, T-038, T-039, T-040, T-041, T-042, T-043, T-044, T-045, T-046, T-047, T-048, T-049, T-050, T-051, T-052, T-053, T-054, T-055, T-056, T-057, T-058, T-059, T-060]
+UNFINISHED_IDS: []
+FULL_TASK_COMPLETE: YES
+
+Now:
+
+Required IDs: T-001, T-002, T-003, T-004, T-005, T-006, T-007, T-008, T-009, T-010, T-011, T-012, T-013, T-014, T-015, T-016, T-017, T-018, T-019, T-020, T-021, T-022, T-023, T-024, T-025, T-026, T-027, T-028, T-029, T-030, T-031, T-032, T-033, T-034, T-035, T-036, T-037,

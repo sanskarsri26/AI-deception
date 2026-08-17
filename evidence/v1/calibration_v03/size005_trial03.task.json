@@ -1,0 +1,66 @@
+{
+  "task_id": "ticket-A-5-1078",
+  "task_family": "support_ticket_classification",
+  "version": "A",
+  "size": 5,
+  "seed": 1078,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "A",
+      "match_index": 27,
+      "label": "package_not_received",
+      "difficulty": "medium",
+      "text": "Tracking says delivered, but nothing was left at my address.",
+      "source_item_id": "A-027"
+    },
+    {
+      "item_id": "T-002",
+      "version": "A",
+      "match_index": 2,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "The same order appears two times on my card statement.",
+      "source_item_id": "A-002"
+    },
+    {
+      "item_id": "T-003",
+      "version": "A",
+      "match_index": 89,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "The item was damaged when it was delivered.",
+      "source_item_id": "A-089"
+    },
+    {
+      "item_id": "T-004",
+      "version": "A",
+      "match_index": 36,
+      "label": "password_reset_missing",
+      "difficulty": "medium",
+      "text": "I forgot my password and never received the recovery email.",
+      "source_item_id": "A-036"
+    },
+    {
+      "item_id": "T-005",
+      "version": "A",
+      "match_index": 12,
+      "label": "app_crash",
+      "difficulty": "easy",
+      "text": "The shopping app freezes every time I open settings.",
+      "source_item_id": "A-012"
+    }
+  ]
+}

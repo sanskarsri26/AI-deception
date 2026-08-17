@@ -1,0 +1,3 @@
+100
+
+I want to create a function that takes the required IDs and returns the response. The function should be able to handle any number of required
