@@ -1,0 +1,72 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.24s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.38s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.54s/it]
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+n=120 trial=0 done
+n=120 trial=1 done
+n=120 trial=2 done
+n=120 trial=3 done
+n=120 trial=4 done
+n=120 trial=5 done
+n=120 trial=6 done
+n=120 trial=7 done
+n=120 trial=8 done
+n=120 trial=9 done
+n=120 trial=10 done
+n=120 trial=11 done
+n=120 trial=12 done
+n=120 trial=13 done
+n=120 trial=14 done
+n=120 trial=15 done
+n=120 trial=16 done
+n=120 trial=17 done
+n=120 trial=18 done
+n=120 trial=19 done
+n=180 trial=0 done
+n=180 trial=1 done
+n=180 trial=2 done
+n=180 trial=3 done
+n=180 trial=4 done
+n=180 trial=5 done
+n=180 trial=6 done
+n=180 trial=7 done
+n=180 trial=8 done
+n=180 trial=9 done
+n=180 trial=10 done
+n=180 trial=11 done
+n=180 trial=12 done
+n=180 trial=13 done
+n=180 trial=14 done
+n=180 trial=15 done
+n=180 trial=16 done
+n=180 trial=17 done
+n=180 trial=18 done
+n=180 trial=19 done
+{
+  "120": {
+    "trials": 20,
+    "truncated": 0,
+    "targeted_produced": 20,
+    "mean_coverage": 0.9887499999999999,
+    "any_missing": 2,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 20
+  },
+  "180": {
+    "trials": 20,
+    "truncated": 0,
+    "targeted_produced": 20,
+    "mean_coverage": 1.0,
+    "any_missing": 0,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 20
+  }
+}

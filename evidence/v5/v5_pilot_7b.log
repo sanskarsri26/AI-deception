@@ -1,0 +1,73 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:11,  3.91s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:13,  6.65s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.72s/it]
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+n=10 trial=0 done
+n=10 trial=1 done
+n=10 trial=2 done
+n=10 trial=3 done
+n=10 trial=4 done
+n=10 trial=5 done
+n=10 trial=6 done
+n=10 trial=7 done
+n=10 trial=8 done
+n=10 trial=9 done
+n=30 trial=0 done
+n=30 trial=1 done
+n=30 trial=2 done
+n=30 trial=3 done
+n=30 trial=4 done
+n=30 trial=5 done
+n=30 trial=6 done
+n=30 trial=7 done
+n=30 trial=8 done
+n=30 trial=9 done
+n=60 trial=0 done
+n=60 trial=1 done
+n=60 trial=2 done
+n=60 trial=3 done
+n=60 trial=4 done
+n=60 trial=5 done
+n=60 trial=6 done
+n=60 trial=7 done
+n=60 trial=8 done
+n=60 trial=9 done
+{
+  "10": {
+    "trials": 10,
+    "truncated": 0,
+    "targeted_produced": 10,
+    "mean_coverage": 1.0,
+    "any_missing": 0,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 10
+  },
+  "30": {
+    "trials": 10,
+    "truncated": 0,
+    "targeted_produced": 10,
+    "mean_coverage": 1.0,
+    "any_missing": 0,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 10
+  },
+  "60": {
+    "trials": 10,
+    "truncated": 0,
+    "targeted_produced": 10,
+    "mean_coverage": 1.0,
+    "any_missing": 0,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 10
+  }
+}

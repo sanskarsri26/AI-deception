@@ -1,0 +1,24 @@
+{
+  "120": {
+    "trials": 20,
+    "truncated": 0,
+    "targeted_produced": 20,
+    "mean_coverage": 0.9887499999999999,
+    "any_missing": 2,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 20
+  },
+  "180": {
+    "trials": 20,
+    "truncated": 0,
+    "targeted_produced": 20,
+    "mean_coverage": 1.0,
+    "any_missing": 0,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 20
+  }
+}

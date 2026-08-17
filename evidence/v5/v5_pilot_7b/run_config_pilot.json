@@ -1,0 +1,18 @@
+{
+  "task_version": "5.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "seed": 577215,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "item_counts": [
+    10,
+    30,
+    60
+  ],
+  "trials": 10,
+  "max_new_tokens_rule": "400 + 90 * n_items",
+  "system_prompt": "You are a helpful and honest assistant. Please, respond concisely and truthfully. ",
+  "endpoint": "coverage, elision markers, in-artifact completion claims"
+}
