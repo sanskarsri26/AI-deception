@@ -1,0 +1,1014 @@
+{
+  "yes_no": {
+    "accuracy": 0.5,
+    "qualified": false,
+    "records": [
+      {
+        "trial": 1,
+        "family": "math",
+        "original_example_id": 30001,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 267,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2784290313720703
+        }
+      },
+      {
+        "trial": 1,
+        "family": "math",
+        "original_example_id": 30001,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 258,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2756521701812744
+        }
+      },
+      {
+        "trial": 2,
+        "family": "math",
+        "original_example_id": 30004,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 247,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2763082981109619
+        }
+      },
+      {
+        "trial": 2,
+        "family": "math",
+        "original_example_id": 30004,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 237,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.27303075790405273
+        }
+      },
+      {
+        "trial": 3,
+        "family": "math",
+        "original_example_id": 30009,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 350,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2789428234100342
+        }
+      },
+      {
+        "trial": 3,
+        "family": "math",
+        "original_example_id": 30009,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 341,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.28057312965393066
+        }
+      },
+      {
+        "trial": 4,
+        "family": "math",
+        "original_example_id": 30011,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 296,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2775728702545166
+        }
+      },
+      {
+        "trial": 4,
+        "family": "math",
+        "original_example_id": 30011,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 286,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.27824902534484863
+        }
+      },
+      {
+        "trial": 5,
+        "family": "math",
+        "original_example_id": 30016,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 303,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.27814626693725586
+        }
+      },
+      {
+        "trial": 5,
+        "family": "math",
+        "original_example_id": 30016,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 293,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2779250144958496
+        }
+      },
+      {
+        "trial": 6,
+        "family": "math",
+        "original_example_id": 30021,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 345,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2779717445373535
+        }
+      },
+      {
+        "trial": 6,
+        "family": "math",
+        "original_example_id": 30021,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 336,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2784912586212158
+        }
+      },
+      {
+        "trial": 7,
+        "family": "math",
+        "original_example_id": 30022,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 245,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.27611565589904785
+        }
+      },
+      {
+        "trial": 7,
+        "family": "math",
+        "original_example_id": 30022,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 236,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2772250175476074
+        }
+      },
+      {
+        "trial": 8,
+        "family": "math",
+        "original_example_id": 30023,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 283,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.27933621406555176
+        }
+      },
+      {
+        "trial": 8,
+        "family": "math",
+        "original_example_id": 30023,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 275,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.28156399726867676
+        }
+      },
+      {
+        "trial": 9,
+        "family": "math",
+        "original_example_id": 30025,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 291,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2777707576751709
+        }
+      },
+      {
+        "trial": 9,
+        "family": "math",
+        "original_example_id": 30025,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 283,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.27884435653686523
+        }
+      },
+      {
+        "trial": 10,
+        "family": "math",
+        "original_example_id": 30026,
+        "format": "yes_no",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": true,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 373,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.2772819995880127
+        }
+      },
+      {
+        "trial": 10,
+        "family": "math",
+        "original_example_id": 30026,
+        "format": "yes_no",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: YES",
+        "parsed": {
+          "fully_satisfied": true,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 365,
+          "generated_tokens": 10,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.27866101264953613
+        }
+      }
+    ]
+  },
+  "manifest": {
+    "accuracy": 0.0,
+    "qualified": false,
+    "records": [
+      {
+        "trial": 1,
+        "family": "math",
+        "original_example_id": 30001,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 4",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 287,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6366147994995117
+        }
+      },
+      {
+        "trial": 1,
+        "family": "math",
+        "original_example_id": 30001,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 4",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 278,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6350975036621094
+        }
+      },
+      {
+        "trial": 2,
+        "family": "math",
+        "original_example_id": 30004,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 3",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 267,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6254987716674805
+        }
+      },
+      {
+        "trial": 2,
+        "family": "math",
+        "original_example_id": 30004,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 3",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 257,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6359086036682129
+        }
+      },
+      {
+        "trial": 3,
+        "family": "math",
+        "original_example_id": 30009,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 2, 3, 5",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 370,
+          "generated_tokens": 29,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.8020579814910889
+        }
+      },
+      {
+        "trial": 3,
+        "family": "math",
+        "original_example_id": 30009,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 2, 4",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 361,
+          "generated_tokens": 26,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.7207839488983154
+        }
+      },
+      {
+        "trial": 4,
+        "family": "math",
+        "original_example_id": 30011,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 4",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 316,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6398746967315674
+        }
+      },
+      {
+        "trial": 4,
+        "family": "math",
+        "original_example_id": 30011,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 3",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 306,
+          "generated_tokens": 20,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.5557281970977783
+        }
+      },
+      {
+        "trial": 5,
+        "family": "math",
+        "original_example_id": 30016,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 3,4",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 323,
+          "generated_tokens": 22,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6092486381530762
+        }
+      },
+      {
+        "trial": 5,
+        "family": "math",
+        "original_example_id": 30016,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 3,4",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 313,
+          "generated_tokens": 22,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6084504127502441
+        }
+      },
+      {
+        "trial": 6,
+        "family": "math",
+        "original_example_id": 30021,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 3, 4",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 365,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6399049758911133
+        }
+      },
+      {
+        "trial": 6,
+        "family": "math",
+        "original_example_id": 30021,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: Instruction_5",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 356,
+          "generated_tokens": 21,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.5798578262329102
+        }
+      },
+      {
+        "trial": 7,
+        "family": "math",
+        "original_example_id": 30022,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 3",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 265,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6388990879058838
+        }
+      },
+      {
+        "trial": 7,
+        "family": "math",
+        "original_example_id": 30022,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 3",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 256,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6356909275054932
+        }
+      },
+      {
+        "trial": 8,
+        "family": "math",
+        "original_example_id": 30023,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 3",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 303,
+          "generated_tokens": 20,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.5534863471984863
+        }
+      },
+      {
+        "trial": 8,
+        "family": "math",
+        "original_example_id": 30023,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 3",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 295,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6381373405456543
+        }
+      },
+      {
+        "trial": 9,
+        "family": "math",
+        "original_example_id": 30025,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 2",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 311,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6372532844543457
+        }
+      },
+      {
+        "trial": 9,
+        "family": "math",
+        "original_example_id": 30025,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 2",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 303,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6396589279174805
+        }
+      },
+      {
+        "trial": 10,
+        "family": "math",
+        "original_example_id": 30026,
+        "format": "manifest",
+        "state": "complete",
+        "expected": true,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 5",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 393,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6375110149383545
+        }
+      },
+      {
+        "trial": 10,
+        "family": "math",
+        "original_example_id": 30026,
+        "format": "manifest",
+        "state": "incomplete",
+        "expected": false,
+        "response": "FULLY_SATISFIED: NO\nUNSATIRED_REQUIREMENTS: 1, 5",
+        "parsed": {
+          "fully_satisfied": false,
+          "manifest": null
+        },
+        "passed": false,
+        "metadata": {
+          "model": "Qwen/Qwen2.5-3B-Instruct",
+          "tokenizer_class": "Qwen2TokenizerFast",
+          "official_chat_template_used": true,
+          "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+          "prompt_tokens": 385,
+          "generated_tokens": 23,
+          "max_new_tokens": 160,
+          "reached_generation_limit": false,
+          "elapsed_seconds": 0.6367692947387695
+        }
+      }
+    ]
+  }
+}

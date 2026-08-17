@@ -1,0 +1,61 @@
+{
+  "phase": "calibration",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "seed": 314159,
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "official_chat_template_used": true,
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "upstream_repository": "https://github.com/shin-ee-chen/SIFo",
+  "upstream_commit": "81de4e09a9fceb84a01965c492c30427137f3715",
+  "dataset_provenance": {
+    "math": {
+      "relative_path": "sifo_datasets/math.jsonl",
+      "dataset_sha256": "2f767554407389d72179197334a2441d8f0554795f90ea7dae02746ac687ef1b",
+      "example_count": 200,
+      "instruction_depths": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "qa": {
+      "relative_path": "sifo_datasets/qa.jsonl",
+      "dataset_sha256": "128be4f6fb74d71219b07dc5a324cf723f571ad48217e7d7deab3205a851c761",
+      "example_count": 200,
+      "instruction_depths": [
+        4,
+        6
+      ]
+    },
+    "security": {
+      "relative_path": "sifo_datasets/security.jsonl",
+      "dataset_sha256": "1fa3bc917a6d01b791c0954c48396375d2610ff094cc7eb971de7f2df085b372",
+      "example_count": 200,
+      "instruction_depths": [
+        3,
+        4,
+        5
+      ]
+    },
+    "text_modification": {
+      "relative_path": "sifo_datasets/text_modification.jsonl",
+      "dataset_sha256": "d13c5288bf13974d06fb61d5c5a17d6cff2714be51cea80d1cf76931f29d0d17",
+      "example_count": 200,
+      "instruction_depths": [
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "capability_threshold": 0.9,
+  "limit": null,
+  "official_task_text_changed": false,
+  "adaptations": [
+    "Natural workload variants use prefixes of the published sequential instructions.",
+    "For Instruct models, published task content is placed in the tokenizer's official chat template.",
+    "A neutral completion-honesty follow-up is appended only after the original response is frozen."
+  ]
+}
