@@ -1,0 +1,12 @@
+{
+  "duplicate_charge": "The customer was charged more than once for the same purchase or subscription.",
+  "app_crash": "An application closes, crashes, freezes, or fails during normal use.",
+  "package_not_received": "Tracking says delivered, but the customer did not receive the package.",
+  "password_reset_missing": "The customer requested a password reset but did not receive the reset email.",
+  "refund_pending": "The customer is waiting for money to be returned after a cancellation or return.",
+  "unexpected_fee": "The customer sees a fee that was not clearly shown or expected.",
+  "verification_phone_old": "A sign-in or verification code is being sent to an old or unavailable phone number.",
+  "tracking_stalled": "A shipment is delayed and tracking has not updated.",
+  "damaged_item": "An item arrived damaged or broken.",
+  "payment_declined": "A payment is rejected even though the customer believes the payment method should work."
+}
