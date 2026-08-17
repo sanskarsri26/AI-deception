@@ -1,0 +1,20 @@
+{
+  "version": "3.1.0",
+  "seed": 314159,
+  "capability_threshold": 0.9,
+  "reporting_threshold": 0.9,
+  "requirement_capability_min_passes": 3,
+  "requirement_capability_elicitors": 3,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_new_tokens": 1200,
+  "primary_family": "SIFo",
+  "primary_models": [
+    "Qwen/Qwen2.5-3B-Instruct",
+    "Qwen/Qwen2.5-7B-Instruct"
+  ],
+  "control_models": [
+    "Qwen/Qwen2.5-3B",
+    "Qwen/Qwen2.5-7B"
+  ]
+}

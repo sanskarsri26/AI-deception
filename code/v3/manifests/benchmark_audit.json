@@ -1,0 +1,138 @@
+{
+  "FollowBench": {
+    "repository": "https://github.com/YJiangcm/FollowBench",
+    "commit": "6278f4c1377b4eafab737267b8b21acd52ea0e52",
+    "files": {
+      "content_constraints.json": {
+        "sha256": "dedf04579bf205c1422e18ee1033d0372b02196ca4b5e921a3a65dca714e226b",
+        "rows": 150,
+        "levels": {
+          "0": 25,
+          "1": 25,
+          "2": 25,
+          "3": 25,
+          "4": 25,
+          "5": 25
+        }
+      },
+      "example_constraints.json": {
+        "sha256": "205d10ecde31b974f0c1537be4952b5e075ae5ca58008dc08aef1c442c32bada",
+        "rows": 200,
+        "levels": {
+          "1": 40,
+          "2": 40,
+          "3": 40,
+          "4": 40,
+          "5": 40
+        }
+      },
+      "format_constraints.json": {
+        "sha256": "3b93ee931186edcb4e0a5f260de18cd550586c985192da39262fd023e90d8a76",
+        "rows": 180,
+        "levels": {
+          "0": 30,
+          "1": 30,
+          "2": 30,
+          "3": 30,
+          "4": 30,
+          "5": 30
+        }
+      },
+      "mixed_constraints.json": {
+        "sha256": "eae529546e0ef6a4a4936b6221cd25da9debaf261272409ed1fd57e8260bf820",
+        "rows": 102,
+        "levels": {
+          "0": 17,
+          "1": 17,
+          "2": 17,
+          "3": 17,
+          "4": 17,
+          "5": 17
+        }
+      },
+      "situation_constraints.json": {
+        "sha256": "cab0e31e3f8dd69ba71018dde3eb63f3336b8aea6df82c7997da6abcbc159fb4",
+        "rows": 132,
+        "levels": {
+          "0": 22,
+          "1": 22,
+          "2": 22,
+          "3": 22,
+          "4": 22,
+          "5": 22
+        }
+      },
+      "style_constraints.json": {
+        "sha256": "5a9a049a24a9a53e67b4ad97f1fb7633b4629f6ce461662888804313cc90c27a",
+        "rows": 180,
+        "levels": {
+          "0": 30,
+          "1": 30,
+          "2": 30,
+          "3": 30,
+          "4": 30,
+          "5": 30
+        }
+      }
+    },
+    "evolution_paths": 164,
+    "malformed_evolution_paths": {},
+    "official_scorers": {
+      "rule_based_sha256": "8f14dedc58d06010481f7d204b5510f0818b6d7d4f22a500e463a727ea3f2183",
+      "llm_based_sha256": "8124aaea6abaa608aa79382e787e7d9f39b277624911c3bcc3c9a048883834a2"
+    },
+    "requirement_level_scores_available": true,
+    "attempt_vs_omission_identifiable": false
+  },
+  "SIFo": {
+    "repository": "https://github.com/shin-ee-chen/SIFo",
+    "commit": "81de4e09a9fceb84a01965c492c30427137f3715",
+    "files": {
+      "math.jsonl": {
+        "sha256": "2f767554407389d72179197334a2441d8f0554795f90ea7dae02746ac687ef1b",
+        "rows": 200,
+        "unique_ids": 200,
+        "depths": {
+          "2": 8,
+          "3": 69,
+          "4": 58,
+          "5": 42,
+          "6": 23
+        }
+      },
+      "qa.jsonl": {
+        "sha256": "128be4f6fb74d71219b07dc5a324cf723f571ad48217e7d7deab3205a851c761",
+        "rows": 200,
+        "unique_ids": 200,
+        "depths": {
+          "4": 140,
+          "6": 60
+        }
+      },
+      "security.jsonl": {
+        "sha256": "1fa3bc917a6d01b791c0954c48396375d2610ff094cc7eb971de7f2df085b372",
+        "rows": 200,
+        "unique_ids": 200,
+        "depths": {
+          "3": 43,
+          "4": 102,
+          "5": 55
+        }
+      },
+      "text_modification.jsonl": {
+        "sha256": "d13c5288bf13974d06fb61d5c5a17d6cff2714be51cea80d1cf76931f29d0d17",
+        "rows": 200,
+        "unique_ids": 200,
+        "depths": {
+          "3": 60,
+          "4": 80,
+          "5": 60
+        }
+      }
+    },
+    "ids_unique_across_families": true,
+    "official_metrics_sha256": "f271355f0a4430ad1c4602fdec55c51706e24b0e9d16a7f2cda7cfd5f6c3a761",
+    "requirement_level_scores_available": true,
+    "attempt_vs_omission_identifiable_for_valid_json": true
+  }
+}
