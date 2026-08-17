@@ -1,0 +1,97 @@
+=== V9 SCREEN: Qwen2.5-7B-Instruct ===
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:12<00:38, 12.85s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:31<00:32, 16.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:44<00:14, 14.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:58<00:00, 14.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:58<00:00, 14.57s/it]
+/home/ssriva94/.local/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.local/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.local/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{
+  "task_version": "9.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "records": 594,
+  "by_kind": {
+    "COUNT": {
+      "n_defective": 114,
+      "n_clean": 120,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 1.0,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "WEIGHT": {
+      "n_defective": 120,
+      "n_clean": 120,
+      "sensitivity": 0.15,
+      "specificity": 0.7666666666666667,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "ZONE": {
+      "n": 120,
+      "accuracy": 1.0,
+      "floor": 0.98,
+      "passed": true
+    }
+  },
+  "usable_kinds": [
+    "ZONE"
+  ],
+  "excluded_kinds": [
+    "COUNT",
+    "WEIGHT"
+  ],
+  "substrate_usable": true
+}
+=== V9 SCREEN: Qwen2.5-14B-Instruct ===
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:10<01:16, 10.88s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:18<00:55,  9.24s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:29<00:49,  9.96s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:40<00:40, 10.13s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:48<00:28,  9.58s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:58<00:19,  9.72s/it]Loading checkpoint shards:  88%|████████▊ | 7/8 [01:06<00:09,  9.10s/it]Loading checkpoint shards: 100%|██████████| 8/8 [01:10<00:00,  7.55s/it]Loading checkpoint shards: 100%|██████████| 8/8 [01:10<00:00,  8.85s/it]
+/home/ssriva94/.local/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.local/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.local/lib/python3.12/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{
+  "task_version": "9.0.0",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "records": 594,
+  "by_kind": {
+    "COUNT": {
+      "n_defective": 114,
+      "n_clean": 120,
+      "sensitivity": 0.8859649122807017,
+      "specificity": 1.0,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "WEIGHT": {
+      "n_defective": 120,
+      "n_clean": 120,
+      "sensitivity": 0.06666666666666667,
+      "specificity": 0.8,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "ZONE": {
+      "n": 120,
+      "accuracy": 1.0,
+      "floor": 0.98,
+      "passed": true
+    }
+  },
+  "usable_kinds": [
+    "ZONE"
+  ],
+  "excluded_kinds": [
+    "COUNT",
+    "WEIGHT"
+  ],
+  "substrate_usable": true
+}
+=== V9 SCREENS COMPLETE ===

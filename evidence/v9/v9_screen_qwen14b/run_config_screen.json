@@ -1,0 +1,15 @@
+{
+  "task_version": "9.0.0",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "n_records": 15,
+  "trials": 40,
+  "seed_base": 990001,
+  "sensitivity_floor": 0.95,
+  "specificity_floor": 0.98,
+  "zone_accuracy_floor": 0.98,
+  "rule": "two-sided per requirement kind; a kind failing either gate is excluded from the primary endpoint for this model and reported as excluded"
+}

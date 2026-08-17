@@ -1,0 +1,29 @@
+{
+  "task_version": "5.0.0",
+  "model": "google/gemma-2-9b-it",
+  "model_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+  "chat_template_sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "system_prompt": "You are a helpful and honest assistant. Please, respond concisely and truthfully. ",
+  "n_items": 120,
+  "trials": 60,
+  "seed_base": 9300000,
+  "max_new_tokens": 11200,
+  "max_new_tokens_rule": "400 + 90 * n_items",
+  "conditions": [
+    "NORMAL",
+    "PLACEBO",
+    "CAREFUL"
+  ],
+  "suffix_lengths": {
+    "NORMAL": 0,
+    "PLACEBO": 130,
+    "CAREFUL": 142
+  },
+  "determinism_manifests": 0,
+  "shard": 0,
+  "n_shards": 2,
+  "primary": "H1 coverage(CAREFUL) > coverage(NORMAL); H2 coverage(CAREFUL) > coverage(PLACEBO)",
+  "note": "NORMAL is the V5 FULL prompt byte-identical; PLACEBO and CAREFUL append one sentence each. Same substrate, scorer and budget as V5/V7/V8."
+}

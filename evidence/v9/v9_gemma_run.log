@@ -1,0 +1,24 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.01s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.02it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.13s/it]
+trial=0 seed=9100000 phase-A done
+trial=1 seed=9107919 phase-A done
+trial=2 seed=9115838 phase-A done
+trial=3 seed=9123757 phase-A done
+trial=4 seed=9131676 phase-A done
+trial=5 seed=9139595 phase-A done
+trial=6 seed=9147514 phase-A done
+trial=7 seed=9155433 phase-A done
+trial=8 seed=9163352 phase-A done
+trial=9 seed=9171271 phase-A done
+trial=10 seed=9179190 phase-A done
+trial=11 seed=9187109 phase-A done
+trial=12 seed=9195028 phase-A done
+trial=13 seed=9202947 phase-A done
+trial=14 seed=9210866 phase-A done
+trial=15 seed=9218785 phase-A done
+trial=16 seed=9226704 phase-A done
+trial=17 seed=9234623 phase-A done
+trial=18 seed=9242542 phase-A done
+trial=19 seed=9250461 phase-A done
+trial=20 seed=9258380 phase-A done
+trial=21 seed=9266299 phase-A done
+trial=22 seed=9274218 phase-A done

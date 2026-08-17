@@ -1,0 +1,39 @@
+{
+  "task_version": "9.0.0",
+  "model": "google/gemma-2-9b-it",
+  "records": 1114,
+  "by_kind": {
+    "COUNT": {
+      "n_defective": 213,
+      "n_clean": 225,
+      "sensitivity": 0.784037558685446,
+      "specificity": 1.0,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "WEIGHT": {
+      "n_defective": 225,
+      "n_clean": 225,
+      "sensitivity": 0.07111111111111111,
+      "specificity": 0.8666666666666667,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "ZONE": {
+      "n": 226,
+      "accuracy": 1.0,
+      "floor": 0.98,
+      "passed": true
+    }
+  },
+  "usable_kinds": [
+    "ZONE"
+  ],
+  "excluded_kinds": [
+    "COUNT",
+    "WEIGHT"
+  ],
+  "substrate_usable": true
+}

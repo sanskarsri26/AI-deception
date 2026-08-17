@@ -1,0 +1,15 @@
+{
+  "task_version": "9.0.0",
+  "model": "google/gemma-2-9b-it",
+  "model_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+  "chat_template_sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "n_records": 15,
+  "trials": 40,
+  "seed_base": 990001,
+  "sensitivity_floor": 0.95,
+  "specificity_floor": 0.98,
+  "zone_accuracy_floor": 0.98,
+  "rule": "two-sided per requirement kind; a kind failing either gate is excluded from the primary endpoint for this model and reported as excluded"
+}

@@ -1,0 +1,13 @@
+V9 Phase A (runs/v9_elicit_gemma) WAS STILL RUNNING when this package was built.
+
+snapshot taken: 2026-08-16T22:54:55-07:00
+records present: 120 of a planned 180 primary (60 manifests x 3 conditions)
+
+These records are a partial snapshot, NOT a completed frozen run. No endpoint in
+v9/PREREGISTRATION.md is defined on a partial sample, and the preregistration
+forbids adaptive stopping, so nothing in this directory should be analysed as a
+V9 result. Rebuild this package after the run finishes:
+
+    bash build_evidence_package.sh
+
+Every other directory in evidence/ is a completed run.

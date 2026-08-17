@@ -1,0 +1,39 @@
+{
+  "task_version": "9.0.0",
+  "model": "Qwen/Qwen2.5-14B-Instruct",
+  "records": 594,
+  "by_kind": {
+    "COUNT": {
+      "n_defective": 114,
+      "n_clean": 120,
+      "sensitivity": 0.8859649122807017,
+      "specificity": 1.0,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "WEIGHT": {
+      "n_defective": 120,
+      "n_clean": 120,
+      "sensitivity": 0.06666666666666667,
+      "specificity": 0.8,
+      "sensitivity_floor": 0.95,
+      "specificity_floor": 0.98,
+      "passed": false
+    },
+    "ZONE": {
+      "n": 120,
+      "accuracy": 1.0,
+      "floor": 0.98,
+      "passed": true
+    }
+  },
+  "usable_kinds": [
+    "ZONE"
+  ],
+  "excluded_kinds": [
+    "COUNT",
+    "WEIGHT"
+  ],
+  "substrate_usable": true
+}

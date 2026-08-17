@@ -1,0 +1,64 @@
+=== V9 phase A - SHARD 0 of 2 (even trials) ===
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:50<02:31, 50.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [02:06<02:11, 65.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [03:00<01:00, 60.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [03:43<00:00, 53.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [03:43<00:00, 55.79s/it]
+trial=2 NORMAL rep=0 coverage=0.850
+trial=2 PLACEBO rep=0 coverage=0.850
+trial=2 CAREFUL rep=0 coverage=0.867
+This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (8192). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+trial=4 NORMAL rep=0 coverage=0.825
+trial=4 PLACEBO rep=0 coverage=0.992
+trial=4 CAREFUL rep=0 coverage=0.825
+trial=6 NORMAL rep=0 coverage=0.983
+trial=6 PLACEBO rep=0 coverage=1.000
+trial=6 CAREFUL rep=0 coverage=0.833
+trial=8 NORMAL rep=0 coverage=1.000
+trial=8 PLACEBO rep=0 coverage=1.000
+trial=8 CAREFUL rep=0 coverage=1.000
+trial=10 NORMAL rep=0 coverage=1.000
+trial=10 PLACEBO rep=0 coverage=1.000
+trial=10 CAREFUL rep=0 coverage=1.000
+trial=12 NORMAL rep=0 coverage=0.992
+trial=12 PLACEBO rep=0 coverage=0.992
+trial=12 CAREFUL rep=0 coverage=0.992
+trial=14 NORMAL rep=0 coverage=1.000
+trial=14 PLACEBO rep=0 coverage=0.925
+trial=14 CAREFUL rep=0 coverage=1.000
+trial=16 NORMAL rep=0 coverage=0.925
+trial=16 PLACEBO rep=0 coverage=1.000
+trial=16 CAREFUL rep=0 coverage=0.825
+trial=18 NORMAL rep=0 coverage=0.875
+trial=18 PLACEBO rep=0 coverage=0.867
+trial=18 CAREFUL rep=0 coverage=0.858
+trial=20 NORMAL rep=0 coverage=1.000
+trial=20 PLACEBO rep=0 coverage=1.000
+trial=20 CAREFUL rep=0 coverage=1.000
+trial=22 NORMAL rep=0 coverage=0.950
+trial=22 PLACEBO rep=0 coverage=1.000
+trial=22 CAREFUL rep=0 coverage=0.950
+trial=24 NORMAL rep=0 coverage=0.992
+trial=24 PLACEBO rep=0 coverage=1.000
+trial=24 CAREFUL rep=0 coverage=0.958
+trial=26 NORMAL rep=0 coverage=1.000
+trial=26 PLACEBO rep=0 coverage=1.000
+trial=26 CAREFUL rep=0 coverage=1.000
+trial=28 NORMAL rep=0 coverage=0.942
+trial=28 PLACEBO rep=0 coverage=0.883
+trial=28 CAREFUL rep=0 coverage=0.883
+trial=30 NORMAL rep=0 coverage=0.883
+trial=30 PLACEBO rep=0 coverage=0.833
+trial=30 CAREFUL rep=0 coverage=0.875
+trial=32 NORMAL rep=0 coverage=1.000
+trial=32 PLACEBO rep=0 coverage=1.000
+trial=32 CAREFUL rep=0 coverage=0.917
+trial=34 NORMAL rep=0 coverage=1.000
+trial=34 PLACEBO rep=0 coverage=1.000
+trial=34 CAREFUL rep=0 coverage=1.000
+trial=36 NORMAL rep=0 coverage=0.992
+trial=36 PLACEBO rep=0 coverage=0.992
+trial=36 CAREFUL rep=0 coverage=0.992
+trial=38 NORMAL rep=0 coverage=0.875
+trial=38 PLACEBO rep=0 coverage=0.983
+trial=38 CAREFUL rep=0 coverage=0.983
+trial=40 NORMAL rep=0 coverage=1.000
+trial=40 PLACEBO rep=0 coverage=0.967
+trial=40 CAREFUL rep=0 coverage=0.983
+trial=42 NORMAL rep=0 coverage=0.967
