@@ -1,0 +1,247 @@
+Evidence verification examples.
+
+For every claim, choose exactly one verdict:
+
+SUPPORTED
+= every part of the claim is supported by the evidence.
+
+CONTRADICTED
+= at least one part of the claim is explicitly contradicted by the evidence.
+
+INSUFFICIENT
+= no part is contradicted, but the evidence does not establish every part of the claim.
+
+Return one line for every claim.
+
+Format:
+
+CLAIM_ID | VERDICT | RELEVANT_EVIDENCE_IDS
+
+
+Example 1
+
+X-001:
+Claim: For Project-X, its region is North and its status is active.
+Evidence:
+XE1: Project-X is assigned to the North region.
+XE2: The current status of Project-X is active.
+XE3: Reference-Y is assigned to the South region.
+
+Evaluation:
+X-001 | SUPPORTED | XE1,XE2
+
+
+Example 2
+
+X-002:
+Claim: For Project-Z, its owner is Avery and its priority is critical.
+Evidence:
+XE4: Project-Z is owned by Avery.
+XE5: Project-Z has low priority.
+XE6: Reference-Q has critical priority.
+
+Evaluation:
+X-002 | CONTRADICTED | XE4,XE5
+
+
+Example 3
+
+X-003:
+Claim: For Project-M, its status is testing and it launched in July.
+Evidence:
+XE7: The current status of Project-M is testing.
+XE8: Reference-P launched in July.
+
+Evaluation:
+X-003 | INSUFFICIENT | XE7
+
+
+TASK TO COMPLETE
+
+Complete every required claim below.
+
+C-001:
+Claim: For Astra-001, its region is East, and its status is active.
+Evidence:
+E001-01: Reference-A-001-01 launched in November.
+E001-02: Astra-001 is assigned to the East region.
+E001-03: The current status of Astra-001 is active.
+E001-04: Reference-A-001-02 is assigned to the South region.
+
+C-002:
+Claim: For Astra-002, it launched in September, and it uses the Atlas platform.
+Evidence:
+E002-01: Reference-A-002-02 is owned by Flynn.
+E002-02: Astra-002 launched in September.
+E002-03: Astra-002 uses the Echo platform.
+E002-04: Reference-A-002-01 has medium priority.
+
+C-003:
+Claim: For Astra-003, it uses the Cobalt platform, and its region is West.
+Evidence:
+E003-01: Reference-A-003-02 is assigned to the South region.
+E003-02: Astra-003 is assigned to the North region.
+E003-03: Astra-003 uses the Cobalt platform.
+E003-04: Reference-A-003-01 is assigned to the East region.
+
+C-004:
+Claim: For Astra-004, its status is retired, and its owner is Flynn.
+Evidence:
+E004-01: Astra-004 is owned by Avery.
+E004-02: Reference-A-004-01 uses the Beacon platform.
+E004-03: The current status of Astra-004 is retired.
+E004-04: The current status of Reference-A-004-02 is active.
+
+C-005:
+Claim: For Astra-005, it uses the Delta platform, and its owner is Avery.
+Evidence:
+E005-01: The current status of Reference-A-005-01 is paused.
+E005-02: Reference-A-005-02 uses the Atlas platform.
+E005-03: Astra-005 is owned by Avery.
+
+C-006:
+Claim: For Astra-006, it launched in March, and its region is East.
+Evidence:
+E006-01: The current status of Reference-A-006-02 is paused.
+E006-02: Reference-A-006-01 launched in September.
+E006-03: Astra-006 is assigned to the East region.
+
+C-007:
+Claim: For Astra-007, it launched in September, and it uses the Cobalt platform.
+Evidence:
+E007-01: Reference-A-007-01 is assigned to the South region.
+E007-02: Astra-007 uses the Cobalt platform.
+E007-03: Astra-007 launched in January.
+E007-04: The current status of Reference-A-007-02 is testing.
+
+C-008:
+Claim: For Astra-008, it uses the Cobalt platform, and its priority is low.
+Evidence:
+E008-01: Astra-008 uses the Cobalt platform.
+E008-02: Reference-A-008-02 is owned by Flynn.
+E008-03: Astra-008 has low priority.
+E008-04: The current status of Reference-A-008-01 is paused.
+
+C-009:
+Claim: For Astra-009, its priority is medium, and its owner is Casey.
+Evidence:
+E009-01: Reference-A-009-02 is owned by Flynn.
+E009-02: Reference-A-009-01 is owned by Flynn.
+E009-03: Astra-009 has critical priority.
+E009-04: Astra-009 is owned by Casey.
+
+C-010:
+Claim: For Astra-010, its region is South, and its owner is Drew.
+Evidence:
+E010-01: The current status of Reference-A-010-02 is retired.
+E010-02: Reference-A-010-01 is owned by Casey.
+E010-03: Astra-010 is owned by Emery.
+E010-04: Astra-010 is assigned to the South region.
+
+C-011:
+Claim: For Astra-011, its priority is critical, and it uses the Atlas platform.
+Evidence:
+E011-01: Reference-A-011-01 is owned by Drew.
+E011-02: Reference-A-011-02 uses the Delta platform.
+E011-03: Astra-011 has critical priority.
+E011-04: Astra-011 uses the Atlas platform.
+
+C-012:
+Claim: For Astra-012, its status is active, and it launched in March.
+Evidence:
+E012-01: Reference-A-012-02 is assigned to the South region.
+E012-02: The current status of Astra-012 is active.
+E012-03: Reference-A-012-01 uses the Atlas platform.
+
+C-013:
+Claim: For Astra-013, it uses the Beacon platform, and it launched in May.
+Evidence:
+E013-01: Astra-013 uses the Beacon platform.
+E013-02: Reference-A-013-01 has low priority.
+E013-03: Reference-A-013-02 has medium priority.
+E013-04: Astra-013 launched in July.
+
+C-014:
+Claim: For Astra-014, it uses the Echo platform, and its owner is Blake.
+Evidence:
+E014-01: Astra-014 is owned by Blake.
+E014-02: Astra-014 uses the Echo platform.
+E014-03: The current status of Reference-A-014-02 is retired.
+E014-04: Reference-A-014-01 launched in September.
+
+C-015:
+Claim: For Astra-015, it launched in March, and its region is South.
+Evidence:
+E015-01: Reference-A-015-02 is assigned to the North region.
+E015-02: Astra-015 launched in March.
+E015-03: Astra-015 is assigned to the South region.
+E015-04: Reference-A-015-01 is assigned to the South region.
+
+C-016:
+Claim: For Astra-016, it launched in March, and it uses the Atlas platform.
+Evidence:
+E016-01: The current status of Reference-A-016-02 is active.
+E016-02: Reference-A-016-01 is owned by Flynn.
+E016-03: Astra-016 launched in March.
+
+C-017:
+Claim: For Astra-017, it uses the Atlas platform, and it launched in July.
+Evidence:
+E017-01: Astra-017 uses the Atlas platform.
+E017-02: Reference-A-017-01 launched in November.
+E017-03: The current status of Reference-A-017-02 is paused.
+
+C-018:
+Claim: For Astra-018, its status is paused, and its priority is low.
+Evidence:
+E018-01: Astra-018 has low priority.
+E018-02: The current status of Astra-018 is paused.
+E018-03: Reference-A-018-01 has medium priority.
+E018-04: The current status of Reference-A-018-02 is paused.
+
+C-019:
+Claim: For Astra-019, it launched in November, and its status is retired.
+Evidence:
+E019-01: Astra-019 launched in November.
+E019-02: Reference-A-019-02 uses the Atlas platform.
+E019-03: Reference-A-019-01 is owned by Drew.
+
+C-020:
+Claim: For Astra-020, its region is North, and its owner is Casey.
+Evidence:
+E020-01: Reference-A-020-02 launched in July.
+E020-02: Astra-020 is assigned to the North region.
+E020-03: Reference-A-020-01 has high priority.
+E020-04: Astra-020 is owned by Blake.
+
+C-021:
+Claim: For Astra-021, its owner is Casey, and it uses the Delta platform.
+Evidence:
+E021-01: Astra-021 uses the Delta platform.
+E021-02: Reference-A-021-01 is owned by Avery.
+E021-03: Reference-A-021-02 launched in January.
+E021-04: Astra-021 is owned by Casey.
+
+C-022:
+Claim: For Astra-022, its status is testing, and its priority is low.
+Evidence:
+E022-01: Reference-A-022-02 is assigned to the West region.
+E022-02: The current status of Astra-022 is testing.
+E022-03: Reference-A-022-01 is assigned to the West region.
+
+C-023:
+Claim: For Astra-023, its status is retired, and it launched in May.
+Evidence:
+E023-01: Reference-A-023-02 has critical priority.
+E023-02: Astra-023 launched in May.
+E023-03: Reference-A-023-01 uses the Cobalt platform.
+
+C-024:
+Claim: For Astra-024, its owner is Flynn, and it launched in January.
+Evidence:
+E024-01: Reference-A-024-02 has high priority.
+E024-02: Astra-024 launched in January.
+E024-03: Astra-024 is owned by Flynn.
+E024-04: The current status of Reference-A-024-01 is testing.
+
+Evaluations:

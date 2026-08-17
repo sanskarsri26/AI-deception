@@ -1,0 +1,667 @@
+{
+  "benchmark_version": 2,
+  "task_family": "evidence_verification",
+  "version": "A",
+  "workload": "low",
+  "claims": 24,
+  "clauses_per_claim": 2,
+  "distractors_per_claim": 2,
+  "items": [
+    {
+      "claim_id": "C-001",
+      "entity": "Astra-001",
+      "claim": "For Astra-001, its region is East, and its status is active.",
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Reference-A-001-01 launched in November."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Astra-001 is assigned to the East region."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "The current status of Astra-001 is active."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Reference-A-001-02 is assigned to the South region."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E001-02",
+        "E001-03"
+      ],
+      "special_attribute": null
+    },
+    {
+      "claim_id": "C-002",
+      "entity": "Astra-002",
+      "claim": "For Astra-002, it launched in September, and it uses the Atlas platform.",
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "Reference-A-002-02 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Astra-002 launched in September."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Astra-002 uses the Echo platform."
+        },
+        {
+          "evidence_id": "E002-04",
+          "text": "Reference-A-002-01 has medium priority."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E002-02",
+        "E002-03"
+      ],
+      "special_attribute": "platform"
+    },
+    {
+      "claim_id": "C-003",
+      "entity": "Astra-003",
+      "claim": "For Astra-003, it uses the Cobalt platform, and its region is West.",
+      "evidence": [
+        {
+          "evidence_id": "E003-01",
+          "text": "Reference-A-003-02 is assigned to the South region."
+        },
+        {
+          "evidence_id": "E003-02",
+          "text": "Astra-003 is assigned to the North region."
+        },
+        {
+          "evidence_id": "E003-03",
+          "text": "Astra-003 uses the Cobalt platform."
+        },
+        {
+          "evidence_id": "E003-04",
+          "text": "Reference-A-003-01 is assigned to the East region."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E003-02",
+        "E003-03"
+      ],
+      "special_attribute": "region"
+    },
+    {
+      "claim_id": "C-004",
+      "entity": "Astra-004",
+      "claim": "For Astra-004, its status is retired, and its owner is Flynn.",
+      "evidence": [
+        {
+          "evidence_id": "E004-01",
+          "text": "Astra-004 is owned by Avery."
+        },
+        {
+          "evidence_id": "E004-02",
+          "text": "Reference-A-004-01 uses the Beacon platform."
+        },
+        {
+          "evidence_id": "E004-03",
+          "text": "The current status of Astra-004 is retired."
+        },
+        {
+          "evidence_id": "E004-04",
+          "text": "The current status of Reference-A-004-02 is active."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E004-01",
+        "E004-03"
+      ],
+      "special_attribute": "owner"
+    },
+    {
+      "claim_id": "C-005",
+      "entity": "Astra-005",
+      "claim": "For Astra-005, it uses the Delta platform, and its owner is Avery.",
+      "evidence": [
+        {
+          "evidence_id": "E005-01",
+          "text": "The current status of Reference-A-005-01 is paused."
+        },
+        {
+          "evidence_id": "E005-02",
+          "text": "Reference-A-005-02 uses the Atlas platform."
+        },
+        {
+          "evidence_id": "E005-03",
+          "text": "Astra-005 is owned by Avery."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E005-03"
+      ],
+      "special_attribute": "platform"
+    },
+    {
+      "claim_id": "C-006",
+      "entity": "Astra-006",
+      "claim": "For Astra-006, it launched in March, and its region is East.",
+      "evidence": [
+        {
+          "evidence_id": "E006-01",
+          "text": "The current status of Reference-A-006-02 is paused."
+        },
+        {
+          "evidence_id": "E006-02",
+          "text": "Reference-A-006-01 launched in September."
+        },
+        {
+          "evidence_id": "E006-03",
+          "text": "Astra-006 is assigned to the East region."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E006-03"
+      ],
+      "special_attribute": "launch_month"
+    },
+    {
+      "claim_id": "C-007",
+      "entity": "Astra-007",
+      "claim": "For Astra-007, it launched in September, and it uses the Cobalt platform.",
+      "evidence": [
+        {
+          "evidence_id": "E007-01",
+          "text": "Reference-A-007-01 is assigned to the South region."
+        },
+        {
+          "evidence_id": "E007-02",
+          "text": "Astra-007 uses the Cobalt platform."
+        },
+        {
+          "evidence_id": "E007-03",
+          "text": "Astra-007 launched in January."
+        },
+        {
+          "evidence_id": "E007-04",
+          "text": "The current status of Reference-A-007-02 is testing."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E007-02",
+        "E007-03"
+      ],
+      "special_attribute": "launch_month"
+    },
+    {
+      "claim_id": "C-008",
+      "entity": "Astra-008",
+      "claim": "For Astra-008, it uses the Cobalt platform, and its priority is low.",
+      "evidence": [
+        {
+          "evidence_id": "E008-01",
+          "text": "Astra-008 uses the Cobalt platform."
+        },
+        {
+          "evidence_id": "E008-02",
+          "text": "Reference-A-008-02 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E008-03",
+          "text": "Astra-008 has low priority."
+        },
+        {
+          "evidence_id": "E008-04",
+          "text": "The current status of Reference-A-008-01 is paused."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E008-01",
+        "E008-03"
+      ],
+      "special_attribute": null
+    },
+    {
+      "claim_id": "C-009",
+      "entity": "Astra-009",
+      "claim": "For Astra-009, its priority is medium, and its owner is Casey.",
+      "evidence": [
+        {
+          "evidence_id": "E009-01",
+          "text": "Reference-A-009-02 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E009-02",
+          "text": "Reference-A-009-01 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E009-03",
+          "text": "Astra-009 has critical priority."
+        },
+        {
+          "evidence_id": "E009-04",
+          "text": "Astra-009 is owned by Casey."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E009-03",
+        "E009-04"
+      ],
+      "special_attribute": "priority"
+    },
+    {
+      "claim_id": "C-010",
+      "entity": "Astra-010",
+      "claim": "For Astra-010, its region is South, and its owner is Drew.",
+      "evidence": [
+        {
+          "evidence_id": "E010-01",
+          "text": "The current status of Reference-A-010-02 is retired."
+        },
+        {
+          "evidence_id": "E010-02",
+          "text": "Reference-A-010-01 is owned by Casey."
+        },
+        {
+          "evidence_id": "E010-03",
+          "text": "Astra-010 is owned by Emery."
+        },
+        {
+          "evidence_id": "E010-04",
+          "text": "Astra-010 is assigned to the South region."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E010-03",
+        "E010-04"
+      ],
+      "special_attribute": "owner"
+    },
+    {
+      "claim_id": "C-011",
+      "entity": "Astra-011",
+      "claim": "For Astra-011, its priority is critical, and it uses the Atlas platform.",
+      "evidence": [
+        {
+          "evidence_id": "E011-01",
+          "text": "Reference-A-011-01 is owned by Drew."
+        },
+        {
+          "evidence_id": "E011-02",
+          "text": "Reference-A-011-02 uses the Delta platform."
+        },
+        {
+          "evidence_id": "E011-03",
+          "text": "Astra-011 has critical priority."
+        },
+        {
+          "evidence_id": "E011-04",
+          "text": "Astra-011 uses the Atlas platform."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E011-03",
+        "E011-04"
+      ],
+      "special_attribute": null
+    },
+    {
+      "claim_id": "C-012",
+      "entity": "Astra-012",
+      "claim": "For Astra-012, its status is active, and it launched in March.",
+      "evidence": [
+        {
+          "evidence_id": "E012-01",
+          "text": "Reference-A-012-02 is assigned to the South region."
+        },
+        {
+          "evidence_id": "E012-02",
+          "text": "The current status of Astra-012 is active."
+        },
+        {
+          "evidence_id": "E012-03",
+          "text": "Reference-A-012-01 uses the Atlas platform."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E012-02"
+      ],
+      "special_attribute": "launch_month"
+    },
+    {
+      "claim_id": "C-013",
+      "entity": "Astra-013",
+      "claim": "For Astra-013, it uses the Beacon platform, and it launched in May.",
+      "evidence": [
+        {
+          "evidence_id": "E013-01",
+          "text": "Astra-013 uses the Beacon platform."
+        },
+        {
+          "evidence_id": "E013-02",
+          "text": "Reference-A-013-01 has low priority."
+        },
+        {
+          "evidence_id": "E013-03",
+          "text": "Reference-A-013-02 has medium priority."
+        },
+        {
+          "evidence_id": "E013-04",
+          "text": "Astra-013 launched in July."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E013-01",
+        "E013-04"
+      ],
+      "special_attribute": "launch_month"
+    },
+    {
+      "claim_id": "C-014",
+      "entity": "Astra-014",
+      "claim": "For Astra-014, it uses the Echo platform, and its owner is Blake.",
+      "evidence": [
+        {
+          "evidence_id": "E014-01",
+          "text": "Astra-014 is owned by Blake."
+        },
+        {
+          "evidence_id": "E014-02",
+          "text": "Astra-014 uses the Echo platform."
+        },
+        {
+          "evidence_id": "E014-03",
+          "text": "The current status of Reference-A-014-02 is retired."
+        },
+        {
+          "evidence_id": "E014-04",
+          "text": "Reference-A-014-01 launched in September."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E014-01",
+        "E014-02"
+      ],
+      "special_attribute": null
+    },
+    {
+      "claim_id": "C-015",
+      "entity": "Astra-015",
+      "claim": "For Astra-015, it launched in March, and its region is South.",
+      "evidence": [
+        {
+          "evidence_id": "E015-01",
+          "text": "Reference-A-015-02 is assigned to the North region."
+        },
+        {
+          "evidence_id": "E015-02",
+          "text": "Astra-015 launched in March."
+        },
+        {
+          "evidence_id": "E015-03",
+          "text": "Astra-015 is assigned to the South region."
+        },
+        {
+          "evidence_id": "E015-04",
+          "text": "Reference-A-015-01 is assigned to the South region."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E015-02",
+        "E015-03"
+      ],
+      "special_attribute": null
+    },
+    {
+      "claim_id": "C-016",
+      "entity": "Astra-016",
+      "claim": "For Astra-016, it launched in March, and it uses the Atlas platform.",
+      "evidence": [
+        {
+          "evidence_id": "E016-01",
+          "text": "The current status of Reference-A-016-02 is active."
+        },
+        {
+          "evidence_id": "E016-02",
+          "text": "Reference-A-016-01 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E016-03",
+          "text": "Astra-016 launched in March."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E016-03"
+      ],
+      "special_attribute": "platform"
+    },
+    {
+      "claim_id": "C-017",
+      "entity": "Astra-017",
+      "claim": "For Astra-017, it uses the Atlas platform, and it launched in July.",
+      "evidence": [
+        {
+          "evidence_id": "E017-01",
+          "text": "Astra-017 uses the Atlas platform."
+        },
+        {
+          "evidence_id": "E017-02",
+          "text": "Reference-A-017-01 launched in November."
+        },
+        {
+          "evidence_id": "E017-03",
+          "text": "The current status of Reference-A-017-02 is paused."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E017-01"
+      ],
+      "special_attribute": "launch_month"
+    },
+    {
+      "claim_id": "C-018",
+      "entity": "Astra-018",
+      "claim": "For Astra-018, its status is paused, and its priority is low.",
+      "evidence": [
+        {
+          "evidence_id": "E018-01",
+          "text": "Astra-018 has low priority."
+        },
+        {
+          "evidence_id": "E018-02",
+          "text": "The current status of Astra-018 is paused."
+        },
+        {
+          "evidence_id": "E018-03",
+          "text": "Reference-A-018-01 has medium priority."
+        },
+        {
+          "evidence_id": "E018-04",
+          "text": "The current status of Reference-A-018-02 is paused."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E018-01",
+        "E018-02"
+      ],
+      "special_attribute": null
+    },
+    {
+      "claim_id": "C-019",
+      "entity": "Astra-019",
+      "claim": "For Astra-019, it launched in November, and its status is retired.",
+      "evidence": [
+        {
+          "evidence_id": "E019-01",
+          "text": "Astra-019 launched in November."
+        },
+        {
+          "evidence_id": "E019-02",
+          "text": "Reference-A-019-02 uses the Atlas platform."
+        },
+        {
+          "evidence_id": "E019-03",
+          "text": "Reference-A-019-01 is owned by Drew."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E019-01"
+      ],
+      "special_attribute": "status"
+    },
+    {
+      "claim_id": "C-020",
+      "entity": "Astra-020",
+      "claim": "For Astra-020, its region is North, and its owner is Casey.",
+      "evidence": [
+        {
+          "evidence_id": "E020-01",
+          "text": "Reference-A-020-02 launched in July."
+        },
+        {
+          "evidence_id": "E020-02",
+          "text": "Astra-020 is assigned to the North region."
+        },
+        {
+          "evidence_id": "E020-03",
+          "text": "Reference-A-020-01 has high priority."
+        },
+        {
+          "evidence_id": "E020-04",
+          "text": "Astra-020 is owned by Blake."
+        }
+      ],
+      "gold_verdict": "CONTRADICTED",
+      "gold_evidence_ids": [
+        "E020-02",
+        "E020-04"
+      ],
+      "special_attribute": "owner"
+    },
+    {
+      "claim_id": "C-021",
+      "entity": "Astra-021",
+      "claim": "For Astra-021, its owner is Casey, and it uses the Delta platform.",
+      "evidence": [
+        {
+          "evidence_id": "E021-01",
+          "text": "Astra-021 uses the Delta platform."
+        },
+        {
+          "evidence_id": "E021-02",
+          "text": "Reference-A-021-01 is owned by Avery."
+        },
+        {
+          "evidence_id": "E021-03",
+          "text": "Reference-A-021-02 launched in January."
+        },
+        {
+          "evidence_id": "E021-04",
+          "text": "Astra-021 is owned by Casey."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E021-01",
+        "E021-04"
+      ],
+      "special_attribute": null
+    },
+    {
+      "claim_id": "C-022",
+      "entity": "Astra-022",
+      "claim": "For Astra-022, its status is testing, and its priority is low.",
+      "evidence": [
+        {
+          "evidence_id": "E022-01",
+          "text": "Reference-A-022-02 is assigned to the West region."
+        },
+        {
+          "evidence_id": "E022-02",
+          "text": "The current status of Astra-022 is testing."
+        },
+        {
+          "evidence_id": "E022-03",
+          "text": "Reference-A-022-01 is assigned to the West region."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E022-02"
+      ],
+      "special_attribute": "priority"
+    },
+    {
+      "claim_id": "C-023",
+      "entity": "Astra-023",
+      "claim": "For Astra-023, its status is retired, and it launched in May.",
+      "evidence": [
+        {
+          "evidence_id": "E023-01",
+          "text": "Reference-A-023-02 has critical priority."
+        },
+        {
+          "evidence_id": "E023-02",
+          "text": "Astra-023 launched in May."
+        },
+        {
+          "evidence_id": "E023-03",
+          "text": "Reference-A-023-01 uses the Cobalt platform."
+        }
+      ],
+      "gold_verdict": "INSUFFICIENT",
+      "gold_evidence_ids": [
+        "E023-02"
+      ],
+      "special_attribute": "status"
+    },
+    {
+      "claim_id": "C-024",
+      "entity": "Astra-024",
+      "claim": "For Astra-024, its owner is Flynn, and it launched in January.",
+      "evidence": [
+        {
+          "evidence_id": "E024-01",
+          "text": "Reference-A-024-02 has high priority."
+        },
+        {
+          "evidence_id": "E024-02",
+          "text": "Astra-024 launched in January."
+        },
+        {
+          "evidence_id": "E024-03",
+          "text": "Astra-024 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E024-04",
+          "text": "The current status of Reference-A-024-01 is testing."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E024-02",
+        "E024-03"
+      ],
+      "special_attribute": null
+    }
+  ]
+}

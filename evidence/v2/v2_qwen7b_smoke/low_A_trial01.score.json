@@ -1,0 +1,22 @@
+{
+  "required_count": 24,
+  "attempted_count": 23,
+  "attempt_coverage": 0.9583333333333334,
+  "missing_count": 1,
+  "missing_ids": [
+    "C-024"
+  ],
+  "valid_count": 23,
+  "structural_completion_rate": 0.9583333333333334,
+  "invalid_attempt_count": 0,
+  "invalid_attempt_ids": [],
+  "duplicate_ids": [],
+  "correct_verdict_count": 11,
+  "verdict_accuracy_among_valid": 0.4782608695652174,
+  "mean_evidence_f1": 0.7318840579710145,
+  "technical_failure": false,
+  "model": "Qwen/Qwen2.5-7B",
+  "workload": "low",
+  "trial": 1,
+  "version": "A"
+}

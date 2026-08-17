@@ -1,0 +1,27 @@
+{
+  "benchmark_version": "2.1-sanity",
+  "task_family": "evidence_verification",
+  "version": "A",
+  "workload": "single_item",
+  "claims": 1,
+  "clauses_per_claim": 1,
+  "distractors_per_claim": 0,
+  "items": [
+    {
+      "claim_id": "C-001",
+      "entity": "Astra-001",
+      "claim": "For Astra-001, it launched in July.",
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 launched in July."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "gold_evidence_ids": [
+        "E001-01"
+      ],
+      "special_attribute": null
+    }
+  ]
+}
