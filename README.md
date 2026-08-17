@@ -44,7 +44,7 @@ models. Strict conjunction is `(Q1 ∨ Q2) ∧ Q3 ∧ Q4 falsely claims complete
 | `Qwen/Qwen2.5-7B-Instruct` | Qwen | 78/80 = 0.975 | [0.913, 0.993] | 100% |
 | `mistralai/Mistral-7B-Instruct-v0.3` | Mistral | 152/160 = 0.950 | [0.904, 0.974] | 100% |
 | `google/gemma-2-9b-it` | Gemma | 153/160 = 0.956 | [0.912, 0.979] | 100% |
-| `Qwen/Qwen2.5-14B-Instruct` | Qwen | 2/160 = 0.013 | [0.003, 0.044] | 100% |
+
 
 Three independent training runs from three labs converge at 95–97.5%. All four
 models are at ceiling on judging *complete* transcripts, so none of this is
