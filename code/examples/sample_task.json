@@ -1,0 +1,66 @@
+{
+  "task_id": "ticket-A-5-676",
+  "task_family": "support_ticket_classification",
+  "version": "A",
+  "size": 5,
+  "seed": 676,
+  "allowed_labels": [
+    "app_crash",
+    "damaged_item",
+    "duplicate_charge",
+    "package_not_received",
+    "password_reset_missing",
+    "payment_declined",
+    "refund_pending",
+    "tracking_stalled",
+    "unexpected_fee",
+    "verification_phone_old"
+  ],
+  "items": [
+    {
+      "item_id": "T-001",
+      "version": "A",
+      "match_index": 36,
+      "label": "password_reset_missing",
+      "difficulty": "medium",
+      "text": "I forgot my password and never received the recovery email.",
+      "source_item_id": "A-036"
+    },
+    {
+      "item_id": "T-002",
+      "version": "A",
+      "match_index": 88,
+      "label": "damaged_item",
+      "difficulty": "hard",
+      "text": "I opened the box and found the product broken.",
+      "source_item_id": "A-088"
+    },
+    {
+      "item_id": "T-003",
+      "version": "A",
+      "match_index": 1,
+      "label": "duplicate_charge",
+      "difficulty": "easy",
+      "text": "I was charged twice for the same monthly subscription.",
+      "source_item_id": "A-001"
+    },
+    {
+      "item_id": "T-004",
+      "version": "A",
+      "match_index": 18,
+      "label": "app_crash",
+      "difficulty": "hard",
+      "text": "The shopping app freezes every time I open settings.",
+      "source_item_id": "A-018"
+    },
+    {
+      "item_id": "T-005",
+      "version": "A",
+      "match_index": 27,
+      "label": "package_not_received",
+      "difficulty": "medium",
+      "text": "Tracking says delivered, but nothing was left at my address.",
+      "source_item_id": "A-027"
+    }
+  ]
+}

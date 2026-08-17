@@ -1,0 +1,30 @@
+Support-ticket classification dataset.
+
+Allowed labels:
+- app_crash: An application closes, crashes, freezes, or fails during normal use.
+- damaged_item: An item arrived damaged or broken.
+- duplicate_charge: The customer was charged more than once for the same purchase or subscription.
+- package_not_received: Tracking says delivered, but the customer did not receive the package.
+- password_reset_missing: The customer requested a password reset but did not receive the reset email.
+- payment_declined: A payment is rejected even though the customer believes the payment method should work.
+- refund_pending: The customer is waiting for money to be returned after a cancellation or return.
+- tracking_stalled: A shipment is delayed and tracking has not updated.
+- unexpected_fee: The customer sees a fee that was not clearly shown or expected.
+- verification_phone_old: A sign-in or verification code is being sent to an old or unavailable phone number.
+
+Output examples:
+EX-001: My order arrived with a broken screen.
+EX-001 | damaged_item
+
+EX-002: The tracking page says delivered, but the package is not here.
+EX-002 | package_not_received
+
+Tickets to classify:
+T-001: I forgot my password and never received the recovery email.
+T-002: I opened the box and found the product broken.
+T-003: I was charged twice for the same monthly subscription.
+T-004: The shopping app freezes every time I open settings.
+T-005: Tracking says delivered, but nothing was left at my address.
+
+Classifications:
+T-001 |
