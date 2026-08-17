@@ -1,0 +1,81 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "medium",
+  "repetition": "high",
+  "cases": 1,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Avery",
+        "PLATFORM": "Delta",
+        "PRIORITY": "high",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 has status retired."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Astra-001 operates in the East region."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Reference-A-001-02 is owned by Casey."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Reference-A-001-05 has status testing."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Reference-A-001-04 has low priority."
+        },
+        {
+          "evidence_id": "E001-06",
+          "text": "Reference-A-001-03 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E001-07",
+          "text": "Astra-001 is owned by Avery."
+        },
+        {
+          "evidence_id": "E001-08",
+          "text": "Astra-001 has high priority."
+        },
+        {
+          "evidence_id": "E001-09",
+          "text": "Reference-A-001-01 operates in the West region."
+        },
+        {
+          "evidence_id": "E001-10",
+          "text": "Astra-001 uses platform Cobalt."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "FAIL",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 526004
+}

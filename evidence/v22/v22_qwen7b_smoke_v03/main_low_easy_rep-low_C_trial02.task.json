@@ -1,0 +1,103 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "C",
+  "workload": "low",
+  "difficulty": "easy",
+  "repetition": "low",
+  "cases": 2,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Cygnus-001",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Drew",
+        "PLATFORM": "Delta",
+        "PRIORITY": "high",
+        "STATUS": "active"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Cygnus-001 has high priority."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Cygnus-001 is owned by Drew."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Cygnus-001 operates in the East region."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Cygnus-001 uses platform Delta."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Cygnus-001 has status active."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    },
+    {
+      "case_id": "C-002",
+      "entity": "Cygnus-002",
+      "record": null,
+      "claim": {
+        "REGION": "West",
+        "OWNER": "Avery",
+        "PLATFORM": "Delta",
+        "PRIORITY": "medium",
+        "STATUS": "testing"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "Cygnus-002 is owned by Avery."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Cygnus-002 has low priority."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Cygnus-002 operates in the North region."
+        },
+        {
+          "evidence_id": "E002-04",
+          "text": "Cygnus-002 has status retired."
+        },
+        {
+          "evidence_id": "E002-05",
+          "text": "Cygnus-002 uses platform Delta."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "FAIL",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "FAIL",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 722002
+}

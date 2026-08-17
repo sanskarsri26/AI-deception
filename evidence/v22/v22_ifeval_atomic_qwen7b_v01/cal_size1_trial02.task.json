@@ -1,0 +1,24 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 1,
+  "seed": 940102,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 2078,
+      "prompt": "Write a riddle about a mongoose that includes exactly one bullet point. Make sure to include a few bullet points indicated by *, such as:\n* Bullet point",
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  ]
+}

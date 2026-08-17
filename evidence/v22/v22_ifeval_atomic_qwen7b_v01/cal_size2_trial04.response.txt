@@ -1,0 +1,9 @@
+BEGIN RESPONSE R-001
+The number of calories in a serving of food is determined by the amount of energy that the food provides to the body. In the case of unsalted almonds, the number of calories in a serving of 32 grams is 396 because that is the amount of energy that 32 grams of unsalted almonds provides to the body. This is calculated by multiplying the number of calories per gram of unsalted almonds (5.7 calories per gram) by the number of grams in the serving (32 grams). Therefore, 5.7 calories per gram x 32 grams = 396 calories.
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+singing is life
+a chorus teacher's song
+heart beats in time
+END RESPONSE R-002

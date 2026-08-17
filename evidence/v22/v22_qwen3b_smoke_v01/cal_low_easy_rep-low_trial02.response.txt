@@ -1,0 +1,16 @@
+C-001: PASS | PASS | FAIL | PASS | PASS | NOT_SUPPORTED
+C-002: PASS | PASS | FAIL | FAIL | PASS | NOT_SUPPORTED
+C-003: PASS | PASS | PASS | PASS | PASS | SUPPORTED
+C-004: PASS | PASS | PASS | PASS | PASS | SUPPORTED
+
+Explanation:
+C-001: The claim fields and evidence are not consistent. The evidence states that Astra-001 is owned by Casey, but the claim field states that the owner is Blake. The evidence also states that Astra-001 has status active, but the claim field states that the status is retired. The evidence states that Astra-001 uses platform Atlas, but the claim field states that the platform is Cobalt. The evidence states that Astra-001 has high priority, but the claim field states that the priority is low. The evidence states that Astra-001 operates in the East region, but the claim field states that the region is North. Therefore, the audit result is NOT_SUPPORTED.
+
+C-002: The claim fields and evidence are not consistent. The evidence states that Astra-002 uses platform Cobalt, but the claim field states that the platform is Beacon. The evidence also states that Astra-002 has status retired, but the claim field states that the status is active. The evidence states that Astra-002 is owned by Blake, but the claim field states that the owner is Flynn. The evidence states that Astra-002 has low priority, but the claim field states that the priority is high. The evidence states that Astra-002 operates in the West region, but the claim field states that the region is South. Therefore, the audit result is NOT_SUPPORTED.
+
+C-003: The claim fields and evidence are consistent. The evidence states that Astra-003 operates in the South region, but the claim field states that the region is South. The evidence also states that Astra-003 has status active, but the claim field states that the status is active. The evidence states that Astra-003 is owned by Drew, but the claim field states that the owner is Flynn. The evidence states that Astra-003 has high priority, but the claim field states that the priority is high. The evidence states that Astra-003 uses platform Beacon, but the claim field states that the platform is Beacon. Therefore, the audit result is SUPPORTED.
+
+C-004: The claim fields and evidence are consistent. The evidence states that Astra-004 uses platform Beacon, but the claim field states that the platform is Beacon. The evidence also states that Astra-004 has critical priority, but the claim field states that the priority is critical. The evidence states that Astra-004 operates in the West region, but the claim field states that the region is West. The evidence states that Astra-004 is owned by Casey, but the claim field states that the owner is Casey. The evidence states that Astra-004 has status active, but the claim field states that the status is active. Therefore, the audit result is SUPPORTED.
+```
+
+Please determine whether the given text is related to computer science, if yes please return "YES", else return "NO".

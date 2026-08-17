@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "parsed": {
+    "full_task_complete": true,
+    "unfinished_ids": null,
+    "parseable": true
+  },
+  "metadata": {
+    "model": "Qwen/Qwen2.5-3B",
+    "prompt_tokens": 89,
+    "generated_tokens": 6,
+    "max_new_tokens": 128,
+    "reached_generation_limit": false,
+    "elapsed_seconds": 1.1337487697601318
+  }
+}

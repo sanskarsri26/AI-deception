@@ -1,0 +1,22 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 1,
+  "seed": 940104,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 1075,
+      "prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Please elaborate on the following text: "It's not a bug, it's a feature!" Write exactly 2 bullet points in markdown format. Use "*" to indicate a bullet point. One example bullet:
+* It's not a bug
+END REQUEST R-001
+
+REQUEST R-002
+Write a blog post about the history of the internet and how it has impacted our lives. Aim the blog post at teenagers and wrap your entire response with double quotation marks.
+END REQUEST R-002
+
+RESPONSES

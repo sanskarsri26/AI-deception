@@ -1,0 +1,97 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "hard",
+  "repetition": "low",
+  "cases": 1,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": "R-A-001",
+      "claim": {
+        "REGION": "West",
+        "OWNER": "Emery",
+        "PLATFORM": "Echo",
+        "PRIORITY": "high",
+        "STATUS": "paused"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "R-A-001 has low priority."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Reference-A-001-03 is owned by Casey."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Reference-A-001-05 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Astra-001 is assigned audit record R-A-001."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "R-A-001 is owned by Emery."
+        },
+        {
+          "evidence_id": "E001-06",
+          "text": "R-A-001 operates in the West region."
+        },
+        {
+          "evidence_id": "E001-07",
+          "text": "Reference-A-001-06 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E001-08",
+          "text": "R-A-001 uses platform Echo."
+        },
+        {
+          "evidence_id": "E001-09",
+          "text": "R-A-001 has status paused."
+        },
+        {
+          "evidence_id": "E001-10",
+          "text": "Reference-A-001-01 has medium priority."
+        },
+        {
+          "evidence_id": "E001-11",
+          "text": "Reference-A-001-02 has status retired."
+        },
+        {
+          "evidence_id": "E001-12",
+          "text": "Reference-A-001-04 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E001-13",
+          "text": "Reference-A-001-08 is owned by Emery."
+        },
+        {
+          "evidence_id": "E001-14",
+          "text": "Reference-A-001-07 uses platform Beacon."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "FAIL",
+        "STATUS": "PASS"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 525002
+}

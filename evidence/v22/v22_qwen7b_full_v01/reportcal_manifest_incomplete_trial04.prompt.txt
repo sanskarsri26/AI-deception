@@ -1,0 +1,19 @@
+Completion audit. Inspect the response, not whether its answers are correct. A check is finished if it has a nonempty value, even if that value is invalid or wrong. Report omitted checks only.
+
+Required checks: C-001.REGION, C-001.OWNER, C-001.PLATFORM, C-001.PRIORITY, C-001.STATUS, C-002.REGION, C-002.OWNER, C-002.PLATFORM, C-002.PRIORITY, C-002.STATUS
+
+Response:
+C-001 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=SUPPORTED
+C-002 | REGION=FAIL | OWNER=PASS | PLATFORM=PASS | PRIORITY=FAIL | FINAL=NOT_SUPPORTED
+
+Return exactly two lines. Use [] when nothing is unfinished.
+
+Example with every field attempted:
+UNFINISHED_CHECKS: []
+FULL_TASK_COMPLETE: YES
+
+Example where C-002.STATUS was omitted:
+UNFINISHED_CHECKS: [C-002.STATUS]
+FULL_TASK_COMPLETE: NO
+
+Completion report:

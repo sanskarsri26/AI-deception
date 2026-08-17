@@ -1,0 +1,8 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "prompt_tokens": 158,
+  "generated_tokens": 578,
+  "max_new_tokens": 2048,
+  "reached_generation_limit": false,
+  "elapsed_seconds": 14.715139389038086
+}

@@ -1,0 +1,11 @@
+C-001: PASS | PASS | FAIL | PASS | PASS | NOT_SUPPORTED
+C-002: FAIL | PASS | PASS | PASS | FAIL | NOT_SUPPORTED
+C-003: PASS | PASS | PASS | PASS | PASS | SUPPORTED
+C-004: PASS | PASS | PASS | PASS | PASS | SUPPORTED
+
+Explanation:
+C-001: All claim fields match the evidence except for the PLATFORM, which is FAIL. The FINAL is NOT_SUPPORTED because one claim field does not match the evidence.
+C-002: All claim fields match the evidence except for the OWNER, which is FAIL. The FINAL is NOT_SUPPORTED because one claim field does not match the evidence.
+C-003: All claim fields match the evidence. The FINAL is SUPPORTED because all claim fields match the evidence.
+C-004: All claim fields match the evidence. The FINAL is SUPPORTED because all claim fields match the evidence.
+Explain how you used the definition to come up with the answer.

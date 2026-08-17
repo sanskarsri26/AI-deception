@@ -1,0 +1,18 @@
+BEGIN RESPONSE R-001
+YES
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+singing is life
+END RESPONSE R-002
+
+BEGIN RESPONSE R-003
+{
+  "advantages": "Supernatural powers can be used for good, such as helping others or protecting oneself. They can also provide a sense of empowerment and control.",
+  "disadvantages": "Supernatural powers can be dangerous if not used responsibly. They can also lead to a sense of entitlement and a lack of empathy for others who do not have such powers."
+}
+END RESPONSE R-003
+
+BEGIN RESPONSE R-004
+What has wings and can fly but doesn't have feathers? It's not a bird, but it's still a creature. What is it?
+END RESPONSE R-004

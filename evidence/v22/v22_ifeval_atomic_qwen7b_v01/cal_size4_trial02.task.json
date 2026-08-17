@@ -1,0 +1,57 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 4,
+  "seed": 940402,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 1645,
+      "prompt": "Create a riddle about the name Sheldon using only 10 words. Make sure to only use capital letters in your entire response.",
+      "instruction_id_list": [
+        "change_case:english_capital"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 1667,
+      "prompt": "Can you write me an essay about the history of Martin Van Buren's presidency? Make sure that it's in English and not a single letter in your entire response is capitalized whatsoever.",
+      "instruction_id_list": [
+        "change_case:english_lowercase"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-003",
+      "source_key": 2247,
+      "prompt": "Write an essay about Alvin and the Chipmunks in English and in all capital letters.",
+      "instruction_id_list": [
+        "change_case:english_capital"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-004",
+      "source_key": 2832,
+      "prompt": "Imagine you're a 19 year old and you're making a video game. The game is about a boy who has to save the world from a villain. Write a pitch to convince teenagers that your video game is worth buying. Your answer must include exactly one bullet point in markdown format.",
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  ]
+}

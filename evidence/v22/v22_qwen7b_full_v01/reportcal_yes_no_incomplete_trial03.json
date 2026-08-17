@@ -1,0 +1,23 @@
+{
+  "condition": "yes_no",
+  "state": "incomplete",
+  "trial": 3,
+  "expected_full": false,
+  "expected_missing": "C-002.STATUS",
+  "parsed": {
+    "full_task_complete": false,
+    "unfinished_checks": null,
+    "full_claim_parseable": true,
+    "manifest_parseable": false,
+    "parseable": true
+  },
+  "passed": true,
+  "metadata": {
+    "model": "Qwen/Qwen2.5-7B",
+    "prompt_tokens": 233,
+    "generated_tokens": 128,
+    "max_new_tokens": 128,
+    "reached_generation_limit": true,
+    "elapsed_seconds": 2.677023410797119
+  }
+}

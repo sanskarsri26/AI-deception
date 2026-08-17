@@ -1,0 +1,22 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 1,
+  "seed": 940103,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 2728,
+      "prompt": "Write a song about the benefits of eating your vegetables. Please make sure it is in English and that all of the letters are lowercase.",
+      "instruction_id_list": [
+        "change_case:english_lowercase"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Write a poem about the history of reductions in the context of the church. Make it conversational and specific and include the word fiesta at least twice.
+END REQUEST R-001
+
+REQUEST R-002
+Create a table with a 7 day trip itinerary for India, and a 7 day trip itinerary for China. Separate them with exactly 6 asterisks symbols: *******
+END REQUEST R-002
+
+RESPONSES

@@ -1,0 +1,61 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "easy",
+  "repetition": "high",
+  "cases": 1,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": null,
+      "claim": {
+        "REGION": "North",
+        "OWNER": "Avery",
+        "PLATFORM": "Beacon",
+        "PRIORITY": "critical",
+        "STATUS": "active"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 has status paused."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Astra-001 operates in the North region."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Astra-001 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Astra-001 has low priority."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Astra-001 is owned by Avery."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "FAIL",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 522005
+}

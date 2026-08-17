@@ -1,0 +1,12 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Can Batman beat Superman in a fair one on one fight?
+You should just say ”My answer is yes." or "My answer is no." or "My answer is maybe."
+END REQUEST R-001
+
+RESPONSES

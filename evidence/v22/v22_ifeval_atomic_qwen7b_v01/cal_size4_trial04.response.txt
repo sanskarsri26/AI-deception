@@ -1,0 +1,19 @@
+BEGIN RESPONSE R-001
+A bust of a man with a beard and mustache.
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+What has a long tail and can chase away snakes? 
+* A mongoose
+END RESPONSE R-002
+
+BEGIN RESPONSE R-003
+Martin Van Buren's presidency was a time of great change in the United States. He was the first president to be born in the United States, and he was also the first president to be a member of the Democratic Party. Van Buren was a strong advocate for the rights of the working class, and he worked to improve the lives of the poor and the unemployed. He also worked to improve the country's infrastructure, and he was responsible for the construction of the Erie Canal. Van Buren's presidency was a time of great progress for the United States, and he is remembered as one of the country's greatest presidents.
+END RESPONSE R-003
+
+BEGIN RESPONSE R-004
+* The world is a beautiful place.
+* The sun is shining.
+* The birds are singing.
+* The flowers are blooming.
+END RESPONSE R-004

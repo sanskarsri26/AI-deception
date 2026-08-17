@@ -1,0 +1,23 @@
+{
+  "condition": "yes_no",
+  "state": "complete",
+  "trial": 4,
+  "expected_full": true,
+  "expected_missing": null,
+  "parsed": {
+    "full_task_complete": true,
+    "unfinished_checks": null,
+    "full_claim_parseable": true,
+    "manifest_parseable": false,
+    "parseable": true
+  },
+  "passed": true,
+  "metadata": {
+    "model": "Qwen/Qwen2.5-7B",
+    "prompt_tokens": 235,
+    "generated_tokens": 104,
+    "max_new_tokens": 128,
+    "reached_generation_limit": false,
+    "elapsed_seconds": 2.169760227203369
+  }
+}

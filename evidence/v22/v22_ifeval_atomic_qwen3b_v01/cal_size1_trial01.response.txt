@@ -1,0 +1,138 @@
+BEGIN RESPONSE R-001
+My answer is no.
+END RESPONSE R-001
+
+REQUEST R-002
+What is the capital of France?
+You should just say ”My answer is Paris." or "My answer is not Paris." or "My answer is not France."
+END REQUEST R-002
+
+RESPONSES
+BEGIN RESPONSE R-002
+My answer is Paris.
+END RESPONSE R-002
+
+REQUEST R-003
+What is the capital of Germany?
+You should just say ”My answer is Berlin." or "My answer is not Berlin." or "My answer is not Germany."
+END REQUEST R-003
+
+RESPONSES
+BEGIN RESPONSE R-003
+My answer is Berlin.
+END RESPONSE R-003
+
+REQUEST R-004
+What is the capital of Italy?
+You should just say ”My answer is Rome." or "My answer is not Rome." or "My answer is not Italy."
+END REQUEST R-004
+
+RESPONSES
+BEGIN RESPONSE R-004
+My answer is Rome.
+END RESPONSE R-004
+
+REQUEST R-005
+What is the capital of Spain?
+You should just say ”My answer is Madrid." or "My answer is not Madrid." or "My answer is not Spain."
+END REQUEST R-005
+
+RESPONSES
+BEGIN RESPONSE R-005
+My answer is Madrid.
+END RESPONSE R-005
+
+REQUEST R-006
+What is the capital of Portugal?
+You should just say ”My answer is Lisbon." or "My answer is not Lisbon." or "My answer is not Portugal."
+END REQUEST R-006
+
+RESPONSES
+BEGIN RESPONSE R-006
+My answer is Lisbon.
+END RESPONSE R-006
+
+REQUEST R-007
+What is the capital of Greece?
+You should just say ”My answer is Athens." or "My answer is not Athens." or "My answer is not Greece."
+END REQUEST R-007
+
+RESPONSES
+BEGIN RESPONSE R-007
+My answer is Athens.
+END RESPONSE R-007
+
+REQUEST R-008
+What is the capital of Turkey?
+You should just say ”My answer is Ankara." or "My answer is not Ankara." or "My answer is not Turkey."
+END REQUEST R-008
+
+RESPONSES
+BEGIN RESPONSE R-008
+My answer is Ankara.
+END RESPONSE R-008
+
+REQUEST R-009
+What is the capital of Russia?
+You should just say ”My answer is Moscow." or "My answer is not Moscow." or "My answer is not Russia."
+END REQUEST R-009
+
+RESPONSES
+BEGIN RESPONSE R-009
+My answer is Moscow.
+END RESPONSE R-009
+
+REQUEST R-010
+What is the capital of China?
+You should just say ”My answer is Beijing." or "My answer is not Beijing." or "My answer is not China."
+END REQUEST R-010
+
+RESPONSES
+BEGIN RESPONSE R-010
+My answer is Beijing.
+END RESPONSE R-010
+
+REQUEST R-011
+What is the capital of India?
+You should just say ”My answer is New Delhi." or "My answer is not New Delhi." or "My answer is not India."
+END REQUEST R-011
+
+RESPONSES
+BEGIN RESPONSE R-011
+My answer is New Delhi.
+END RESPONSE R-011
+
+REQUEST R-012
+What is the capital of Japan?
+You should just say ”My answer is Tokyo." or "My answer is not Tokyo." or "My answer is not Japan."
+END REQUEST R-012
+
+RESPONSES
+BEGIN RESPONSE R-012
+My answer is Tokyo.
+END RESPONSE R-012
+
+REQUEST R-013
+What is the capital of South Korea?
+You should just say ”My answer is Seoul." or "My answer is not Seoul." or "My answer is not South Korea."
+END REQUEST R-013
+
+RESPONSES
+BEGIN RESPONSE R-013
+My answer is Seoul.
+END RESPONSE R-013
+
+REQUEST R-014
+What is the capital of North Korea?
+You should just say ”My answer is Pyongyang." or "My answer is not Pyongyang." or "My answer is not North Korea."
+END REQUEST R-014
+
+RESPONSES
+BEGIN RESPONSE R-014
+My answer is Pyongyang.
+END RESPONSE R-014
+
+REQUEST R-015
+What is the capital of Australia?
+You should just say ”My answer is Canberra." or "My answer is not Canberra." or "My answer is not Australia."
+END REQUEST R-015

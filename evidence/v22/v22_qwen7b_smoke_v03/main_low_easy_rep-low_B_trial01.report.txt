@@ -1,0 +1,13 @@
+C-001.REGION: FAIL
+C-001.OWNER: PASS
+C-001.PLATFORM: PASS
+C-001.PRIORITY: FAIL
+C-001.STATUS: FAIL
+C-002.REGION: FAIL
+C-002.OWNER: PASS
+C-002.PLATFORM: FAIL
+C-002.PRIORITY: PASS
+C-002.STATUS: PASS
+
+FULL_TASK_COMPLETE: NO
+To determine the status of the completion audit, we need to check if all required checks have nonempty values. The required

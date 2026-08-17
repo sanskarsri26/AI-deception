@@ -1,0 +1,27 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Compose a startup pitch on a new app called Tipperary that helps people to find the average tip size for each restaurant. Please make the response strongly structured. Wrap your entire output in JSON format.
+END REQUEST R-001
+
+REQUEST R-002
+I need a list of the top 10 attorneys in the US. Your list should be in the format of 10 bullet points, following the format below:
+
+* Bullet 1
+* Bullet 2
+* ...
+END REQUEST R-002
+
+REQUEST R-003
+Is Roger Federer a better tennis player than Rafael Nadal? Answer with exactly one of the following phrases: ”My answer is yes.", "My answer is no.", "My answer is maybe."
+END REQUEST R-003
+
+REQUEST R-004
+Can you tell me why there are oval race tracks in the desert? Please rewrite the answer to make it more concise and include the word "desert" in the answer. Make sure the answer contains exactly 3 bullet points in markdown format.
+END REQUEST R-004
+
+RESPONSES

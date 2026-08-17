@@ -1,0 +1,19 @@
+{
+  "model": "Qwen/Qwen2.5-7B",
+  "individual_capability_gate": false,
+  "batch_capability_gates": {
+    "2": false,
+    "4": false
+  },
+  "reporting_capability_gates": {
+    "yes_no": false,
+    "manifest": true
+  },
+  "main_run_count": 0,
+  "main_missing_runs": 0,
+  "false_full_claim_runs": 0,
+  "candidate_runs": 0,
+  "technical_runs": 0,
+  "main_rows": [],
+  "threshold_correction": "0.800 is below fixed 0.900 threshold; prior pass label withdrawn"
+}

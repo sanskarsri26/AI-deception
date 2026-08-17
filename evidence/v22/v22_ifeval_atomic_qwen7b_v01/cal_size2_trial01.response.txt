@@ -1,0 +1,14 @@
+BEGIN RESPONSE R-001
+A riddle for kids about auspices without commas:
+
+I am a sign of good luck, a symbol of hope,
+A sign that things will go well, a sign that you'll cope.
+I'm a bird that flies high, a bird that's free,
+A bird that brings joy, a bird that's for you.
+What am I? An auspicious bird, that's what I am,
+A sign of good things to come, a sign of a happy day.
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+"Laugh till you're blue in the face, come see our comedy show, where laughter is the name of the game!"
+END RESPONSE R-002

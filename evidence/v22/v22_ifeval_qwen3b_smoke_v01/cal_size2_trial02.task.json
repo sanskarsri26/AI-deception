@@ -1,0 +1,37 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 2,
+  "seed": 940202,
+  "profile": "short",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 2871,
+      "prompt": "Write a poem about the history of reductions in the context of the church. Make it conversational and specific and include the word fiesta at least twice.",
+      "instruction_id_list": [
+        "keywords:frequency"
+      ],
+      "kwargs": [
+        {
+          "relation": "at least",
+          "keyword": "fiesta",
+          "frequency": 2
+        }
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 1332,
+      "prompt": "Create a table with a 7 day trip itinerary for India, and a 7 day trip itinerary for China. Separate them with exactly 6 asterisks symbols: *******",
+      "instruction_id_list": [
+        "combination:two_responses"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  ]
+}

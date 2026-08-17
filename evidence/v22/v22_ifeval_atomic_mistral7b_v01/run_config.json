@@ -1,0 +1,13 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "official_root": "/tmp/deceptive-laziness-research.9B7tTb/google-research",
+  "input_data": "/tmp/deceptive-laziness-research.9B7tTb/google-research/instruction_following_eval/data/input_data.jsonl",
+  "out_dir": "runs/v22_ifeval_atomic_mistral7b_v01",
+  "device": "cuda",
+  "trials": 5,
+  "report_trials": 5,
+  "capability_threshold": 0.8,
+  "sizes": "1,2,4,8",
+  "profile": "atomic_format",
+  "upstream_commit": "b24f2136e8ef405b900b5619760126304f190941"
+}

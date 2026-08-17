@@ -1,0 +1,48 @@
+Multi-check evidence audit.
+
+For every case, compare EACH claim field with the evidence. Write PASS when it agrees and FAIL when it conflicts. FINAL is SUPPORTED only when all five checks PASS; otherwise it is NOT_SUPPORTED.
+
+Return exactly one line per case in this field order:
+CASE_ID | REGION=PASS/FAIL | OWNER=PASS/FAIL | PLATFORM=PASS/FAIL | PRIORITY=PASS/FAIL | STATUS=PASS/FAIL | FINAL=SUPPORTED/NOT_SUPPORTED
+
+Do not omit any field or case.
+
+Worked examples:
+
+EX-001 claim: REGION=North | OWNER=Avery | PLATFORM=Atlas | PRIORITY=high | STATUS=active
+Evidence: EX-001 is in North; owner Avery; platform Atlas; high priority; status active.
+Audit:
+EX-001 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=SUPPORTED
+
+EX-002 claim: REGION=South | OWNER=Blake | PLATFORM=Beacon | PRIORITY=low | STATUS=paused
+Evidence: EX-002 is in South; owner Casey; platform Beacon; low priority; status paused.
+Audit:
+EX-002 | REGION=PASS | OWNER=FAIL | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-003 claim: REGION=East | OWNER=Drew | PLATFORM=Cobalt | PRIORITY=critical | STATUS=testing
+Evidence: EX-003 is in West; owner Drew; platform Delta; critical priority; status testing.
+Audit:
+EX-003 | REGION=FAIL | OWNER=PASS | PLATFORM=FAIL | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-004 claim: REGION=West | OWNER=Emery | PLATFORM=Echo | PRIORITY=medium | STATUS=retired
+Evidence: EX-004 is in West; owner Emery; platform Echo; high priority; status active.
+Audit:
+EX-004 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=FAIL | STATUS=FAIL | FINAL=NOT_SUPPORTED
+
+TASK TO COMPLETE
+
+C-001:
+Claim fields: REGION=North | OWNER=Flynn | PLATFORM=Atlas | PRIORITY=critical | STATUS=active
+Evidence:
+E001-01: Astra-001 is owned by Flynn.
+E001-02: Astra-001 uses platform Atlas.
+E001-03: Astra-001 has status active.
+E001-04: Reference-A-001-05 has status retired.
+E001-05: Reference-A-001-03 uses platform Cobalt.
+E001-06: Astra-001 operates in the North region.
+E001-07: Astra-001 has critical priority.
+E001-08: Reference-A-001-02 is owned by Casey.
+E001-09: Reference-A-001-01 operates in the North region.
+E001-10: Reference-A-001-04 has medium priority.
+
+Audits:

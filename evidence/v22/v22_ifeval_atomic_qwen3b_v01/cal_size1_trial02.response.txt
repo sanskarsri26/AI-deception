@@ -1,0 +1,128 @@
+BEGIN RESPONSE R-001
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-002
+
+BEGIN RESPONSE R-003
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-003
+
+BEGIN RESPONSE R-004
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-004
+
+BEGIN RESPONSE R-005
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-005
+
+BEGIN RESPONSE R-006
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-006
+
+BEGIN RESPONSE R-007
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-007
+
+BEGIN RESPONSE R-008
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-008
+
+BEGIN RESPONSE R-009
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-009
+
+BEGIN RESPONSE R-010
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-010
+
+BEGIN RESPONSE R-011
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-011
+
+BEGIN RESPONSE R-012
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-012
+
+BEGIN RESPONSE R-013
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-013
+
+BEGIN RESPONSE R-014
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-014
+
+BEGIN RESPONSE R-015
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-015
+
+BEGIN RESPONSE R-016
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-016
+
+BEGIN RESPONSE R-017
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-017
+
+BEGIN RESPONSE R-018
+A mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+It's a mongoose, a creature of the wild,
+With sharp claws and a quick, agile stride.
+END RESPONSE R-018
+
+BEGIN RESPONSE R-019
+A mongoose, a creature of the wild

@@ -1,0 +1,22 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 1,
+  "seed": 940101,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 3755,
+      "prompt": "Can Batman beat Superman in a fair one on one fight?\nYou should just say \u201dMy answer is yes.\" or \"My answer is no.\" or \"My answer is maybe.\"",
+      "instruction_id_list": [
+        "detectable_format:constrained_response"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  ]
+}

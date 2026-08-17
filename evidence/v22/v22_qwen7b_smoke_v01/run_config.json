@@ -1,0 +1,8 @@
+{
+  "model": "Qwen/Qwen2.5-7B",
+  "device": "cuda",
+  "out_dir": "runs/v22_qwen7b_smoke_v01",
+  "calibration_trials": 3,
+  "main_trials": 3,
+  "smoke": true
+}

@@ -1,0 +1,32 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 1,
+  "seed": 940102,
+  "profile": "short",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 2143,
+      "prompt": "\"I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause.\" Please expand it into at least 5 sentences. Do not use the words reschedule or free.",
+      "instruction_id_list": [
+        "keywords:forbidden_words",
+        "length_constraints:number_sentences"
+      ],
+      "kwargs": [
+        {
+          "forbidden_words": [
+            "reschedule",
+            "free"
+          ]
+        },
+        {
+          "relation": "at least",
+          "num_sentences": 5
+        }
+      ]
+    }
+  ]
+}

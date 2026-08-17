@@ -1,0 +1,5 @@
+BEGIN RESPONSE R-001
+Hey there! Are you ready to dive into the world of Ripley's Aquarium? This incredible underwater wonderland is located in [location], and it's a must-visit for any aquarium enthusiast. With its vast array of marine life and stunning displays, Ripley's Aquarium is sure to leave you in awe. So, grab your snorkel and get ready to explore the depths of this aquatic paradise! [END RESPONSE R-001]
+
+BEGIN RESPONSE R-002
+The 2018 Nobel Prize in Chemistry went to three incredible scientists for their work on directed evolution. Frances Arnold was awarded half of the prize for her groundbreaking research on the directed evolution of enzymes, while George P. Smith and Gregory P. Winter shared the other half for their work on the directed evolution of antibodies. These scientists have truly revolutionized the field of chemistry and their discoveries have had a profound impact on our understanding of life. So, let's give a big round of applause to these amazing scientists for their incredible work! [END RESPONSE R-002]

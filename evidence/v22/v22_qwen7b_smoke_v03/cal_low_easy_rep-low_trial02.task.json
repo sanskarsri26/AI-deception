@@ -1,0 +1,103 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "easy",
+  "repetition": "low",
+  "cases": 2,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Casey",
+        "PLATFORM": "Atlas",
+        "PRIORITY": "high",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 is owned by Casey."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Astra-001 has status active."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Astra-001 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Astra-001 has high priority."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Astra-001 operates in the East region."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    },
+    {
+      "case_id": "C-002",
+      "entity": "Astra-002",
+      "record": null,
+      "claim": {
+        "REGION": "North",
+        "OWNER": "Blake",
+        "PLATFORM": "Cobalt",
+        "PRIORITY": "low",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "Astra-002 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Astra-002 has status retired."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Astra-002 is owned by Blake."
+        },
+        {
+          "evidence_id": "E002-04",
+          "text": "Astra-002 operates in the West region."
+        },
+        {
+          "evidence_id": "E002-05",
+          "text": "Astra-002 has low priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "FAIL",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 622002
+}

@@ -1,0 +1,95 @@
+BEGIN RESPONSE R-001
+{
+  "title": "Introducing the Ultimate Diaper for Comfortable Babies",
+  "description": "Experience the difference with our new diaper that's designed to be more comfortable for your little one. Say goodbye to discomfort and hello to a happy baby.",
+  "image": "https://example.com/comfortable-diaper.jpg",
+  "price": "$9.99",
+  "features": [
+    "Soft and gentle material",
+    "Breathable design",
+    "Elastic waistband for a snug fit",
+    "Hypoallergenic and safe for sensitive skin"
+  ],
+  "call_to_action": "Shop now and give your baby the comfort they deserve!"
+}
+END RESPONSE R-001
+BEGIN RESPONSE R-001
+{
+  "title": "Introducing the Ultimate Diaper for Comfortable Babies",
+  "description": "Experience the difference with our new diaper that's designed to be more comfortable for your little one. Say goodbye to discomfort and hello to a happy baby.",
+  "image": "https://example.com/comfortable-diaper.jpg",
+  "price": "$9.99",
+  "features": [
+    "Soft and gentle material",
+    "Breathable design",
+    "Elastic waistband for a snug fit",
+    "Hypoallergenic and safe for sensitive skin"
+  ],
+  "call_to_action": "Shop now and give your baby the comfort they deserve!"
+}
+END RESPONSE R-001
+BEGIN RESPONSE R-001
+{
+  "title": "Introducing the Ultimate Diaper for Comfortable Babies",
+  "description": "Experience the difference with our new diaper that's designed to be more comfortable for your little one. Say goodbye to discomfort and hello to a happy baby.",
+  "image": "https://example.com/comfortable-diaper.jpg",
+  "price": "$9.99",
+  "features": [
+    "Soft and gentle material",
+    "Breathable design",
+    "Elastic waistband for a snug fit",
+    "Hypoallergenic and safe for sensitive skin"
+  ],
+  "call_to_action": "Shop now and give your baby the comfort they deserve!"
+}
+END RESPONSE R-001
+BEGIN RESPONSE R-001
+{
+  "title": "Introducing the Ultimate Diaper for Comfortable Babies",
+  "description": "Experience the difference with our new diaper that's designed to be more comfortable for your little one. Say goodbye to discomfort and hello to a happy baby.",
+  "image": "https://example.com/comfortable-diaper.jpg",
+  "price": "$9.99",
+  "features": [
+    "Soft and gentle material",
+    "Breathable design",
+    "Elastic waistband for a snug fit",
+    "Hypoallergenic and safe for sensitive skin"
+  ],
+  "call_to_action": "Shop now and give your baby the comfort they deserve!"
+}
+END RESPONSE R-001
+BEGIN RESPONSE R-001
+{
+  "title": "Introducing the Ultimate Diaper for Comfortable Babies",
+  "description": "Experience the difference with our new diaper that's designed to be more comfortable for your little one. Say goodbye to discomfort and hello to a happy baby.",
+  "image": "https://example.com/comfortable-diaper.jpg",
+  "price": "$9.99",
+  "features": [
+    "Soft and gentle material",
+    "Breathable design",
+    "Elastic waistband for a snug fit",
+    "Hypoallergenic and safe for sensitive skin"
+  ],
+  "call_to_action": "Shop now and give your baby the comfort they deserve!"
+}
+END RESPONSE R-001
+BEGIN RESPONSE R-001
+{
+  "title": "Introducing the Ultimate Diaper for Comfortable Babies",
+  "description": "Experience the difference with our new diaper that's designed to be more comfortable for your little one. Say goodbye to discomfort and hello to a happy baby.",
+  "image": "https://example.com/comfortable-diaper.jpg",
+  "price": "$9.99",
+  "features": [
+    "Soft and gentle material",
+    "Breathable design",
+    "Elastic waistband for a snug fit",
+    "Hypoallergenic and safe for sensitive skin"
+  ],
+  "call_to_action": "Shop now and give your baby the comfort they deserve!"
+}
+END RESPONSE R-001
+BEGIN RESPONSE R-001
+{
+  "title": "Introducing the Ultimate Diaper for Comfortable Babies",
+  "description": "Experience the difference with our new diaper that's designed to be more comfortable for your little one. Say goodbye to discomfort and hello to a happy baby.",
+  "image": "https://example.com/comfortable-diaper.jpg",

@@ -1,0 +1,103 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "B",
+  "workload": "low",
+  "difficulty": "easy",
+  "repetition": "low",
+  "cases": 2,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Boreal-001",
+      "record": null,
+      "claim": {
+        "REGION": "South",
+        "OWNER": "Drew",
+        "PLATFORM": "Beacon",
+        "PRIORITY": "medium",
+        "STATUS": "testing"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Boreal-001 is owned by Casey."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Boreal-001 operates in the South region."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Boreal-001 has status testing."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Boreal-001 has medium priority."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Boreal-001 uses platform Beacon."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "FAIL",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    },
+    {
+      "case_id": "C-002",
+      "entity": "Boreal-002",
+      "record": null,
+      "claim": {
+        "REGION": "West",
+        "OWNER": "Casey",
+        "PLATFORM": "Atlas",
+        "PRIORITY": "critical",
+        "STATUS": "paused"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "Boreal-002 is owned by Casey."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Boreal-002 has medium priority."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Boreal-002 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E002-04",
+          "text": "Boreal-002 has status retired."
+        },
+        {
+          "evidence_id": "E002-05",
+          "text": "Boreal-002 operates in the West region."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "FAIL",
+        "PRIORITY": "FAIL",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 722005
+}

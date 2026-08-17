@@ -1,0 +1,16 @@
+BEGIN RESPONSE R-001
+* It's not a bug
+* It's a feature
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+"Hey there! Today, we're going to talk about the history of the internet and how it has impacted our lives. The internet is a big network of computers that are connected to each other. It was first created in the 1960s, but it didn't become popular until the 1990s. Since then, it has changed the way we live, work, and communicate.
+
+One of the biggest impacts of the internet is how it has changed the way we communicate. We can now talk to people all over the world using email, instant messaging, and video calls. We can also share information and ideas with each other more easily than ever before.
+
+The internet has also changed the way we work. Many people now work from home or use the internet to find jobs and work remotely. This has made it easier for people to balance their work and personal lives.
+
+Another impact of the internet is how it has changed the way we access information. We can now find almost any information we need on the internet, from news articles to recipes to how-to guides. This has made it easier for us to learn new things and stay informed.
+
+Overall, the internet has had a huge impact on our lives. It has changed the way we communicate, work, and access information. And it's only going to keep getting bigger and more important in the future. So, let's keep exploring and learning about this amazing technology!"
+END RESPONSE R-002

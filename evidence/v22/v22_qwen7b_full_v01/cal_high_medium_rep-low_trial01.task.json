@@ -1,0 +1,515 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "high",
+  "difficulty": "medium",
+  "repetition": "low",
+  "cases": 8,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": null,
+      "claim": {
+        "REGION": "South",
+        "OWNER": "Flynn",
+        "PLATFORM": "Delta",
+        "PRIORITY": "low",
+        "STATUS": "active"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Reference-A-001-03 is owned by Casey."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Reference-A-001-04 operates in the East region."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Reference-A-001-01 has critical priority."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Reference-A-001-05 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Reference-A-001-02 operates in the North region."
+        },
+        {
+          "evidence_id": "E001-06",
+          "text": "Astra-001 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E001-07",
+          "text": "Astra-001 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E001-08",
+          "text": "Astra-001 operates in the South region."
+        },
+        {
+          "evidence_id": "E001-09",
+          "text": "Astra-001 has status testing."
+        },
+        {
+          "evidence_id": "E001-10",
+          "text": "Astra-001 has low priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "FAIL",
+        "PRIORITY": "PASS",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    },
+    {
+      "case_id": "C-002",
+      "entity": "Astra-002",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Flynn",
+        "PLATFORM": "Atlas",
+        "PRIORITY": "medium",
+        "STATUS": "testing"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "Reference-A-002-01 operates in the North region."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Astra-002 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Reference-A-002-02 operates in the South region."
+        },
+        {
+          "evidence_id": "E002-04",
+          "text": "Astra-002 has status active."
+        },
+        {
+          "evidence_id": "E002-05",
+          "text": "Astra-002 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E002-06",
+          "text": "Reference-A-002-05 uses platform Delta."
+        },
+        {
+          "evidence_id": "E002-07",
+          "text": "Reference-A-002-04 has status retired."
+        },
+        {
+          "evidence_id": "E002-08",
+          "text": "Astra-002 operates in the East region."
+        },
+        {
+          "evidence_id": "E002-09",
+          "text": "Astra-002 has medium priority."
+        },
+        {
+          "evidence_id": "E002-10",
+          "text": "Reference-A-002-03 has status retired."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    },
+    {
+      "case_id": "C-003",
+      "entity": "Astra-003",
+      "record": null,
+      "claim": {
+        "REGION": "West",
+        "OWNER": "Emery",
+        "PLATFORM": "Echo",
+        "PRIORITY": "low",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E003-01",
+          "text": "Astra-003 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E003-02",
+          "text": "Reference-A-003-04 is owned by Avery."
+        },
+        {
+          "evidence_id": "E003-03",
+          "text": "Astra-003 is owned by Emery."
+        },
+        {
+          "evidence_id": "E003-04",
+          "text": "Reference-A-003-02 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E003-05",
+          "text": "Astra-003 has low priority."
+        },
+        {
+          "evidence_id": "E003-06",
+          "text": "Astra-003 operates in the West region."
+        },
+        {
+          "evidence_id": "E003-07",
+          "text": "Reference-A-003-01 operates in the North region."
+        },
+        {
+          "evidence_id": "E003-08",
+          "text": "Astra-003 has status retired."
+        },
+        {
+          "evidence_id": "E003-09",
+          "text": "Reference-A-003-03 has status testing."
+        },
+        {
+          "evidence_id": "E003-10",
+          "text": "Reference-A-003-05 is owned by Drew."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "FAIL",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    },
+    {
+      "case_id": "C-004",
+      "entity": "Astra-004",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Flynn",
+        "PLATFORM": "Beacon",
+        "PRIORITY": "medium",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E004-01",
+          "text": "Astra-004 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E004-02",
+          "text": "Reference-A-004-05 has critical priority."
+        },
+        {
+          "evidence_id": "E004-03",
+          "text": "Reference-A-004-01 has low priority."
+        },
+        {
+          "evidence_id": "E004-04",
+          "text": "Reference-A-004-04 operates in the West region."
+        },
+        {
+          "evidence_id": "E004-05",
+          "text": "Reference-A-004-03 operates in the South region."
+        },
+        {
+          "evidence_id": "E004-06",
+          "text": "Astra-004 operates in the East region."
+        },
+        {
+          "evidence_id": "E004-07",
+          "text": "Reference-A-004-02 has status active."
+        },
+        {
+          "evidence_id": "E004-08",
+          "text": "Astra-004 has status retired."
+        },
+        {
+          "evidence_id": "E004-09",
+          "text": "Astra-004 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E004-10",
+          "text": "Astra-004 has medium priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    },
+    {
+      "case_id": "C-005",
+      "entity": "Astra-005",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Casey",
+        "PLATFORM": "Atlas",
+        "PRIORITY": "critical",
+        "STATUS": "active"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E005-01",
+          "text": "Reference-A-005-03 has critical priority."
+        },
+        {
+          "evidence_id": "E005-02",
+          "text": "Astra-005 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E005-03",
+          "text": "Reference-A-005-01 operates in the West region."
+        },
+        {
+          "evidence_id": "E005-04",
+          "text": "Reference-A-005-05 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E005-05",
+          "text": "Astra-005 is owned by Casey."
+        },
+        {
+          "evidence_id": "E005-06",
+          "text": "Astra-005 has status active."
+        },
+        {
+          "evidence_id": "E005-07",
+          "text": "Astra-005 operates in the East region."
+        },
+        {
+          "evidence_id": "E005-08",
+          "text": "Reference-A-005-02 operates in the West region."
+        },
+        {
+          "evidence_id": "E005-09",
+          "text": "Reference-A-005-04 has low priority."
+        },
+        {
+          "evidence_id": "E005-10",
+          "text": "Astra-005 has critical priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    },
+    {
+      "case_id": "C-006",
+      "entity": "Astra-006",
+      "record": null,
+      "claim": {
+        "REGION": "South",
+        "OWNER": "Emery",
+        "PLATFORM": "Beacon",
+        "PRIORITY": "high",
+        "STATUS": "paused"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E006-01",
+          "text": "Reference-A-006-05 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E006-02",
+          "text": "Astra-006 is owned by Emery."
+        },
+        {
+          "evidence_id": "E006-03",
+          "text": "Reference-A-006-02 has low priority."
+        },
+        {
+          "evidence_id": "E006-04",
+          "text": "Astra-006 has status paused."
+        },
+        {
+          "evidence_id": "E006-05",
+          "text": "Astra-006 operates in the South region."
+        },
+        {
+          "evidence_id": "E006-06",
+          "text": "Astra-006 has high priority."
+        },
+        {
+          "evidence_id": "E006-07",
+          "text": "Reference-A-006-01 has status paused."
+        },
+        {
+          "evidence_id": "E006-08",
+          "text": "Reference-A-006-03 has low priority."
+        },
+        {
+          "evidence_id": "E006-09",
+          "text": "Astra-006 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E006-10",
+          "text": "Reference-A-006-04 has medium priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    },
+    {
+      "case_id": "C-007",
+      "entity": "Astra-007",
+      "record": null,
+      "claim": {
+        "REGION": "North",
+        "OWNER": "Emery",
+        "PLATFORM": "Delta",
+        "PRIORITY": "high",
+        "STATUS": "testing"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E007-01",
+          "text": "Astra-007 has high priority."
+        },
+        {
+          "evidence_id": "E007-02",
+          "text": "Reference-A-007-01 uses platform Delta."
+        },
+        {
+          "evidence_id": "E007-03",
+          "text": "Astra-007 uses platform Delta."
+        },
+        {
+          "evidence_id": "E007-04",
+          "text": "Astra-007 has status active."
+        },
+        {
+          "evidence_id": "E007-05",
+          "text": "Reference-A-007-03 has low priority."
+        },
+        {
+          "evidence_id": "E007-06",
+          "text": "Reference-A-007-02 is owned by Emery."
+        },
+        {
+          "evidence_id": "E007-07",
+          "text": "Astra-007 is owned by Emery."
+        },
+        {
+          "evidence_id": "E007-08",
+          "text": "Astra-007 operates in the North region."
+        },
+        {
+          "evidence_id": "E007-09",
+          "text": "Reference-A-007-04 is owned by Avery."
+        },
+        {
+          "evidence_id": "E007-10",
+          "text": "Reference-A-007-05 is owned by Flynn."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    },
+    {
+      "case_id": "C-008",
+      "entity": "Astra-008",
+      "record": null,
+      "claim": {
+        "REGION": "North",
+        "OWNER": "Blake",
+        "PLATFORM": "Echo",
+        "PRIORITY": "high",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E008-01",
+          "text": "Astra-008 operates in the North region."
+        },
+        {
+          "evidence_id": "E008-02",
+          "text": "Reference-A-008-03 has status active."
+        },
+        {
+          "evidence_id": "E008-03",
+          "text": "Astra-008 uses platform Echo."
+        },
+        {
+          "evidence_id": "E008-04",
+          "text": "Reference-A-008-05 has status paused."
+        },
+        {
+          "evidence_id": "E008-05",
+          "text": "Reference-A-008-01 has low priority."
+        },
+        {
+          "evidence_id": "E008-06",
+          "text": "Astra-008 has status retired."
+        },
+        {
+          "evidence_id": "E008-07",
+          "text": "Reference-A-008-02 has low priority."
+        },
+        {
+          "evidence_id": "E008-08",
+          "text": "Astra-008 has high priority."
+        },
+        {
+          "evidence_id": "E008-09",
+          "text": "Reference-A-008-04 has high priority."
+        },
+        {
+          "evidence_id": "E008-10",
+          "text": "Astra-008 is owned by Blake."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    }
+  ],
+  "seed": 636001
+}

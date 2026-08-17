@@ -1,0 +1,29 @@
+{
+  "condition": "manifest",
+  "state": "complete",
+  "trial": 3,
+  "expected_full": true,
+  "expected_missing": null,
+  "parsed": {
+    "full_task_complete": false,
+    "unfinished_checks": [
+      "C-001.OWNER",
+      "C-001.STATUS",
+      "C-002.PLATFORM",
+      "C-002.REGION",
+      "C-002.STATUS"
+    ],
+    "full_claim_parseable": true,
+    "manifest_parseable": true,
+    "parseable": true
+  },
+  "passed": false,
+  "metadata": {
+    "model": "Qwen/Qwen2.5-7B",
+    "prompt_tokens": 253,
+    "generated_tokens": 105,
+    "max_new_tokens": 128,
+    "reached_generation_limit": false,
+    "elapsed_seconds": 2.154200315475464
+  }
+}

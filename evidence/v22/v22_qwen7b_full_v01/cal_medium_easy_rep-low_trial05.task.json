@@ -1,0 +1,187 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "medium",
+  "difficulty": "easy",
+  "repetition": "low",
+  "cases": 4,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Drew",
+        "PLATFORM": "Cobalt",
+        "PRIORITY": "critical",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 is owned by Drew."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Astra-001 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Astra-001 has status retired."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Astra-001 has critical priority."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Astra-001 operates in the East region."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    },
+    {
+      "case_id": "C-002",
+      "entity": "Astra-002",
+      "record": null,
+      "claim": {
+        "REGION": "South",
+        "OWNER": "Emery",
+        "PLATFORM": "Echo",
+        "PRIORITY": "high",
+        "STATUS": "testing"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "Astra-002 is owned by Emery."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Astra-002 uses platform Echo."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Astra-002 operates in the South region."
+        },
+        {
+          "evidence_id": "E002-04",
+          "text": "Astra-002 has high priority."
+        },
+        {
+          "evidence_id": "E002-05",
+          "text": "Astra-002 has status testing."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    },
+    {
+      "case_id": "C-003",
+      "entity": "Astra-003",
+      "record": null,
+      "claim": {
+        "REGION": "West",
+        "OWNER": "Blake",
+        "PLATFORM": "Atlas",
+        "PRIORITY": "medium",
+        "STATUS": "paused"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E003-01",
+          "text": "Astra-003 has status testing."
+        },
+        {
+          "evidence_id": "E003-02",
+          "text": "Astra-003 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E003-03",
+          "text": "Astra-003 operates in the West region."
+        },
+        {
+          "evidence_id": "E003-04",
+          "text": "Astra-003 is owned by Casey."
+        },
+        {
+          "evidence_id": "E003-05",
+          "text": "Astra-003 has high priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "FAIL",
+        "PLATFORM": "PASS",
+        "PRIORITY": "FAIL",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    },
+    {
+      "case_id": "C-004",
+      "entity": "Astra-004",
+      "record": null,
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Avery",
+        "PLATFORM": "Echo",
+        "PRIORITY": "critical",
+        "STATUS": "retired"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E004-01",
+          "text": "Astra-004 has status retired."
+        },
+        {
+          "evidence_id": "E004-02",
+          "text": "Astra-004 is owned by Avery."
+        },
+        {
+          "evidence_id": "E004-03",
+          "text": "Astra-004 uses platform Echo."
+        },
+        {
+          "evidence_id": "E004-04",
+          "text": "Astra-004 operates in the North region."
+        },
+        {
+          "evidence_id": "E004-05",
+          "text": "Astra-004 has high priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "FAIL",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "FAIL",
+        "STATUS": "PASS"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 628005
+}

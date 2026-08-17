@@ -1,0 +1,178 @@
+Multi-check evidence audit.
+
+For every case, compare EACH claim field with the evidence. Write PASS when it agrees and FAIL when it conflicts. FINAL is SUPPORTED only when all five checks PASS; otherwise it is NOT_SUPPORTED.
+
+Return exactly one line per case in this field order:
+CASE_ID | REGION=PASS/FAIL | OWNER=PASS/FAIL | PLATFORM=PASS/FAIL | PRIORITY=PASS/FAIL | STATUS=PASS/FAIL | FINAL=SUPPORTED/NOT_SUPPORTED
+
+Do not omit any field or case.
+
+Worked examples:
+
+EX-001 claim: REGION=North | OWNER=Avery | PLATFORM=Atlas | PRIORITY=high | STATUS=active
+Evidence: EX-001 is in North; owner Avery; platform Atlas; high priority; status active.
+Audit:
+EX-001 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=SUPPORTED
+
+EX-002 claim: REGION=South | OWNER=Blake | PLATFORM=Beacon | PRIORITY=low | STATUS=paused
+Evidence: EX-002 is in South; owner Casey; platform Beacon; low priority; status paused.
+Audit:
+EX-002 | REGION=PASS | OWNER=FAIL | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-003 claim: REGION=East | OWNER=Drew | PLATFORM=Cobalt | PRIORITY=critical | STATUS=testing
+Evidence: EX-003 is in West; owner Drew; platform Delta; critical priority; status testing.
+Audit:
+EX-003 | REGION=FAIL | OWNER=PASS | PLATFORM=FAIL | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-004 claim: REGION=West | OWNER=Emery | PLATFORM=Echo | PRIORITY=medium | STATUS=retired
+Evidence: EX-004 is in West; owner Emery; platform Echo; high priority; status active.
+Audit:
+EX-004 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=FAIL | STATUS=FAIL | FINAL=NOT_SUPPORTED
+
+TASK TO COMPLETE
+
+C-001:
+Claim fields: REGION=West | OWNER=Drew | PLATFORM=Cobalt | PRIORITY=low | STATUS=retired
+Evidence:
+E001-01: Astra-001 is assigned audit record R-A-001.
+E001-02: R-A-001 operates in the West region.
+E001-03: Reference-A-001-01 operates in the West region.
+E001-04: Reference-A-001-06 operates in the West region.
+E001-05: Reference-A-001-04 has high priority.
+E001-06: R-A-001 is owned by Drew.
+E001-07: Reference-A-001-03 uses platform Echo.
+E001-08: Reference-A-001-07 is owned by Avery.
+E001-09: R-A-001 uses platform Atlas.
+E001-10: Reference-A-001-08 uses platform Cobalt.
+E001-11: R-A-001 has status retired.
+E001-12: R-A-001 has low priority.
+E001-13: Reference-A-001-02 is owned by Avery.
+E001-14: Reference-A-001-05 has status retired.
+
+C-002:
+Claim fields: REGION=South | OWNER=Avery | PLATFORM=Beacon | PRIORITY=critical | STATUS=paused
+Evidence:
+E002-01: Reference-A-002-01 operates in the East region.
+E002-02: R-A-002 has critical priority.
+E002-03: Reference-A-002-04 has low priority.
+E002-04: Reference-A-002-08 uses platform Atlas.
+E002-05: R-A-002 uses platform Beacon.
+E002-06: R-A-002 has status paused.
+E002-07: Reference-A-002-05 has status paused.
+E002-08: Reference-A-002-02 is owned by Avery.
+E002-09: Astra-002 is assigned audit record R-A-002.
+E002-10: Reference-A-002-07 is owned by Casey.
+E002-11: R-A-002 operates in the West region.
+E002-12: R-A-002 is owned by Drew.
+E002-13: Reference-A-002-06 operates in the North region.
+E002-14: Reference-A-002-03 uses platform Atlas.
+
+C-003:
+Claim fields: REGION=South | OWNER=Avery | PLATFORM=Atlas | PRIORITY=critical | STATUS=paused
+Evidence:
+E003-01: R-A-003 is owned by Avery.
+E003-02: Reference-A-003-06 operates in the West region.
+E003-03: Reference-A-003-03 uses platform Echo.
+E003-04: R-A-003 has critical priority.
+E003-05: Reference-A-003-05 has status retired.
+E003-06: R-A-003 uses platform Echo.
+E003-07: Reference-A-003-02 is owned by Flynn.
+E003-08: Reference-A-003-08 uses platform Beacon.
+E003-09: R-A-003 operates in the South region.
+E003-10: Reference-A-003-04 has low priority.
+E003-11: R-A-003 has status testing.
+E003-12: Astra-003 is assigned audit record R-A-003.
+E003-13: Reference-A-003-07 is owned by Drew.
+E003-14: Reference-A-003-01 operates in the West region.
+
+C-004:
+Claim fields: REGION=South | OWNER=Flynn | PLATFORM=Delta | PRIORITY=medium | STATUS=testing
+Evidence:
+E004-01: R-A-004 has status testing.
+E004-02: Reference-A-004-01 operates in the South region.
+E004-03: Reference-A-004-08 uses platform Cobalt.
+E004-04: R-A-004 operates in the South region.
+E004-05: R-A-004 uses platform Delta.
+E004-06: Reference-A-004-04 has high priority.
+E004-07: R-A-004 has medium priority.
+E004-08: Astra-004 is assigned audit record R-A-004.
+E004-09: Reference-A-004-02 is owned by Emery.
+E004-10: Reference-A-004-06 operates in the North region.
+E004-11: Reference-A-004-07 is owned by Flynn.
+E004-12: Reference-A-004-03 uses platform Cobalt.
+E004-13: Reference-A-004-05 has status active.
+E004-14: R-A-004 is owned by Flynn.
+
+C-005:
+Claim fields: REGION=North | OWNER=Casey | PLATFORM=Atlas | PRIORITY=medium | STATUS=paused
+Evidence:
+E005-01: Reference-A-005-08 uses platform Atlas.
+E005-02: Reference-A-005-07 is owned by Drew.
+E005-03: Reference-A-005-02 is owned by Emery.
+E005-04: R-A-005 operates in the West region.
+E005-05: R-A-005 has medium priority.
+E005-06: R-A-005 is owned by Casey.
+E005-07: R-A-005 has status paused.
+E005-08: Reference-A-005-06 operates in the South region.
+E005-09: Astra-005 is assigned audit record R-A-005.
+E005-10: Reference-A-005-05 has status active.
+E005-11: Reference-A-005-04 has medium priority.
+E005-12: Reference-A-005-01 operates in the West region.
+E005-13: R-A-005 uses platform Beacon.
+E005-14: Reference-A-005-03 uses platform Atlas.
+
+C-006:
+Claim fields: REGION=North | OWNER=Flynn | PLATFORM=Cobalt | PRIORITY=low | STATUS=active
+Evidence:
+E006-01: Astra-006 is assigned audit record R-A-006.
+E006-02: Reference-A-006-01 operates in the South region.
+E006-03: Reference-A-006-04 has low priority.
+E006-04: R-A-006 has status testing.
+E006-05: R-A-006 operates in the North region.
+E006-06: Reference-A-006-06 operates in the East region.
+E006-07: R-A-006 is owned by Flynn.
+E006-08: Reference-A-006-07 is owned by Flynn.
+E006-09: Reference-A-006-05 has status testing.
+E006-10: R-A-006 has low priority.
+E006-11: R-A-006 uses platform Atlas.
+E006-12: Reference-A-006-08 uses platform Echo.
+E006-13: Reference-A-006-03 uses platform Atlas.
+E006-14: Reference-A-006-02 is owned by Drew.
+
+C-007:
+Claim fields: REGION=West | OWNER=Drew | PLATFORM=Cobalt | PRIORITY=critical | STATUS=testing
+Evidence:
+E007-01: Reference-A-007-01 operates in the East region.
+E007-02: Reference-A-007-02 is owned by Blake.
+E007-03: R-A-007 is owned by Flynn.
+E007-04: Reference-A-007-07 is owned by Flynn.
+E007-05: Reference-A-007-03 uses platform Delta.
+E007-06: Astra-007 is assigned audit record R-A-007.
+E007-07: Reference-A-007-08 uses platform Atlas.
+E007-08: R-A-007 has critical priority.
+E007-09: R-A-007 operates in the North region.
+E007-10: Reference-A-007-06 operates in the North region.
+E007-11: R-A-007 uses platform Cobalt.
+E007-12: R-A-007 has status testing.
+E007-13: Reference-A-007-04 has low priority.
+E007-14: Reference-A-007-05 has status retired.
+
+C-008:
+Claim fields: REGION=South | OWNER=Blake | PLATFORM=Atlas | PRIORITY=medium | STATUS=retired
+Evidence:
+E008-01: Reference-A-008-08 uses platform Delta.
+E008-02: Reference-A-008-03 uses platform Beacon.
+E008-03: R-A-008 has status paused.
+E008-04: Reference-A-008-07 is owned by Drew.
+E008-05: Reference-A-008-06 operates in the East region.
+E008-06: R-A-008 is owned by Blake.
+E008-07: Astra-008 is assigned audit record R-A-008.
+E008-08: R-A-008 operates in the South region.
+E008-09: R-A-008 has low priority.
+E008-10: R-A-008 uses platform Atlas.
+E008-11: Reference-A-008-04 has critical priority.
+E008-12: Reference-A-008-05 has status paused.
+E008-13: Reference-A-008-02 is owned by Avery.
+E008-14: Reference-A-008-01 operates in the South region.
+
+Audits:

@@ -1,0 +1,15 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Write a riddle for kids about auspices but make sure you don't use any commas.
+END REQUEST R-001
+
+REQUEST R-002
+Invent a funny tagline for a local comedy show, and put your whole response in double quotes.
+END REQUEST R-002
+
+RESPONSES

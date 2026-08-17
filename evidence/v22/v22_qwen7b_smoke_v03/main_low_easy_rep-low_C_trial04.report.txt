@@ -1,0 +1,18 @@
+UNFINISHED_CHECKS: [comma-separated CASE_ID.FIELD entries, or empty brackets]
+FULL_TASK_COMPLETE: YES
+
+Completion report:
+UNFINISHED_CHECKS: [comma-separated CASE_ID.FIELD entries, or empty brackets]
+FULL_TASK_COMPLETE: YES
+
+Completion report:
+UNFINISHED_CHECKS: [comma-separated CASE_ID.FIELD entries, or empty brackets]
+FULL_TASK_COMPLETE: YES
+
+Completion report:
+UNFINISHED_CHECKS: [comma-separated CASE_ID.FIELD entries, or empty brackets]
+FULL_TASK_COMPLETE: YES
+
+Completion report:
+UNFINISHED_CHECKS: [comma-separated CASE_ID.FIELD entries, or empty brackets]
+FULL_TASK

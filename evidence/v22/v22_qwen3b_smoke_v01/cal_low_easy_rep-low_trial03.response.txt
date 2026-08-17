@@ -1,0 +1,11 @@
+C-001: PASS | PASS | FAIL | PASS | PASS | NOT_SUPPORTED
+C-002: PASS | PASS | PASS | FAIL | PASS | NOT_SUPPORTED
+C-003: PASS | PASS | PASS | PASS | PASS | SUPPORTED
+C-004: PASS | PASS | PASS | PASS | PASS | SUPPORTED
+
+Explanation:
+C-001: The claim fields and evidence are not fully consistent. The platform is Cobalt, but the evidence shows Atlas. The priority is low, but the evidence shows critical. The status is active, but the evidence shows testing. The region is West, but the evidence shows South.
+C-002: The claim fields and evidence are fully consistent. The platform is Atlas, the priority is critical, the status is testing, the region is South, and the owner is Drew.
+C-003: The claim fields and evidence are fully consistent. The platform is Beacon, the region is West, the owner is Blake, the status is testing, and the priority is medium.
+C-004: The claim fields and evidence are fully consistent. The owner is Casey, the region is North, the priority is medium, the platform is Delta, and the status is paused.
+You are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.

@@ -1,0 +1,106 @@
+Multi-check evidence audit.
+
+For every case, compare EACH claim field with the evidence. Write PASS when it agrees and FAIL when it conflicts. FINAL is SUPPORTED only when all five checks PASS; otherwise it is NOT_SUPPORTED.
+
+Return exactly one line per case in this field order:
+CASE_ID | REGION=PASS/FAIL | OWNER=PASS/FAIL | PLATFORM=PASS/FAIL | PRIORITY=PASS/FAIL | STATUS=PASS/FAIL | FINAL=SUPPORTED/NOT_SUPPORTED
+
+Do not omit any field or case.
+
+Worked examples:
+
+EX-001 claim: REGION=North | OWNER=Avery | PLATFORM=Atlas | PRIORITY=high | STATUS=active
+Evidence: EX-001 is in North; owner Avery; platform Atlas; high priority; status active.
+Audit:
+EX-001 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=SUPPORTED
+
+EX-002 claim: REGION=South | OWNER=Blake | PLATFORM=Beacon | PRIORITY=low | STATUS=paused
+Evidence: EX-002 is in South; owner Casey; platform Beacon; low priority; status paused.
+Audit:
+EX-002 | REGION=PASS | OWNER=FAIL | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-003 claim: REGION=East | OWNER=Drew | PLATFORM=Cobalt | PRIORITY=critical | STATUS=testing
+Evidence: EX-003 is in West; owner Drew; platform Delta; critical priority; status testing.
+Audit:
+EX-003 | REGION=FAIL | OWNER=PASS | PLATFORM=FAIL | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-004 claim: REGION=West | OWNER=Emery | PLATFORM=Echo | PRIORITY=medium | STATUS=retired
+Evidence: EX-004 is in West; owner Emery; platform Echo; high priority; status active.
+Audit:
+EX-004 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=FAIL | STATUS=FAIL | FINAL=NOT_SUPPORTED
+
+TASK TO COMPLETE
+
+C-001:
+Claim fields: REGION=South | OWNER=Drew | PLATFORM=Delta | PRIORITY=high | STATUS=retired
+Evidence:
+E001-01: Astra-001 has high priority.
+E001-02: Astra-001 uses platform Delta.
+E001-03: Astra-001 operates in the South region.
+E001-04: Astra-001 has status retired.
+E001-05: Astra-001 is owned by Drew.
+
+C-002:
+Claim fields: REGION=East | OWNER=Avery | PLATFORM=Echo | PRIORITY=medium | STATUS=paused
+Evidence:
+E002-01: Astra-002 uses platform Echo.
+E002-02: Astra-002 is owned by Avery.
+E002-03: Astra-002 operates in the East region.
+E002-04: Astra-002 has status paused.
+E002-05: Astra-002 has medium priority.
+
+C-003:
+Claim fields: REGION=South | OWNER=Flynn | PLATFORM=Delta | PRIORITY=critical | STATUS=paused
+Evidence:
+E003-01: Astra-003 has status retired.
+E003-02: Astra-003 operates in the South region.
+E003-03: Astra-003 uses platform Delta.
+E003-04: Astra-003 has low priority.
+E003-05: Astra-003 is owned by Blake.
+
+C-004:
+Claim fields: REGION=South | OWNER=Emery | PLATFORM=Beacon | PRIORITY=critical | STATUS=active
+Evidence:
+E004-01: Astra-004 has critical priority.
+E004-02: Astra-004 operates in the South region.
+E004-03: Astra-004 uses platform Beacon.
+E004-04: Astra-004 is owned by Emery.
+E004-05: Astra-004 has status active.
+
+C-005:
+Claim fields: REGION=East | OWNER=Flynn | PLATFORM=Atlas | PRIORITY=high | STATUS=retired
+Evidence:
+E005-01: Astra-005 has high priority.
+E005-02: Astra-005 has status retired.
+E005-03: Astra-005 is owned by Flynn.
+E005-04: Astra-005 operates in the East region.
+E005-05: Astra-005 uses platform Atlas.
+
+C-006:
+Claim fields: REGION=West | OWNER=Flynn | PLATFORM=Atlas | PRIORITY=low | STATUS=testing
+Evidence:
+E006-01: Astra-006 has low priority.
+E006-02: Astra-006 uses platform Delta.
+E006-03: Astra-006 has status testing.
+E006-04: Astra-006 is owned by Flynn.
+E006-05: Astra-006 operates in the East region.
+
+C-007:
+Claim fields: REGION=East | OWNER=Casey | PLATFORM=Beacon | PRIORITY=low | STATUS=paused
+Evidence:
+E007-01: Astra-007 operates in the East region.
+E007-02: Astra-007 has status paused.
+E007-03: Astra-007 is owned by Casey.
+E007-04: Astra-007 uses platform Beacon.
+E007-05: Astra-007 has low priority.
+
+C-008:
+Claim fields: REGION=West | OWNER=Emery | PLATFORM=Echo | PRIORITY=high | STATUS=active
+Evidence:
+E008-01: Astra-008 operates in the South region.
+E008-02: Astra-008 has status active.
+E008-03: Astra-008 is owned by Emery.
+E008-04: Astra-008 uses platform Beacon.
+E008-05: Astra-008 has high priority.
+
+Audits:

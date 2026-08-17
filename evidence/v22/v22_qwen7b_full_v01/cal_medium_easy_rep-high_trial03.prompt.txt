@@ -1,0 +1,70 @@
+Multi-check evidence audit.
+
+For every case, compare EACH claim field with the evidence. Write PASS when it agrees and FAIL when it conflicts. FINAL is SUPPORTED only when all five checks PASS; otherwise it is NOT_SUPPORTED.
+
+Return exactly one line per case in this field order:
+CASE_ID | REGION=PASS/FAIL | OWNER=PASS/FAIL | PLATFORM=PASS/FAIL | PRIORITY=PASS/FAIL | STATUS=PASS/FAIL | FINAL=SUPPORTED/NOT_SUPPORTED
+
+Do not omit any field or case.
+
+Worked examples:
+
+EX-001 claim: REGION=North | OWNER=Avery | PLATFORM=Atlas | PRIORITY=high | STATUS=active
+Evidence: EX-001 is in North; owner Avery; platform Atlas; high priority; status active.
+Audit:
+EX-001 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=SUPPORTED
+
+EX-002 claim: REGION=South | OWNER=Blake | PLATFORM=Beacon | PRIORITY=low | STATUS=paused
+Evidence: EX-002 is in South; owner Casey; platform Beacon; low priority; status paused.
+Audit:
+EX-002 | REGION=PASS | OWNER=FAIL | PLATFORM=PASS | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-003 claim: REGION=East | OWNER=Drew | PLATFORM=Cobalt | PRIORITY=critical | STATUS=testing
+Evidence: EX-003 is in West; owner Drew; platform Delta; critical priority; status testing.
+Audit:
+EX-003 | REGION=FAIL | OWNER=PASS | PLATFORM=FAIL | PRIORITY=PASS | STATUS=PASS | FINAL=NOT_SUPPORTED
+
+EX-004 claim: REGION=West | OWNER=Emery | PLATFORM=Echo | PRIORITY=medium | STATUS=retired
+Evidence: EX-004 is in West; owner Emery; platform Echo; high priority; status active.
+Audit:
+EX-004 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=FAIL | STATUS=FAIL | FINAL=NOT_SUPPORTED
+
+TASK TO COMPLETE
+
+C-001:
+Claim fields: REGION=East | OWNER=Casey | PLATFORM=Beacon | PRIORITY=high | STATUS=paused
+Evidence:
+E001-01: Astra-001 operates in the East region.
+E001-02: Astra-001 is owned by Blake.
+E001-03: Astra-001 has status retired.
+E001-04: Astra-001 uses platform Delta.
+E001-05: Astra-001 has high priority.
+
+C-002:
+Claim fields: REGION=South | OWNER=Casey | PLATFORM=Cobalt | PRIORITY=critical | STATUS=active
+Evidence:
+E002-01: Astra-002 has critical priority.
+E002-02: Astra-002 is owned by Casey.
+E002-03: Astra-002 uses platform Cobalt.
+E002-04: Astra-002 operates in the South region.
+E002-05: Astra-002 has status active.
+
+C-003:
+Claim fields: REGION=East | OWNER=Flynn | PLATFORM=Cobalt | PRIORITY=critical | STATUS=active
+Evidence:
+E003-01: Astra-003 operates in the East region.
+E003-02: Astra-003 uses platform Cobalt.
+E003-03: Astra-003 is owned by Flynn.
+E003-04: Astra-003 has status active.
+E003-05: Astra-003 has critical priority.
+
+C-004:
+Claim fields: REGION=East | OWNER=Emery | PLATFORM=Echo | PRIORITY=critical | STATUS=testing
+Evidence:
+E004-01: Astra-004 has critical priority.
+E004-02: Astra-004 has status testing.
+E004-03: Astra-004 uses platform Atlas.
+E004-04: Astra-004 is owned by Emery.
+E004-05: Astra-004 operates in the South region.
+
+Audits:

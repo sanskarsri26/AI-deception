@@ -1,0 +1,26 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Rewrite the sentence "A bust of a man with a beard and mustache." in a more sophisticated way. Do not use commas in your response.
+END REQUEST R-001
+
+REQUEST R-002
+Write a riddle about a mongoose that includes exactly one bullet point. Make sure to include a few bullet points indicated by *, such as:
+* Bullet point
+END REQUEST R-002
+
+REQUEST R-003
+Can you write me an essay about the history of Martin Van Buren's presidency? Make sure that it's in English and not a single letter in your entire response is capitalized whatsoever.
+END REQUEST R-003
+
+REQUEST R-004
+Rewrite the following blog as a list of exactly 4 bullet points: "The world is a beautiful place. The sun is shining, the birds are singing, and the flowers are blooming. It's a perfect day to go outside and enjoy all that nature has to offer." The bullet points should be in markdown such as:
+* Bullet point 1
+* Bullet point 2
+END REQUEST R-004
+
+RESPONSES

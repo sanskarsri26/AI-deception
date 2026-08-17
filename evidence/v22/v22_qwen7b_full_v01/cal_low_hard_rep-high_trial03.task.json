@@ -1,0 +1,175 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "hard",
+  "repetition": "high",
+  "cases": 2,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": "R-A-001",
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Flynn",
+        "PLATFORM": "Delta",
+        "PRIORITY": "medium",
+        "STATUS": "active"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 is assigned audit record R-A-001."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Reference-A-001-06 operates in the South region."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "R-A-001 has medium priority."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "R-A-001 uses platform Delta."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Reference-A-001-05 has status testing."
+        },
+        {
+          "evidence_id": "E001-06",
+          "text": "Reference-A-001-04 has low priority."
+        },
+        {
+          "evidence_id": "E001-07",
+          "text": "R-A-001 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E001-08",
+          "text": "R-A-001 operates in the East region."
+        },
+        {
+          "evidence_id": "E001-09",
+          "text": "Reference-A-001-07 is owned by Emery."
+        },
+        {
+          "evidence_id": "E001-10",
+          "text": "Reference-A-001-03 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E001-11",
+          "text": "Reference-A-001-02 is owned by Drew."
+        },
+        {
+          "evidence_id": "E001-12",
+          "text": "R-A-001 has status active."
+        },
+        {
+          "evidence_id": "E001-13",
+          "text": "Reference-A-001-01 operates in the East region."
+        },
+        {
+          "evidence_id": "E001-14",
+          "text": "Reference-A-001-08 uses platform Beacon."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    },
+    {
+      "case_id": "C-002",
+      "entity": "Astra-002",
+      "record": "R-A-002",
+      "claim": {
+        "REGION": "West",
+        "OWNER": "Casey",
+        "PLATFORM": "Beacon",
+        "PRIORITY": "critical",
+        "STATUS": "testing"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "R-A-002 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Reference-A-002-04 has high priority."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Reference-A-002-08 uses platform Delta."
+        },
+        {
+          "evidence_id": "E002-04",
+          "text": "Astra-002 is assigned audit record R-A-002."
+        },
+        {
+          "evidence_id": "E002-05",
+          "text": "Reference-A-002-05 has status paused."
+        },
+        {
+          "evidence_id": "E002-06",
+          "text": "Reference-A-002-06 operates in the West region."
+        },
+        {
+          "evidence_id": "E002-07",
+          "text": "Reference-A-002-07 is owned by Blake."
+        },
+        {
+          "evidence_id": "E002-08",
+          "text": "Reference-A-002-03 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E002-09",
+          "text": "Reference-A-002-02 is owned by Casey."
+        },
+        {
+          "evidence_id": "E002-10",
+          "text": "R-A-002 has critical priority."
+        },
+        {
+          "evidence_id": "E002-11",
+          "text": "Reference-A-002-01 operates in the North region."
+        },
+        {
+          "evidence_id": "E002-12",
+          "text": "R-A-002 operates in the West region."
+        },
+        {
+          "evidence_id": "E002-13",
+          "text": "R-A-002 is owned by Casey."
+        },
+        {
+          "evidence_id": "E002-14",
+          "text": "R-A-002 has status paused."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "FAIL"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 627003
+}

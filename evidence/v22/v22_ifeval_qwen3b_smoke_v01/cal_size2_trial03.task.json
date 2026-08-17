@@ -1,0 +1,41 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 2,
+  "seed": 940203,
+  "profile": "short",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 2667,
+      "prompt": "Please elaborate on the following text: \"It's not a bug, it's a feature!\" Write exactly 2 bullet points in markdown format. Use \"*\" to indicate a bullet point. One example bullet:\n* It's not a bug",
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 2
+        }
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 1389,
+      "prompt": "Write a letter to your friend who recently moved away. Your entire response should be in English, and in all capital letters. The letter o should appear at least 40 times.",
+      "instruction_id_list": [
+        "change_case:english_capital",
+        "keywords:letter_frequency"
+      ],
+      "kwargs": [
+        {},
+        {
+          "let_relation": "at least",
+          "letter": "o",
+          "let_frequency": 40
+        }
+      ]
+    }
+  ]
+}

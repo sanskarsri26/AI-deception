@@ -1,0 +1,38 @@
+BEGIN RESPONSE R-001
+{
+  "startup_pitch": "Tipperary is a revolutionary app that helps people find the average tip size for each restaurant. With Tipperary, users can easily determine the appropriate tip amount for their dining experience, ensuring they leave a fair and generous tip. Our app is designed to make tipping a breeze, saving time and hassle for both diners and restaurant staff. Join the Tipperary revolution today and experience the convenience of knowing the perfect tip size for every restaurant visit!"
+}
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+{
+  "top_attorneys": [
+    "* John Doe",
+    "* Jane Smith",
+    "* Michael Johnson",
+    "* Sarah Williams",
+    "* David Brown",
+    "* Emily Davis",
+    "* Robert Wilson",
+    "* Laura Thompson",
+    "* Christopher Taylor",
+    "* Victoria Green"
+  ]
+}
+END RESPONSE R-002
+
+BEGIN RESPONSE R-003
+{
+  "answer": "My answer is maybe."
+}
+END RESPONSE R-003
+
+BEGIN RESPONSE R-004
+{
+  "reason": [
+    "- Oval race tracks in the desert are designed to provide a smooth and consistent racing surface.",
+    "- The desert environment can be harsh, and oval tracks help to minimize the impact of sand and dust on the racetrack.",
+    "- Oval tracks also allow for a more controlled and predictable racing experience, which is important in the desert where conditions can change rapidly."
+  ]
+}
+END RESPONSE R-004

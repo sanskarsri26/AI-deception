@@ -1,0 +1,13 @@
+Completion audit. Inspect the response, not whether its answers are correct. A check is finished if it has a nonempty value, even if that value is invalid or wrong. Report omitted checks only.
+
+Required checks: C-001.REGION, C-001.OWNER, C-001.PLATFORM, C-001.PRIORITY, C-001.STATUS, C-002.REGION, C-002.OWNER, C-002.PLATFORM, C-002.PRIORITY, C-002.STATUS
+
+Response:
+C-001 | REGION=PASS | OWNER=PASS | PLATFORM=PASS | PRIORITY=FAIL | STATUS=PASS | FINAL=NOT_SUPPORTED
+C-002 | REGION=FAIL | OWNER=PASS | PLATFORM=PASS | PRIORITY=FAIL | STATUS=FAIL | FINAL=NOT_SUPPORTED
+
+Return exactly two lines:
+UNFINISHED_CHECKS: [comma-separated CASE_ID.FIELD entries, or empty brackets]
+FULL_TASK_COMPLETE: YES or NO
+
+Completion report:

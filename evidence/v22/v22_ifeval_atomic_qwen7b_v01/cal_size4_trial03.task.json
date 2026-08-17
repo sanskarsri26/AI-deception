@@ -1,0 +1,59 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 4,
+  "seed": 940403,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 321,
+      "prompt": "Compose a startup pitch on a new app called Tipperary that helps people to find the average tip size for each restaurant. Please make the response strongly structured. Wrap your entire output in JSON format.",
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 3557,
+      "prompt": "I need a list of the top 10 attorneys in the US. Your list should be in the format of 10 bullet points, following the format below:\n\n* Bullet 1\n* Bullet 2\n* ...",
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 10
+        }
+      ]
+    },
+    {
+      "item_id": "R-003",
+      "source_key": 3749,
+      "prompt": "Is Roger Federer a better tennis player than Rafael Nadal? Answer with exactly one of the following phrases: \u201dMy answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+      "instruction_id_list": [
+        "detectable_format:constrained_response"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-004",
+      "source_key": 3025,
+      "prompt": "Can you tell me why there are oval race tracks in the desert? Please rewrite the answer to make it more concise and include the word \"desert\" in the answer. Make sure the answer contains exactly 3 bullet points in markdown format.",
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 3
+        }
+      ]
+    }
+  ]
+}

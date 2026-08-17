@@ -1,0 +1,7 @@
+BEGIN RESPONSE R-001
+Ripley's Aquarium is a must-visit attraction for anyone who loves marine life. Located in [location], this aquarium is home to over 17,000 animals from around the world. Visitors can explore the different exhibits and learn about the fascinating creatures that call the ocean home. Whether you're a fan of sharks, rays, or sea turtles, Ripley's Aquarium has something for everyone. So, if you're looking for a fun and educational day out, be sure to add Ripley's Aquarium to your itinerary.
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+The 2018 Nobel Prize in Chemistry was awarded to three scientists for their work on something called "directed evolution." It's like a game of evolution, but instead of waiting for nature to do its thing, these scientists used their own brains to make it happen. Frances Arnold won half of the prize for her work on "directed evolution of enzymes," which is like making enzymes do what you want them to do. George P. Smith and Gregory P. Winter shared the other half for their work on "directed evolution of antibodies," which is like making antibodies do what you want them to do. So, if you're wondering what they won the prize for, it's basically for making things evolve faster and more efficiently than nature can.
+END RESPONSE R-002

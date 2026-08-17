@@ -1,0 +1,13 @@
+BEGIN RESPONSE R-001
+* The world is a beautiful place.
+* The sun is shining.
+* The birds are singing.
+* The flowers are blooming.
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+What has wings and can fly, but doesn't need a plane or a kite?
+A bird! And what does a bird do when it's happy?
+It sings! So, what's the answer to the riddle?
+A bird that sings!
+END RESPONSE R-002

@@ -1,0 +1,31 @@
+BEGIN RESPONSE R-001
+{
+  "startup_pitch": "Tipperary is a revolutionary app that simplifies the process of finding the average tip size for each restaurant. Our app provides users with accurate and up-to-date information on tipping etiquette, helping them to make informed decisions and ensure they leave a fair tip. With Tipperary, finding the perfect tip has never been easier. Download Tipperary today and start tipping like a pro!"
+}
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+There are 396 calories in a serving of 32 grams of unsalted almonds because the energy content of almonds is approximately 57 calories per gram. Therefore, 32 grams of almonds would contain 32 * 57 = 1824 calories. However, the actual number of calories may vary slightly depending on the specific variety and preparation method of the almonds.
+END RESPONSE R-002
+
+BEGIN RESPONSE R-003
+Martin Van Buren was the eighth President of the United States, serving from 1837 to 1841. He was born on December 5, 1782, in Kinderhook, New York, and was the first president to be born after the American Revolution. Van Buren was a member of the Democratic Party and was known for his political acumen and his ability to navigate the complex political landscape of the early 19th century.
+
+Van Buren's presidency was marked by a number of challenges, including the Panic of 1837, which was a severe economic depression that affected the entire country. Van Buren's response to the crisis was to implement a series of economic policies aimed at stabilizing the economy and promoting growth. However, his policies were met with resistance from both Democrats and Whigs, and he was unable to gain the support he needed to implement them effectively.
+
+Van Buren's presidency was also marked by a number of political controversies, including the Nullification Crisis, which was a conflict between the federal government and the state of South Carolina over the issue of tariffs. Van Buren was able to defuse the crisis by negotiating a compromise with South Carolina, but the incident highlighted the growing tensions between the federal government and the states.
+
+Van Buren's presidency came to an end in 1841, when he was defeated in his bid for re-election. He was succeeded by William Henry Harrison, who served as president for only a month before dying of pneumonia. Van Buren went on to serve as the Secretary of State under President James Polk, and he later became a prominent figure in the Democratic Party. He died on July 24, 1862, at the age of 79.
+END RESPONSE R-003
+
+BEGIN RESPONSE R-004
+"Hey there, internet enthusiasts! Today, we're going to take a trip down memory lane and explore the history of the internet and how it has impacted our lives. From its humble beginnings as a military project to its current status as a global phenomenon, the internet has come a long way in just a few decades.
+
+The internet was first developed in the 1960s as a way for researchers to share information and communicate with each other. It was initially used by the military and government agencies, but it quickly spread to universities and other organizations. In the 1980s, the internet began to take on a more commercial role, with the development of the World Wide Web and the introduction of the first web browser.
+
+Since then, the internet has become an integral part of our daily lives. We use it to communicate with friends and family, to shop for goods and services, to access news and information, and to entertain ourselves. The internet has also had a profound impact on the way we work, with the rise of remote work and the ability to collaborate with colleagues from around the world.
+
+Of course, the internet has also brought with it a number of challenges, including issues of privacy, security, and the spread of misinformation. But despite these challenges, the internet remains an incredibly powerful tool that has transformed the way we live and work.
+
+So the next time you're scrolling through your social media feed or streaming your favorite TV show, take a moment to appreciate the incredible journey that has brought us to this point. The internet has come a long way, and it's only going to get more interesting from here!"
+END RESPONSE R-004

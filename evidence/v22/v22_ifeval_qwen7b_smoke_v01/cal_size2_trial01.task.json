@@ -1,0 +1,40 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 2,
+  "seed": 940201,
+  "profile": "short",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 1372,
+      "prompt": "Draft a blog post about Ripley's Aquarium. Make sure your blog post contains at least 7 placeholders represented by square brackets, such as [location].",
+      "instruction_id_list": [
+        "detectable_content:number_placeholders"
+      ],
+      "kwargs": [
+        {
+          "num_placeholders": 7
+        }
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 2034,
+      "prompt": "Write a summary of the following text in a funny way: \"The 2018 Nobel Prize in Chemistry has been awarded to Frances Arnold, George P. Smith and Gregory P. Winter for their work on directed evolution. Arnold was awarded half of the prize for her work on the directed evolution of enzymes, while Smith and Winter shared the other half for their work on the directed evolution of antibodies.\"\n\nDo not include \"enzymes\" and \"antibodies\" in your response.",
+      "instruction_id_list": [
+        "keywords:forbidden_words"
+      ],
+      "kwargs": [
+        {
+          "forbidden_words": [
+            "enzymes",
+            "antibodies"
+          ]
+        }
+      ]
+    }
+  ]
+}

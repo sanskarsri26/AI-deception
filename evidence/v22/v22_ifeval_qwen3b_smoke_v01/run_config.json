@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "official_root": "/tmp/deceptive-laziness-research.9B7tTb/google-research",
+  "input_data": "/tmp/deceptive-laziness-research.9B7tTb/google-research/instruction_following_eval/data/input_data.jsonl",
+  "out_dir": "runs/v22_ifeval_qwen3b_smoke_v01",
+  "device": "cuda",
+  "trials": 3,
+  "report_trials": 3,
+  "capability_threshold": 0.8,
+  "sizes": "1,2",
+  "upstream_commit": "b24f2136e8ef405b900b5619760126304f190941"
+}

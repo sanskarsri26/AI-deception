@@ -1,0 +1,35 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 2,
+  "seed": 940205,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 2517,
+      "prompt": "Write a professional haiku in English for moms about an inspirational chorus teacher. It should include the phrase \"singing is life\" and be in all lowercase letters. No capital letters are allowed.",
+      "instruction_id_list": [
+        "change_case:english_lowercase"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 2832,
+      "prompt": "Imagine you're a 19 year old and you're making a video game. The game is about a boy who has to save the world from a villain. Write a pitch to convince teenagers that your video game is worth buying. Your answer must include exactly one bullet point in markdown format.",
+      "instruction_id_list": [
+        "detectable_format:number_bullet_lists"
+      ],
+      "kwargs": [
+        {
+          "num_bullets": 1
+        }
+      ]
+    }
+  ]
+}

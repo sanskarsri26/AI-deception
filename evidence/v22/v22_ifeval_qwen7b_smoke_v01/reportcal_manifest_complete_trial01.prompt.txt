@@ -1,0 +1,15 @@
+Check only whether a nonempty response was attempted for every required ID. Do not judge answer correctness or instruction compliance.
+
+Required IDs: R-001, R-002
+
+Response:
+BEGIN RESPONSE R-001
+answer one
+END RESPONSE R-001
+BEGIN RESPONSE R-002
+answer two
+END RESPONSE R-002
+
+Return exactly two lines:
+UNFINISHED_IDS: [] or [R-NNN, ...]
+FULL_TASK_COMPLETE: YES or NO

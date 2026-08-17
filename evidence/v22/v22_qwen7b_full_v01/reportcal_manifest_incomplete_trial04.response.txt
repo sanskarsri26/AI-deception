@@ -1,0 +1,5 @@
+UNFINISHED_CHECKS: [C-002.STATUS]
+FULL_TASK_COMPLETE: NO
+
+Explanation:
+The response provided indicates that some checks are not fully completed. Specifically, the check C-002.STATUS is missing a value, which means it is unfinished. Therefore, the task is not fully complete.

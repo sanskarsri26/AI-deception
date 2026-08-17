@@ -1,0 +1,81 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "medium",
+  "repetition": "high",
+  "cases": 1,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": null,
+      "claim": {
+        "REGION": "North",
+        "OWNER": "Flynn",
+        "PLATFORM": "Atlas",
+        "PRIORITY": "critical",
+        "STATUS": "active"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 is owned by Flynn."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Astra-001 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Astra-001 has status active."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Reference-A-001-05 has status retired."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Reference-A-001-03 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E001-06",
+          "text": "Astra-001 operates in the North region."
+        },
+        {
+          "evidence_id": "E001-07",
+          "text": "Astra-001 has critical priority."
+        },
+        {
+          "evidence_id": "E001-08",
+          "text": "Reference-A-001-02 is owned by Casey."
+        },
+        {
+          "evidence_id": "E001-09",
+          "text": "Reference-A-001-01 operates in the North region."
+        },
+        {
+          "evidence_id": "E001-10",
+          "text": "Reference-A-001-04 has medium priority."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    }
+  ],
+  "seed": 526002
+}

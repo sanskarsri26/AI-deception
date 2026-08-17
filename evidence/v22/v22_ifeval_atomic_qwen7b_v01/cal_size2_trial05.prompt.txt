@@ -1,0 +1,15 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Write a professional haiku in English for moms about an inspirational chorus teacher. It should include the phrase "singing is life" and be in all lowercase letters. No capital letters are allowed.
+END REQUEST R-001
+
+REQUEST R-002
+Imagine you're a 19 year old and you're making a video game. The game is about a boy who has to save the world from a villain. Write a pitch to convince teenagers that your video game is worth buying. Your answer must include exactly one bullet point in markdown format.
+END REQUEST R-002
+
+RESPONSES

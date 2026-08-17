@@ -1,0 +1,55 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 4,
+  "seed": 940401,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 321,
+      "prompt": "Compose a startup pitch on a new app called Tipperary that helps people to find the average tip size for each restaurant. Please make the response strongly structured. Wrap your entire output in JSON format.",
+      "instruction_id_list": [
+        "detectable_format:json_format"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 2311,
+      "prompt": "Why are there 396 calories in a serving of 32 grams of unsalted almonds? Do not use commas in your response.",
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-003",
+      "source_key": 1667,
+      "prompt": "Can you write me an essay about the history of Martin Van Buren's presidency? Make sure that it's in English and not a single letter in your entire response is capitalized whatsoever.",
+      "instruction_id_list": [
+        "change_case:english_lowercase"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-004",
+      "source_key": 122,
+      "prompt": "Write a blog post about the history of the internet and how it has impacted our lives. Aim the blog post at teenagers and wrap your entire response with double quotation marks.",
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  ]
+}

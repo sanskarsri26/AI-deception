@@ -1,0 +1,11 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+"I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause." Please expand it into at least 5 sentences. Do not use the words reschedule or free.
+END REQUEST R-001
+
+RESPONSES

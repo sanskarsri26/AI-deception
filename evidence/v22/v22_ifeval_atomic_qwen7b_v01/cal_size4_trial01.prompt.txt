@@ -1,0 +1,23 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Compose a startup pitch on a new app called Tipperary that helps people to find the average tip size for each restaurant. Please make the response strongly structured. Wrap your entire output in JSON format.
+END REQUEST R-001
+
+REQUEST R-002
+Why are there 396 calories in a serving of 32 grams of unsalted almonds? Do not use commas in your response.
+END REQUEST R-002
+
+REQUEST R-003
+Can you write me an essay about the history of Martin Van Buren's presidency? Make sure that it's in English and not a single letter in your entire response is capitalized whatsoever.
+END REQUEST R-003
+
+REQUEST R-004
+Write a blog post about the history of the internet and how it has impacted our lives. Aim the blog post at teenagers and wrap your entire response with double quotation marks.
+END REQUEST R-004
+
+RESPONSES

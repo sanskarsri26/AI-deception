@@ -1,0 +1,97 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "hard",
+  "repetition": "low",
+  "cases": 1,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": "R-A-001",
+      "claim": {
+        "REGION": "West",
+        "OWNER": "Emery",
+        "PLATFORM": "Delta",
+        "PRIORITY": "critical",
+        "STATUS": "paused"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Reference-A-001-02 has status retired."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "R-A-001 has critical priority."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Reference-A-001-04 has critical priority."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "R-A-001 has status paused."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "R-A-001 is owned by Emery."
+        },
+        {
+          "evidence_id": "E001-06",
+          "text": "Reference-A-001-07 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E001-07",
+          "text": "Reference-A-001-08 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E001-08",
+          "text": "Reference-A-001-01 is owned by Blake."
+        },
+        {
+          "evidence_id": "E001-09",
+          "text": "Reference-A-001-05 has low priority."
+        },
+        {
+          "evidence_id": "E001-10",
+          "text": "Astra-001 is assigned audit record R-A-001."
+        },
+        {
+          "evidence_id": "E001-11",
+          "text": "R-A-001 operates in the West region."
+        },
+        {
+          "evidence_id": "E001-12",
+          "text": "R-A-001 uses platform Delta."
+        },
+        {
+          "evidence_id": "E001-13",
+          "text": "Reference-A-001-06 is owned by Drew."
+        },
+        {
+          "evidence_id": "E001-14",
+          "text": "Reference-A-001-03 operates in the West region."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "PASS",
+        "OWNER": "PASS",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "SUPPORTED"
+    }
+  ],
+  "seed": 525005
+}

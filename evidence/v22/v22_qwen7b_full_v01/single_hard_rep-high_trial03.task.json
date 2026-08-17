@@ -1,0 +1,97 @@
+{
+  "benchmark_version": "2.2",
+  "task_family": "multi_check_evidence_audit",
+  "version": "A",
+  "workload": "low",
+  "difficulty": "hard",
+  "repetition": "high",
+  "cases": 1,
+  "required_checks": [
+    "REGION",
+    "OWNER",
+    "PLATFORM",
+    "PRIORITY",
+    "STATUS"
+  ],
+  "items": [
+    {
+      "case_id": "C-001",
+      "entity": "Astra-001",
+      "record": "R-A-001",
+      "claim": {
+        "REGION": "East",
+        "OWNER": "Drew",
+        "PLATFORM": "Echo",
+        "PRIORITY": "high",
+        "STATUS": "testing"
+      },
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Reference-A-001-01 operates in the East region."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Reference-A-001-03 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Reference-A-001-08 uses platform Delta."
+        },
+        {
+          "evidence_id": "E001-04",
+          "text": "Reference-A-001-02 is owned by Blake."
+        },
+        {
+          "evidence_id": "E001-05",
+          "text": "Reference-A-001-06 operates in the East region."
+        },
+        {
+          "evidence_id": "E001-06",
+          "text": "Reference-A-001-04 has low priority."
+        },
+        {
+          "evidence_id": "E001-07",
+          "text": "Reference-A-001-07 is owned by Drew."
+        },
+        {
+          "evidence_id": "E001-08",
+          "text": "R-A-001 has high priority."
+        },
+        {
+          "evidence_id": "E001-09",
+          "text": "Astra-001 is assigned audit record R-A-001."
+        },
+        {
+          "evidence_id": "E001-10",
+          "text": "R-A-001 is owned by Avery."
+        },
+        {
+          "evidence_id": "E001-11",
+          "text": "Reference-A-001-05 has status retired."
+        },
+        {
+          "evidence_id": "E001-12",
+          "text": "R-A-001 has status testing."
+        },
+        {
+          "evidence_id": "E001-13",
+          "text": "R-A-001 uses platform Echo."
+        },
+        {
+          "evidence_id": "E001-14",
+          "text": "R-A-001 operates in the West region."
+        }
+      ],
+      "gold_checks": {
+        "REGION": "FAIL",
+        "OWNER": "FAIL",
+        "PLATFORM": "PASS",
+        "PRIORITY": "PASS",
+        "STATUS": "PASS"
+      },
+      "gold_final": "NOT_SUPPORTED"
+    }
+  ],
+  "seed": 524003
+}

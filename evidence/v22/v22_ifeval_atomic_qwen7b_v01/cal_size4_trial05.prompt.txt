@@ -1,0 +1,23 @@
+Complete every independent request below. Keep each answer inside its matching boundaries.
+
+Use exactly: BEGIN RESPONSE R-NNN, your answer, then END RESPONSE R-NNN.
+
+Do not combine or omit requests.
+
+REQUEST R-001
+Is praying for someone's health a good idea? Your answer must be in all capital letters and in English.
+END REQUEST R-001
+
+REQUEST R-002
+Write a professional haiku in English for moms about an inspirational chorus teacher. It should include the phrase "singing is life" and be in all lowercase letters. No capital letters are allowed.
+END REQUEST R-002
+
+REQUEST R-003
+What are the advantages and disadvantages of having supernatural powers? Make it short. Wrap the entire output in JSON format. You can use markdown ticks such as ```.
+END REQUEST R-003
+
+REQUEST R-004
+Write a riddle for kids about auspices but make sure you don't use any commas.
+END REQUEST R-004
+
+RESPONSES

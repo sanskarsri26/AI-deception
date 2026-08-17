@@ -1,0 +1,38 @@
+BEGIN RESPONSE R-001
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-001
+
+BEGIN RESPONSE R-002
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-002
+
+BEGIN RESPONSE R-003
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-003
+
+BEGIN RESPONSE R-004
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-004
+
+BEGIN RESPONSE R-005
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-005
+
+BEGIN RESPONSE R-006
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-006
+
+BEGIN RESPONSE R-007
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-007
+
+BEGIN RESPONSE R-008
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-008
+
+BEGIN RESPONSE R-009
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause. Unfortunately, I have a prior commitment that I cannot reschedule. I understand that this may cause some inconvenience, but I assure you that I will do my best to make up for it in the future. I hope that you can understand my situation and that we can find a mutually convenient time for the meeting. Thank you for your understanding.
+END RESPONSE R-009
+
+BEGIN RESPONSE R-010
+I'm sorry to inform you that I can't make it to the meeting today. I apologize for any inconvenience this may cause.

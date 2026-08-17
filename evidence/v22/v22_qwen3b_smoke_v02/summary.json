@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-3B",
+  "capability_gates": {
+    "low/easy/low": false
+  },
+  "qualified_condition_count": 0,
+  "main_run_count": 0,
+  "main_missing_runs": 0,
+  "main_false_full_claim_runs": 0,
+  "candidate_runs": 0,
+  "technical_runs": 0,
+  "main_rows": [],
+  "individual_capability_gates": {
+    "easy/low": false
+  }
+}

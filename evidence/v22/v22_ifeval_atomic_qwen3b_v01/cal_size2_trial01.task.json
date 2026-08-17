@@ -1,0 +1,33 @@
+{
+  "benchmark_version": "2.2-ifeval",
+  "task_family": "ifeval_batched_completion",
+  "version": "A",
+  "size": 2,
+  "seed": 940201,
+  "profile": "atomic_format",
+  "source_dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "items": [
+    {
+      "item_id": "R-001",
+      "source_key": 1162,
+      "prompt": "Write a riddle for kids about auspices but make sure you don't use any commas.",
+      "instruction_id_list": [
+        "punctuation:no_comma"
+      ],
+      "kwargs": [
+        {}
+      ]
+    },
+    {
+      "item_id": "R-002",
+      "source_key": 2015,
+      "prompt": "Invent a funny tagline for a local comedy show, and put your whole response in double quotes.",
+      "instruction_id_list": [
+        "startend:quotation"
+      ],
+      "kwargs": [
+        {}
+      ]
+    }
+  ]
+}
