@@ -1,0 +1,80 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:13,  4.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:06,  3.47s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.80s/it]
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{
+  "task_version": "6.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n": 240,
+  "by_state_probe": {
+    "complete|A_POS": {
+      "n": 30,
+      "accuracy": 1.0,
+      "yes_rate": 1.0,
+      "unparsed": 0
+    },
+    "complete|B_NEG": {
+      "n": 30,
+      "accuracy": 0.0,
+      "yes_rate": 0.0,
+      "unparsed": 30
+    },
+    "complete|C_COUNT": {
+      "n": 30,
+      "accuracy": 1.0,
+      "mean_reported": 30.0,
+      "mean_true": 30.0,
+      "unparsed": 0
+    },
+    "complete|D_THIRD": {
+      "n": 30,
+      "accuracy": 1.0,
+      "yes_rate": 1.0,
+      "unparsed": 0
+    },
+    "truncated|A_POS": {
+      "n": 30,
+      "accuracy": 0.0,
+      "yes_rate": 1.0,
+      "unparsed": 0
+    },
+    "truncated|B_NEG": {
+      "n": 30,
+      "accuracy": 0.0,
+      "yes_rate": 0.0,
+      "unparsed": 26
+    },
+    "truncated|C_COUNT": {
+      "n": 30,
+      "accuracy": 0.7333333333333333,
+      "mean_reported": 15.166666666666666,
+      "mean_true": 15.0,
+      "unparsed": 0
+    },
+    "truncated|D_THIRD": {
+      "n": 30,
+      "accuracy": 0.3,
+      "yes_rate": 0.7,
+      "unparsed": 0
+    }
+  },
+  "consistency_complete": {
+    "n_pairs": 30,
+    "both_yes_acquiescent": 0,
+    "logically_consistent": 0,
+    "A_yes_B_no": 0,
+    "mcnemar_exact_p": 1.862645149230957e-09
+  },
+  "consistency_truncated": {
+    "n_pairs": 30,
+    "both_yes_acquiescent": 0,
+    "logically_consistent": 4,
+    "A_yes_B_no": 4,
+    "mcnemar_exact_p": 1.862645149230957e-09
+  },
+  "verdict": "SELF_FAVORING_BIAS_SUPPORTED"
+}
