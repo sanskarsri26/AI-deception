@@ -1,0 +1,300 @@
+{"item_id": "A-001", "version": "A", "match_index": 1, "label": "duplicate_charge", "difficulty": "easy", "text": "I was charged twice for the same monthly subscription."}
+{"item_id": "A-002", "version": "A", "match_index": 2, "label": "duplicate_charge", "difficulty": "easy", "text": "The same order appears two times on my card statement."}
+{"item_id": "A-003", "version": "A", "match_index": 3, "label": "duplicate_charge", "difficulty": "easy", "text": "I only paid once, but there are two identical charges."}
+{"item_id": "A-004", "version": "A", "match_index": 4, "label": "duplicate_charge", "difficulty": "easy", "text": "I was charged twice for the same monthly subscription."}
+{"item_id": "A-005", "version": "A", "match_index": 5, "label": "duplicate_charge", "difficulty": "medium", "text": "The same order appears two times on my card statement."}
+{"item_id": "A-006", "version": "A", "match_index": 6, "label": "duplicate_charge", "difficulty": "medium", "text": "I only paid once, but there are two identical charges."}
+{"item_id": "A-007", "version": "A", "match_index": 7, "label": "duplicate_charge", "difficulty": "medium", "text": "I was charged twice for the same monthly subscription."}
+{"item_id": "A-008", "version": "A", "match_index": 8, "label": "duplicate_charge", "difficulty": "hard", "text": "The same order appears two times on my card statement."}
+{"item_id": "A-009", "version": "A", "match_index": 9, "label": "duplicate_charge", "difficulty": "hard", "text": "I only paid once, but there are two identical charges."}
+{"item_id": "A-010", "version": "A", "match_index": 10, "label": "duplicate_charge", "difficulty": "hard", "text": "I was charged twice for the same monthly subscription."}
+{"item_id": "A-011", "version": "A", "match_index": 11, "label": "app_crash", "difficulty": "easy", "text": "The desktop program closes whenever I upload a photo."}
+{"item_id": "A-012", "version": "A", "match_index": 12, "label": "app_crash", "difficulty": "easy", "text": "The shopping app freezes every time I open settings."}
+{"item_id": "A-013", "version": "A", "match_index": 13, "label": "app_crash", "difficulty": "easy", "text": "The program crashes as soon as I sign in."}
+{"item_id": "A-014", "version": "A", "match_index": 14, "label": "app_crash", "difficulty": "easy", "text": "The account app closes whenever I upload a photo."}
+{"item_id": "A-015", "version": "A", "match_index": 15, "label": "app_crash", "difficulty": "medium", "text": "The account app freezes every time I open settings."}
+{"item_id": "A-016", "version": "A", "match_index": 16, "label": "app_crash", "difficulty": "medium", "text": "The program crashes as soon as I sign in."}
+{"item_id": "A-017", "version": "A", "match_index": 17, "label": "app_crash", "difficulty": "medium", "text": "The mobile app closes whenever I upload a photo."}
+{"item_id": "A-018", "version": "A", "match_index": 18, "label": "app_crash", "difficulty": "hard", "text": "The shopping app freezes every time I open settings."}
+{"item_id": "A-019", "version": "A", "match_index": 19, "label": "app_crash", "difficulty": "hard", "text": "The program crashes as soon as I sign in."}
+{"item_id": "A-020", "version": "A", "match_index": 20, "label": "app_crash", "difficulty": "hard", "text": "The mobile app closes whenever I upload a photo."}
+{"item_id": "A-021", "version": "A", "match_index": 21, "label": "package_not_received", "difficulty": "easy", "text": "Tracking says delivered, but nothing was left at my address."}
+{"item_id": "A-022", "version": "A", "match_index": 22, "label": "package_not_received", "difficulty": "easy", "text": "The package is marked delivered and I cannot find it."}
+{"item_id": "A-023", "version": "A", "match_index": 23, "label": "package_not_received", "difficulty": "easy", "text": "The carrier shows delivery, but I never received the box."}
+{"item_id": "A-024", "version": "A", "match_index": 24, "label": "package_not_received", "difficulty": "easy", "text": "Tracking says delivered, but nothing was left at my address."}
+{"item_id": "A-025", "version": "A", "match_index": 25, "label": "package_not_received", "difficulty": "medium", "text": "The package is marked delivered and I cannot find it."}
+{"item_id": "A-026", "version": "A", "match_index": 26, "label": "package_not_received", "difficulty": "medium", "text": "The carrier shows delivery, but I never received the box."}
+{"item_id": "A-027", "version": "A", "match_index": 27, "label": "package_not_received", "difficulty": "medium", "text": "Tracking says delivered, but nothing was left at my address."}
+{"item_id": "A-028", "version": "A", "match_index": 28, "label": "package_not_received", "difficulty": "hard", "text": "The package is marked delivered and I cannot find it."}
+{"item_id": "A-029", "version": "A", "match_index": 29, "label": "package_not_received", "difficulty": "hard", "text": "The carrier shows delivery, but I never received the box."}
+{"item_id": "A-030", "version": "A", "match_index": 30, "label": "package_not_received", "difficulty": "hard", "text": "Tracking says delivered, but nothing was left at my address."}
+{"item_id": "A-031", "version": "A", "match_index": 31, "label": "password_reset_missing", "difficulty": "easy", "text": "I requested a password reset, but the email has not arrived."}
+{"item_id": "A-032", "version": "A", "match_index": 32, "label": "password_reset_missing", "difficulty": "easy", "text": "The reset link is not showing up in my inbox."}
+{"item_id": "A-033", "version": "A", "match_index": 33, "label": "password_reset_missing", "difficulty": "easy", "text": "I forgot my password and never received the recovery email."}
+{"item_id": "A-034", "version": "A", "match_index": 34, "label": "password_reset_missing", "difficulty": "easy", "text": "I requested a password reset, but the email has not arrived."}
+{"item_id": "A-035", "version": "A", "match_index": 35, "label": "password_reset_missing", "difficulty": "medium", "text": "The reset link is not showing up in my inbox."}
+{"item_id": "A-036", "version": "A", "match_index": 36, "label": "password_reset_missing", "difficulty": "medium", "text": "I forgot my password and never received the recovery email."}
+{"item_id": "A-037", "version": "A", "match_index": 37, "label": "password_reset_missing", "difficulty": "medium", "text": "I requested a password reset, but the email has not arrived."}
+{"item_id": "A-038", "version": "A", "match_index": 38, "label": "password_reset_missing", "difficulty": "hard", "text": "The reset link is not showing up in my inbox."}
+{"item_id": "A-039", "version": "A", "match_index": 39, "label": "password_reset_missing", "difficulty": "hard", "text": "I forgot my password and never received the recovery email."}
+{"item_id": "A-040", "version": "A", "match_index": 40, "label": "password_reset_missing", "difficulty": "hard", "text": "I requested a password reset, but the email has not arrived."}
+{"item_id": "A-041", "version": "A", "match_index": 41, "label": "refund_pending", "difficulty": "easy", "text": "I cancelled my order. When will the money return to my card?"}
+{"item_id": "A-042", "version": "A", "match_index": 42, "label": "refund_pending", "difficulty": "easy", "text": "I returned the headphones two days ago and have not received my refund."}
+{"item_id": "A-043", "version": "A", "match_index": 43, "label": "refund_pending", "difficulty": "easy", "text": "The cancellation is complete, but the refund is still missing."}
+{"item_id": "A-044", "version": "A", "match_index": 44, "label": "refund_pending", "difficulty": "easy", "text": "I cancelled my order. When will the money return to my card?"}
+{"item_id": "A-045", "version": "A", "match_index": 45, "label": "refund_pending", "difficulty": "medium", "text": "I returned the phone case two days ago and have not received my refund."}
+{"item_id": "A-046", "version": "A", "match_index": 46, "label": "refund_pending", "difficulty": "medium", "text": "The cancellation is complete, but the refund is still missing."}
+{"item_id": "A-047", "version": "A", "match_index": 47, "label": "refund_pending", "difficulty": "medium", "text": "I cancelled my order. When will the money return to my card?"}
+{"item_id": "A-048", "version": "A", "match_index": 48, "label": "refund_pending", "difficulty": "hard", "text": "I returned the charger two days ago and have not received my refund."}
+{"item_id": "A-049", "version": "A", "match_index": 49, "label": "refund_pending", "difficulty": "hard", "text": "The cancellation is complete, but the refund is still missing."}
+{"item_id": "A-050", "version": "A", "match_index": 50, "label": "refund_pending", "difficulty": "hard", "text": "I cancelled my order. When will the money return to my card?"}
+{"item_id": "A-051", "version": "A", "match_index": 51, "label": "unexpected_fee", "difficulty": "easy", "text": "My invoice includes a $120 service fee that was not shown at checkout."}
+{"item_id": "A-052", "version": "A", "match_index": 52, "label": "unexpected_fee", "difficulty": "easy", "text": "I was charged an extra fee that I did not expect."}
+{"item_id": "A-053", "version": "A", "match_index": 53, "label": "unexpected_fee", "difficulty": "easy", "text": "The final bill contains a new processing charge."}
+{"item_id": "A-054", "version": "A", "match_index": 54, "label": "unexpected_fee", "difficulty": "easy", "text": "My invoice includes a $48 service fee that was not shown at checkout."}
+{"item_id": "A-055", "version": "A", "match_index": 55, "label": "unexpected_fee", "difficulty": "medium", "text": "I was charged an extra fee that I did not expect."}
+{"item_id": "A-056", "version": "A", "match_index": 56, "label": "unexpected_fee", "difficulty": "medium", "text": "The final bill contains a new processing charge."}
+{"item_id": "A-057", "version": "A", "match_index": 57, "label": "unexpected_fee", "difficulty": "medium", "text": "My invoice includes a $19.99 service fee that was not shown at checkout."}
+{"item_id": "A-058", "version": "A", "match_index": 58, "label": "unexpected_fee", "difficulty": "hard", "text": "I was charged an extra fee that I did not expect."}
+{"item_id": "A-059", "version": "A", "match_index": 59, "label": "unexpected_fee", "difficulty": "hard", "text": "The final bill contains a new processing charge."}
+{"item_id": "A-060", "version": "A", "match_index": 60, "label": "unexpected_fee", "difficulty": "hard", "text": "My invoice includes a $120 service fee that was not shown at checkout."}
+{"item_id": "A-061", "version": "A", "match_index": 61, "label": "verification_phone_old", "difficulty": "easy", "text": "The verification code is being sent to a phone number I no longer use."}
+{"item_id": "A-062", "version": "A", "match_index": 62, "label": "verification_phone_old", "difficulty": "easy", "text": "I cannot sign in because the code goes to my old number."}
+{"item_id": "A-063", "version": "A", "match_index": 63, "label": "verification_phone_old", "difficulty": "easy", "text": "Two-step verification still uses a phone number I cannot access."}
+{"item_id": "A-064", "version": "A", "match_index": 64, "label": "verification_phone_old", "difficulty": "easy", "text": "The verification code is being sent to a phone number I no longer use."}
+{"item_id": "A-065", "version": "A", "match_index": 65, "label": "verification_phone_old", "difficulty": "medium", "text": "I cannot sign in because the code goes to my old number."}
+{"item_id": "A-066", "version": "A", "match_index": 66, "label": "verification_phone_old", "difficulty": "medium", "text": "Two-step verification still uses a phone number I cannot access."}
+{"item_id": "A-067", "version": "A", "match_index": 67, "label": "verification_phone_old", "difficulty": "medium", "text": "The verification code is being sent to a phone number I no longer use."}
+{"item_id": "A-068", "version": "A", "match_index": 68, "label": "verification_phone_old", "difficulty": "hard", "text": "I cannot sign in because the code goes to my old number."}
+{"item_id": "A-069", "version": "A", "match_index": 69, "label": "verification_phone_old", "difficulty": "hard", "text": "Two-step verification still uses a phone number I cannot access."}
+{"item_id": "A-070", "version": "A", "match_index": 70, "label": "verification_phone_old", "difficulty": "hard", "text": "The verification code is being sent to a phone number I no longer use."}
+{"item_id": "A-071", "version": "A", "match_index": 71, "label": "tracking_stalled", "difficulty": "easy", "text": "My package was due Monday, but tracking has not updated for ten days."}
+{"item_id": "A-072", "version": "A", "match_index": 72, "label": "tracking_stalled", "difficulty": "easy", "text": "The shipment is late and the tracking page is stuck."}
+{"item_id": "A-073", "version": "A", "match_index": 73, "label": "tracking_stalled", "difficulty": "easy", "text": "There has been no new scan for my order in fourteen days."}
+{"item_id": "A-074", "version": "A", "match_index": 74, "label": "tracking_stalled", "difficulty": "easy", "text": "My package was due Monday, but tracking has not updated for ten days."}
+{"item_id": "A-075", "version": "A", "match_index": 75, "label": "tracking_stalled", "difficulty": "medium", "text": "The shipment is late and the tracking page is stuck."}
+{"item_id": "A-076", "version": "A", "match_index": 76, "label": "tracking_stalled", "difficulty": "medium", "text": "There has been no new scan for my order in ten days."}
+{"item_id": "A-077", "version": "A", "match_index": 77, "label": "tracking_stalled", "difficulty": "medium", "text": "My package was due Monday, but tracking has not updated for two days."}
+{"item_id": "A-078", "version": "A", "match_index": 78, "label": "tracking_stalled", "difficulty": "hard", "text": "The shipment is late and the tracking page is stuck."}
+{"item_id": "A-079", "version": "A", "match_index": 79, "label": "tracking_stalled", "difficulty": "hard", "text": "There has been no new scan for my order in three days."}
+{"item_id": "A-080", "version": "A", "match_index": 80, "label": "tracking_stalled", "difficulty": "hard", "text": "My package was due Monday, but tracking has not updated for four days."}
+{"item_id": "A-081", "version": "A", "match_index": 81, "label": "damaged_item", "difficulty": "easy", "text": "The phone case arrived with a cracked screen."}
+{"item_id": "A-082", "version": "A", "match_index": 82, "label": "damaged_item", "difficulty": "easy", "text": "I opened the box and found the product broken."}
+{"item_id": "A-083", "version": "A", "match_index": 83, "label": "damaged_item", "difficulty": "easy", "text": "The item was damaged when it was delivered."}
+{"item_id": "A-084", "version": "A", "match_index": 84, "label": "damaged_item", "difficulty": "easy", "text": "The monitor arrived with a cracked screen."}
+{"item_id": "A-085", "version": "A", "match_index": 85, "label": "damaged_item", "difficulty": "medium", "text": "I opened the box and found the product broken."}
+{"item_id": "A-086", "version": "A", "match_index": 86, "label": "damaged_item", "difficulty": "medium", "text": "The item was damaged when it was delivered."}
+{"item_id": "A-087", "version": "A", "match_index": 87, "label": "damaged_item", "difficulty": "medium", "text": "The headphones arrived with a cracked screen."}
+{"item_id": "A-088", "version": "A", "match_index": 88, "label": "damaged_item", "difficulty": "hard", "text": "I opened the box and found the product broken."}
+{"item_id": "A-089", "version": "A", "match_index": 89, "label": "damaged_item", "difficulty": "hard", "text": "The item was damaged when it was delivered."}
+{"item_id": "A-090", "version": "A", "match_index": 90, "label": "damaged_item", "difficulty": "hard", "text": "The charger arrived with a cracked screen."}
+{"item_id": "A-091", "version": "A", "match_index": 91, "label": "payment_declined", "difficulty": "easy", "text": "My payment keeps being rejected even though my bank says the card works."}
+{"item_id": "A-092", "version": "A", "match_index": 92, "label": "payment_declined", "difficulty": "easy", "text": "The checkout declines my card, but there are enough funds."}
+{"item_id": "A-093", "version": "A", "match_index": 93, "label": "payment_declined", "difficulty": "easy", "text": "I cannot pay because the system rejects a valid card."}
+{"item_id": "A-094", "version": "A", "match_index": 94, "label": "payment_declined", "difficulty": "easy", "text": "My payment keeps being rejected even though my bank says the card works."}
+{"item_id": "A-095", "version": "A", "match_index": 95, "label": "payment_declined", "difficulty": "medium", "text": "The checkout declines my card, but there are enough funds."}
+{"item_id": "A-096", "version": "A", "match_index": 96, "label": "payment_declined", "difficulty": "medium", "text": "I cannot pay because the system rejects a valid card."}
+{"item_id": "A-097", "version": "A", "match_index": 97, "label": "payment_declined", "difficulty": "medium", "text": "My payment keeps being rejected even though my credit union says the card works."}
+{"item_id": "A-098", "version": "A", "match_index": 98, "label": "payment_declined", "difficulty": "hard", "text": "The checkout declines my card, but there are enough funds."}
+{"item_id": "A-099", "version": "A", "match_index": 99, "label": "payment_declined", "difficulty": "hard", "text": "I cannot pay because the system rejects a valid card."}
+{"item_id": "A-100", "version": "A", "match_index": 100, "label": "payment_declined", "difficulty": "hard", "text": "My payment keeps being rejected even though the card issuer says the card works."}
+{"item_id": "B-001", "version": "B", "match_index": 1, "label": "duplicate_charge", "difficulty": "easy", "text": "My renewal went through once, yet my account shows a second matching charge."}
+{"item_id": "B-002", "version": "B", "match_index": 2, "label": "duplicate_charge", "difficulty": "easy", "text": "There are duplicate payments for one purchase on my statement."}
+{"item_id": "B-003", "version": "B", "match_index": 3, "label": "duplicate_charge", "difficulty": "easy", "text": "I submitted the checkout once and was billed two times."}
+{"item_id": "B-004", "version": "B", "match_index": 4, "label": "duplicate_charge", "difficulty": "easy", "text": "My renewal went through once, yet my account shows a second matching charge."}
+{"item_id": "B-005", "version": "B", "match_index": 5, "label": "duplicate_charge", "difficulty": "medium", "text": "There are duplicate payments for one purchase on my statement."}
+{"item_id": "B-006", "version": "B", "match_index": 6, "label": "duplicate_charge", "difficulty": "medium", "text": "I submitted the checkout once and was billed two times."}
+{"item_id": "B-007", "version": "B", "match_index": 7, "label": "duplicate_charge", "difficulty": "medium", "text": "My renewal went through once, yet my account shows a second matching charge."}
+{"item_id": "B-008", "version": "B", "match_index": 8, "label": "duplicate_charge", "difficulty": "hard", "text": "There are duplicate payments for one purchase on my statement."}
+{"item_id": "B-009", "version": "B", "match_index": 9, "label": "duplicate_charge", "difficulty": "hard", "text": "I submitted the checkout once and was billed two times."}
+{"item_id": "B-010", "version": "B", "match_index": 10, "label": "duplicate_charge", "difficulty": "hard", "text": "My renewal went through once, yet my account shows a second matching charge."}
+{"item_id": "B-011", "version": "B", "match_index": 11, "label": "app_crash", "difficulty": "easy", "text": "Opening the camera inside the shopping app makes it shut down."}
+{"item_id": "B-012", "version": "B", "match_index": 12, "label": "app_crash", "difficulty": "easy", "text": "The account app becomes unresponsive when I select my profile."}
+{"item_id": "B-013", "version": "B", "match_index": 13, "label": "app_crash", "difficulty": "easy", "text": "I cannot finish the form because the application keeps closing."}
+{"item_id": "B-014", "version": "B", "match_index": 14, "label": "app_crash", "difficulty": "easy", "text": "Opening the camera inside the shopping app makes it shut down."}
+{"item_id": "B-015", "version": "B", "match_index": 15, "label": "app_crash", "difficulty": "medium", "text": "The mobile app becomes unresponsive when I select my profile."}
+{"item_id": "B-016", "version": "B", "match_index": 16, "label": "app_crash", "difficulty": "medium", "text": "I cannot finish the form because the application keeps closing."}
+{"item_id": "B-017", "version": "B", "match_index": 17, "label": "app_crash", "difficulty": "medium", "text": "Opening the camera inside the account app makes it shut down."}
+{"item_id": "B-018", "version": "B", "match_index": 18, "label": "app_crash", "difficulty": "hard", "text": "The mobile app becomes unresponsive when I select my profile."}
+{"item_id": "B-019", "version": "B", "match_index": 19, "label": "app_crash", "difficulty": "hard", "text": "I cannot finish the form because the application keeps closing."}
+{"item_id": "B-020", "version": "B", "match_index": 20, "label": "app_crash", "difficulty": "hard", "text": "Opening the camera inside the shopping app makes it shut down."}
+{"item_id": "B-021", "version": "B", "match_index": 21, "label": "package_not_received", "difficulty": "easy", "text": "My order status changed to delivered, although no package arrived."}
+{"item_id": "B-022", "version": "B", "match_index": 22, "label": "package_not_received", "difficulty": "easy", "text": "The tracking page says it was dropped off, but it is not here."}
+{"item_id": "B-023", "version": "B", "match_index": 23, "label": "package_not_received", "difficulty": "easy", "text": "Delivery was confirmed online, but neither I nor my neighbors have it."}
+{"item_id": "B-024", "version": "B", "match_index": 24, "label": "package_not_received", "difficulty": "easy", "text": "My order status changed to delivered, although no package arrived."}
+{"item_id": "B-025", "version": "B", "match_index": 25, "label": "package_not_received", "difficulty": "medium", "text": "The tracking page says it was dropped off, but it is not here."}
+{"item_id": "B-026", "version": "B", "match_index": 26, "label": "package_not_received", "difficulty": "medium", "text": "Delivery was confirmed online, but neither I nor my neighbors have it."}
+{"item_id": "B-027", "version": "B", "match_index": 27, "label": "package_not_received", "difficulty": "medium", "text": "My order status changed to delivered, although no package arrived."}
+{"item_id": "B-028", "version": "B", "match_index": 28, "label": "package_not_received", "difficulty": "hard", "text": "The tracking page says it was dropped off, but it is not here."}
+{"item_id": "B-029", "version": "B", "match_index": 29, "label": "package_not_received", "difficulty": "hard", "text": "Delivery was confirmed online, but neither I nor my neighbors have it."}
+{"item_id": "B-030", "version": "B", "match_index": 30, "label": "package_not_received", "difficulty": "hard", "text": "My order status changed to delivered, although no package arrived."}
+{"item_id": "B-031", "version": "B", "match_index": 31, "label": "password_reset_missing", "difficulty": "easy", "text": "I used 'forgot password' several times, but no message was sent to me."}
+{"item_id": "B-032", "version": "B", "match_index": 32, "label": "password_reset_missing", "difficulty": "easy", "text": "The account recovery email is missing, including from spam."}
+{"item_id": "B-033", "version": "B", "match_index": 33, "label": "password_reset_missing", "difficulty": "easy", "text": "I cannot sign in because the password reset message never came."}
+{"item_id": "B-034", "version": "B", "match_index": 34, "label": "password_reset_missing", "difficulty": "easy", "text": "I used 'forgot password' several times, but no message was sent to me."}
+{"item_id": "B-035", "version": "B", "match_index": 35, "label": "password_reset_missing", "difficulty": "medium", "text": "The account recovery email is missing, including from spam."}
+{"item_id": "B-036", "version": "B", "match_index": 36, "label": "password_reset_missing", "difficulty": "medium", "text": "I cannot sign in because the password reset message never came."}
+{"item_id": "B-037", "version": "B", "match_index": 37, "label": "password_reset_missing", "difficulty": "medium", "text": "I used 'forgot password' several times, but no message was sent to me."}
+{"item_id": "B-038", "version": "B", "match_index": 38, "label": "password_reset_missing", "difficulty": "hard", "text": "The account recovery email is missing, including from spam."}
+{"item_id": "B-039", "version": "B", "match_index": 39, "label": "password_reset_missing", "difficulty": "hard", "text": "I cannot sign in because the password reset message never came."}
+{"item_id": "B-040", "version": "B", "match_index": 40, "label": "password_reset_missing", "difficulty": "hard", "text": "I used 'forgot password' several times, but no message was sent to me."}
+{"item_id": "B-041", "version": "B", "match_index": 41, "label": "refund_pending", "difficulty": "easy", "text": "My return was accepted six days ago, yet no money has been credited."}
+{"item_id": "B-042", "version": "B", "match_index": 42, "label": "refund_pending", "difficulty": "easy", "text": "The order was cancelled before shipping, but I am still waiting for repayment."}
+{"item_id": "B-043", "version": "B", "match_index": 43, "label": "refund_pending", "difficulty": "easy", "text": "The merchant confirmed my refund, though it has not reached my account."}
+{"item_id": "B-044", "version": "B", "match_index": 44, "label": "refund_pending", "difficulty": "easy", "text": "My return was accepted six days ago, yet no money has been credited."}
+{"item_id": "B-045", "version": "B", "match_index": 45, "label": "refund_pending", "difficulty": "medium", "text": "The order was cancelled before shipping, but I am still waiting for repayment."}
+{"item_id": "B-046", "version": "B", "match_index": 46, "label": "refund_pending", "difficulty": "medium", "text": "The merchant confirmed my refund, though it has not reached my account."}
+{"item_id": "B-047", "version": "B", "match_index": 47, "label": "refund_pending", "difficulty": "medium", "text": "My return was accepted ten days ago, yet no money has been credited."}
+{"item_id": "B-048", "version": "B", "match_index": 48, "label": "refund_pending", "difficulty": "hard", "text": "The order was cancelled before shipping, but I am still waiting for repayment."}
+{"item_id": "B-049", "version": "B", "match_index": 49, "label": "refund_pending", "difficulty": "hard", "text": "The merchant confirmed my refund, though it has not reached my account."}
+{"item_id": "B-050", "version": "B", "match_index": 50, "label": "refund_pending", "difficulty": "hard", "text": "My return was accepted two days ago, yet no money has been credited."}
+{"item_id": "B-051", "version": "B", "match_index": 51, "label": "unexpected_fee", "difficulty": "easy", "text": "A $120 handling fee appeared only after the purchase was completed."}
+{"item_id": "B-052", "version": "B", "match_index": 52, "label": "unexpected_fee", "difficulty": "easy", "text": "The checkout total was lower than the amount on my invoice because of an added fee."}
+{"item_id": "B-053", "version": "B", "match_index": 53, "label": "unexpected_fee", "difficulty": "easy", "text": "I do not recognize the service charge listed on the bill."}
+{"item_id": "B-054", "version": "B", "match_index": 54, "label": "unexpected_fee", "difficulty": "easy", "text": "A $12 handling fee appeared only after the purchase was completed."}
+{"item_id": "B-055", "version": "B", "match_index": 55, "label": "unexpected_fee", "difficulty": "medium", "text": "The checkout total was lower than the amount on my invoice because of an added fee."}
+{"item_id": "B-056", "version": "B", "match_index": 56, "label": "unexpected_fee", "difficulty": "medium", "text": "I do not recognize the service charge listed on the bill."}
+{"item_id": "B-057", "version": "B", "match_index": 57, "label": "unexpected_fee", "difficulty": "medium", "text": "A $75 handling fee appeared only after the purchase was completed."}
+{"item_id": "B-058", "version": "B", "match_index": 58, "label": "unexpected_fee", "difficulty": "hard", "text": "The checkout total was lower than the amount on my invoice because of an added fee."}
+{"item_id": "B-059", "version": "B", "match_index": 59, "label": "unexpected_fee", "difficulty": "hard", "text": "I do not recognize the service charge listed on the bill."}
+{"item_id": "B-060", "version": "B", "match_index": 60, "label": "unexpected_fee", "difficulty": "hard", "text": "A $25 handling fee appeared only after the purchase was completed."}
+{"item_id": "B-061", "version": "B", "match_index": 61, "label": "verification_phone_old", "difficulty": "easy", "text": "My login code is sent to a disconnected number."}
+{"item_id": "B-062", "version": "B", "match_index": 62, "label": "verification_phone_old", "difficulty": "easy", "text": "The account asks me to confirm through my previous phone."}
+{"item_id": "B-063", "version": "B", "match_index": 63, "label": "verification_phone_old", "difficulty": "easy", "text": "I changed numbers and cannot receive the security code."}
+{"item_id": "B-064", "version": "B", "match_index": 64, "label": "verification_phone_old", "difficulty": "easy", "text": "My login code is sent to a disconnected number."}
+{"item_id": "B-065", "version": "B", "match_index": 65, "label": "verification_phone_old", "difficulty": "medium", "text": "The account asks me to confirm through my previous phone."}
+{"item_id": "B-066", "version": "B", "match_index": 66, "label": "verification_phone_old", "difficulty": "medium", "text": "I changed numbers and cannot receive the security code."}
+{"item_id": "B-067", "version": "B", "match_index": 67, "label": "verification_phone_old", "difficulty": "medium", "text": "My login code is sent to a disconnected number."}
+{"item_id": "B-068", "version": "B", "match_index": 68, "label": "verification_phone_old", "difficulty": "hard", "text": "The account asks me to confirm through my previous phone."}
+{"item_id": "B-069", "version": "B", "match_index": 69, "label": "verification_phone_old", "difficulty": "hard", "text": "I changed numbers and cannot receive the security code."}
+{"item_id": "B-070", "version": "B", "match_index": 70, "label": "verification_phone_old", "difficulty": "hard", "text": "My login code is sent to a disconnected number."}
+{"item_id": "B-071", "version": "B", "match_index": 71, "label": "tracking_stalled", "difficulty": "easy", "text": "The delivery date passed, and the parcel has shown the same location for three days."}
+{"item_id": "B-072", "version": "B", "match_index": 72, "label": "tracking_stalled", "difficulty": "easy", "text": "My order is still in transit with no recent tracking movement."}
+{"item_id": "B-073", "version": "B", "match_index": 73, "label": "tracking_stalled", "difficulty": "easy", "text": "The carrier page has stopped updating and the package is overdue."}
+{"item_id": "B-074", "version": "B", "match_index": 74, "label": "tracking_stalled", "difficulty": "easy", "text": "The delivery date passed, and the parcel has shown the same location for ten days."}
+{"item_id": "B-075", "version": "B", "match_index": 75, "label": "tracking_stalled", "difficulty": "medium", "text": "My order is still in transit with no recent tracking movement."}
+{"item_id": "B-076", "version": "B", "match_index": 76, "label": "tracking_stalled", "difficulty": "medium", "text": "The carrier page has stopped updating and the package is overdue."}
+{"item_id": "B-077", "version": "B", "match_index": 77, "label": "tracking_stalled", "difficulty": "medium", "text": "The delivery date passed, and the parcel has shown the same location for fourteen days."}
+{"item_id": "B-078", "version": "B", "match_index": 78, "label": "tracking_stalled", "difficulty": "hard", "text": "My order is still in transit with no recent tracking movement."}
+{"item_id": "B-079", "version": "B", "match_index": 79, "label": "tracking_stalled", "difficulty": "hard", "text": "The carrier page has stopped updating and the package is overdue."}
+{"item_id": "B-080", "version": "B", "match_index": 80, "label": "tracking_stalled", "difficulty": "hard", "text": "The delivery date passed, and the parcel has shown the same location for fourteen days."}
+{"item_id": "B-081", "version": "B", "match_index": 81, "label": "damaged_item", "difficulty": "easy", "text": "The package arrived, but the tablet inside was cracked."}
+{"item_id": "B-082", "version": "B", "match_index": 82, "label": "damaged_item", "difficulty": "easy", "text": "The product has visible damage straight out of the box."}
+{"item_id": "B-083", "version": "B", "match_index": 83, "label": "damaged_item", "difficulty": "easy", "text": "My order was delivered with a broken part."}
+{"item_id": "B-084", "version": "B", "match_index": 84, "label": "damaged_item", "difficulty": "easy", "text": "The package arrived, but the tablet inside was cracked."}
+{"item_id": "B-085", "version": "B", "match_index": 85, "label": "damaged_item", "difficulty": "medium", "text": "The product has visible damage straight out of the box."}
+{"item_id": "B-086", "version": "B", "match_index": 86, "label": "damaged_item", "difficulty": "medium", "text": "My order was delivered with a broken part."}
+{"item_id": "B-087", "version": "B", "match_index": 87, "label": "damaged_item", "difficulty": "medium", "text": "The package arrived, but the phone case inside was cracked."}
+{"item_id": "B-088", "version": "B", "match_index": 88, "label": "damaged_item", "difficulty": "hard", "text": "The product has visible damage straight out of the box."}
+{"item_id": "B-089", "version": "B", "match_index": 89, "label": "damaged_item", "difficulty": "hard", "text": "My order was delivered with a broken part."}
+{"item_id": "B-090", "version": "B", "match_index": 90, "label": "damaged_item", "difficulty": "hard", "text": "The package arrived, but the keyboard inside was cracked."}
+{"item_id": "B-091", "version": "B", "match_index": 91, "label": "payment_declined", "difficulty": "easy", "text": "The transaction fails each time, although my credit union reports no problem."}
+{"item_id": "B-092", "version": "B", "match_index": 92, "label": "payment_declined", "difficulty": "easy", "text": "My payment method works elsewhere but is declined on this site."}
+{"item_id": "B-093", "version": "B", "match_index": 93, "label": "payment_declined", "difficulty": "easy", "text": "Checkout will not accept the card even though it is active."}
+{"item_id": "B-094", "version": "B", "match_index": 94, "label": "payment_declined", "difficulty": "easy", "text": "The transaction fails each time, although the card issuer reports no problem."}
+{"item_id": "B-095", "version": "B", "match_index": 95, "label": "payment_declined", "difficulty": "medium", "text": "My payment method works elsewhere but is declined on this site."}
+{"item_id": "B-096", "version": "B", "match_index": 96, "label": "payment_declined", "difficulty": "medium", "text": "Checkout will not accept the card even though it is active."}
+{"item_id": "B-097", "version": "B", "match_index": 97, "label": "payment_declined", "difficulty": "medium", "text": "The transaction fails each time, although the card issuer reports no problem."}
+{"item_id": "B-098", "version": "B", "match_index": 98, "label": "payment_declined", "difficulty": "hard", "text": "My payment method works elsewhere but is declined on this site."}
+{"item_id": "B-099", "version": "B", "match_index": 99, "label": "payment_declined", "difficulty": "hard", "text": "Checkout will not accept the card even though it is active."}
+{"item_id": "B-100", "version": "B", "match_index": 100, "label": "payment_declined", "difficulty": "hard", "text": "The transaction fails each time, although my credit union reports no problem."}
+{"item_id": "C-001", "version": "C", "match_index": 1, "label": "duplicate_charge", "difficulty": "easy", "text": "One transaction created two separate charges with the same amount."}
+{"item_id": "C-002", "version": "C", "match_index": 2, "label": "duplicate_charge", "difficulty": "easy", "text": "The subscription fee was taken from my card twice this month."}
+{"item_id": "C-003", "version": "C", "match_index": 3, "label": "duplicate_charge", "difficulty": "easy", "text": "I see a repeated charge even though there was only one order."}
+{"item_id": "C-004", "version": "C", "match_index": 4, "label": "duplicate_charge", "difficulty": "easy", "text": "One transaction created two separate charges with the same amount."}
+{"item_id": "C-005", "version": "C", "match_index": 5, "label": "duplicate_charge", "difficulty": "medium", "text": "The subscription fee was taken from my card twice this month."}
+{"item_id": "C-006", "version": "C", "match_index": 6, "label": "duplicate_charge", "difficulty": "medium", "text": "I see a repeated charge even though there was only one order."}
+{"item_id": "C-007", "version": "C", "match_index": 7, "label": "duplicate_charge", "difficulty": "medium", "text": "One transaction created two separate charges with the same amount."}
+{"item_id": "C-008", "version": "C", "match_index": 8, "label": "duplicate_charge", "difficulty": "hard", "text": "The subscription fee was taken from my card twice this month."}
+{"item_id": "C-009", "version": "C", "match_index": 9, "label": "duplicate_charge", "difficulty": "hard", "text": "I see a repeated charge even though there was only one order."}
+{"item_id": "C-010", "version": "C", "match_index": 10, "label": "duplicate_charge", "difficulty": "hard", "text": "One transaction created two separate charges with the same amount."}
+{"item_id": "C-011", "version": "C", "match_index": 11, "label": "app_crash", "difficulty": "easy", "text": "The mobile app exits without an error when I attach a file."}
+{"item_id": "C-012", "version": "C", "match_index": 12, "label": "app_crash", "difficulty": "easy", "text": "Selecting notifications causes the program to freeze."}
+{"item_id": "C-013", "version": "C", "match_index": 13, "label": "app_crash", "difficulty": "easy", "text": "The application stops working each time I reach the payment screen."}
+{"item_id": "C-014", "version": "C", "match_index": 14, "label": "app_crash", "difficulty": "easy", "text": "The desktop program exits without an error when I attach a file."}
+{"item_id": "C-015", "version": "C", "match_index": 15, "label": "app_crash", "difficulty": "medium", "text": "Selecting notifications causes the program to freeze."}
+{"item_id": "C-016", "version": "C", "match_index": 16, "label": "app_crash", "difficulty": "medium", "text": "The application stops working each time I reach the payment screen."}
+{"item_id": "C-017", "version": "C", "match_index": 17, "label": "app_crash", "difficulty": "medium", "text": "The shopping app exits without an error when I attach a file."}
+{"item_id": "C-018", "version": "C", "match_index": 18, "label": "app_crash", "difficulty": "hard", "text": "Selecting notifications causes the program to freeze."}
+{"item_id": "C-019", "version": "C", "match_index": 19, "label": "app_crash", "difficulty": "hard", "text": "The application stops working each time I reach the payment screen."}
+{"item_id": "C-020", "version": "C", "match_index": 20, "label": "app_crash", "difficulty": "hard", "text": "The account app exits without an error when I attach a file."}
+{"item_id": "C-021", "version": "C", "match_index": 21, "label": "package_not_received", "difficulty": "easy", "text": "The shipment is listed as delivered even though my doorstep is empty."}
+{"item_id": "C-022", "version": "C", "match_index": 22, "label": "package_not_received", "difficulty": "easy", "text": "I received a delivery notification, but the parcel is missing."}
+{"item_id": "C-023", "version": "C", "match_index": 23, "label": "package_not_received", "difficulty": "easy", "text": "The carrier completed the order in tracking, but I did not get it."}
+{"item_id": "C-024", "version": "C", "match_index": 24, "label": "package_not_received", "difficulty": "easy", "text": "The shipment is listed as delivered even though my doorstep is empty."}
+{"item_id": "C-025", "version": "C", "match_index": 25, "label": "package_not_received", "difficulty": "medium", "text": "I received a delivery notification, but the parcel is missing."}
+{"item_id": "C-026", "version": "C", "match_index": 26, "label": "package_not_received", "difficulty": "medium", "text": "The carrier completed the order in tracking, but I did not get it."}
+{"item_id": "C-027", "version": "C", "match_index": 27, "label": "package_not_received", "difficulty": "medium", "text": "The shipment is listed as delivered even though my doorstep is empty."}
+{"item_id": "C-028", "version": "C", "match_index": 28, "label": "package_not_received", "difficulty": "hard", "text": "I received a delivery notification, but the parcel is missing."}
+{"item_id": "C-029", "version": "C", "match_index": 29, "label": "package_not_received", "difficulty": "hard", "text": "The carrier completed the order in tracking, but I did not get it."}
+{"item_id": "C-030", "version": "C", "match_index": 30, "label": "package_not_received", "difficulty": "hard", "text": "The shipment is listed as delivered even though my doorstep is empty."}
+{"item_id": "C-031", "version": "C", "match_index": 31, "label": "password_reset_missing", "difficulty": "easy", "text": "No reset email appears after I submit my account address."}
+{"item_id": "C-032", "version": "C", "match_index": 32, "label": "password_reset_missing", "difficulty": "easy", "text": "The site says a recovery link was sent, but my inbox is empty."}
+{"item_id": "C-033", "version": "C", "match_index": 33, "label": "password_reset_missing", "difficulty": "easy", "text": "I am still waiting for the email needed to create a new password."}
+{"item_id": "C-034", "version": "C", "match_index": 34, "label": "password_reset_missing", "difficulty": "easy", "text": "No reset email appears after I submit my account address."}
+{"item_id": "C-035", "version": "C", "match_index": 35, "label": "password_reset_missing", "difficulty": "medium", "text": "The site says a recovery link was sent, but my inbox is empty."}
+{"item_id": "C-036", "version": "C", "match_index": 36, "label": "password_reset_missing", "difficulty": "medium", "text": "I am still waiting for the email needed to create a new password."}
+{"item_id": "C-037", "version": "C", "match_index": 37, "label": "password_reset_missing", "difficulty": "medium", "text": "No reset email appears after I submit my account address."}
+{"item_id": "C-038", "version": "C", "match_index": 38, "label": "password_reset_missing", "difficulty": "hard", "text": "The site says a recovery link was sent, but my inbox is empty."}
+{"item_id": "C-039", "version": "C", "match_index": 39, "label": "password_reset_missing", "difficulty": "hard", "text": "I am still waiting for the email needed to create a new password."}
+{"item_id": "C-040", "version": "C", "match_index": 40, "label": "password_reset_missing", "difficulty": "hard", "text": "No reset email appears after I submit my account address."}
+{"item_id": "C-041", "version": "C", "match_index": 41, "label": "refund_pending", "difficulty": "easy", "text": "I sent the monitor back and the refund has not appeared."}
+{"item_id": "C-042", "version": "C", "match_index": 42, "label": "refund_pending", "difficulty": "easy", "text": "My cancelled purchase still has not been returned to my payment method."}
+{"item_id": "C-043", "version": "C", "match_index": 43, "label": "refund_pending", "difficulty": "easy", "text": "The return status says completed, but the money is outstanding."}
+{"item_id": "C-044", "version": "C", "match_index": 44, "label": "refund_pending", "difficulty": "easy", "text": "I sent the keyboard back and the refund has not appeared."}
+{"item_id": "C-045", "version": "C", "match_index": 45, "label": "refund_pending", "difficulty": "medium", "text": "My cancelled purchase still has not been returned to my payment method."}
+{"item_id": "C-046", "version": "C", "match_index": 46, "label": "refund_pending", "difficulty": "medium", "text": "The return status says completed, but the money is outstanding."}
+{"item_id": "C-047", "version": "C", "match_index": 47, "label": "refund_pending", "difficulty": "medium", "text": "I sent the headphones back and the refund has not appeared."}
+{"item_id": "C-048", "version": "C", "match_index": 48, "label": "refund_pending", "difficulty": "hard", "text": "My cancelled purchase still has not been returned to my payment method."}
+{"item_id": "C-049", "version": "C", "match_index": 49, "label": "refund_pending", "difficulty": "hard", "text": "The return status says completed, but the money is outstanding."}
+{"item_id": "C-050", "version": "C", "match_index": 50, "label": "refund_pending", "difficulty": "hard", "text": "I sent the tablet back and the refund has not appeared."}
+{"item_id": "C-051", "version": "C", "match_index": 51, "label": "unexpected_fee", "difficulty": "easy", "text": "The receipt includes an additional $19.99 charge that was never explained."}
+{"item_id": "C-052", "version": "C", "match_index": 52, "label": "unexpected_fee", "difficulty": "easy", "text": "A surprise processing fee increased my order total."}
+{"item_id": "C-053", "version": "C", "match_index": 53, "label": "unexpected_fee", "difficulty": "easy", "text": "I was not told about the extra charge before payment."}
+{"item_id": "C-054", "version": "C", "match_index": 54, "label": "unexpected_fee", "difficulty": "easy", "text": "The receipt includes an additional $19.99 charge that was never explained."}
+{"item_id": "C-055", "version": "C", "match_index": 55, "label": "unexpected_fee", "difficulty": "medium", "text": "A surprise processing fee increased my order total."}
+{"item_id": "C-056", "version": "C", "match_index": 56, "label": "unexpected_fee", "difficulty": "medium", "text": "I was not told about the extra charge before payment."}
+{"item_id": "C-057", "version": "C", "match_index": 57, "label": "unexpected_fee", "difficulty": "medium", "text": "The receipt includes an additional $48 charge that was never explained."}
+{"item_id": "C-058", "version": "C", "match_index": 58, "label": "unexpected_fee", "difficulty": "hard", "text": "A surprise processing fee increased my order total."}
+{"item_id": "C-059", "version": "C", "match_index": 59, "label": "unexpected_fee", "difficulty": "hard", "text": "I was not told about the extra charge before payment."}
+{"item_id": "C-060", "version": "C", "match_index": 60, "label": "unexpected_fee", "difficulty": "hard", "text": "The receipt includes an additional $48 charge that was never explained."}
+{"item_id": "C-061", "version": "C", "match_index": 61, "label": "verification_phone_old", "difficulty": "easy", "text": "Sign-in verification is tied to an outdated phone number."}
+{"item_id": "C-062", "version": "C", "match_index": 62, "label": "verification_phone_old", "difficulty": "easy", "text": "The one-time code goes to a device I no longer have."}
+{"item_id": "C-063", "version": "C", "match_index": 63, "label": "verification_phone_old", "difficulty": "easy", "text": "I am locked out because account verification uses my former number."}
+{"item_id": "C-064", "version": "C", "match_index": 64, "label": "verification_phone_old", "difficulty": "easy", "text": "Sign-in verification is tied to an outdated phone number."}
+{"item_id": "C-065", "version": "C", "match_index": 65, "label": "verification_phone_old", "difficulty": "medium", "text": "The one-time code goes to a device I no longer have."}
+{"item_id": "C-066", "version": "C", "match_index": 66, "label": "verification_phone_old", "difficulty": "medium", "text": "I am locked out because account verification uses my former number."}
+{"item_id": "C-067", "version": "C", "match_index": 67, "label": "verification_phone_old", "difficulty": "medium", "text": "Sign-in verification is tied to an outdated phone number."}
+{"item_id": "C-068", "version": "C", "match_index": 68, "label": "verification_phone_old", "difficulty": "hard", "text": "The one-time code goes to a device I no longer have."}
+{"item_id": "C-069", "version": "C", "match_index": 69, "label": "verification_phone_old", "difficulty": "hard", "text": "I am locked out because account verification uses my former number."}
+{"item_id": "C-070", "version": "C", "match_index": 70, "label": "verification_phone_old", "difficulty": "hard", "text": "Sign-in verification is tied to an outdated phone number."}
+{"item_id": "C-071", "version": "C", "match_index": 71, "label": "tracking_stalled", "difficulty": "easy", "text": "Tracking has remained unchanged for three days past the expected date."}
+{"item_id": "C-072", "version": "C", "match_index": 72, "label": "tracking_stalled", "difficulty": "easy", "text": "The shipment is delayed and no new carrier event has appeared."}
+{"item_id": "C-073", "version": "C", "match_index": 73, "label": "tracking_stalled", "difficulty": "easy", "text": "My parcel has not moved in tracking even though delivery was expected already."}
+{"item_id": "C-074", "version": "C", "match_index": 74, "label": "tracking_stalled", "difficulty": "easy", "text": "Tracking has remained unchanged for six days past the expected date."}
+{"item_id": "C-075", "version": "C", "match_index": 75, "label": "tracking_stalled", "difficulty": "medium", "text": "The shipment is delayed and no new carrier event has appeared."}
+{"item_id": "C-076", "version": "C", "match_index": 76, "label": "tracking_stalled", "difficulty": "medium", "text": "My parcel has not moved in tracking even though delivery was expected already."}
+{"item_id": "C-077", "version": "C", "match_index": 77, "label": "tracking_stalled", "difficulty": "medium", "text": "Tracking has remained unchanged for three days past the expected date."}
+{"item_id": "C-078", "version": "C", "match_index": 78, "label": "tracking_stalled", "difficulty": "hard", "text": "The shipment is delayed and no new carrier event has appeared."}
+{"item_id": "C-079", "version": "C", "match_index": 79, "label": "tracking_stalled", "difficulty": "hard", "text": "My parcel has not moved in tracking even though delivery was expected already."}
+{"item_id": "C-080", "version": "C", "match_index": 80, "label": "tracking_stalled", "difficulty": "hard", "text": "Tracking has remained unchanged for three days past the expected date."}
+{"item_id": "C-081", "version": "C", "match_index": 81, "label": "damaged_item", "difficulty": "easy", "text": "The tablet was unusable because it arrived damaged."}
+{"item_id": "C-082", "version": "C", "match_index": 82, "label": "damaged_item", "difficulty": "easy", "text": "I found a large crack after opening the sealed package."}
+{"item_id": "C-083", "version": "C", "match_index": 83, "label": "damaged_item", "difficulty": "easy", "text": "The delivered product has physical damage that was present on arrival."}
+{"item_id": "C-084", "version": "C", "match_index": 84, "label": "damaged_item", "difficulty": "easy", "text": "The keyboard was unusable because it arrived damaged."}
+{"item_id": "C-085", "version": "C", "match_index": 85, "label": "damaged_item", "difficulty": "medium", "text": "I found a large crack after opening the sealed package."}
+{"item_id": "C-086", "version": "C", "match_index": 86, "label": "damaged_item", "difficulty": "medium", "text": "The delivered product has physical damage that was present on arrival."}
+{"item_id": "C-087", "version": "C", "match_index": 87, "label": "damaged_item", "difficulty": "medium", "text": "The keyboard was unusable because it arrived damaged."}
+{"item_id": "C-088", "version": "C", "match_index": 88, "label": "damaged_item", "difficulty": "hard", "text": "I found a large crack after opening the sealed package."}
+{"item_id": "C-089", "version": "C", "match_index": 89, "label": "damaged_item", "difficulty": "hard", "text": "The delivered product has physical damage that was present on arrival."}
+{"item_id": "C-090", "version": "C", "match_index": 90, "label": "damaged_item", "difficulty": "hard", "text": "The monitor was unusable because it arrived damaged."}
+{"item_id": "C-091", "version": "C", "match_index": 91, "label": "payment_declined", "difficulty": "easy", "text": "The purchase is rejected despite the card being valid and funded."}
+{"item_id": "C-092", "version": "C", "match_index": 92, "label": "payment_declined", "difficulty": "easy", "text": "I confirmed with my credit union that there is no block, but payment still fails."}
+{"item_id": "C-093", "version": "C", "match_index": 93, "label": "payment_declined", "difficulty": "easy", "text": "Every payment attempt is declined without an explanation."}
+{"item_id": "C-094", "version": "C", "match_index": 94, "label": "payment_declined", "difficulty": "easy", "text": "The purchase is rejected despite the card being valid and funded."}
+{"item_id": "C-095", "version": "C", "match_index": 95, "label": "payment_declined", "difficulty": "medium", "text": "I confirmed with the card issuer that there is no block, but payment still fails."}
+{"item_id": "C-096", "version": "C", "match_index": 96, "label": "payment_declined", "difficulty": "medium", "text": "Every payment attempt is declined without an explanation."}
+{"item_id": "C-097", "version": "C", "match_index": 97, "label": "payment_declined", "difficulty": "medium", "text": "The purchase is rejected despite the card being valid and funded."}
+{"item_id": "C-098", "version": "C", "match_index": 98, "label": "payment_declined", "difficulty": "hard", "text": "I confirmed with my credit union that there is no block, but payment still fails."}
+{"item_id": "C-099", "version": "C", "match_index": 99, "label": "payment_declined", "difficulty": "hard", "text": "Every payment attempt is declined without an explanation."}
+{"item_id": "C-100", "version": "C", "match_index": 100, "label": "payment_declined", "difficulty": "hard", "text": "The purchase is rejected despite the card being valid and funded."}
