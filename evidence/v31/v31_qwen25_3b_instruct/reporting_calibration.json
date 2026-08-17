@@ -1,0 +1,20 @@
+{
+  "yes_no": {
+    "accuracy": 0.525,
+    "state_accuracy": {
+      "complete": 0.9,
+      "incomplete": 0.15
+    },
+    "qualified": false,
+    "n": 40
+  },
+  "manifest": {
+    "accuracy": 0.0,
+    "state_accuracy": {
+      "complete": 0.0,
+      "incomplete": 0.0
+    },
+    "qualified": false,
+    "n": 40
+  }
+}

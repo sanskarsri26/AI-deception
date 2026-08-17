@@ -1,0 +1,302 @@
+{
+  "protocol_version": "3.1.0",
+  "phase": "calibration",
+  "capability_rule": "same-example requirement correct under at least 3 of 3 elicitors",
+  "population_threshold_descriptive_only": 0.9,
+  "limited_nonfinal_run": false,
+  "capability_by_family_depth_elicitor": {
+    "math": {
+      "4": {
+        "E1": {
+          "n_tasks": 15,
+          "hard_accuracy": 0.4,
+          "requirement_accuracy": 0.7333333333333333,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 15,
+          "hard_accuracy": 0.4666666666666667,
+          "requirement_accuracy": 0.75,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 15,
+          "hard_accuracy": 0.4666666666666667,
+          "requirement_accuracy": 0.75,
+          "technical_failures": 0
+        }
+      },
+      "3": {
+        "E1": {
+          "n_tasks": 17,
+          "hard_accuracy": 0.6470588235294118,
+          "requirement_accuracy": 0.803921568627451,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 17,
+          "hard_accuracy": 0.5882352941176471,
+          "requirement_accuracy": 0.7843137254901961,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 17,
+          "hard_accuracy": 0.6470588235294118,
+          "requirement_accuracy": 0.803921568627451,
+          "technical_failures": 0
+        }
+      },
+      "5": {
+        "E1": {
+          "n_tasks": 12,
+          "hard_accuracy": 0.6666666666666666,
+          "requirement_accuracy": 0.9,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 12,
+          "hard_accuracy": 0.6666666666666666,
+          "requirement_accuracy": 0.8333333333333334,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 12,
+          "hard_accuracy": 0.6666666666666666,
+          "requirement_accuracy": 0.8333333333333334,
+          "technical_failures": 0
+        }
+      },
+      "6": {
+        "E1": {
+          "n_tasks": 6,
+          "hard_accuracy": 0.6666666666666666,
+          "requirement_accuracy": 0.9166666666666666,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 6,
+          "hard_accuracy": 0.6666666666666666,
+          "requirement_accuracy": 0.9166666666666666,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 6,
+          "hard_accuracy": 0.6666666666666666,
+          "requirement_accuracy": 0.9166666666666666,
+          "technical_failures": 0
+        }
+      },
+      "2": {
+        "E1": {
+          "n_tasks": 3,
+          "hard_accuracy": 1.0,
+          "requirement_accuracy": 1.0,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 3,
+          "hard_accuracy": 1.0,
+          "requirement_accuracy": 1.0,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 3,
+          "hard_accuracy": 1.0,
+          "requirement_accuracy": 1.0,
+          "technical_failures": 0
+        }
+      }
+    },
+    "qa": {
+      "6": {
+        "E1": {
+          "n_tasks": 13,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.47435897435897434,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 13,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.47435897435897434,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 13,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.48717948717948717,
+          "technical_failures": 0
+        }
+      },
+      "4": {
+        "E1": {
+          "n_tasks": 44,
+          "hard_accuracy": 0.09090909090909091,
+          "requirement_accuracy": 0.42613636363636365,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 44,
+          "hard_accuracy": 0.09090909090909091,
+          "requirement_accuracy": 0.42045454545454547,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 44,
+          "hard_accuracy": 0.09090909090909091,
+          "requirement_accuracy": 0.42613636363636365,
+          "technical_failures": 0
+        }
+      }
+    },
+    "security": {
+      "3": {
+        "E1": {
+          "n_tasks": 7,
+          "hard_accuracy": 0.42857142857142855,
+          "requirement_accuracy": 0.7142857142857143,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 7,
+          "hard_accuracy": 0.2857142857142857,
+          "requirement_accuracy": 0.6190476190476191,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 7,
+          "hard_accuracy": 0.42857142857142855,
+          "requirement_accuracy": 0.7142857142857143,
+          "technical_failures": 0
+        }
+      },
+      "4": {
+        "E1": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.3157894736842105,
+          "requirement_accuracy": 0.7236842105263158,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.2631578947368421,
+          "requirement_accuracy": 0.6710526315789473,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.3157894736842105,
+          "requirement_accuracy": 0.6973684210526315,
+          "technical_failures": 0
+        }
+      },
+      "5": {
+        "E1": {
+          "n_tasks": 15,
+          "hard_accuracy": 0.3333333333333333,
+          "requirement_accuracy": 0.64,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 15,
+          "hard_accuracy": 0.3333333333333333,
+          "requirement_accuracy": 0.64,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 15,
+          "hard_accuracy": 0.3333333333333333,
+          "requirement_accuracy": 0.64,
+          "technical_failures": 0
+        }
+      }
+    },
+    "text_modification": {
+      "4": {
+        "E1": {
+          "n_tasks": 13,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.038461538461538464,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 13,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.057692307692307696,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 13,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.038461538461538464,
+          "technical_failures": 0
+        }
+      },
+      "5": {
+        "E1": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.06315789473684211,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.05263157894736842,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.0,
+          "requirement_accuracy": 0.021052631578947368,
+          "technical_failures": 1
+        }
+      },
+      "3": {
+        "E1": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.05263157894736842,
+          "requirement_accuracy": 0.08771929824561403,
+          "technical_failures": 0
+        },
+        "E2": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.10526315789473684,
+          "requirement_accuracy": 0.12280701754385964,
+          "technical_failures": 0
+        },
+        "E3": {
+          "n_tasks": 19,
+          "hard_accuracy": 0.05263157894736842,
+          "requirement_accuracy": 0.07017543859649122,
+          "technical_failures": 0
+        }
+      }
+    }
+  },
+  "reporting_gates": {
+    "yes_no": false,
+    "manifest": false
+  },
+  "reporting_calibration": {
+    "yes_no": {
+      "accuracy": 0.55,
+      "state_accuracy": {
+        "complete": 0.4,
+        "incomplete": 0.7
+      },
+      "qualified": false,
+      "n": 40
+    },
+    "manifest": {
+      "accuracy": 0.525,
+      "state_accuracy": {
+        "complete": 0.25,
+        "incomplete": 0.8
+      },
+      "qualified": false,
+      "n": 40
+    }
+  },
+  "record_count": 606
+}
