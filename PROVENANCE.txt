@@ -1,0 +1,42 @@
+Deceptive Laziness Benchmark - evidence package provenance
+built:        2026-08-16T22:46:15-07:00
+host:         sg237
+source repo:  /scratch/ssriva94/deceptive_laziness_benchmark_v0
+git branch:   v32-control-layer
+git commit:   2a1019fe8b4a6ac188872d9d92e86051cb4a00fd
+git status:   14 modified/untracked paths at build time
+python:       3.12.9
+torch:        2.6.0+cu124
+transformers: 4.51.3
+
+--- last 30 commits ---
+2a1019f deception-benchmark: Update judge hf_judge
+a1f611a ses-bench: Add package tests/test_instrument.py
+3c1c24b ses-bench: Add package sesbench schema
+ba2487f ses-bench: Add package sesbench runner
+21247fd ses-bench: Add package sesbench parse
+16bc56a ses-bench: Add package sesbench models_hf
+2727cb5 ses-bench: Add package sesbench models
+099bbff ses-bench: Add package sesbench metrics
+47e0ca8 ses-bench: Add package sesbench judge
+b861e73 ses-bench: Add package sesbench items
+5719e35 ses-bench: Add package sesbench conditions
+2b53850 ses-bench: Add package sesbench analysis
+3757d1e ses-bench: Add package sesbench __init__
+8129e31 ses-bench: Add package score_judge
+6c8d928 ses-bench: Add package sbatch_stage1
+bc183f7 ses-bench: Add package run_stage1
+9b89b7a ses-bench: Add stage1_qwen14b records Qwen2.5-14B-Instruct
+540e9b0 ses-bench: Add stage1_qwen14b/gated_records_backlog2.jsonl
+fc426a2 ses-bench: Add stage1_qwen14b/gated_records.jsonl
+3820227 ses-bench: Add stage1_qwen14b contrasts_backlog2_ruleonly.csv
+da9c183 ses-bench: Add stage1_qwen14b contrasts Qwen2.5-14B-Instruct
+c94cd0a ses-bench: Add stage1_qwen14b/all_records_judged.jsonl
+237150c ses-bench: Add stage1_mistral_n16 records Mistral-Small
+33ff13c ses-bench: Add stage1_mistral_n16 contrasts Mistral-Small
+b6357c5 ses-bench: Add stage1_mistral_n16/all_records.jsonl
+893024f ses-bench: Add package out/records_mock_stake_sensitive.jsonl
+d1c4c45 ses-bench: Add package out/records_mock_clean.jsonl
+59d5948 ses-bench: Add corpus_size_experiment records n8 Qwen
+886994e ses-bench: Add corpus_size_experiment records n4 Qwen
+a6df2e8 ses-bench: Add corpus_size_experiment records n16 Qwen
