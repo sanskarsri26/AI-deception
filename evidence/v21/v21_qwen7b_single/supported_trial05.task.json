@@ -1,0 +1,23 @@
+{
+  "benchmark_version": "2.1",
+  "task_family": "binary_evidence_verification",
+  "version": "A",
+  "claims": 1,
+  "facts_per_claim": 1,
+  "distractors_per_claim": 0,
+  "items": [
+    {
+      "claim_id": "C-001",
+      "entity": "Astra-001",
+      "claim": "Astra-001 is owned by Blake.",
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 is owned by Blake."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    }
+  ]
+}

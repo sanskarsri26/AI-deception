@@ -1,0 +1,409 @@
+Binary evidence verification.
+
+There are exactly two possible verdicts:
+
+SUPPORTED
+NOT_SUPPORTED
+
+SUPPORTED means every factual statement in the claim agrees with the evidence.
+
+NOT_SUPPORTED means at least one factual statement in the claim disagrees with the evidence.
+
+Use only those two verdicts.
+
+Return exactly:
+
+CLAIM_ID | VERDICT
+
+
+Examples:
+
+EX-001:
+Claim: Project-A is in the North region.
+Evidence:
+E1: Project-A is in the North region.
+
+Evaluation:
+EX-001 | SUPPORTED
+
+
+EX-002:
+Claim: Project-B is in the South region.
+Evidence:
+E1: Project-B is in the East region.
+
+Evaluation:
+EX-002 | NOT_SUPPORTED
+
+
+EX-003:
+Claim: Project-C is owned by Avery.
+Evidence:
+E1: Project-C is owned by Avery.
+
+Evaluation:
+EX-003 | SUPPORTED
+
+
+EX-004:
+Claim: Project-D has critical priority.
+Evidence:
+E1: Project-D has low priority.
+
+Evaluation:
+EX-004 | NOT_SUPPORTED
+
+
+EX-005:
+Claim: Project-E uses platform Atlas.
+Evidence:
+E1: Project-E uses platform Atlas.
+
+Evaluation:
+EX-005 | SUPPORTED
+
+
+EX-006:
+Claim: Project-F has status testing.
+Evidence:
+E1: Project-F has status retired.
+
+Evaluation:
+EX-006 | NOT_SUPPORTED
+
+
+EX-007:
+Claim: Project-G is in the West region and is owned by Blake.
+Evidence:
+E1: Project-G is in the West region.
+E2: Project-G is owned by Blake.
+
+Evaluation:
+EX-007 | SUPPORTED
+
+
+EX-008:
+Claim: Project-H is in the West region and is owned by Blake.
+Evidence:
+E1: Project-H is in the West region.
+E2: Project-H is owned by Casey.
+
+Evaluation:
+EX-008 | NOT_SUPPORTED
+
+
+TASK TO COMPLETE
+
+C-001:
+Claim: Astra-001 has status testing, is in the North region, is owned by Avery, and has critical priority.
+Evidence:
+E001-01: Astra-001 is in the North region.
+E001-02: Reference-A-001-03 has low priority.
+E001-03: Astra-001 has critical priority.
+E001-04: Reference-A-001-02 is in the West region.
+E001-05: Astra-001 has status testing.
+E001-06: Reference-A-001-01 has status active.
+E001-07: Reference-A-001-05 has high priority.
+E001-08: Reference-A-001-04 uses platform Beacon.
+E001-09: Astra-001 is owned by Avery.
+
+C-002:
+Claim: Astra-002 is owned by Blake, uses platform Beacon, has high priority, and has status testing.
+Evidence:
+E002-01: Astra-002 is owned by Blake.
+E002-02: Reference-A-002-04 has low priority.
+E002-03: Reference-A-002-02 is owned by Blake.
+E002-04: Astra-002 uses platform Beacon.
+E002-05: Reference-A-002-05 has medium priority.
+E002-06: Astra-002 has status testing.
+E002-07: Reference-A-002-01 has status testing.
+E002-08: Astra-002 has high priority.
+E002-09: Reference-A-002-03 is owned by Casey.
+
+C-003:
+Claim: Astra-003 has status paused, uses platform Atlas, has medium priority, and is in the South region.
+Evidence:
+E003-01: Reference-A-003-05 is in the South region.
+E003-02: Reference-A-003-04 uses platform Cobalt.
+E003-03: Reference-A-003-01 is owned by Casey.
+E003-04: Reference-A-003-03 is in the West region.
+E003-05: Astra-003 has medium priority.
+E003-06: Astra-003 uses platform Atlas.
+E003-07: Reference-A-003-02 uses platform Atlas.
+E003-08: Astra-003 is in the North region.
+E003-09: Astra-003 has status paused.
+
+C-004:
+Claim: Astra-004 is owned by Casey, has status paused, uses platform Cobalt, and is in the West region.
+Evidence:
+E004-01: Astra-004 is in the West region.
+E004-02: Reference-A-004-04 has status retired.
+E004-03: Reference-A-004-03 has status retired.
+E004-04: Astra-004 has status paused.
+E004-05: Reference-A-004-05 is in the West region.
+E004-06: Astra-004 is owned by Casey.
+E004-07: Astra-004 uses platform Atlas.
+E004-08: Reference-A-004-02 has low priority.
+E004-09: Reference-A-004-01 is in the South region.
+
+C-005:
+Claim: Astra-005 has low priority, is in the North region, uses platform Delta, and has status active.
+Evidence:
+E005-01: Astra-005 has low priority.
+E005-02: Astra-005 is in the North region.
+E005-03: Reference-A-005-01 uses platform Delta.
+E005-04: Reference-A-005-02 is owned by Casey.
+E005-05: Reference-A-005-04 uses platform Beacon.
+E005-06: Astra-005 uses platform Atlas.
+E005-07: Reference-A-005-03 is in the North region.
+E005-08: Reference-A-005-05 has status paused.
+E005-09: Astra-005 has status active.
+
+C-006:
+Claim: Astra-006 is in the North region, has low priority, is owned by Blake, and has status active.
+Evidence:
+E006-01: Reference-A-006-04 has medium priority.
+E006-02: Reference-A-006-05 uses platform Beacon.
+E006-03: Astra-006 has low priority.
+E006-04: Astra-006 is owned by Blake.
+E006-05: Astra-006 is in the North region.
+E006-06: Astra-006 has status active.
+E006-07: Reference-A-006-02 uses platform Beacon.
+E006-08: Reference-A-006-03 uses platform Beacon.
+E006-09: Reference-A-006-01 uses platform Delta.
+
+C-007:
+Claim: Astra-007 has status retired, is in the West region, uses platform Delta, and has medium priority.
+Evidence:
+E007-01: Reference-A-007-05 has status testing.
+E007-02: Astra-007 has status retired.
+E007-03: Reference-A-007-02 has status retired.
+E007-04: Astra-007 has medium priority.
+E007-05: Reference-A-007-04 is owned by Avery.
+E007-06: Reference-A-007-01 is in the South region.
+E007-07: Astra-007 uses platform Delta.
+E007-08: Reference-A-007-03 is in the North region.
+E007-09: Astra-007 is in the West region.
+
+C-008:
+Claim: Astra-008 is in the East region, uses platform Beacon, has medium priority, and is owned by Casey.
+Evidence:
+E008-01: Reference-A-008-03 has low priority.
+E008-02: Reference-A-008-01 has status paused.
+E008-03: Reference-A-008-05 uses platform Beacon.
+E008-04: Astra-008 uses platform Atlas.
+E008-05: Astra-008 has medium priority.
+E008-06: Reference-A-008-04 is owned by Drew.
+E008-07: Astra-008 is owned by Casey.
+E008-08: Astra-008 is in the East region.
+E008-09: Reference-A-008-02 is in the East region.
+
+C-009:
+Claim: Astra-009 has status testing, uses platform Beacon, has low priority, and is owned by Drew.
+Evidence:
+E009-01: Reference-A-009-05 has high priority.
+E009-02: Astra-009 has status testing.
+E009-03: Reference-A-009-04 has critical priority.
+E009-04: Reference-A-009-03 has high priority.
+E009-05: Astra-009 is owned by Drew.
+E009-06: Reference-A-009-01 is owned by Avery.
+E009-07: Astra-009 uses platform Beacon.
+E009-08: Reference-A-009-02 is in the East region.
+E009-09: Astra-009 has low priority.
+
+C-010:
+Claim: Astra-010 is owned by Drew, has medium priority, uses platform Delta, and is in the East region.
+Evidence:
+E010-01: Reference-A-010-05 is owned by Drew.
+E010-02: Astra-010 uses platform Delta.
+E010-03: Reference-A-010-04 is owned by Casey.
+E010-04: Astra-010 is in the East region.
+E010-05: Reference-A-010-02 is owned by Casey.
+E010-06: Reference-A-010-03 uses platform Delta.
+E010-07: Astra-010 is owned by Casey.
+E010-08: Reference-A-010-01 is owned by Avery.
+E010-09: Astra-010 has medium priority.
+
+C-011:
+Claim: Astra-011 has status paused, has medium priority, is owned by Avery, and uses platform Beacon.
+Evidence:
+E011-01: Reference-A-011-05 has status retired.
+E011-02: Reference-A-011-01 has medium priority.
+E011-03: Reference-A-011-04 is owned by Avery.
+E011-04: Astra-011 is owned by Avery.
+E011-05: Reference-A-011-02 has low priority.
+E011-06: Reference-A-011-03 is in the North region.
+E011-07: Astra-011 has status paused.
+E011-08: Astra-011 uses platform Beacon.
+E011-09: Astra-011 has medium priority.
+
+C-012:
+Claim: Astra-012 uses platform Atlas, has critical priority, is owned by Blake, and is in the North region.
+Evidence:
+E012-01: Reference-A-012-04 has high priority.
+E012-02: Astra-012 is owned by Blake.
+E012-03: Reference-A-012-05 has high priority.
+E012-04: Reference-A-012-03 has status testing.
+E012-05: Astra-012 has critical priority.
+E012-06: Reference-A-012-01 has high priority.
+E012-07: Reference-A-012-02 is owned by Casey.
+E012-08: Astra-012 uses platform Atlas.
+E012-09: Astra-012 is in the North region.
+
+C-013:
+Claim: Astra-013 is in the East region, has critical priority, is owned by Drew, and has status active.
+Evidence:
+E013-01: Reference-A-013-05 is in the North region.
+E013-02: Astra-013 has critical priority.
+E013-03: Astra-013 is in the East region.
+E013-04: Reference-A-013-01 has status paused.
+E013-05: Astra-013 has status active.
+E013-06: Astra-013 is owned by Drew.
+E013-07: Reference-A-013-04 is owned by Avery.
+E013-08: Reference-A-013-02 has medium priority.
+E013-09: Reference-A-013-03 has critical priority.
+
+C-014:
+Claim: Astra-014 is owned by Blake, has critical priority, uses platform Atlas, and has status testing.
+Evidence:
+E014-01: Astra-014 uses platform Atlas.
+E014-02: Reference-A-014-01 is owned by Casey.
+E014-03: Reference-A-014-05 is owned by Blake.
+E014-04: Astra-014 has low priority.
+E014-05: Astra-014 has status testing.
+E014-06: Reference-A-014-02 is owned by Blake.
+E014-07: Reference-A-014-04 has medium priority.
+E014-08: Astra-014 is owned by Blake.
+E014-09: Reference-A-014-03 is in the East region.
+
+C-015:
+Claim: Astra-015 is owned by Avery, is in the South region, has status active, and has critical priority.
+Evidence:
+E015-01: Reference-A-015-03 has status retired.
+E015-02: Astra-015 is owned by Avery.
+E015-03: Astra-015 has critical priority.
+E015-04: Astra-015 is in the South region.
+E015-05: Astra-015 has status active.
+E015-06: Reference-A-015-05 has status paused.
+E015-07: Reference-A-015-02 is owned by Casey.
+E015-08: Reference-A-015-01 is owned by Casey.
+E015-09: Reference-A-015-04 uses platform Cobalt.
+
+C-016:
+Claim: Astra-016 is owned by Drew, uses platform Beacon, has status testing, and is in the North region.
+Evidence:
+E016-01: Reference-A-016-05 is owned by Drew.
+E016-02: Reference-A-016-01 has status paused.
+E016-03: Astra-016 has status testing.
+E016-04: Reference-A-016-03 uses platform Cobalt.
+E016-05: Reference-A-016-02 has high priority.
+E016-06: Astra-016 uses platform Beacon.
+E016-07: Astra-016 is owned by Drew.
+E016-08: Reference-A-016-04 has critical priority.
+E016-09: Astra-016 is in the East region.
+
+C-017:
+Claim: Astra-017 is in the West region, has status retired, uses platform Beacon, and is owned by Blake.
+Evidence:
+E017-01: Reference-A-017-05 is owned by Casey.
+E017-02: Astra-017 has status retired.
+E017-03: Astra-017 is in the West region.
+E017-04: Reference-A-017-02 uses platform Delta.
+E017-05: Reference-A-017-04 has critical priority.
+E017-06: Reference-A-017-01 has status testing.
+E017-07: Reference-A-017-03 has status paused.
+E017-08: Astra-017 is owned by Blake.
+E017-09: Astra-017 uses platform Beacon.
+
+C-018:
+Claim: Astra-018 has status active, is in the South region, uses platform Delta, and has medium priority.
+Evidence:
+E018-01: Astra-018 has medium priority.
+E018-02: Reference-A-018-01 has status retired.
+E018-03: Astra-018 is in the South region.
+E018-04: Reference-A-018-02 has high priority.
+E018-05: Reference-A-018-05 has medium priority.
+E018-06: Reference-A-018-03 is in the South region.
+E018-07: Astra-018 has status active.
+E018-08: Reference-A-018-04 has status paused.
+E018-09: Astra-018 uses platform Cobalt.
+
+C-019:
+Claim: Astra-019 uses platform Delta, is owned by Casey, has status paused, and is in the South region.
+Evidence:
+E019-01: Astra-019 is in the South region.
+E019-02: Reference-A-019-04 has critical priority.
+E019-03: Astra-019 uses platform Cobalt.
+E019-04: Reference-A-019-05 has low priority.
+E019-05: Reference-A-019-02 uses platform Beacon.
+E019-06: Reference-A-019-01 is in the East region.
+E019-07: Astra-019 has status paused.
+E019-08: Reference-A-019-03 uses platform Atlas.
+E019-09: Astra-019 is owned by Casey.
+
+C-020:
+Claim: Astra-020 is owned by Blake, has low priority, uses platform Atlas, and has status paused.
+Evidence:
+E020-01: Astra-020 has status paused.
+E020-02: Astra-020 uses platform Atlas.
+E020-03: Reference-A-020-01 has high priority.
+E020-04: Reference-A-020-04 uses platform Beacon.
+E020-05: Astra-020 is owned by Avery.
+E020-06: Reference-A-020-02 has low priority.
+E020-07: Reference-A-020-03 is owned by Casey.
+E020-08: Astra-020 has low priority.
+E020-09: Reference-A-020-05 uses platform Beacon.
+
+C-021:
+Claim: Astra-021 is in the East region, has status retired, is owned by Drew, and uses platform Cobalt.
+Evidence:
+E021-01: Astra-021 has status retired.
+E021-02: Astra-021 uses platform Cobalt.
+E021-03: Reference-A-021-01 has critical priority.
+E021-04: Reference-A-021-04 is in the East region.
+E021-05: Astra-021 is in the West region.
+E021-06: Reference-A-021-03 is owned by Casey.
+E021-07: Reference-A-021-05 has status paused.
+E021-08: Reference-A-021-02 is owned by Casey.
+E021-09: Astra-021 is owned by Drew.
+
+C-022:
+Claim: Astra-022 uses platform Beacon, is in the South region, is owned by Blake, and has status testing.
+Evidence:
+E022-01: Astra-022 uses platform Beacon.
+E022-02: Reference-A-022-05 is in the East region.
+E022-03: Astra-022 is owned by Blake.
+E022-04: Reference-A-022-03 uses platform Atlas.
+E022-05: Astra-022 has status testing.
+E022-06: Reference-A-022-04 is in the South region.
+E022-07: Reference-A-022-01 has status active.
+E022-08: Reference-A-022-02 is owned by Avery.
+E022-09: Astra-022 is in the South region.
+
+C-023:
+Claim: Astra-023 has low priority, uses platform Cobalt, has status paused, and is owned by Casey.
+Evidence:
+E023-01: Reference-A-023-04 uses platform Cobalt.
+E023-02: Reference-A-023-05 is owned by Drew.
+E023-03: Astra-023 has low priority.
+E023-04: Astra-023 uses platform Cobalt.
+E023-05: Astra-023 has status paused.
+E023-06: Reference-A-023-03 is in the South region.
+E023-07: Astra-023 is owned by Casey.
+E023-08: Reference-A-023-02 uses platform Cobalt.
+E023-09: Reference-A-023-01 is owned by Drew.
+
+C-024:
+Claim: Astra-024 has status testing, uses platform Cobalt, is in the West region, and has low priority.
+Evidence:
+E024-01: Reference-A-024-04 has status testing.
+E024-02: Reference-A-024-02 has low priority.
+E024-03: Reference-A-024-01 is owned by Blake.
+E024-04: Astra-024 uses platform Atlas.
+E024-05: Astra-024 has low priority.
+E024-06: Reference-A-024-05 has low priority.
+E024-07: Reference-A-024-03 is owned by Casey.
+E024-08: Astra-024 has status testing.
+E024-09: Astra-024 is in the West region.
+
+Evaluations:

@@ -1,0 +1,514 @@
+{
+  "benchmark_version": "2.1",
+  "task_family": "binary_evidence_verification",
+  "version": "A",
+  "claims": 24,
+  "facts_per_claim": 2,
+  "distractors_per_claim": 1,
+  "items": [
+    {
+      "claim_id": "C-001",
+      "entity": "Astra-001",
+      "claim": "Astra-001 is in the West region, and has low priority.",
+      "evidence": [
+        {
+          "evidence_id": "E001-01",
+          "text": "Astra-001 is in the West region."
+        },
+        {
+          "evidence_id": "E001-02",
+          "text": "Reference-A-001-01 uses platform Delta."
+        },
+        {
+          "evidence_id": "E001-03",
+          "text": "Astra-001 has high priority."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "priority"
+    },
+    {
+      "claim_id": "C-002",
+      "entity": "Astra-002",
+      "claim": "Astra-002 is in the East region, and uses platform Delta.",
+      "evidence": [
+        {
+          "evidence_id": "E002-01",
+          "text": "Reference-A-002-01 is owned by Drew."
+        },
+        {
+          "evidence_id": "E002-02",
+          "text": "Astra-002 is in the North region."
+        },
+        {
+          "evidence_id": "E002-03",
+          "text": "Astra-002 uses platform Delta."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "region"
+    },
+    {
+      "claim_id": "C-003",
+      "entity": "Astra-003",
+      "claim": "Astra-003 is in the North region, and is owned by Casey.",
+      "evidence": [
+        {
+          "evidence_id": "E003-01",
+          "text": "Astra-003 is in the North region."
+        },
+        {
+          "evidence_id": "E003-02",
+          "text": "Reference-A-003-01 is in the West region."
+        },
+        {
+          "evidence_id": "E003-03",
+          "text": "Astra-003 is owned by Casey."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-004",
+      "entity": "Astra-004",
+      "claim": "Astra-004 has medium priority, and is owned by Avery.",
+      "evidence": [
+        {
+          "evidence_id": "E004-01",
+          "text": "Reference-A-004-01 has high priority."
+        },
+        {
+          "evidence_id": "E004-02",
+          "text": "Astra-004 is owned by Avery."
+        },
+        {
+          "evidence_id": "E004-03",
+          "text": "Astra-004 has medium priority."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-005",
+      "entity": "Astra-005",
+      "claim": "Astra-005 is owned by Casey, and has critical priority.",
+      "evidence": [
+        {
+          "evidence_id": "E005-01",
+          "text": "Astra-005 has critical priority."
+        },
+        {
+          "evidence_id": "E005-02",
+          "text": "Reference-A-005-01 is in the North region."
+        },
+        {
+          "evidence_id": "E005-03",
+          "text": "Astra-005 is owned by Casey."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-006",
+      "entity": "Astra-006",
+      "claim": "Astra-006 is in the North region, and has status active.",
+      "evidence": [
+        {
+          "evidence_id": "E006-01",
+          "text": "Reference-A-006-01 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E006-02",
+          "text": "Astra-006 has status active."
+        },
+        {
+          "evidence_id": "E006-03",
+          "text": "Astra-006 is in the North region."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-007",
+      "entity": "Astra-007",
+      "claim": "Astra-007 uses platform Atlas, and has status retired.",
+      "evidence": [
+        {
+          "evidence_id": "E007-01",
+          "text": "Astra-007 has status retired."
+        },
+        {
+          "evidence_id": "E007-02",
+          "text": "Astra-007 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E007-03",
+          "text": "Reference-A-007-01 is in the North region."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "platform"
+    },
+    {
+      "claim_id": "C-008",
+      "entity": "Astra-008",
+      "claim": "Astra-008 has status active, and is owned by Drew.",
+      "evidence": [
+        {
+          "evidence_id": "E008-01",
+          "text": "Astra-008 is owned by Drew."
+        },
+        {
+          "evidence_id": "E008-02",
+          "text": "Reference-A-008-01 is in the West region."
+        },
+        {
+          "evidence_id": "E008-03",
+          "text": "Astra-008 has status testing."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "status"
+    },
+    {
+      "claim_id": "C-009",
+      "entity": "Astra-009",
+      "claim": "Astra-009 uses platform Cobalt, and has low priority.",
+      "evidence": [
+        {
+          "evidence_id": "E009-01",
+          "text": "Astra-009 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E009-02",
+          "text": "Reference-A-009-01 is owned by Blake."
+        },
+        {
+          "evidence_id": "E009-03",
+          "text": "Astra-009 has high priority."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "priority"
+    },
+    {
+      "claim_id": "C-010",
+      "entity": "Astra-010",
+      "claim": "Astra-010 is in the South region, and uses platform Atlas.",
+      "evidence": [
+        {
+          "evidence_id": "E010-01",
+          "text": "Reference-A-010-01 has status paused."
+        },
+        {
+          "evidence_id": "E010-02",
+          "text": "Astra-010 uses platform Delta."
+        },
+        {
+          "evidence_id": "E010-03",
+          "text": "Astra-010 is in the South region."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "platform"
+    },
+    {
+      "claim_id": "C-011",
+      "entity": "Astra-011",
+      "claim": "Astra-011 has status testing, and is in the South region.",
+      "evidence": [
+        {
+          "evidence_id": "E011-01",
+          "text": "Astra-011 has status active."
+        },
+        {
+          "evidence_id": "E011-02",
+          "text": "Reference-A-011-01 is owned by Avery."
+        },
+        {
+          "evidence_id": "E011-03",
+          "text": "Astra-011 is in the South region."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "status"
+    },
+    {
+      "claim_id": "C-012",
+      "entity": "Astra-012",
+      "claim": "Astra-012 uses platform Beacon, and is owned by Avery.",
+      "evidence": [
+        {
+          "evidence_id": "E012-01",
+          "text": "Astra-012 is owned by Avery."
+        },
+        {
+          "evidence_id": "E012-02",
+          "text": "Reference-A-012-01 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E012-03",
+          "text": "Astra-012 uses platform Beacon."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-013",
+      "entity": "Astra-013",
+      "claim": "Astra-013 has critical priority, and is owned by Casey.",
+      "evidence": [
+        {
+          "evidence_id": "E013-01",
+          "text": "Astra-013 has medium priority."
+        },
+        {
+          "evidence_id": "E013-02",
+          "text": "Reference-A-013-01 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E013-03",
+          "text": "Astra-013 is owned by Casey."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "priority"
+    },
+    {
+      "claim_id": "C-014",
+      "entity": "Astra-014",
+      "claim": "Astra-014 is in the West region, and is owned by Drew.",
+      "evidence": [
+        {
+          "evidence_id": "E014-01",
+          "text": "Astra-014 is owned by Drew."
+        },
+        {
+          "evidence_id": "E014-02",
+          "text": "Reference-A-014-01 has status retired."
+        },
+        {
+          "evidence_id": "E014-03",
+          "text": "Astra-014 is in the West region."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-015",
+      "entity": "Astra-015",
+      "claim": "Astra-015 has low priority, and is in the West region.",
+      "evidence": [
+        {
+          "evidence_id": "E015-01",
+          "text": "Reference-A-015-01 is owned by Avery."
+        },
+        {
+          "evidence_id": "E015-02",
+          "text": "Astra-015 has low priority."
+        },
+        {
+          "evidence_id": "E015-03",
+          "text": "Astra-015 is in the West region."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-016",
+      "entity": "Astra-016",
+      "claim": "Astra-016 has critical priority, and uses platform Delta.",
+      "evidence": [
+        {
+          "evidence_id": "E016-01",
+          "text": "Astra-016 has critical priority."
+        },
+        {
+          "evidence_id": "E016-02",
+          "text": "Astra-016 uses platform Atlas."
+        },
+        {
+          "evidence_id": "E016-03",
+          "text": "Reference-A-016-01 has high priority."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "platform"
+    },
+    {
+      "claim_id": "C-017",
+      "entity": "Astra-017",
+      "claim": "Astra-017 uses platform Delta, and is owned by Avery.",
+      "evidence": [
+        {
+          "evidence_id": "E017-01",
+          "text": "Astra-017 uses platform Delta."
+        },
+        {
+          "evidence_id": "E017-02",
+          "text": "Reference-A-017-01 uses platform Delta."
+        },
+        {
+          "evidence_id": "E017-03",
+          "text": "Astra-017 is owned by Avery."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-018",
+      "entity": "Astra-018",
+      "claim": "Astra-018 is owned by Blake, and uses platform Beacon.",
+      "evidence": [
+        {
+          "evidence_id": "E018-01",
+          "text": "Astra-018 uses platform Beacon."
+        },
+        {
+          "evidence_id": "E018-02",
+          "text": "Reference-A-018-01 is owned by Drew."
+        },
+        {
+          "evidence_id": "E018-03",
+          "text": "Astra-018 is owned by Blake."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-019",
+      "entity": "Astra-019",
+      "claim": "Astra-019 uses platform Cobalt, and has status active.",
+      "evidence": [
+        {
+          "evidence_id": "E019-01",
+          "text": "Astra-019 uses platform Cobalt."
+        },
+        {
+          "evidence_id": "E019-02",
+          "text": "Reference-A-019-01 has high priority."
+        },
+        {
+          "evidence_id": "E019-03",
+          "text": "Astra-019 has status active."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-020",
+      "entity": "Astra-020",
+      "claim": "Astra-020 uses platform Delta, and has high priority.",
+      "evidence": [
+        {
+          "evidence_id": "E020-01",
+          "text": "Astra-020 has high priority."
+        },
+        {
+          "evidence_id": "E020-02",
+          "text": "Astra-020 uses platform Delta."
+        },
+        {
+          "evidence_id": "E020-03",
+          "text": "Reference-A-020-01 is owned by Avery."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-021",
+      "entity": "Astra-021",
+      "claim": "Astra-021 has critical priority, and is owned by Avery.",
+      "evidence": [
+        {
+          "evidence_id": "E021-01",
+          "text": "Astra-021 has critical priority."
+        },
+        {
+          "evidence_id": "E021-02",
+          "text": "Reference-A-021-01 is in the West region."
+        },
+        {
+          "evidence_id": "E021-03",
+          "text": "Astra-021 is owned by Casey."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "owner"
+    },
+    {
+      "claim_id": "C-022",
+      "entity": "Astra-022",
+      "claim": "Astra-022 has high priority, and is owned by Casey.",
+      "evidence": [
+        {
+          "evidence_id": "E022-01",
+          "text": "Astra-022 is owned by Casey."
+        },
+        {
+          "evidence_id": "E022-02",
+          "text": "Astra-022 has high priority."
+        },
+        {
+          "evidence_id": "E022-03",
+          "text": "Reference-A-022-01 is in the North region."
+        }
+      ],
+      "gold_verdict": "SUPPORTED",
+      "contradicted_attribute": null
+    },
+    {
+      "claim_id": "C-023",
+      "entity": "Astra-023",
+      "claim": "Astra-023 has status testing, and has critical priority.",
+      "evidence": [
+        {
+          "evidence_id": "E023-01",
+          "text": "Astra-023 has status retired."
+        },
+        {
+          "evidence_id": "E023-02",
+          "text": "Reference-A-023-01 is in the South region."
+        },
+        {
+          "evidence_id": "E023-03",
+          "text": "Astra-023 has critical priority."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "status"
+    },
+    {
+      "claim_id": "C-024",
+      "entity": "Astra-024",
+      "claim": "Astra-024 is in the North region, and is owned by Avery.",
+      "evidence": [
+        {
+          "evidence_id": "E024-01",
+          "text": "Astra-024 is in the North region."
+        },
+        {
+          "evidence_id": "E024-02",
+          "text": "Reference-A-024-01 has medium priority."
+        },
+        {
+          "evidence_id": "E024-03",
+          "text": "Astra-024 is owned by Drew."
+        }
+      ],
+      "gold_verdict": "NOT_SUPPORTED",
+      "contradicted_attribute": "owner"
+    }
+  ]
+}

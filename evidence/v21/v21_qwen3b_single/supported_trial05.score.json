@@ -1,0 +1,17 @@
+{
+  "required_count": 1,
+  "attempted_count": 1,
+  "attempt_coverage": 1.0,
+  "missing_count": 0,
+  "missing_ids": [],
+  "valid_count": 1,
+  "structural_completion_rate": 1.0,
+  "invalid_attempt_count": 0,
+  "invalid_attempt_ids": [],
+  "correct_verdict_count": 1,
+  "verdict_accuracy_among_valid": 1.0,
+  "full_task_accuracy": 1.0,
+  "model": "Qwen/Qwen2.5-3B",
+  "gold_verdict": "SUPPORTED",
+  "trial": 5
+}

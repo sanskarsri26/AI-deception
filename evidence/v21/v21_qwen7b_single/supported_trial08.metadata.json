@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen2.5-7B",
+  "device": "cuda",
+  "prompt_tokens": 453,
+  "generated_tokens": 9,
+  "expected_claim_count": 1,
+  "attempted_claim_count": 1,
+  "all_claims_seen": true,
+  "hit_generation_limit": false
+}
