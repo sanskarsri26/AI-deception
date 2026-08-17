@@ -1,0 +1,38 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.00s/it]
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+[100/2990] math/30030 P2
+[200/2990] math/30054 P2
+[300/2990] math/30083 P2
+[400/2990] math/30110 P2
+[500/2990] math/30141 P2
+[600/2990] math/30164 P2
+[700/2990] math/30191 P2
+[800/2990] qa/20025 P2
+[900/2990] qa/20054 P2
+[1000/2990] qa/20078 P2
+[1100/2990] qa/20101 P2
+[1200/2990] qa/20126 P2
+[1300/2990] qa/20165 P2
+[1400/2990] qa/20188 P2
+[1500/2990] security/40010 P2
+[1600/2990] security/40035 P2
+[1700/2990] security/40061 P2
+[1800/2990] security/40084 P2
+[1900/2990] security/40112 P2
+[2000/2990] security/40136 P2
+[2100/2990] security/40163 P2
+[2200/2990] security/40188 P2
+[2300/2990] text_modification/10039 P2
+[2400/2990] text_modification/10100 P2
+[2500/2990] text_modification/10170 P2
+[2600/2990] text_modification/10023 P2
+[2700/2990] text_modification/10064 P2
+[2800/2990] text_modification/10112 P2
+[2900/2990] text_modification/10157 P2
+done: 2990 records -> runs/v32_control_3b/control_records.jsonl

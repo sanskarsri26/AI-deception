@@ -1,0 +1,449 @@
+{
+  "conditions_present": [
+    "N1",
+    "N2",
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "P1",
+    "P2"
+  ],
+  "n_tasks_complete_across_conditions": 598,
+  "endpoint_primary": "SIFo explicit output-format requirement violated (response is not exactly one well-formed JSON object)",
+  "determinism": {
+    "n_compared": 598,
+    "byte_identical_to_N1": 386,
+    "identical_fraction": 0.6454849498327759,
+    "note": "greedy decoding: if ~1.0, repeated-normal runs carry no information and run-to-run sampling noise cannot explain normal/elicited gaps"
+  },
+  "format_violation_rates": {
+    "N1": 0.11872909698996656,
+    "N2": 0.09698996655518395,
+    "E1": 0.05016722408026756,
+    "E2": 0.05518394648829431,
+    "E3": 0.08193979933110368,
+    "E4": 0.07692307692307693,
+    "E5": 0.06688963210702341,
+    "P1": 0.08361204013377926,
+    "P2": 0.1020066889632107
+  },
+  "format_violation_counts": {
+    "N1": 71,
+    "N2": 58,
+    "E1": 30,
+    "E2": 33,
+    "E3": 49,
+    "E4": 46,
+    "E5": 40,
+    "P1": 50,
+    "P2": 61
+  },
+  "format_contrasts": [
+    {
+      "contrast": "E4 vs P1",
+      "n_tasks": 598,
+      "left_rate": 0.07692307692307693,
+      "right_rate": 0.08361204013377926,
+      "discordant_left_only": 18,
+      "discordant_right_only": 22,
+      "mcnemar_exact_p": 0.6358280026288412,
+      "difference_point": -0.006688963210702337,
+      "difference_ci95": [
+        -0.028428093645484945,
+        0.015050167224080258
+      ]
+    },
+    {
+      "contrast": "E4 vs N1",
+      "n_tasks": 598,
+      "left_rate": 0.07692307692307693,
+      "right_rate": 0.11872909698996656,
+      "discordant_left_only": 12,
+      "discordant_right_only": 37,
+      "mcnemar_exact_p": 0.0004697573180081349,
+      "difference_point": -0.04180602006688963,
+      "difference_ci95": [
+        -0.06354515050167225,
+        -0.020066889632107024
+      ]
+    },
+    {
+      "contrast": "P1 vs N1",
+      "n_tasks": 598,
+      "left_rate": 0.08361204013377926,
+      "right_rate": 0.11872909698996656,
+      "discordant_left_only": 10,
+      "discordant_right_only": 31,
+      "mcnemar_exact_p": 0.0014504910141113214,
+      "difference_point": -0.035117056856187295,
+      "difference_ci95": [
+        -0.05685618729096989,
+        -0.015050167224080271
+      ]
+    },
+    {
+      "contrast": "E5 vs P2",
+      "n_tasks": 598,
+      "left_rate": 0.06688963210702341,
+      "right_rate": 0.1020066889632107,
+      "discordant_left_only": 20,
+      "discordant_right_only": 41,
+      "mcnemar_exact_p": 0.009853448195259264,
+      "difference_point": -0.035117056856187295,
+      "difference_ci95": [
+        -0.06020066889632107,
+        -0.010033444816053505
+      ]
+    },
+    {
+      "contrast": "E5 vs N1",
+      "n_tasks": 598,
+      "left_rate": 0.06688963210702341,
+      "right_rate": 0.11872909698996656,
+      "discordant_left_only": 12,
+      "discordant_right_only": 43,
+      "mcnemar_exact_p": 3.3053764732060564e-05,
+      "difference_point": -0.05183946488294315,
+      "difference_ci95": [
+        -0.07525083612040136,
+        -0.028428093645484945
+      ]
+    },
+    {
+      "contrast": "P2 vs N1",
+      "n_tasks": 598,
+      "left_rate": 0.1020066889632107,
+      "right_rate": 0.11872909698996656,
+      "discordant_left_only": 20,
+      "discordant_right_only": 30,
+      "mcnemar_exact_p": 0.20263875106454066,
+      "difference_point": -0.016722408026755856,
+      "difference_ci95": [
+        -0.04013377926421405,
+        0.005016722408026766
+      ]
+    },
+    {
+      "contrast": "E1 vs N1",
+      "n_tasks": 598,
+      "left_rate": 0.05016722408026756,
+      "right_rate": 0.11872909698996656,
+      "discordant_left_only": 10,
+      "discordant_right_only": 51,
+      "mcnemar_exact_p": 9.624425087798039e-08,
+      "difference_point": -0.068561872909699,
+      "difference_ci95": [
+        -0.09364548494983277,
+        -0.0451505016722408
+      ]
+    },
+    {
+      "contrast": "E2 vs N1",
+      "n_tasks": 598,
+      "left_rate": 0.05518394648829431,
+      "right_rate": 0.11872909698996656,
+      "discordant_left_only": 11,
+      "discordant_right_only": 49,
+      "mcnemar_exact_p": 7.561280982396751e-07,
+      "difference_point": -0.06354515050167225,
+      "difference_ci95": [
+        -0.08862876254180602,
+        -0.038461538461538464
+      ]
+    },
+    {
+      "contrast": "E3 vs N1",
+      "n_tasks": 598,
+      "left_rate": 0.08193979933110368,
+      "right_rate": 0.11872909698996656,
+      "discordant_left_only": 7,
+      "discordant_right_only": 29,
+      "mcnemar_exact_p": 0.00031255115754902363,
+      "difference_point": -0.03678929765886288,
+      "difference_ci95": [
+        -0.05685618729096989,
+        -0.01839464882943144
+      ]
+    },
+    {
+      "contrast": "E1 vs P1",
+      "n_tasks": 598,
+      "left_rate": 0.05016722408026756,
+      "right_rate": 0.08361204013377926,
+      "discordant_left_only": 12,
+      "discordant_right_only": 32,
+      "mcnemar_exact_p": 0.003657766827927844,
+      "difference_point": -0.033444816053511704,
+      "difference_ci95": [
+        -0.05518394648829431,
+        -0.011705685618729103
+      ]
+    }
+  ],
+  "qualified_requirement_satisfaction": {
+    "N1": {
+      "qualified_requirements": 837,
+      "satisfied": 801,
+      "rate": 0.956989247311828
+    },
+    "N2": {
+      "qualified_requirements": 837,
+      "satisfied": 796,
+      "rate": 0.951015531660693
+    },
+    "E1": {
+      "qualified_requirements": 837,
+      "satisfied": 837,
+      "rate": 1.0
+    },
+    "E2": {
+      "qualified_requirements": 837,
+      "satisfied": 837,
+      "rate": 1.0
+    },
+    "E3": {
+      "qualified_requirements": 837,
+      "satisfied": 837,
+      "rate": 1.0
+    },
+    "E4": {
+      "qualified_requirements": 837,
+      "satisfied": 825,
+      "rate": 0.985663082437276
+    },
+    "E5": {
+      "qualified_requirements": 837,
+      "satisfied": 820,
+      "rate": 0.9796893667861409
+    },
+    "P1": {
+      "qualified_requirements": 837,
+      "satisfied": 813,
+      "rate": 0.9713261648745519
+    },
+    "P2": {
+      "qualified_requirements": 837,
+      "satisfied": 796,
+      "rate": 0.951015531660693
+    }
+  },
+  "qualified_requirement_note": "E1/E2/E3 are 1.0 by construction (they define qualification). Only N1/N2/E4/E5/P1/P2 are unbiased here; E4 vs P1 is the confirmatory comparison.",
+  "qualified_task_contrasts": [
+    {
+      "contrast": "E4 vs P1",
+      "n_tasks": 366,
+      "left_failure_rate": 0.03278688524590164,
+      "right_failure_rate": 0.06284153005464481,
+      "discordant_left_only": 6,
+      "discordant_right_only": 17,
+      "mcnemar_exact_p": 0.03468966484069824,
+      "difference_point": -0.030054644808743168,
+      "difference_ci95": [
+        -0.05737704918032786,
+        -0.005464480874316939
+      ]
+    },
+    {
+      "contrast": "E4 vs N1",
+      "n_tasks": 366,
+      "left_failure_rate": 0.03278688524590164,
+      "right_failure_rate": 0.06830601092896176,
+      "discordant_left_only": 7,
+      "discordant_right_only": 20,
+      "mcnemar_exact_p": 0.0191572904586792,
+      "difference_point": -0.035519125683060114,
+      "difference_ci95": [
+        -0.06284153005464482,
+        -0.008196721311475412
+      ]
+    },
+    {
+      "contrast": "P1 vs N1",
+      "n_tasks": 366,
+      "left_failure_rate": 0.06284153005464481,
+      "right_failure_rate": 0.06830601092896176,
+      "discordant_left_only": 12,
+      "discordant_right_only": 14,
+      "mcnemar_exact_p": 0.8450189828872681,
+      "difference_point": -0.005464480874316946,
+      "difference_ci95": [
+        -0.03278688524590164,
+        0.021857923497267756
+      ]
+    },
+    {
+      "contrast": "E5 vs P2",
+      "n_tasks": 366,
+      "left_failure_rate": 0.02185792349726776,
+      "right_failure_rate": 0.09289617486338798,
+      "discordant_left_only": 6,
+      "discordant_right_only": 32,
+      "mcnemar_exact_p": 2.4342560209333897e-05,
+      "difference_point": -0.07103825136612023,
+      "difference_ci95": [
+        -0.10382513661202186,
+        -0.03825136612021859
+      ]
+    },
+    {
+      "contrast": "N2 vs N1",
+      "n_tasks": 366,
+      "left_failure_rate": 0.07923497267759563,
+      "right_failure_rate": 0.06830601092896176,
+      "discordant_left_only": 8,
+      "discordant_right_only": 4,
+      "mcnemar_exact_p": 0.3876953125,
+      "difference_point": 0.010928961748633878,
+      "difference_ci95": [
+        -0.008196721311475405,
+        0.030054644808743168
+      ]
+    }
+  ],
+  "ungated_requirement_satisfaction": {
+    "N1": {
+      "satisfied": 949,
+      "requirements": 2492,
+      "rate": 0.38081861958266455
+    },
+    "N2": {
+      "satisfied": 944,
+      "requirements": 2492,
+      "rate": 0.37881219903691815
+    },
+    "E1": {
+      "satisfied": 935,
+      "requirements": 2492,
+      "rate": 0.37520064205457465
+    },
+    "E2": {
+      "satisfied": 926,
+      "requirements": 2492,
+      "rate": 0.37158908507223115
+    },
+    "E3": {
+      "satisfied": 938,
+      "requirements": 2492,
+      "rate": 0.37640449438202245
+    },
+    "E4": {
+      "satisfied": 937,
+      "requirements": 2492,
+      "rate": 0.3760032102728732
+    },
+    "E5": {
+      "satisfied": 938,
+      "requirements": 2492,
+      "rate": 0.37640449438202245
+    },
+    "P1": {
+      "satisfied": 950,
+      "requirements": 2492,
+      "rate": 0.3812199036918138
+    },
+    "P2": {
+      "satisfied": 971,
+      "requirements": 2492,
+      "rate": 0.38964686998394865
+    }
+  },
+  "ungated_task_contrasts": [
+    {
+      "contrast": "E4 vs P1",
+      "n_tasks": 598,
+      "left_failure_rate": 0.8578595317725752,
+      "right_failure_rate": 0.8444816053511706,
+      "discordant_left_only": 13,
+      "discordant_right_only": 5,
+      "mcnemar_exact_p": 0.09625244140625,
+      "difference_point": 0.013377926421404673,
+      "difference_ci95": [
+        0.0,
+        0.02842809364548493
+      ]
+    },
+    {
+      "contrast": "E4 vs N1",
+      "n_tasks": 598,
+      "left_failure_rate": 0.8578595317725752,
+      "right_failure_rate": 0.8511705685618729,
+      "discordant_left_only": 12,
+      "discordant_right_only": 8,
+      "mcnemar_exact_p": 0.5034446716308594,
+      "difference_point": 0.006688963210702337,
+      "difference_ci95": [
+        -0.00836120401337792,
+        0.021739130434782594
+      ]
+    },
+    {
+      "contrast": "P1 vs N1",
+      "n_tasks": 598,
+      "left_failure_rate": 0.8444816053511706,
+      "right_failure_rate": 0.8511705685618729,
+      "discordant_left_only": 8,
+      "discordant_right_only": 12,
+      "mcnemar_exact_p": 0.5034446716308594,
+      "difference_point": -0.006688963210702337,
+      "difference_ci95": [
+        -0.021739130434782594,
+        0.00836120401337792
+      ]
+    },
+    {
+      "contrast": "E5 vs P2",
+      "n_tasks": 598,
+      "left_failure_rate": 0.8511705685618729,
+      "right_failure_rate": 0.8394648829431438,
+      "discordant_left_only": 16,
+      "discordant_right_only": 9,
+      "mcnemar_exact_p": 0.2295229434967041,
+      "difference_point": 0.01170568561872909,
+      "difference_ci95": [
+        -0.0050167224080267525,
+        0.02842809364548493
+      ]
+    },
+    {
+      "contrast": "N2 vs N1",
+      "n_tasks": 598,
+      "left_failure_rate": 0.8528428093645485,
+      "right_failure_rate": 0.8511705685618729,
+      "discordant_left_only": 3,
+      "discordant_right_only": 2,
+      "mcnemar_exact_p": 1.0,
+      "difference_point": 0.0016722408026755842,
+      "difference_ci95": [
+        -0.0050167224080267525,
+        0.00836120401337792
+      ]
+    },
+    {
+      "contrast": "E1 vs P1",
+      "n_tasks": 598,
+      "left_failure_rate": 0.8478260869565217,
+      "right_failure_rate": 0.8444816053511706,
+      "discordant_left_only": 9,
+      "discordant_right_only": 7,
+      "mcnemar_exact_p": 0.803619384765625,
+      "difference_point": 0.0033444816053511683,
+      "difference_ci95": [
+        -0.010033444816053505,
+        0.01672240802675584
+      ]
+    }
+  ],
+  "qualified_requirement_omissions": {
+    "N1": 1,
+    "N2": 1,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "E4": 0,
+    "E5": 0,
+    "P1": 0,
+    "P2": 1
+  }
+}

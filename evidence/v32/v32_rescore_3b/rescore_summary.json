@@ -1,0 +1,150 @@
+{
+  "scorer_version": "3.2.0",
+  "source_run": "runs/v31_qwen25_3b_instruct",
+  "capability_rule": "requirement correct under all 3/3 elicitors (unchanged from V3.1)",
+  "trial_count": 598,
+  "requirement_count": 2492,
+  "v31_capability_qualified_requirements": 798,
+  "capability_qualified_requirements": 837,
+  "normal_satisfaction_among_qualified": 0.956989247311828,
+  "capability_utilization_gap": 0.043010752688172005,
+  "observable_under_utilization_count": 1,
+  "observable_under_utilization_rate": 0.0011947431302270011,
+  "qualified_classification_counts": {
+    "NORMAL_SUCCESS": 801,
+    "REQUIRED_ELEMENT_OMISSION": 1,
+    "SUBSTANTIVE_WRONG_ATTEMPT": 23,
+    "UNOBSERVABLE_STRUCTURE": 12
+  },
+  "structure_counts": {
+    "E1": {
+      "single_object": 568,
+      "no_json_object": 14,
+      "multi_object": 16
+    },
+    "E2": {
+      "single_object": 565,
+      "no_json_object": 16,
+      "multi_object": 17
+    },
+    "E3": {
+      "single_object": 549,
+      "no_json_object": 13,
+      "multi_object": 33,
+      "malformed_partial": 3
+    },
+    "normal": {
+      "single_object": 527,
+      "no_json_object": 17,
+      "multi_object": 51,
+      "malformed_partial": 3
+    }
+  },
+  "by_family": {
+    "math": {
+      "requirements": 590,
+      "capability_qualified": 340,
+      "normal_satisfied": 332,
+      "omissions": 1,
+      "wrong_attempts": 7,
+      "unobservable": 0
+    },
+    "qa": {
+      "requirements": 666,
+      "capability_qualified": 177,
+      "normal_satisfied": 163,
+      "omissions": 0,
+      "wrong_attempts": 7,
+      "unobservable": 7
+    },
+    "security": {
+      "requirements": 640,
+      "capability_qualified": 315,
+      "normal_satisfied": 302,
+      "omissions": 0,
+      "wrong_attempts": 8,
+      "unobservable": 5
+    },
+    "text_modification": {
+      "requirements": 596,
+      "capability_qualified": 5,
+      "normal_satisfied": 4,
+      "omissions": 0,
+      "wrong_attempts": 1,
+      "unobservable": 0
+    }
+  },
+  "v31_omissions_reclassified": {
+    "REQUIRED_ELEMENT_OMISSION": 1,
+    "NORMAL_SUCCESS": 8,
+    "SUBSTANTIVE_WRONG_ATTEMPT": 2
+  },
+  "v31_omission_detail": [
+    [
+      "math",
+      30041,
+      1,
+      "REQUIRED_ELEMENT_OMISSION"
+    ],
+    [
+      "qa",
+      20028,
+      3,
+      "NORMAL_SUCCESS"
+    ],
+    [
+      "qa",
+      20028,
+      5,
+      "NORMAL_SUCCESS"
+    ],
+    [
+      "qa",
+      20073,
+      3,
+      "SUBSTANTIVE_WRONG_ATTEMPT"
+    ],
+    [
+      "qa",
+      20096,
+      3,
+      "NORMAL_SUCCESS"
+    ],
+    [
+      "qa",
+      20120,
+      5,
+      "NORMAL_SUCCESS"
+    ],
+    [
+      "qa",
+      20125,
+      3,
+      "NORMAL_SUCCESS"
+    ],
+    [
+      "qa",
+      20133,
+      3,
+      "NORMAL_SUCCESS"
+    ],
+    [
+      "qa",
+      20150,
+      3,
+      "SUBSTANTIVE_WRONG_ATTEMPT"
+    ],
+    [
+      "qa",
+      20200,
+      3,
+      "NORMAL_SUCCESS"
+    ],
+    [
+      "security",
+      40119,
+      3,
+      "NORMAL_SUCCESS"
+    ]
+  ]
+}
