@@ -1,0 +1,55 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:12<00:36, 12.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:35, 17.66s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:17, 17.58s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:08<00:00, 17.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:08<00:00, 17.21s/it]
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{
+  "task_version": "4.0.0",
+  "n_lines": 10,
+  "sensitivity_gate": 0.95,
+  "specificity_gate": 0.98,
+  "by_item_type": {
+    "UPPER": {
+      "tp": 25,
+      "fn": 0,
+      "tn": 220,
+      "fp": 5,
+      "unparsed": 0,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 1.0,
+      "specificity": 0.9777777777777777,
+      "passes_gate": false
+    },
+    "COPY": {
+      "tp": 25,
+      "fn": 0,
+      "tn": 224,
+      "fp": 1,
+      "unparsed": 0,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 1.0,
+      "specificity": 0.9955555555555555,
+      "passes_gate": true
+    },
+    "ARITH": {
+      "tp": 18,
+      "fn": 7,
+      "tn": 156,
+      "fp": 69,
+      "unparsed": 0,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 0.72,
+      "specificity": 0.6933333333333334,
+      "passes_gate": false
+    }
+  },
+  "usable_item_types": [
+    "COPY"
+  ]
+}

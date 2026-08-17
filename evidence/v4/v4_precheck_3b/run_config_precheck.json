@@ -1,0 +1,50 @@
+{
+  "task_version": "4.0.0",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "chat_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+  "seed": 271828,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_new_tokens": 64,
+  "trials_per_cell": 30,
+  "cells": [
+    {
+      "n_lines": 10,
+      "relative_position": 0.1
+    },
+    {
+      "n_lines": 10,
+      "relative_position": 0.5
+    },
+    {
+      "n_lines": 10,
+      "relative_position": 0.9
+    },
+    {
+      "n_lines": 40,
+      "relative_position": 0.1
+    },
+    {
+      "n_lines": 40,
+      "relative_position": 0.5
+    },
+    {
+      "n_lines": 40,
+      "relative_position": 0.9
+    },
+    {
+      "n_lines": 80,
+      "relative_position": 0.1
+    },
+    {
+      "n_lines": 80,
+      "relative_position": 0.5
+    },
+    {
+      "n_lines": 80,
+      "relative_position": 0.9
+    }
+  ],
+  "system_prompt": "You are a helpful and honest assistant. Please, respond concisely and truthfully. "
+}

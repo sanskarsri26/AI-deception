@@ -1,0 +1,617 @@
+{
+  "task_version": "4.0.0",
+  "record_count": 400,
+  "usable": 400,
+  "excluded": {},
+  "primary_endpoint": "paired TARGETED-caught vs FULL-missed on identical ledgers",
+  "overall": {
+    "n": 400,
+    "targeted_detection": 1.0,
+    "full_detection": 1.0,
+    "full_outcomes": {
+      "caught": 400
+    },
+    "targeted_outcomes": {
+      "caught": 400
+    },
+    "discordant_targeted_only": 0,
+    "discordant_full_only": 0,
+    "mcnemar_exact_p": 1.0,
+    "detection_drop": -0.0,
+    "detection_drop_ci95": [
+      -0.0,
+      -0.0
+    ],
+    "mean_coverage": 1.0,
+    "omission_rate": 0.0,
+    "mean_false_positive_rate": 0.02082224386021854,
+    "completion_claim_yes": 397,
+    "false_completion_claims": 0
+  },
+  "by_n_lines": {
+    "10": {
+      "n": 100,
+      "targeted_detection": 1.0,
+      "full_detection": 1.0,
+      "full_outcomes": {
+        "caught": 100
+      },
+      "targeted_outcomes": {
+        "caught": 100
+      },
+      "discordant_targeted_only": 0,
+      "discordant_full_only": 0,
+      "mcnemar_exact_p": 1.0,
+      "detection_drop": -0.0,
+      "detection_drop_ci95": [
+        -0.0,
+        -0.0
+      ],
+      "mean_coverage": 1.0,
+      "omission_rate": 0.0,
+      "mean_false_positive_rate": 0.017777777777777778,
+      "completion_claim_yes": 100,
+      "false_completion_claims": 0,
+      "by_relative_position": {
+        "0.1": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.005555555555555555,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.3": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.0,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.5": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.03888888888888888,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.7": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.02777777777777778,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.9": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.016666666666666666,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        }
+      }
+    },
+    "20": {
+      "n": 100,
+      "targeted_detection": 1.0,
+      "full_detection": 1.0,
+      "full_outcomes": {
+        "caught": 100
+      },
+      "targeted_outcomes": {
+        "caught": 100
+      },
+      "discordant_targeted_only": 0,
+      "discordant_full_only": 0,
+      "mcnemar_exact_p": 1.0,
+      "detection_drop": -0.0,
+      "detection_drop_ci95": [
+        -0.0,
+        -0.0
+      ],
+      "mean_coverage": 1.0,
+      "omission_rate": 0.0,
+      "mean_false_positive_rate": 0.03,
+      "completion_claim_yes": 100,
+      "false_completion_claims": 0,
+      "by_relative_position": {
+        "0.1": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.042105263157894736,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.3": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.023684210526315787,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.5": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.013157894736842105,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.7": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.023684210526315787,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.9": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.047368421052631574,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        }
+      }
+    },
+    "40": {
+      "n": 100,
+      "targeted_detection": 1.0,
+      "full_detection": 1.0,
+      "full_outcomes": {
+        "caught": 100
+      },
+      "targeted_outcomes": {
+        "caught": 100
+      },
+      "discordant_targeted_only": 0,
+      "discordant_full_only": 0,
+      "mcnemar_exact_p": 1.0,
+      "detection_drop": -0.0,
+      "detection_drop_ci95": [
+        -0.0,
+        -0.0
+      ],
+      "mean_coverage": 1.0,
+      "omission_rate": 0.0,
+      "mean_false_positive_rate": 0.025384615384615384,
+      "completion_claim_yes": 99,
+      "false_completion_claims": 0,
+      "by_relative_position": {
+        "0.1": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.02564102564102564,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.3": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.010256410256410256,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.5": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.041025641025641026,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.7": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.02435897435897436,
+          "completion_claim_yes": 19,
+          "false_completion_claims": 0
+        },
+        "0.9": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.02564102564102564,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        }
+      }
+    },
+    "80": {
+      "n": 100,
+      "targeted_detection": 1.0,
+      "full_detection": 1.0,
+      "full_outcomes": {
+        "caught": 100
+      },
+      "targeted_outcomes": {
+        "caught": 100
+      },
+      "discordant_targeted_only": 0,
+      "discordant_full_only": 0,
+      "mcnemar_exact_p": 1.0,
+      "detection_drop": -0.0,
+      "detection_drop_ci95": [
+        -0.0,
+        -0.0
+      ],
+      "mean_coverage": 1.0,
+      "omission_rate": 0.0,
+      "mean_false_positive_rate": 0.010126582278481013,
+      "completion_claim_yes": 98,
+      "false_completion_claims": 0,
+      "by_relative_position": {
+        "0.1": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.008860759493670886,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.3": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.012025316455696202,
+          "completion_claim_yes": 19,
+          "false_completion_claims": 0
+        },
+        "0.5": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.010759493670886076,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.7": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.00759493670886076,
+          "completion_claim_yes": 20,
+          "false_completion_claims": 0
+        },
+        "0.9": {
+          "n": 20,
+          "targeted_detection": 1.0,
+          "full_detection": 1.0,
+          "full_outcomes": {
+            "caught": 20
+          },
+          "targeted_outcomes": {
+            "caught": 20
+          },
+          "discordant_targeted_only": 0,
+          "discordant_full_only": 0,
+          "mcnemar_exact_p": 1.0,
+          "detection_drop": -0.0,
+          "detection_drop_ci95": [
+            -0.0,
+            -0.0
+          ],
+          "mean_coverage": 1.0,
+          "omission_rate": 0.0,
+          "mean_false_positive_rate": 0.01139240506329114,
+          "completion_claim_yes": 19,
+          "false_completion_claims": 0
+        }
+      }
+    }
+  }
+}

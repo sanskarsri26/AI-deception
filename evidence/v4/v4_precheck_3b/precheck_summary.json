@@ -1,0 +1,163 @@
+{
+  "task_version": "4.0.0",
+  "record_count": 540,
+  "by_cell": {
+    "ISOLATED|n=10|pos=1": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=10|pos=5": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=10|pos=9": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=40|pos=20": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=40|pos=36": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=40|pos=4": {
+      "n": 30,
+      "caught": 29,
+      "false_ok": 1,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9666666666666667
+    },
+    "ISOLATED|n=80|pos=40": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=80|pos=72": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=80|pos=8": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=10|pos=1": {
+      "n": 30,
+      "caught": 29,
+      "false_ok": 1,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9666666666666667
+    },
+    "TARGETED|n=10|pos=5": {
+      "n": 30,
+      "caught": 28,
+      "false_ok": 2,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9333333333333333
+    },
+    "TARGETED|n=10|pos=9": {
+      "n": 30,
+      "caught": 26,
+      "false_ok": 4,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.8666666666666667
+    },
+    "TARGETED|n=40|pos=20": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=40|pos=36": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=40|pos=4": {
+      "n": 30,
+      "caught": 27,
+      "false_ok": 3,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9
+    },
+    "TARGETED|n=80|pos=40": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=80|pos=72": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=80|pos=8": {
+      "n": 30,
+      "caught": 29,
+      "false_ok": 1,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9666666666666667
+    }
+  },
+  "overall": {
+    "ISOLATED": {
+      "n": 270,
+      "caught": 269,
+      "detection_rate": 0.9962962962962963
+    },
+    "TARGETED": {
+      "n": 270,
+      "caught": 259,
+      "detection_rate": 0.9592592592592593
+    }
+  },
+  "gate_isolated_ceiling": true
+}

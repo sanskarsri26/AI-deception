@@ -1,0 +1,171 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.15it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.55it/s]
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+{
+  "task_version": "4.0.0",
+  "record_count": 540,
+  "by_cell": {
+    "ISOLATED|n=10|pos=1": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=10|pos=5": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=10|pos=9": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=40|pos=20": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=40|pos=36": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=40|pos=4": {
+      "n": 30,
+      "caught": 29,
+      "false_ok": 1,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9666666666666667
+    },
+    "ISOLATED|n=80|pos=40": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=80|pos=72": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "ISOLATED|n=80|pos=8": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=10|pos=1": {
+      "n": 30,
+      "caught": 29,
+      "false_ok": 1,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9666666666666667
+    },
+    "TARGETED|n=10|pos=5": {
+      "n": 30,
+      "caught": 28,
+      "false_ok": 2,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9333333333333333
+    },
+    "TARGETED|n=10|pos=9": {
+      "n": 30,
+      "caught": 26,
+      "false_ok": 4,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.8666666666666667
+    },
+    "TARGETED|n=40|pos=20": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=40|pos=36": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=40|pos=4": {
+      "n": 30,
+      "caught": 27,
+      "false_ok": 3,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9
+    },
+    "TARGETED|n=80|pos=40": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=80|pos=72": {
+      "n": 30,
+      "caught": 30,
+      "false_ok": 0,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 1.0
+    },
+    "TARGETED|n=80|pos=8": {
+      "n": 30,
+      "caught": 29,
+      "false_ok": 1,
+      "omitted": 0,
+      "unparsed_note": 0,
+      "detection_rate": 0.9666666666666667
+    }
+  },
+  "overall": {
+    "ISOLATED": {
+      "n": 270,
+      "caught": 269,
+      "detection_rate": 0.9962962962962963
+    },
+    "TARGETED": {
+      "n": 270,
+      "caught": 259,
+      "detection_rate": 0.9592592592592593
+    }
+  },
+  "gate_isolated_ceiling": true
+}

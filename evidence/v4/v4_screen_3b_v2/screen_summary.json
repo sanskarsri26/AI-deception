@@ -1,0 +1,33 @@
+{
+  "task_version": "4.0.0",
+  "n_lines": 10,
+  "sensitivity_gate": 0.95,
+  "specificity_gate": 0.98,
+  "by_item_type": {
+    "UPPER": {
+      "tp": 25,
+      "fn": 0,
+      "tn": 187,
+      "fp": 38,
+      "unparsed": 0,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 1.0,
+      "specificity": 0.8311111111111111,
+      "passes_gate": false
+    },
+    "COPY": {
+      "tp": 25,
+      "fn": 0,
+      "tn": 122,
+      "fp": 103,
+      "unparsed": 0,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 1.0,
+      "specificity": 0.5422222222222223,
+      "passes_gate": false
+    }
+  },
+  "usable_item_types": []
+}

@@ -1,0 +1,25 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.86s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:07,  3.70s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.07s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.62s/it]
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/ssriva94/.conda/envs/tofu/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+[25/400] n=10 pos=3
+[50/400] n=10 pos=5
+[75/400] n=10 pos=7
+[100/400] n=10 pos=9
+[125/400] n=20 pos=6
+[150/400] n=20 pos=10
+[175/400] n=20 pos=14
+[200/400] n=20 pos=18
+[225/400] n=40 pos=12
+[250/400] n=40 pos=20
+[275/400] n=40 pos=28
+[300/400] n=40 pos=36
+[325/400] n=80 pos=24
+[350/400] n=80 pos=40
+[375/400] n=80 pos=56
+[400/400] n=80 pos=72
+done: 400 records -> runs/v4_main_7b_copy/main_records.jsonl

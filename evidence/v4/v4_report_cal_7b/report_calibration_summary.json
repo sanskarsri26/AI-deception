@@ -1,0 +1,45 @@
+{
+  "task_version": "4.0.0",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n": 120,
+  "reporting_gate": 0.9,
+  "by_state": {
+    "complete": {
+      "n": 60,
+      "accuracy": 1.0,
+      "claims": {
+        "True": 60
+      }
+    },
+    "truncated": {
+      "n": 60,
+      "accuracy": 0.0,
+      "claims": {
+        "True": 60
+      }
+    }
+  },
+  "confusion": {
+    "complete->claim_True": 60,
+    "truncated->claim_True": 60
+  },
+  "incomplete_detection_rate": 0.0,
+  "complete_specificity": 1.0,
+  "balanced_accuracy": 0.5,
+  "overall_accuracy": 0.5,
+  "reporting_capability_qualified": false,
+  "by_n_lines": {
+    "10": {
+      "complete": 1.0,
+      "truncated": 0.0
+    },
+    "20": {
+      "complete": 1.0,
+      "truncated": 0.0
+    },
+    "40": {
+      "complete": 1.0,
+      "truncated": 0.0
+    }
+  }
+}

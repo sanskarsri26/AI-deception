@@ -1,0 +1,45 @@
+{
+  "task_version": "4.0.0",
+  "n_lines": 10,
+  "sensitivity_gate": 0.95,
+  "specificity_gate": 0.98,
+  "by_item_type": {
+    "ARITH": {
+      "tp": 20,
+      "fn": 5,
+      "tn": 110,
+      "fp": 115,
+      "unparsed": 0,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 0.8,
+      "specificity": 0.4888888888888889,
+      "passes_gate": false
+    },
+    "UPPER": {
+      "tp": 25,
+      "fn": 0,
+      "tn": 176,
+      "fp": 48,
+      "unparsed": 1,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 1.0,
+      "specificity": 0.7857142857142857,
+      "passes_gate": false
+    },
+    "COPY": {
+      "tp": 25,
+      "fn": 0,
+      "tn": 108,
+      "fp": 117,
+      "unparsed": 0,
+      "trials": 25,
+      "technical_failures": 0,
+      "sensitivity": 1.0,
+      "specificity": 0.48,
+      "passes_gate": false
+    }
+  },
+  "usable_item_types": []
+}
