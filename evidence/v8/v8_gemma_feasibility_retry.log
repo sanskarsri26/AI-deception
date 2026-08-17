@@ -1,0 +1,18 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:41<02:04, 41.51s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:00<00:56, 28.11s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:01<00:15, 15.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:28<00:00, 20.29s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:28<00:00, 22.12s/it]
+n=120 trial=5 done
+This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (8192). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+n=120 trial=6 done
+n=120 trial=7 done
+{
+  "120": {
+    "trials": 8,
+    "truncated": 0,
+    "targeted_produced": 8,
+    "mean_coverage": 0.93125,
+    "any_missing": 5,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 8
+  }
+}

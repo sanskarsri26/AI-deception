@@ -1,0 +1,12 @@
+{
+  "task_version": "5.0.0",
+  "model": "google/gemma-2-9b-it",
+  "model_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+  "chat_template_sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "max_probes": 30,
+  "rule": "probe every omitted block; if more than max_probes, an evenly spaced deterministic subset including the first and last omitted id",
+  "capability_threshold": 1.0,
+  "note": "supplies the omitted-block capability the V5 TARGETED probe did not cover"
+}

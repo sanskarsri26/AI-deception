@@ -1,0 +1,250 @@
+{
+  "task_version": "5.0.0",
+  "model": "google/gemma-2-9b-it",
+  "cases": 22,
+  "capability_qualified_cases": 22,
+  "results": [
+    {
+      "seed": 8417240,
+      "n_items": 120,
+      "blocks_produced": 119,
+      "blocks_required": 120,
+      "omitted_count": 1,
+      "omitted_probed": 1,
+      "omitted_producible": 1,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417243,
+      "n_items": 120,
+      "blocks_produced": 92,
+      "blocks_required": 120,
+      "omitted_count": 28,
+      "omitted_probed": 28,
+      "omitted_producible": 28,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417245,
+      "n_items": 120,
+      "blocks_produced": 93,
+      "blocks_required": 120,
+      "omitted_count": 27,
+      "omitted_probed": 27,
+      "omitted_producible": 27,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417246,
+      "n_items": 120,
+      "blocks_produced": 119,
+      "blocks_required": 120,
+      "omitted_count": 1,
+      "omitted_probed": 1,
+      "omitted_producible": 1,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417247,
+      "n_items": 120,
+      "blocks_produced": 111,
+      "blocks_required": 120,
+      "omitted_count": 9,
+      "omitted_probed": 9,
+      "omitted_producible": 9,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417249,
+      "n_items": 120,
+      "blocks_produced": 114,
+      "blocks_required": 120,
+      "omitted_count": 6,
+      "omitted_probed": 6,
+      "omitted_producible": 6,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417250,
+      "n_items": 120,
+      "blocks_produced": 109,
+      "blocks_required": 120,
+      "omitted_count": 11,
+      "omitted_probed": 11,
+      "omitted_producible": 11,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417251,
+      "n_items": 120,
+      "blocks_produced": 109,
+      "blocks_required": 120,
+      "omitted_count": 11,
+      "omitted_probed": 11,
+      "omitted_producible": 11,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417255,
+      "n_items": 120,
+      "blocks_produced": 119,
+      "blocks_required": 120,
+      "omitted_count": 1,
+      "omitted_probed": 1,
+      "omitted_producible": 1,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417256,
+      "n_items": 120,
+      "blocks_produced": 98,
+      "blocks_required": 120,
+      "omitted_count": 22,
+      "omitted_probed": 22,
+      "omitted_producible": 22,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417258,
+      "n_items": 120,
+      "blocks_produced": 100,
+      "blocks_required": 120,
+      "omitted_count": 20,
+      "omitted_probed": 20,
+      "omitted_producible": 20,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417260,
+      "n_items": 120,
+      "blocks_produced": 99,
+      "blocks_required": 120,
+      "omitted_count": 21,
+      "omitted_probed": 21,
+      "omitted_producible": 21,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417262,
+      "n_items": 120,
+      "blocks_produced": 107,
+      "blocks_required": 120,
+      "omitted_count": 13,
+      "omitted_probed": 13,
+      "omitted_producible": 13,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417265,
+      "n_items": 120,
+      "blocks_produced": 110,
+      "blocks_required": 120,
+      "omitted_count": 10,
+      "omitted_probed": 10,
+      "omitted_producible": 10,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417266,
+      "n_items": 120,
+      "blocks_produced": 115,
+      "blocks_required": 120,
+      "omitted_count": 5,
+      "omitted_probed": 5,
+      "omitted_producible": 5,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417268,
+      "n_items": 120,
+      "blocks_produced": 99,
+      "blocks_required": 120,
+      "omitted_count": 21,
+      "omitted_probed": 21,
+      "omitted_producible": 21,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417269,
+      "n_items": 120,
+      "blocks_produced": 110,
+      "blocks_required": 120,
+      "omitted_count": 10,
+      "omitted_probed": 10,
+      "omitted_producible": 10,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417274,
+      "n_items": 120,
+      "blocks_produced": 103,
+      "blocks_required": 120,
+      "omitted_count": 17,
+      "omitted_probed": 17,
+      "omitted_producible": 17,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417275,
+      "n_items": 120,
+      "blocks_produced": 100,
+      "blocks_required": 120,
+      "omitted_count": 20,
+      "omitted_probed": 20,
+      "omitted_producible": 20,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417276,
+      "n_items": 120,
+      "blocks_produced": 110,
+      "blocks_required": 120,
+      "omitted_count": 10,
+      "omitted_probed": 10,
+      "omitted_producible": 10,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417277,
+      "n_items": 120,
+      "blocks_produced": 116,
+      "blocks_required": 120,
+      "omitted_count": 4,
+      "omitted_probed": 4,
+      "omitted_producible": 4,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    },
+    {
+      "seed": 8417278,
+      "n_items": 120,
+      "blocks_produced": 102,
+      "blocks_required": 120,
+      "omitted_count": 18,
+      "omitted_probed": 18,
+      "omitted_producible": 18,
+      "producible_rate": 1.0,
+      "capability_qualified": true
+    }
+  ]
+}

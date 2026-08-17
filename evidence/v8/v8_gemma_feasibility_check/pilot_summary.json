@@ -1,0 +1,13 @@
+{
+  "120": {
+    "trials": 40,
+    "truncated": 0,
+    "targeted_produced": 40,
+    "mean_coverage": 0.9404166666666667,
+    "any_missing": 22,
+    "has_elision": 0,
+    "asserts_completion": 0,
+    "elided_with_completion_claim": 0,
+    "clean_n": 40
+  }
+}

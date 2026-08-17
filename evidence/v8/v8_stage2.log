@@ -1,0 +1,80 @@
+=== Stage 2: Mistral-7B-Instruct-v0.3 pilot (N=120, 100 trials) ===
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:14<00:29, 14.80s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:30<00:15, 15.21s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:42<00:00, 13.91s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:42<00:00, 14.22s/it]
+n=120 trial=0 done
+n=120 trial=1 done
+n=120 trial=2 done
+n=120 trial=3 done
+n=120 trial=4 done
+n=120 trial=5 done
+n=120 trial=6 done
+n=120 trial=7 done
+n=120 trial=8 done
+n=120 trial=9 done
+n=120 trial=10 done
+n=120 trial=11 done
+n=120 trial=12 done
+n=120 trial=13 done
+n=120 trial=14 done
+n=120 trial=15 done
+n=120 trial=16 done
+n=120 trial=17 done
+n=120 trial=18 done
+n=120 trial=19 done
+n=120 trial=20 done
+n=120 trial=21 done
+n=120 trial=22 done
+n=120 trial=23 done
+n=120 trial=24 done
+n=120 trial=25 done
+n=120 trial=26 done
+n=120 trial=27 done
+n=120 trial=28 done
+n=120 trial=29 done
+n=120 trial=30 done
+n=120 trial=31 done
+n=120 trial=32 done
+n=120 trial=33 done
+n=120 trial=34 done
+n=120 trial=35 done
+n=120 trial=36 done
+n=120 trial=37 done
+n=120 trial=38 done
+n=120 trial=39 done
+n=120 trial=40 done
+n=120 trial=41 done
+n=120 trial=42 done
+n=120 trial=43 done
+n=120 trial=44 done
+n=120 trial=45 done
+n=120 trial=46 done
+n=120 trial=47 done
+n=120 trial=48 done
+n=120 trial=49 done
+n=120 trial=50 done
+n=120 trial=51 done
+n=120 trial=52 done
+n=120 trial=53 done
+n=120 trial=54 done
+n=120 trial=55 done
+n=120 trial=56 done
+n=120 trial=57 done
+n=120 trial=58 done
+n=120 trial=59 done
+n=120 trial=60 done
+n=120 trial=61 done
+n=120 trial=62 done
+n=120 trial=63 done
+n=120 trial=64 done
+n=120 trial=65 done
+n=120 trial=66 done
+n=120 trial=67 done
+n=120 trial=68 done
+n=120 trial=69 done
+n=120 trial=70 done
+n=120 trial=71 done
+n=120 trial=72 done
+n=120 trial=73 done
+n=120 trial=74 done
+n=120 trial=75 done
+n=120 trial=76 done
+n=120 trial=77 done

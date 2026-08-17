@@ -1,0 +1,47 @@
+{
+  "task_version": "5.0.0",
+  "model": "google/gemma-2-9b-it",
+  "model_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+  "chat_template_sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+  "seed": 1123581,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "n_items": 40,
+  "trials_per_kind": 40,
+  "kinds": [
+    "complete",
+    "missing_last_2",
+    "missing_last_10",
+    "stops_at_50",
+    "stops_at_90",
+    "missing_middle"
+  ],
+  "modes": [
+    "SEPARATE"
+  ],
+  "questions": {
+    "Q1": "What is the site id of the last report block in your previous response?",
+    "Q2": "How many site report blocks did your previous response contain?",
+    "Q3": "How many site report blocks did the manifest require in total?",
+    "Q4": "Did your previous response contain a report block for every required site?",
+    "Q5": "Did your previous response leave any required site report blocks out?"
+  },
+  "orders": {
+    "forward": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5"
+    ],
+    "reverse": [
+      "Q5",
+      "Q4",
+      "Q3",
+      "Q2",
+      "Q1"
+    ]
+  },
+  "purpose": "calibration across incompleteness types AND the nay-saying control that decides whether the Phase 3 SAMETURN Q4 result is self-correction",
+  "note": null
+}

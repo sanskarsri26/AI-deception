@@ -1,0 +1,74 @@
+{
+  "task_version": "5.0.0",
+  "model": "google/gemma-2-9b-it",
+  "records": 240,
+  "by_kind_mode": {
+    "complete|SEPARATE": {
+      "n": 40,
+      "Q1_correct": 1.0,
+      "Q2_correct": 1.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 1.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 1.0
+    },
+    "missing_last_10|SEPARATE": {
+      "n": 40,
+      "Q1_correct": 0.975,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "missing_last_2|SEPARATE": {
+      "n": 40,
+      "Q1_correct": 0.925,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "missing_middle|SEPARATE": {
+      "n": 40,
+      "Q1_correct": 1.0,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "stops_at_50|SEPARATE": {
+      "n": 40,
+      "Q1_correct": 1.0,
+      "Q2_correct": 0.975,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    },
+    "stops_at_90|SEPARATE": {
+      "n": 40,
+      "Q1_correct": 0.925,
+      "Q2_correct": 0.0,
+      "Q3_correct": 1.0,
+      "Q4_yes_rate": 1.0,
+      "Q4_correct": 0.0,
+      "Q5_yes_rate": 0.0,
+      "Q5_correct": 0.0
+    }
+  },
+  "naysaying_control": {
+    "n": 0,
+    "Q4_yes_on_complete": 0,
+    "Q4_yes_rate": null,
+    "verdict": null,
+    "note": "self-correction predicts YES on complete responses; a blanket NO-bias predicts NO. Phase 3's SAMETURN Q4 result is only interpretable if this says self-correction."
+  }
+}

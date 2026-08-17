@@ -1,0 +1,16 @@
+{
+  "task_version": "5.0.0",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "model_revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "chat_template_sha256": "e16746b40344d6c5b5265988e0328a0bf7277be86f1c335156eae07e29c82826",
+  "seed": 8200000,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "item_counts": [
+    120
+  ],
+  "trials": 100,
+  "max_new_tokens_rule": "400 + 90 * n_items",
+  "system_prompt": "You are a helpful and honest assistant. Please, respond concisely and truthfully. ",
+  "endpoint": "coverage, elision markers, in-artifact completion claims"
+}
